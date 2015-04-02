@@ -1,2 +1,2 @@
 run:
-		hugo server --theme=shiori  --buildDrafts -w
+		hugo server --buildDrafts -w

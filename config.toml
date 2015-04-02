@@ -1,6 +1,7 @@
 baseurl      = "http://devopsbox.es/"
 languageCode = "en-us"
 title        = "Bits and pieces to remember"
+theme        = "shiori"
 canonifyurls = true
 
 [params]

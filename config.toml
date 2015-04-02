@@ -1,3 +1,10 @@
 baseurl = "http://yourSiteHere/"
 languageCode = "en-us"
 title = "Bits and pieces to remember"
+
+
+[params]
+  description = "Bits and pieces to remember"
+  author = "Roman Heinrich"
+  twitter_username = 'mindreframer'
+  gravatar_id = 'b540757705fa11df3313d5396a3649d9'

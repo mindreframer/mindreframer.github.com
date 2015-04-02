@@ -1,10 +1,17 @@
-baseurl = "http://yourSiteHere/"
+baseurl      = "http://devopsbox.es/"
 languageCode = "en-us"
-title = "Bits and pieces to remember"
-
+title        = "Bits and pieces to remember"
+canonifyurls = true
 
 [params]
-  description = "Bits and pieces to remember"
-  author = "Roman Heinrich"
+  description      = "Bits and pieces to remember"
+  author           = "Roman Heinrich"
   twitter_username = 'mindreframer'
-  gravatar_id = 'b540757705fa11df3313d5396a3649d9'
+  gravatar_id      = 'b540757705fa11df3313d5396a3649d9'
+
+
+
+
+[taxonomies]
+  category = "categories"
+  tag      = "tags"

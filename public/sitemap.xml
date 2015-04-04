@@ -3,8 +3,13 @@
   
   <url>
     <loc>http://devopsbox.es/</loc>
-    <lastmod>2015-03-09T00:00:00+00:00</lastmod>
+    <lastmod>2015-04-02T23:45:52+02:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/about.html</loc>
+    <lastmod>2015-04-02T23:45:52+02:00</lastmod>
   </url>
   
   <url>
@@ -108,12 +113,12 @@
   </url>
   
   <url>
-    <loc>http://devopsbox.es/post/2014-01-09-docker-on-osx-arrived.html</loc>
+    <loc>http://devopsbox.es/post/2014-01-09-microservices.html</loc>
     <lastmod>2014-01-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://devopsbox.es/post/2014-01-09-microservices.html</loc>
+    <loc>http://devopsbox.es/post/2014-01-09-docker-on-osx-arrived.html</loc>
     <lastmod>2014-01-09T00:00:00+00:00</lastmod>
   </url>
   
@@ -218,12 +223,12 @@
   </url>
   
   <url>
-    <loc>http://devopsbox.es/post/2013-08-02-production-ready-docker-monitoring.html</loc>
+    <loc>http://devopsbox.es/post/2013-08-02-why-docker-was-build.html</loc>
     <lastmod>2013-08-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://devopsbox.es/post/2013-08-02-why-docker-was-build.html</loc>
+    <loc>http://devopsbox.es/post/2013-08-02-production-ready-docker-monitoring.html</loc>
     <lastmod>2013-08-02T00:00:00+00:00</lastmod>
   </url>
   
@@ -233,17 +238,17 @@
   </url>
   
   <url>
+    <loc>http://devopsbox.es/post/2013-06-26-configuration-management-anti-patterns.html</loc>
+    <lastmod>2013-06-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://devopsbox.es/post/2013-06-26-dockerui.html</loc>
     <lastmod>2013-06-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://devopsbox.es/post/2013-06-26-distributed-patterns-in-ruby.html</loc>
-    <lastmod>2013-06-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://devopsbox.es/post/2013-06-26-configuration-management-anti-patterns.html</loc>
     <lastmod>2013-06-26T00:00:00+00:00</lastmod>
   </url>
   
@@ -273,12 +278,12 @@
   </url>
   
   <url>
-    <loc>http://devopsbox.es/post/2013-06-19-the-future-of-networking-and-the-past-of-protocols-scott-shenker.html</loc>
+    <loc>http://devopsbox.es/post/2013-06-19-debugging-large-scale-soa-systems.html</loc>
     <lastmod>2013-06-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://devopsbox.es/post/2013-06-19-debugging-large-scale-soa-systems.html</loc>
+    <loc>http://devopsbox.es/post/2013-06-19-the-future-of-networking-and-the-past-of-protocols-scott-shenker.html</loc>
     <lastmod>2013-06-19T00:00:00+00:00</lastmod>
   </url>
   
@@ -343,12 +348,12 @@
   </url>
   
   <url>
-    <loc>http://devopsbox.es/post/2013-02-13-databases-map-omg.html</loc>
+    <loc>http://devopsbox.es/post/2013-02-12-monigusto-monitoring-megapackage-whohoo.html</loc>
     <lastmod>2013-02-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://devopsbox.es/post/2013-02-12-monigusto-monitoring-megapackage-whohoo.html</loc>
+    <loc>http://devopsbox.es/post/2013-02-13-databases-map-omg.html</loc>
     <lastmod>2013-02-12T00:00:00+00:00</lastmod>
   </url>
   
@@ -408,12 +413,12 @@
   </url>
   
   <url>
-    <loc>http://devopsbox.es/post/2013-01-23-how-to-test-tricky-nginx-rewrite-rules.html</loc>
+    <loc>http://devopsbox.es/post/2013-01-23-devopsdays-2013.html</loc>
     <lastmod>2013-01-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://devopsbox.es/post/2013-01-23-devopsdays-2013.html</loc>
+    <loc>http://devopsbox.es/post/2013-01-23-how-to-test-tricky-nginx-rewrite-rules.html</loc>
     <lastmod>2013-01-23T00:00:00+00:00</lastmod>
   </url>
   

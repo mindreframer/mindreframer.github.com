@@ -14,6 +14,8 @@ Very cool looking deployment approach for complex setups (Docker + Kubernetes + 
 
 
 
+<!--more-->
+
 <img src="https://allthingsopendotcom.files.wordpress.com/2014/10/screen-shot-2014-10-23-at-2-20-49-pm.png" alt="" height="300" width="660">
 
 

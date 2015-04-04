@@ -26,3 +26,5 @@ tags:
 
 ### Docker/Vagrant
  - [Vagrant Feature Preview: Docker-Based Development Environments](http://www.vagrantup.com/blog/feature-preview-vagrant-1-6-docker-dev-environments.html)
+
+<!--more-->

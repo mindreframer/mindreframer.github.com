@@ -17,6 +17,7 @@ tags:
   - [Terraform](http://www.terraform.io/) - Infrastructure as code, from HashiCorp. really interesting.
 
 
+<!--more-->
 
 ### Programming:
   - [Coolgithubprojects](http://www.coolgithubprojects.com/) - top trending projects on Github

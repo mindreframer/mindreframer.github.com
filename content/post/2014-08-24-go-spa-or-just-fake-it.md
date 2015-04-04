@@ -36,6 +36,7 @@ tags:
     $ make tests
 
 
+<!--more-->
 
 ## Turbolinks:
   - http://habrahabr.ru/post/167161/

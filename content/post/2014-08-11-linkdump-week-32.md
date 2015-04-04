@@ -20,3 +20,6 @@ tags:
 
 ### Peopleware
   - [Death of the game design document](http://www.develop-online.net/opinions/death-of-the-game-design-document/0195381) - the article talks about game development, but this is true for any kind of software project
+
+
+<!--more-->

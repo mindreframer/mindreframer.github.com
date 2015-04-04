@@ -15,6 +15,8 @@ tags:
 - http://www.spacjer.com/blog/2014/09/12/clojurescript-javascript-interop/
 - http://blog.michielborkent.nl/blog/2014/11/16/my-clojurescript-adventure-at-oredev/
 
+<!--more-->
+
 - http://vimeo.com/97516219 - Christian Johansen - Functional UI programming with React.JS and ClojureScript
 - http://de.slideshare.net/borgesleonardo/high-performance-web-apps-in-om-react-and-clojurescript
 - http://slides.com/joakino/diving-into-clojurescript/#/1/6

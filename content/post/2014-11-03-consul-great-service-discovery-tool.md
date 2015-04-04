@@ -12,6 +12,8 @@ Great introduction from Armon Dadgar (Hashicorp) to Consul to simplify some majo
 ## Consul: Service Oriented at Scale
 
 
+<!--more-->
+
 <iframe width="640" height="390" src="//www.youtube.com/embed/eR0899h_1Ac" frameborder="0" allowfullscreen></iframe>
 
 

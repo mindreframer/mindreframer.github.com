@@ -19,3 +19,9 @@ Ruby bits:
 
 - Keep Your Identity Small - http://www.paulgraham.com/identity.html
 
+
+- https://github.com/peterbe/autocompeter -> selfhostes Autocomplete service :)
+
+
+## Some links
+  - https://medium.com/@SoundCloud/six-years-at-soundcloud-five-lessons-learned-4a7abc47431b

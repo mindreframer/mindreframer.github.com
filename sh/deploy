@@ -1,0 +1,3 @@
+hugo
+git commit -A -m "update public"
+git subtree push --prefix public origin master

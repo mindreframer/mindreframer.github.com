@@ -1,5 +1,5 @@
 run:
-		rm -rf public && hugo server --buildDrafts -w
+		open http://localhost:1313/ && rm -rf public && hugo server --buildDrafts -w
 
 
 gen:

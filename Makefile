@@ -5,7 +5,6 @@ run:
 gen:
 		ruby doc/generate_files.rb
 
-
-
 deploy:
 		sh/deploy
+

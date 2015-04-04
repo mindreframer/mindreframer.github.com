@@ -4,8 +4,8 @@
 ## Usage
 
 
-    $ git clone repo
-    $ cd repo
+    $ git clone git@github.com:mindreframer/mindreframer.github.com.git
+    $ cd mindreframer.github.com
     $ make run
 
 

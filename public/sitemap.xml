@@ -143,13 +143,13 @@
   </url>
   
   <url>
-    <loc>http://devopsbox.es/post/2013-10-31-the-cleanest-gli-bash-zsh-tab-completion.html</loc>
+    <loc>http://devopsbox.es/post/2013-10-31-varnish-webinar-cache-invalidation-strategies.html</loc>
     <lastmod>2013-10-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://devopsbox.es/post/2013-10-31-varnish-webinar-cache-invalidation-strategies.html</loc>
-    <lastmod>2013-10-31T00:00:00+00:00</lastmod>
+    <loc>http://devopsbox.es/post/2013-10-30-the-cleanest-gli-bash-zsh-tab-completion.html</loc>
+    <lastmod>2013-10-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -218,12 +218,12 @@
   </url>
   
   <url>
-    <loc>http://devopsbox.es/post/2013-08-02-why-docker-was-build.html</loc>
+    <loc>http://devopsbox.es/post/2013-08-02-production-ready-docker-monitoring.html</loc>
     <lastmod>2013-08-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://devopsbox.es/post/2013-08-02-production-ready-docker-monitoring.html</loc>
+    <loc>http://devopsbox.es/post/2013-08-02-why-docker-was-build.html</loc>
     <lastmod>2013-08-02T00:00:00+00:00</lastmod>
   </url>
   
@@ -233,12 +233,12 @@
   </url>
   
   <url>
-    <loc>http://devopsbox.es/post/2013-06-26-configuration-management-anti-patterns.html</loc>
+    <loc>http://devopsbox.es/post/2013-06-26-dockerui.html</loc>
     <lastmod>2013-06-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://devopsbox.es/post/2013-06-26-unix-and-ruby-in-love.html</loc>
+    <loc>http://devopsbox.es/post/2013-06-26-configuration-management-anti-patterns.html</loc>
     <lastmod>2013-06-26T00:00:00+00:00</lastmod>
   </url>
   
@@ -253,7 +253,7 @@
   </url>
   
   <url>
-    <loc>http://devopsbox.es/post/2013-06-26-dockerui.html</loc>
+    <loc>http://devopsbox.es/post/2013-06-26-unix-and-ruby-in-love.html</loc>
     <lastmod>2013-06-26T00:00:00+00:00</lastmod>
   </url>
   
@@ -328,12 +328,12 @@
   </url>
   
   <url>
-    <loc>http://devopsbox.es/post/2013-02-16-puppet-and-osx-mismatch.html</loc>
+    <loc>http://devopsbox.es/post/2013-02-15-learn-rack-api-by-examples.html</loc>
     <lastmod>2013-02-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://devopsbox.es/post/2013-02-15-learn-rack-api-by-examples.html</loc>
+    <loc>http://devopsbox.es/post/2013-02-16-puppet-and-osx-mismatch.html</loc>
     <lastmod>2013-02-15T00:00:00+00:00</lastmod>
   </url>
   
@@ -343,12 +343,12 @@
   </url>
   
   <url>
-    <loc>http://devopsbox.es/post/2013-02-13-databases-map-omg.html</loc>
+    <loc>http://devopsbox.es/post/2013-02-12-monigusto-monitoring-megapackage-whohoo.html</loc>
     <lastmod>2013-02-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://devopsbox.es/post/2013-02-12-monigusto-monitoring-megapackage-whohoo.html</loc>
+    <loc>http://devopsbox.es/post/2013-02-13-databases-map-omg.html</loc>
     <lastmod>2013-02-12T00:00:00+00:00</lastmod>
   </url>
   
@@ -443,12 +443,12 @@
   </url>
   
   <url>
-    <loc>http://devopsbox.es/post/2013-01-12-clean-architecture-link-dump.html</loc>
+    <loc>http://devopsbox.es/post/2013-01-12-architecture-drawing-lines.html</loc>
     <lastmod>2013-01-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://devopsbox.es/post/2013-01-12-architecture-drawing-lines.html</loc>
+    <loc>http://devopsbox.es/post/2013-01-12-clean-architecture-link-dump.html</loc>
     <lastmod>2013-01-12T00:00:00+00:00</lastmod>
   </url>
   

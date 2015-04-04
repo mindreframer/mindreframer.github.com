@@ -4,7 +4,7 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>Bits and pieces to remember</title>
+	<title>The cleanest GLI Bash / ZSH Tab-Completion - Bits and pieces to remember</title>
 	<meta name="author" content="map[email:roman.heinrich@gmail.com]">
 
 	
@@ -19,7 +19,7 @@
     
 	<link href='index.xml' rel="alternate" title="Bits and pieces to remember" type="application/atom+xml">
 	
-	<link rel="canonical" href="http://devopsbox.es/tags/tricks.html">
+	<link rel="canonical" href="http://devopsbox.es/post/2013-10-30-the-cleanest-gli-bash-zsh-tab-completion.html">
 	<link href="http://devopsbox.es//favicon.png" rel="shortcut icon">
 	<link href="http://devopsbox.es//css/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
 	<link href="http://devopsbox.es//css/font-awesome.min.css" media="screen, projection" rel="stylesheet" type="text/css">
@@ -91,39 +91,84 @@
 		
 	</div>
 </nav>
-</header>				
+</header>
 			</div>
-		</div>	
+		</div>
 		<div class="mid-col">
 			
 			<div class="mid-col-container">
 				<div id="content" class="inner">
 					<div itemscope itemtype="http://schema.org/Blog">
-	
-	
-	
-		
+					<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+    <h1 class="title" itemprop="name">The cleanest GLI Bash / ZSH Tab-Completion</h1>
+	<div class="entry-content" itemprop="articleBody">
 
-		
-		<section class="archives"><h1 class="year">2013</h1>
-		
+<h2 id="the-perfect-solution-for-you-gli-app-based-console-tools-in-bash-zsh:f2e372256208e60d33f6ae00092d7a1c">The perfect solution for you GLI::App based console-tools in Bash/ZSH</h2>
 
-		<article itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
-			<div class="meta">
-				<span class="date"><time datetime='2013' itemprop="datePublished">Oct 30</time></span>
-				<br>
-				<span class="tags">
-</span>
-			    
-			</div>
-			<h1 class="title" itemprop="name"><a href="http://devopsbox.es/post/2013-10-30-the-cleanest-gli-bash-zsh-tab-completion.html">The cleanest GLI Bash / ZSH Tab-Completion</a></h1>
-		</article>
+<h3 id="official-recommendation:f2e372256208e60d33f6ae00092d7a1c">Official recommendation</h3>
 
-		
+<pre><code>function get_todo_commands()
+{
+  if [ -z $2 ] ; then
+    COMPREPLY=(`todo help -c`)
+  else
+    COMPREPLY=(`todo help -c $2`)
+  fi
+}
+</code></pre>
+
+<p>Problems with that solution:</p>
+
+<ul>
+<li>does not work on ZSH</li>
+<li>does autocompletion only for the 1st and 2nd level, stops after that</li>
+<li>is not very extendable</li>
+</ul>
+
+<p>After fiddling for 2 hours I came up with the simplest and always working solution:</p>
+
+<pre><code>## this enables bash completion in ZSH
+if [[ -n ${ZSH_VERSION-} ]]; then
+  autoload -U +X bashcompinit &amp;&amp; bashcompinit
+fi
+
+## instruct, where the completions for my-cli come from
+complete -F get_my_cli_commands my-cli
+
+function get_my_cli_commands()
+{
+  ## we have following variables available:
+  # - COMP_WORDS: array with arguments, that starts with  &quot;my-cli&quot;
+  # - COMP_CWORD: the index of the current &quot;tab-completed&quot; word
+
+  local binary=&quot;my-cli&quot;
+
+  # args-array starting by index:1
+  help_params=${COMP_WORDS[@]:1}
+
+  # remove flags/options, so we have only &quot;verbs&quot;
+  clean_params=${help_params//-*([^ ])?( )}
+  COMPREPLY=(`$binary help -c $clean_params`)
+}
+</code></pre>
+</div></article>
+					
+						<div class="share">
+	<div class="addthis_toolbox addthis_default_style ">
 	
-	</section>
+	
+	
+	<a class="addthis_counter addthis_pill_style"></a>
+	</div>
+  <script type="text/javascript" src='http://s7.addthis.com/js/250/addthis_widget.js#pubid='></script>
 </div>
 
+					
+					
+					
+
+
+				    </div>
 				</div>
 			</div>
 			<footer id="footer" class="inner">Copyright &copy; 2015

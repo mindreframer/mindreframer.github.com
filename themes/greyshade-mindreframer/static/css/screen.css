@@ -1883,3 +1883,18 @@ a:hover {
     border-bottom: 1px black solid;
     margin-bottom: 30px;
 }
+
+
+
+.title--smaller{
+    font-size: 14px;
+}
+
+.{
+    padding: 10px;
+}
+
+
+.container .mid-col .mid-col-container #content article.archive__list {
+    padding: 10px;
+}

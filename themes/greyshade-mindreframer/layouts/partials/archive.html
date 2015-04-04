@@ -17,7 +17,7 @@
 			{{ end }}
 		{{ end }}
 
-		<article itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+		<article itemprop="blogPost" class='archive__list' itemscope itemtype="http://schema.org/BlogPosting">
 			<div class="meta">
 				<span class="date"><time datetime='{{ dateFormat "2006" .Date }}' itemprop="datePublished">{{ dateFormat "Jan 2" .Date }}</time></span>
 				<br>
@@ -26,7 +26,7 @@
 			    <span class="comments"><a href="{{ .Permalink }}#disqus_thread">Comments</a></span>
 			    {{ end }}
 			</div>
-			<h1 class="title" itemprop="name"><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+			<h1 class="title--smaller" itemprop="name"><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
 		</article>
 
 		{{ end }}

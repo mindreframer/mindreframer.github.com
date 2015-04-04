@@ -1,7 +1,7 @@
 ---
 date: '2014-10-27'
-title: 'A DEMONSTRATION OF KOLLA: DOCKER AND KUBERNETES BASED DEPLOYMENT OF OPENSTACK
-  SERVICES ON ATOMIC'
+title: 'A demonstration of Kolla: Docker and Kubernetes based deployment of OpenStack
+  services on Atomic'
 tags:
 - links
 ---

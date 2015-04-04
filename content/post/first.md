@@ -1,8 +1,7 @@
 +++
-date = "2015-04-02T23:46:37+02:00"
+date = "2015-04-02"
 draft = true
 title = "first"
-
 +++
 
 
@@ -10,6 +9,13 @@ title = "first"
 ## My very first post
 
 This is gonna rock the house! hard and clean
+
+  - [Who]({{< relref "about.md" >}})
+  - [Who]({ .Site.BaseUrl })
+
+
+
+<!--more-->
 
 
 And we will come together and sing kumba-yumba!

@@ -1,0 +1,6 @@
+{{ $code_type := .Get "type" }}
+<pre>
+  <code class='{{ $code_type }}'>
+    {{ .Inner | html }}
+  </code>
+</pre>

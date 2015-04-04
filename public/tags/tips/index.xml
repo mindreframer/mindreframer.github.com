@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Tips on Bits and pieces to remember </title>
+      <generator uri="https://gohugo.io">Hugo</generator>
+    <link>http://devopsbox.es/tags/tips.html</link>
+    <language>en-us</language>
+    
+    
+    <updated>Fri, 28 Feb 2014 00:00:00 UTC</updated>
+    
+    <item>
+      <title>SQL Joins Visualized</title>
+      <link>http://devopsbox.es/post/2014-02-28-sql-joins-visualized.html</link>
+      <pubDate>Fri, 28 Feb 2014 00:00:00 UTC</pubDate>
+      
+      <guid>http://devopsbox.es/post/2014-02-28-sql-joins-visualized.html</guid>
+      <description>&lt;p&gt;Since I struggle every time when joining tables in SQL, here a simple help for me:&lt;/p&gt;
+
+&lt;p&gt;
+
+&lt;figure &gt;
+    &lt;img src=&#34;http://devopsbox.es/media/posts/joins_visualized.jpg&#34; /&gt;
+    &lt;figcaption&gt;
+        
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>x509: failed to load system roots and no roots provided</title>
+      <link>http://devopsbox.es/post/2013-10-08-x509-failed-to-load-system-roots-and-no-roots-provided.html</link>
+      <pubDate>Tue, 08 Oct 2013 00:00:00 UTC</pubDate>
+      
+      <guid>http://devopsbox.es/post/2013-10-08-x509-failed-to-load-system-roots-and-no-roots-provided.html</guid>
+      <description>
+
+&lt;p&gt;While playing today with &lt;strong&gt;&amp;ldquo;github.com/prometheus/client_golang&amp;rdquo;&lt;/strong&gt;, I have encountered that strange error:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;x509: failed to load system roots and no roots provided&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;lt;% code_block &amp;lsquo;shell&amp;rsquo; do %&amp;gt;
+$ gom install
+&amp;gt;installing github.com/prometheus/client_golang/prometheus
+&amp;gt;package code.google.com/p/goprotobuf/proto: Get &lt;a href=&#34;https://code.google.com/p/goprotobuf/source/checkout?repo=:&#34;&gt;https://code.google.com/p/goprotobuf/source/checkout?repo=:&lt;/a&gt; x509: failed to load system roots and no roots provided
+gom:  exit status 1
+&amp;lt;% end %&amp;gt;&lt;/p&gt;
+
+&lt;p&gt;After a solid 30 minutes of googling,  that answer really helped:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://comments.gmane.org/gmane.comp.lang.go.general/108420&#34;&gt;http://comments.gmane.org/gmane.comp.lang.go.general/108420&lt;/a&gt;
+&lt;blockquote&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Are you using homebrew ? If yes, then you need to rebuild your Go
+installation with the &amp;ndash;with-cgo flag. Why homebrew defaults to
+disabling cgo is beyond my comprehension.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;go env CGO_ENABLED should report the value of 1, any other values
+are incorrect. Cgo is required to use TLS on OS X as the ssl root
+certificates are kept inside the Apple Keychain software, only
+accessible via C.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;/blockquote&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;solution:9d94b957f3c057a494e3835a60a7ee5f&#34;&gt;Solution:&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;$ brew uninstall go
+$ brew install go  --with-cgo
+$ gom install
+&amp;gt; installing github.com/prometheus/client_golang/prometheus
+
+# Done!
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Patterns on Bits and pieces to remember </title>
+      <generator uri="https://gohugo.io">Hugo</generator>
+    <link>http://devopsbox.es/tags/patterns.html</link>
+    <language>en-us</language>
+    
+    
+    <updated>Sat, 08 Mar 2014 00:00:00 UTC</updated>
+    
+    <item>
+      <title>all the little things (rubyonales) - Sandi Metz</title>
+      <link>http://devopsbox.es/post/2014-03-08-all-the-little-things-rubyonales-sandi-metz.html</link>
+      <pubDate>Sat, 08 Mar 2014 00:00:00 UTC</pubDate>
+      
+      <guid>http://devopsbox.es/post/2014-03-08-all-the-little-things-rubyonales-sandi-metz.html</guid>
+      <description>
+
+&lt;h2 id=&#34;beatiful-talk-from-sandy-metz:0bf11a0b9d17ed369ea97cb6b224ec82&#34;&gt;Beatiful talk from Sandy Metz&lt;/h2&gt;
+
+&lt;h3 id=&#34;about-refactoring-from-big-methods-to-simple-small-objects:0bf11a0b9d17ed369ea97cb6b224ec82&#34;&gt;about refactoring from big methods to simple, small objects&lt;/h3&gt;
+
+&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;62ad1900883d0131cd6a3688b74f7104&#34; data-ratio=&#34;1.2994923857868&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;takeaways:0bf11a0b9d17ed369ea97cb6b224ec82&#34;&gt;Takeaways&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Duplication is far cheaper than the wrong abstraction&lt;/li&gt;
+&lt;li&gt;Reach for open/closed&lt;/li&gt;
+&lt;li&gt;small methods are simple&lt;/li&gt;
+&lt;li&gt;small objects are simple&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

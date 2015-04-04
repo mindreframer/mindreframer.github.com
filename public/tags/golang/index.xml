@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Golang on Bits and pieces to remember </title>
+      <generator uri="https://gohugo.io">Hugo</generator>
+    <link>http://devopsbox.es/tags/golang.html</link>
+    <language>en-us</language>
+    
+    
+    <updated>Mon, 11 Nov 2013 00:00:00 UTC</updated>
+    
+    <item>
+      <title>Why we decided to write Docker in Go</title>
+      <link>http://devopsbox.es/post/2013-11-11-why-we-decided-to-write-docker-in-go.html</link>
+      <pubDate>Mon, 11 Nov 2013 00:00:00 UTC</pubDate>
+      
+      <guid>http://devopsbox.es/post/2013-11-11-why-we-decided-to-write-docker-in-go.html</guid>
+      <description>&lt;p&gt;&lt;iframe src=&#34;http://www.slideshare.net/slideshow/embed_code/28015076&#34; width=&#34;600&#34; height=&#34;421&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;https://www.slideshare.net/jpetazzo/docker-and-go-why-did-we-decide-to-write-docker-in-go&#34; title=&#34;Docker and Go: why did we decide to write Docker in Go?&#34; target=&#34;_blank&#34;&gt;Docker and Go: why did we decide to write Docker in Go?&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;http://www.slideshare.net/jpetazzo&#34; target=&#34;_blank&#34;&gt;Jérôme Petazzoni&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>NSQ (Bitly) and Gocircuit (Tumblr) explained</title>
+      <link>http://devopsbox.es/post/2013-06-20-nsq-bitly-and-gocircuit-tumblr-explained.html</link>
+      <pubDate>Thu, 20 Jun 2013 00:00:00 UTC</pubDate>
+      
+      <guid>http://devopsbox.es/post/2013-06-20-nsq-bitly-and-gocircuit-tumblr-explained.html</guid>
+      <description>
+
+&lt;h2 id=&#34;gosf-june-19th-2013:499889778eb31bf151aba0d9f90f716a&#34;&gt;GoSF - June 19th, 2013&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://plus.google.com/u/0/events/ckpnkggt52aoc7vagkctqsjg6v8&#34;&gt;Go On Air – bitly on NSQ and Tumblr&amp;rsquo;s Go Circuit Project&lt;/a&gt;&lt;/p&gt;
+
+&lt;iframe width=&#34;640&#34; height=&#34;360&#34; src=&#34;https://www.youtube.com/embed/xCH7ZaWUvDI?feature=player_detailpage&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

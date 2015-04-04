@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://devopsbox.es/</loc>
+    <lastmod>2015-03-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2015-03-09-linkdump-2015-4.html</loc>
+    <lastmod>2015-03-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2015-02-15-linkdump-2015-3.html</loc>
+    <lastmod>2015-02-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2015-01-10-clojurescript-linkdump.html</loc>
+    <lastmod>2015-01-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2015-01-02-linkdump-2015-2.html</loc>
+    <lastmod>2015-01-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2014-11-05-scalable-deployments-how-we-deploy-rails-app-to-100-hosts-in-a-minute-cookpad-jp.html</loc>
+    <lastmod>2014-11-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2014-11-03-consul-great-service-discovery-tool.html</loc>
+    <lastmod>2014-11-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2014-10-27-a-demonstration-of-kolla-docker-and-kubernetes-based-deployment-of-openstack-services-on-atomic.html</loc>
+    <lastmod>2014-10-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2014-08-24-go-spa-or-just-fake-it.html</loc>
+    <lastmod>2014-08-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2014-08-11-linkdump-week-32.html</loc>
+    <lastmod>2014-08-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2014-05-01-linkdump-week-18.html</loc>
+    <lastmod>2014-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2014-07-29-linkdump-week-31.html</loc>
+    <lastmod>2014-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2014-04-26-new-service-discovery-tool-consul.html</loc>
+    <lastmod>2014-04-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2014-04-25-first-gophercon-slides-are-online.html</loc>
+    <lastmod>2014-04-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2014-04-24-styleguides.html</loc>
+    <lastmod>2014-04-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2014-04-23-linkdump-week-17.html</loc>
+    <lastmod>2014-04-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2014-03-08-all-the-little-things-rubyonales-sandi-metz.html</loc>
+    <lastmod>2014-03-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2014-02-28-sql-joins-visualized.html</loc>
+    <lastmod>2014-02-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2014-02-27-agent-forwarding-capistrano-utf-8-env-settings-problems.html</loc>
+    <lastmod>2014-02-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2014-02-11-a-build-engineering-team-s-journey-of-infrastructure-as-code.html</loc>
+    <lastmod>2014-02-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2014-01-13-microservices-links.html</loc>
+    <lastmod>2014-01-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2014-01-09-docker-on-osx-arrived.html</loc>
+    <lastmod>2014-01-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2014-01-09-microservices.html</loc>
+    <lastmod>2014-01-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2013-12-12-today-s-most-awesome-links.html</loc>
+    <lastmod>2013-12-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2013-12-10-more-logstash-awesome-jordan-sissel-puppetconf-2013.html</loc>
+    <lastmod>2013-12-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2013-12-01-latency-is-the-mind-killer-by-artur-bergman-at-futurestack13.html</loc>
+    <lastmod>2013-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2013-11-20-partitions-for-everyone.html</loc>
+    <lastmod>2013-11-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2013-11-11-why-we-decided-to-write-docker-in-go.html</loc>
+    <lastmod>2013-11-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2013-10-31-the-cleanest-gli-bash-zsh-tab-completion.html</loc>
+    <lastmod>2013-10-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2013-10-31-varnish-webinar-cache-invalidation-strategies.html</loc>
+    <lastmod>2013-10-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2013-10-28-auth-doesn-t-have-to-be-a-nightmare-docker-to-the-rescue.html</loc>
+    <lastmod>2013-10-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2013-10-25-varnish-cache-invalidation.html</loc>
+    <lastmod>2013-10-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2013-10-24-caching-with-varnish-step-by-step.html</loc>
+    <lastmod>2013-10-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2013-10-24-service-discovery-overview.html</loc>
+    <lastmod>2013-10-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2013-10-23-scalability-availability-stability-patterns.html</loc>
+    <lastmod>2013-10-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2013-10-22-opsworks-vs-chef-server.html</loc>
+    <lastmod>2013-10-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2013-10-11-software-i-am-excited-about.html</loc>
+    <lastmod>2013-10-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2013-10-08-x509-failed-to-load-system-roots-and-no-roots-provided.html</loc>
+    <lastmod>2013-10-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2013-10-08-adaptive-replacement-cache-alternative-to-lru.html</loc>
+    <lastmod>2013-10-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2013-10-03-treating-your-infrastructure-like-garbage.html</loc>
+    <lastmod>2013-10-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2013-10-02-micro-service-architecture.html</loc>
+    <lastmod>2013-10-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2013-09-28-measuring-ruby.html</loc>
+    <lastmod>2013-09-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2013-08-07-reliable-networks-impossible.html</loc>
+    <lastmod>2013-08-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2013-08-02-production-ready-docker-monitoring.html</loc>
+    <lastmod>2013-08-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2013-08-02-why-docker-was-build.html</loc>
+    <lastmod>2013-08-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2013-07-08-play-with-tokumx-now.html</loc>
+    <lastmod>2013-07-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2013-06-26-configuration-management-anti-patterns.html</loc>
+    <lastmod>2013-06-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2013-06-26-distributed-patterns-in-ruby.html</loc>
+    <lastmod>2013-06-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2013-06-26-dockerui.html</loc>
+    <lastmod>2013-06-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2013-06-26-unix-and-ruby-in-love.html</loc>
+    <lastmod>2013-06-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2013-06-26-popular-ops-tools-in-japan.html</loc>
+    <lastmod>2013-06-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2013-06-23-building-your-own-platform-service-using-docker.html</loc>
+    <lastmod>2013-06-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2013-06-20-nsq-bitly-and-gocircuit-tumblr-explained.html</loc>
+    <lastmod>2013-06-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2013-06-19-debugging-large-scale-soa-systems.html</loc>
+    <lastmod>2013-06-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2013-06-19-dokku-your-own-mini-heroku-in-under-5-minutes.html</loc>
+    <lastmod>2013-06-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2013-06-19-the-future-of-networking-and-the-past-of-protocols-scott-shenker.html</loc>
+    <lastmod>2013-06-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2013-06-18-investigating-systems-from-32000-feet.html</loc>
+    <lastmod>2013-06-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2013-04-22-tokudb-opensourced.html</loc>
+    <lastmod>2013-04-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2013-04-15-containerization.html</loc>
+    <lastmod>2013-04-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2013-04-14-nsq-from-bitly.html</loc>
+    <lastmod>2013-04-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2013-04-11-ops-meta-metrics.html</loc>
+    <lastmod>2013-04-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2013-03-21-docker.html</loc>
+    <lastmod>2013-03-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2013-03-15-vagrant-upgrade-to-vmware.html</loc>
+    <lastmod>2013-03-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2013-02-19-lua-nginx-combo.html</loc>
+    <lastmod>2013-02-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2013-02-17-vagrant-and-discourse-very-interesting-usecase.html</loc>
+    <lastmod>2013-02-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2013-02-16-puppet-and-osx-mismatch.html</loc>
+    <lastmod>2013-02-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2013-02-15-learn-rack-api-by-examples.html</loc>
+    <lastmod>2013-02-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2013-02-14-git-subtree-testing.html</loc>
+    <lastmod>2013-02-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2013-02-12-monigusto-monitoring-megapackage-whohoo.html</loc>
+    <lastmod>2013-02-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2013-02-13-databases-map-omg.html</loc>
+    <lastmod>2013-02-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2013-02-11-zfs-osx-vagrant-nirvana.html</loc>
+    <lastmod>2013-02-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2013-02-10-ebooks-publishing-simplified.html</loc>
+    <lastmod>2013-02-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2013-02-07-puppet-slides-for-best-practices.html</loc>
+    <lastmod>2013-02-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2013-02-08-final-startup-grind.html</loc>
+    <lastmod>2013-02-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2013-02-03-integration-testing-with-ruby.html</loc>
+    <lastmod>2013-02-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2013-01-31-devops-linkdump.html</loc>
+    <lastmod>2013-01-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2013-01-30-playing-with-tokudb.html</loc>
+    <lastmod>2013-01-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2013-01-27-failure-is-always-an-option.html</loc>
+    <lastmod>2013-01-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2013-01-26-presentation-software-for-hackers.html</loc>
+    <lastmod>2013-01-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2013-01-25-the-perfect-puppet-setup-for-vagrant.html</loc>
+    <lastmod>2013-01-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2013-01-24-how-to-test-tricky-nginx-rewrite-rules-part-2.html</loc>
+    <lastmod>2013-01-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2013-01-23-devopsdays-2013.html</loc>
+    <lastmod>2013-01-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2013-01-23-how-to-test-tricky-nginx-rewrite-rules.html</loc>
+    <lastmod>2013-01-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2013-01-20-blogging-with-nanoc.html</loc>
+    <lastmod>2013-01-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2013-02-20-padrino-links.html</loc>
+    <lastmod>2013-01-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2013-01-16-perftools.rb-test.html</loc>
+    <lastmod>2013-01-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2013-01-14-dci-ddd-rails.html</loc>
+    <lastmod>2013-01-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2013-01-14-print-protected-pdfs-osx.html</loc>
+    <lastmod>2013-01-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2013-01-12-clean-architecture-link-dump.html</loc>
+    <lastmod>2013-01-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2013-01-12-architecture-drawing-lines.html</loc>
+    <lastmod>2013-01-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2013-01-11-hey-2013-has-started.html</loc>
+    <lastmod>2013-01-11T00:00:00+00:00</lastmod>
+  </url>
+  
+</urlset>

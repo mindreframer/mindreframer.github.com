@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Nginx on Bits and pieces to remember </title>
+      <generator uri="https://gohugo.io">Hugo</generator>
+    <link>http://devopsbox.es/tags/nginx.html</link>
+    <language>en-us</language>
+    
+    
+    <updated>Tue, 19 Feb 2013 00:00:00 UTC</updated>
+    
+    <item>
+      <title>Lua / Nginx Combo</title>
+      <link>http://devopsbox.es/post/2013-02-19-lua-nginx-combo.html</link>
+      <pubDate>Tue, 19 Feb 2013 00:00:00 UTC</pubDate>
+      
+      <guid>http://devopsbox.es/post/2013-02-19-lua-nginx-combo.html</guid>
+      <description>&lt;p&gt;Lua and Redis:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/seomoz/qless&#34;&gt;https://github.com/seomoz/qless&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/seomoz/qless-core&#34;&gt;https://github.com/seomoz/qless-core&lt;/a&gt; (Lua logic in redis for qless-queue)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/dcartoon/redis-lua-scripts&#34;&gt;https://github.com/dcartoon/redis-lua-scripts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.gvm-it.eu/post/45421023510/redis-lua-scripting-four-scripts-to-help-you-deal-with&#34;&gt;http://blog.gvm-it.eu/post/45421023510/redis-lua-scripting-four-scripts-to-help-you-deal-with&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Posts / Presentations:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;- http://www.slideshare.net/mizzy/inside-sqales-backend-at-yapcasia-tokyo-2012 (!!!)
+- http://www.textrazor.com/blog/2013/03/scaling-textrazor-in-the-cloud-with-nginx-and-lua.html
+- http://3scale.github.com/2013/01/09/augment-your-api-without-touching-it/
+- http://blog.cloudflare.com/pushing-nginx-to-its-limit-with-lua
+- http://seatgeek.com/blog/dev/oauth-support-for-nginx-with-lua
+- http://mikeferrier.com/2011/05/14/my-beautiful-dark-twisted-reverse-proxy-LRU-cache/ (!!!)
+- http://www.nginx-discovery.com/2011/03/day-41-setting-up-ngxopenresty-was.html
+- http://www.londonlua.org/scripting_nginx_with_lua/slides.html?full
+- http://ntcn.net/blog/?p=4469 (High Performance Caching with Nginx, Redis &amp;amp; PHP)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;OpenResty:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://openresty.org/&#34;&gt;http://openresty.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://openresty.org/download/agentzh-nginx-tutorials-enuk.html&#34;&gt;http://openresty.org/download/agentzh-nginx-tutorials-enuk.html&lt;/a&gt; (!!!)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/agentzh/ngx_openresty&#34;&gt;https://github.com/agentzh/ngx_openresty&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://qa.openresty.org/&#34;&gt;http://qa.openresty.org/&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/kindy/lj-web&#34;&gt;https://github.com/kindy/lj-web&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://agentzh.org/misc/slides/ngx-openresty-ecosystem/#1&#34;&gt;http://agentzh.org/misc/slides/ngx-openresty-ecosystem/#1&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://agentzh.org/misc/slides/ngx-openresty-ecosystem.pdf&#34;&gt;http://agentzh.org/misc/slides/ngx-openresty-ecosystem.pdf&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://agentzh.org/misc/slides/libdrizzle-lua-nginx/#2&#34;&gt;http://agentzh.org/misc/slides/libdrizzle-lua-nginx/#2&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://agentzh.org/misc/slides/libdrizzle-lua-nginx.pdf&#34;&gt;http://agentzh.org/misc/slides/libdrizzle-lua-nginx.pdf&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://agentzh.org/misc/slides/perl-lz-apps.pdf&#34;&gt;http://agentzh.org/misc/slides/perl-lz-apps.pdf&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://agentzh.org/misc/slides/nginx-conf-scripting/&#34;&gt;http://agentzh.org/misc/slides/nginx-conf-scripting/&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://agentzh.org/misc/slides/nginx-conf-scripting.pdf&#34;&gt;http://agentzh.org/misc/slides/nginx-conf-scripting.pdf&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://agentzh.org/misc/slides/nginx-state-of-the-art/&#34;&gt;http://agentzh.org/misc/slides/nginx-state-of-the-art/&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://agentzh.org/misc/slides/taobao-fe-vdomwebkit.pdf&#34;&gt;http://agentzh.org/misc/slides/taobao-fe-vdomwebkit.pdf&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Examples for OpenResty:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/37signals/intermission&#34;&gt;https://github.com/37signals/intermission&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/samalba/hipache-nginx&#34;&gt;https://github.com/samalba/hipache-nginx&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/shrikeh/csrf-nginx-redis-lua&#34;&gt;https://github.com/shrikeh/csrf-nginx-redis-lua&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/irr/stock-labs&#34;&gt;https://github.com/irr/stock-labs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/agentzh/mysql-driver-benchmark&#34;&gt;https://github.com/agentzh/mysql-driver-benchmark&lt;/a&gt; (with MySQL)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gist.github.com/justincormack/948423&#34;&gt;https://gist.github.com/justincormack/948423&lt;/a&gt; (proxy to AWS, with crypto stuff)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/torhve/Amatyr&#34;&gt;https://github.com/torhve/Amatyr&lt;/a&gt; (Postgres + Webapp)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Libraries:
+  - &lt;a href=&#34;https://github.com/agentzh/encrypted-session-nginx-module&#34;&gt;https://github.com/agentzh/encrypted-session-nginx-module&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;LUA-LABS: is a set of sample codes whose main purpose is to experiment and test Lua and OpenResty/Apache
+  - &lt;a href=&#34;https://github.com/irr/lua-labs&#34;&gt;https://github.com/irr/lua-labs&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Lua-Nginx API:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/chaoslawful/lua-nginx-module&#34;&gt;https://github.com/chaoslawful/lua-nginx-module&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Lua IDEs:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://studio.zerobrane.com/&#34;&gt;http://studio.zerobrane.com/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;WebSockets:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://thechangelog.com/nginx-gains-support-for-websockets/&#34;&gt;http://thechangelog.com/nginx-gains-support-for-websockets/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

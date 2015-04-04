@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Vagrant on Bits and pieces to remember </title>
+      <generator uri="https://gohugo.io">Hugo</generator>
+    <link>http://devopsbox.es/tags/vagrant.html</link>
+    <language>en-us</language>
+    
+    
+    <updated>Sun, 17 Feb 2013 00:00:00 UTC</updated>
+    
+    <item>
+      <title>Vagrant And Discourse - Very Interesting Discussion</title>
+      <link>http://devopsbox.es/post/2013-02-17-vagrant-and-discourse-very-interesting-usecase.html</link>
+      <pubDate>Sun, 17 Feb 2013 00:00:00 UTC</pubDate>
+      
+      <guid>http://devopsbox.es/post/2013-02-17-vagrant-and-discourse-very-interesting-usecase.html</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://meta.discourse.org/t/development-mode-super-slow/2179/46&#34;&gt;http://meta.discourse.org/t/development-mode-super-slow/2179/46&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.binaryphile.com/spree/a-vagrant-box-for-spree-development/&#34;&gt;http://www.binaryphile.com/spree/a-vagrant-box-for-spree-development/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.binaryphile.com/vagrant/sharing-vagrant-project-files-over-dropbox/&#34;&gt;http://www.binaryphile.com/vagrant/sharing-vagrant-project-files-over-dropbox/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://rbgeek.wordpress.com/2012/08/19/how-to-install-and-configure-dropbox-on-ubuntu-server-12-04-lts/&#34;&gt;http://rbgeek.wordpress.com/2012/08/19/how-to-install-and-configure-dropbox-on-ubuntu-server-12-04-lts/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;VirtualBox shared folders on Linux(Ubuntu): &lt;a href=&#34;http://ubuntuforums.org/archive/index.php/t-1266909.html&#34;&gt;http://ubuntuforums.org/archive/index.php/t-1266909.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

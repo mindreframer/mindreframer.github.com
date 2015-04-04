@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Frontend on Bits and pieces to remember </title>
+      <generator uri="https://gohugo.io">Hugo</generator>
+    <link>http://devopsbox.es/tags/frontend.html</link>
+    <language>en-us</language>
+    
+    
+    <updated>Sun, 24 Aug 2014 00:00:00 UTC</updated>
+    
+    <item>
+      <title>Go SPA or just fake it?</title>
+      <link>http://devopsbox.es/post/2014-08-24-go-spa-or-just-fake-it.html</link>
+      <pubDate>Sun, 24 Aug 2014 00:00:00 UTC</pubDate>
+      
+      <guid>http://devopsbox.es/post/2014-08-24-go-spa-or-just-fake-it.html</guid>
+      <description>
+
+&lt;h2 id=&#34;jquery-animations:4c626ea2c3f9ed0212f6c58b6f0d7976&#34;&gt;Jquery + Animations&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/miguel-perez/jquery.smoothState.js&#34;&gt;https://github.com/miguel-perez/jquery.smoothState.js&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;google-spf-js:4c626ea2c3f9ed0212f6c58b6f0d7976&#34;&gt;Google SPF.js&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/youtube/spfjs/&#34;&gt;https://github.com/youtube/spfjs/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/youtube/spfjs/&#34;&gt;Faster Navigation at YouTube with SPF&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Getting up-to&lt;/p&gt;
+
+&lt;p&gt;requirements:
+    - Java 1.7
+    - Python&lt;/p&gt;
+
+&lt;p&gt;Installation:
+    $ git clone &lt;a href=&#34;https://github.com/youtube/spfjs.git&#34;&gt;https://github.com/youtube/spfjs.git&lt;/a&gt; &amp;amp;&amp;amp; cd spfjs
+    $ make&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# DEMO
+$ make demo
+
+# run tests
+$ make tests
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;turbolinks:4c626ea2c3f9ed0212f6c58b6f0d7976&#34;&gt;Turbolinks:&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://habrahabr.ru/post/167161/&#34;&gt;http://habrahabr.ru/post/167161/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;wiselinks:4c626ea2c3f9ed0212f6c58b6f0d7976&#34;&gt;Wiselinks:&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/igor-alexandrov/wiselinks&#34;&gt;https://github.com/igor-alexandrov/wiselinks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://wiselinks.herokuapp.com/&#34;&gt;http://wiselinks.herokuapp.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://paweljaniak.co.za/2013/05/15/Rails-4-turbolinks-and-wiselinks/&#34;&gt;http://paweljaniak.co.za/2013/05/15/Rails-4-turbolinks-and-wiselinks/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.jetrockets.ru/blog&#34;&gt;http://www.jetrockets.ru/blog&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;intercooler-js:4c626ea2c3f9ed0212f6c58b6f0d7976&#34;&gt;Intercooler.js&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://intercoolerjs.org/&#34;&gt;http://intercoolerjs.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/LeadDyno/intercooler-js&#34;&gt;https://github.com/LeadDyno/intercooler-js&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

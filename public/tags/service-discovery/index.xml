@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Service Discovery on Bits and pieces to remember </title>
+      <generator uri="https://gohugo.io">Hugo</generator>
+    <link>http://devopsbox.es/tags/service-discovery.html</link>
+    <language>en-us</language>
+    
+    
+    <updated>Mon, 03 Nov 2014 00:00:00 UTC</updated>
+    
+    <item>
+      <title>Consul - great Service Discovery tool</title>
+      <link>http://devopsbox.es/post/2014-11-03-consul-great-service-discovery-tool.html</link>
+      <pubDate>Mon, 03 Nov 2014 00:00:00 UTC</pubDate>
+      
+      <guid>http://devopsbox.es/post/2014-11-03-consul-great-service-discovery-tool.html</guid>
+      <description>
+
+&lt;p&gt;Great introduction from Armon Dadgar (Hashicorp) to Consul to simplify some major pain points for SOA / Service Oriented deployments of arbitrary sizes.&lt;/p&gt;
+
+&lt;h2 id=&#34;consul-service-oriented-at-scale:5263109f7deee5c699c6a7492448cb3b&#34;&gt;Consul: Service Oriented at Scale&lt;/h2&gt;
+
+&lt;iframe width=&#34;640&#34; height=&#34;390&#34; src=&#34;//www.youtube.com/embed/eR0899h_1Ac&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&#34;dotscale-2014-mitchell-hashimoto-building-robust-systems-with-consul:5263109f7deee5c699c6a7492448cb3b&#34;&gt;dotScale 2014 - Mitchell Hashimoto - Building Robust Systems With Consul&lt;/h2&gt;
+
+&lt;iframe width=&#34;640&#34; height=&#34;390&#34; src=&#34;//www.youtube.com/embed/tQ99V7QjEHc&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&#34;highly-available-service-discovery-with-consul:5263109f7deee5c699c6a7492448cb3b&#34;&gt;Highly Available Service Discovery with Consul:&lt;/h2&gt;
+
+&lt;p&gt;Also another talk from Evan Ochs, DevOps Engineering Manager at Rackspace&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.brighttalk.com/webcast/11427/132817&#34;&gt;https://www.brighttalk.com/webcast/11427/132817&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;(you have to be registered to watch the video)&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

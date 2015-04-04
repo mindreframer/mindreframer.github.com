@@ -5,7 +5,7 @@ theme        = "greyshade-mindreframer"
 
 
 canonifyurls = true
-uglyurls     = false
+uglyurls     = true
 
 [params]
   description           = "Bits and pieces to remember"

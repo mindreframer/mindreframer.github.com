@@ -31,10 +31,10 @@
     
     <item>
       <title>x509: failed to load system roots and no roots provided</title>
-      <link>http://devopsbox.es/post/2013-10-08-x509-failed-to-load-system-roots-and-no-roots-provided.html</link>
-      <pubDate>Tue, 08 Oct 2013 00:00:00 UTC</pubDate>
+      <link>http://devopsbox.es/post/2013-10-09-x509-failed-to-load-system-roots-and-no-roots-provided.html</link>
+      <pubDate>Wed, 09 Oct 2013 00:00:00 UTC</pubDate>
       
-      <guid>http://devopsbox.es/post/2013-10-08-x509-failed-to-load-system-roots-and-no-roots-provided.html</guid>
+      <guid>http://devopsbox.es/post/2013-10-09-x509-failed-to-load-system-roots-and-no-roots-provided.html</guid>
       <description>
 
 &lt;p&gt;While playing today with &lt;strong&gt;&amp;ldquo;github.com/prometheus/client_golang&amp;rdquo;&lt;/strong&gt;, I have encountered that strange error:&lt;/p&gt;
@@ -66,7 +66,7 @@ accessible via C.&lt;/p&gt;&lt;/li&gt;
 
 &lt;p&gt;&lt;/blockquote&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;solution:9d94b957f3c057a494e3835a60a7ee5f&#34;&gt;Solution:&lt;/h2&gt;
+&lt;h2 id=&#34;solution:843d03637c90b0c03d368fe0c10fd394&#34;&gt;Solution:&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code&gt;$ brew uninstall go
 $ brew install go  --with-cgo

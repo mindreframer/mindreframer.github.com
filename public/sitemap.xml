@@ -158,17 +158,17 @@
   </url>
   
   <url>
+    <loc>http://devopsbox.es/post/2013-10-26-service-discovery-overview.html</loc>
+    <lastmod>2013-10-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://devopsbox.es/post/2013-10-25-varnish-cache-invalidation.html</loc>
     <lastmod>2013-10-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://devopsbox.es/post/2013-10-24-caching-with-varnish-step-by-step.html</loc>
-    <lastmod>2013-10-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://devopsbox.es/post/2013-10-24-service-discovery-overview.html</loc>
     <lastmod>2013-10-24T00:00:00+00:00</lastmod>
   </url>
   
@@ -188,8 +188,8 @@
   </url>
   
   <url>
-    <loc>http://devopsbox.es/post/2013-10-08-x509-failed-to-load-system-roots-and-no-roots-provided.html</loc>
-    <lastmod>2013-10-08T00:00:00+00:00</lastmod>
+    <loc>http://devopsbox.es/post/2013-10-09-x509-failed-to-load-system-roots-and-no-roots-provided.html</loc>
+    <lastmod>2013-10-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -218,12 +218,12 @@
   </url>
   
   <url>
-    <loc>http://devopsbox.es/post/2013-08-02-production-ready-docker-monitoring.html</loc>
+    <loc>http://devopsbox.es/post/2013-08-02-why-docker-was-build.html</loc>
     <lastmod>2013-08-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://devopsbox.es/post/2013-08-02-why-docker-was-build.html</loc>
+    <loc>http://devopsbox.es/post/2013-08-02-production-ready-docker-monitoring.html</loc>
     <lastmod>2013-08-02T00:00:00+00:00</lastmod>
   </url>
   
@@ -238,22 +238,22 @@
   </url>
   
   <url>
-    <loc>http://devopsbox.es/post/2013-06-26-distributed-patterns-in-ruby.html</loc>
-    <lastmod>2013-06-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://devopsbox.es/post/2013-06-26-dockerui.html</loc>
-    <lastmod>2013-06-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://devopsbox.es/post/2013-06-26-unix-and-ruby-in-love.html</loc>
     <lastmod>2013-06-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://devopsbox.es/post/2013-06-26-popular-ops-tools-in-japan.html</loc>
+    <lastmod>2013-06-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2013-06-26-distributed-patterns-in-ruby.html</loc>
+    <lastmod>2013-06-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2013-06-26-dockerui.html</loc>
     <lastmod>2013-06-26T00:00:00+00:00</lastmod>
   </url>
   
@@ -268,12 +268,12 @@
   </url>
   
   <url>
-    <loc>http://devopsbox.es/post/2013-06-19-debugging-large-scale-soa-systems.html</loc>
+    <loc>http://devopsbox.es/post/2013-06-19-dokku-your-own-mini-heroku-in-under-5-minutes.html</loc>
     <lastmod>2013-06-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://devopsbox.es/post/2013-06-19-dokku-your-own-mini-heroku-in-under-5-minutes.html</loc>
+    <loc>http://devopsbox.es/post/2013-06-19-debugging-large-scale-soa-systems.html</loc>
     <lastmod>2013-06-19T00:00:00+00:00</lastmod>
   </url>
   
@@ -343,12 +343,12 @@
   </url>
   
   <url>
-    <loc>http://devopsbox.es/post/2013-02-12-monigusto-monitoring-megapackage-whohoo.html</loc>
+    <loc>http://devopsbox.es/post/2013-02-13-databases-map-omg.html</loc>
     <lastmod>2013-02-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://devopsbox.es/post/2013-02-13-databases-map-omg.html</loc>
+    <loc>http://devopsbox.es/post/2013-02-12-monigusto-monitoring-megapackage-whohoo.html</loc>
     <lastmod>2013-02-12T00:00:00+00:00</lastmod>
   </url>
   
@@ -408,12 +408,12 @@
   </url>
   
   <url>
-    <loc>http://devopsbox.es/post/2013-01-23-devopsdays-2013.html</loc>
+    <loc>http://devopsbox.es/post/2013-01-23-how-to-test-tricky-nginx-rewrite-rules.html</loc>
     <lastmod>2013-01-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://devopsbox.es/post/2013-01-23-how-to-test-tricky-nginx-rewrite-rules.html</loc>
+    <loc>http://devopsbox.es/post/2013-01-23-devopsdays-2013.html</loc>
     <lastmod>2013-01-23T00:00:00+00:00</lastmod>
   </url>
   

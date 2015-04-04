@@ -206,6 +206,69 @@ export LANGUAGE=en_US.UTF-8
     </item>
     
     <item>
+      <title>Service Discovery Software Overview</title>
+      <link>http://devopsbox.es/post/2013-10-26-service-discovery-overview.html</link>
+      <pubDate>Sat, 26 Oct 2013 00:00:00 UTC</pubDate>
+      
+      <guid>http://devopsbox.es/post/2013-10-26-service-discovery-overview.html</guid>
+      <description>
+
+&lt;h3 id=&#34;hashcorp-serf:c526b534b0d25d0c80280698ac6d47e5&#34;&gt;Hashcorp - Serf:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.serfdom.io/&#34;&gt;http://www.serfdom.io/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/hashicorp/serf&#34;&gt;https://github.com/hashicorp/serf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://news.ycombinator.com/item?id=6600063&#34;&gt;https://news.ycombinator.com/item?id=6600063&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;coreos-etcd:c526b534b0d25d0c80280698ac6d47e5&#34;&gt;Coreos - Etcd:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://coreos.com/blog/distributed-configuration-with-etcd/&#34;&gt;http://coreos.com/blog/distributed-configuration-with-etcd/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/coreos/etcd&#34;&gt;https://github.com/coreos/etcd&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;airbnb-smartstack:c526b534b0d25d0c80280698ac6d47e5&#34;&gt;Airbnb - Smartstack:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://nerds.airbnb.com/smartstack-service-discovery-cloud/&#34;&gt;http://nerds.airbnb.com/smartstack-service-discovery-cloud/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/airbnb/nerve&#34;&gt;https://github.com/airbnb/nerve&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/airbnb/synapse&#34;&gt;https://github.com/airbnb/synapse&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://news.ycombinator.com/item?id=6601409&#34;&gt;https://news.ycombinator.com/item?id=6601409&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;skynet-skydns:c526b534b0d25d0c80280698ac6d47e5&#34;&gt;Skynet - SkyDNS:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.gopheracademy.com/skydns&#34;&gt;http://blog.gopheracademy.com/skydns&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/skynetservices/skydns&#34;&gt;https://github.com/skynetservices/skydns&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;apcera-gnats:c526b534b0d25d0c80280698ac6d47e5&#34;&gt;Apcera - Gnats:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://docs.cloudfoundry.com/docs/running/architecture/messaging-nats.html&#34;&gt;http://docs.cloudfoundry.com/docs/running/architecture/messaging-nats.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/apcera/gnatsd&#34;&gt;https://github.com/apcera/gnatsd&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/derekcollison/nats&#34;&gt;https://github.com/derekcollison/nats&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.reddit.com/r/golang/comments/1oqqx7/gnatsd_from_apcera_a_high_performance_nats_server/&#34;&gt;http://www.reddit.com/r/golang/comments/1oqqx7/gnatsd_from_apcera_a_high_performance_nats_server/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.quora.com/Cloud-Foundry/Why-does-CloudFoundry-use-NATS-a-specially-written-messaging-system-whereas-OpenStack-uses-AMQP&#34;&gt;http://www.quora.com/Cloud-Foundry/Why-does-CloudFoundry-use-NATS-a-specially-written-messaging-system-whereas-OpenStack-uses-AMQP&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;yahoo-zookeeper:c526b534b0d25d0c80280698ac6d47e5&#34;&gt;Yahoo - Zookeeper:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://zookeeper.apache.org/&#34;&gt;http://zookeeper.apache.org/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;protocols:c526b534b0d25d0c80280698ac6d47e5&#34;&gt;Protocols:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://raftconsensus.github.io/&#34;&gt;Raft&lt;/a&gt;, &lt;a href=&#34;http://www.youtube.com/watch?v=YbZ3zDzDnrw&#34;&gt;Introduction Video&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Varnish Cache Invalidation</title>
       <link>http://devopsbox.es/post/2013-10-25-varnish-cache-invalidation.html</link>
       <pubDate>Fri, 25 Oct 2013 00:00:00 UTC</pubDate>
@@ -301,69 +364,6 @@ So, in the example above the content presentation layer could spit out the same 
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;See for more information: &lt;a href=&#34;http://devopsbox.es/post/2013-10-25-varnish-cache-invalidation.html&#34;&gt;Varnish Cache Invalidation&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Service Discovery Software Overview</title>
-      <link>http://devopsbox.es/post/2013-10-24-service-discovery-overview.html</link>
-      <pubDate>Thu, 24 Oct 2013 00:00:00 UTC</pubDate>
-      
-      <guid>http://devopsbox.es/post/2013-10-24-service-discovery-overview.html</guid>
-      <description>
-
-&lt;h3 id=&#34;hashcorp-serf:e3adc94624aa0e1e098f7aee7db73367&#34;&gt;Hashcorp - Serf:&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.serfdom.io/&#34;&gt;http://www.serfdom.io/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/hashicorp/serf&#34;&gt;https://github.com/hashicorp/serf&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://news.ycombinator.com/item?id=6600063&#34;&gt;https://news.ycombinator.com/item?id=6600063&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;coreos-etcd:e3adc94624aa0e1e098f7aee7db73367&#34;&gt;Coreos - Etcd:&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://coreos.com/blog/distributed-configuration-with-etcd/&#34;&gt;http://coreos.com/blog/distributed-configuration-with-etcd/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/coreos/etcd&#34;&gt;https://github.com/coreos/etcd&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;airbnb-smartstack:e3adc94624aa0e1e098f7aee7db73367&#34;&gt;Airbnb - Smartstack:&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://nerds.airbnb.com/smartstack-service-discovery-cloud/&#34;&gt;http://nerds.airbnb.com/smartstack-service-discovery-cloud/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/airbnb/nerve&#34;&gt;https://github.com/airbnb/nerve&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/airbnb/synapse&#34;&gt;https://github.com/airbnb/synapse&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://news.ycombinator.com/item?id=6601409&#34;&gt;https://news.ycombinator.com/item?id=6601409&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;skynet-skydns:e3adc94624aa0e1e098f7aee7db73367&#34;&gt;Skynet - SkyDNS:&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://blog.gopheracademy.com/skydns&#34;&gt;http://blog.gopheracademy.com/skydns&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/skynetservices/skydns&#34;&gt;https://github.com/skynetservices/skydns&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;apcera-gnats:e3adc94624aa0e1e098f7aee7db73367&#34;&gt;Apcera - Gnats:&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://docs.cloudfoundry.com/docs/running/architecture/messaging-nats.html&#34;&gt;http://docs.cloudfoundry.com/docs/running/architecture/messaging-nats.html&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/apcera/gnatsd&#34;&gt;https://github.com/apcera/gnatsd&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/derekcollison/nats&#34;&gt;https://github.com/derekcollison/nats&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.reddit.com/r/golang/comments/1oqqx7/gnatsd_from_apcera_a_high_performance_nats_server/&#34;&gt;http://www.reddit.com/r/golang/comments/1oqqx7/gnatsd_from_apcera_a_high_performance_nats_server/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.quora.com/Cloud-Foundry/Why-does-CloudFoundry-use-NATS-a-specially-written-messaging-system-whereas-OpenStack-uses-AMQP&#34;&gt;http://www.quora.com/Cloud-Foundry/Why-does-CloudFoundry-use-NATS-a-specially-written-messaging-system-whereas-OpenStack-uses-AMQP&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;yahoo-zookeeper:e3adc94624aa0e1e098f7aee7db73367&#34;&gt;Yahoo - Zookeeper:&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://zookeeper.apache.org/&#34;&gt;http://zookeeper.apache.org/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;protocols:e3adc94624aa0e1e098f7aee7db73367&#34;&gt;Protocols:&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://raftconsensus.github.io/&#34;&gt;Raft&lt;/a&gt;, &lt;a href=&#34;http://www.youtube.com/watch?v=YbZ3zDzDnrw&#34;&gt;Introduction Video&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 </description>
     </item>
     

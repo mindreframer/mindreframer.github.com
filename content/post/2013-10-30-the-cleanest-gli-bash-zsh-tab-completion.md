@@ -1,5 +1,5 @@
 ---
-date: '2013-10-31'
+date: '2013-10-30'
 title: The cleanest GLI Bash / ZSH Tab-Completion
 tags:
 - tricks

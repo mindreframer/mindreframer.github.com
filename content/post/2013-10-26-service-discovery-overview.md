@@ -1,5 +1,5 @@
 ---
-date: '2013-10-24'
+date: '2013-10-26'
 title: Service Discovery Software Overview
 tags:
 - devops

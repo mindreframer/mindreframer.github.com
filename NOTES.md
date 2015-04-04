@@ -44,3 +44,8 @@ Interlinking (in markdown):
 
 ## Templates
   - http://jan.newmarch.name/go/template/chapter-template.html
+
+
+
+## Deployment to Github Pages
+  - https://gist.github.com/cobyism/4730490

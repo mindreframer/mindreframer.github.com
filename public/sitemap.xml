@@ -238,17 +238,17 @@
   </url>
   
   <url>
+    <loc>http://devopsbox.es/post/2013-06-26-distributed-patterns-in-ruby.html</loc>
+    <lastmod>2013-06-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://devopsbox.es/post/2013-06-26-configuration-management-anti-patterns.html</loc>
     <lastmod>2013-06-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://devopsbox.es/post/2013-06-26-popular-ops-tools-in-japan.html</loc>
-    <lastmod>2013-06-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://devopsbox.es/post/2013-06-26-distributed-patterns-in-ruby.html</loc>
     <lastmod>2013-06-26T00:00:00+00:00</lastmod>
   </url>
   
@@ -273,12 +273,12 @@
   </url>
   
   <url>
-    <loc>http://devopsbox.es/post/2013-06-19-debugging-large-scale-soa-systems.html</loc>
+    <loc>http://devopsbox.es/post/2013-06-19-the-future-of-networking-and-the-past-of-protocols-scott-shenker.html</loc>
     <lastmod>2013-06-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://devopsbox.es/post/2013-06-19-the-future-of-networking-and-the-past-of-protocols-scott-shenker.html</loc>
+    <loc>http://devopsbox.es/post/2013-06-19-debugging-large-scale-soa-systems.html</loc>
     <lastmod>2013-06-19T00:00:00+00:00</lastmod>
   </url>
   
@@ -328,12 +328,12 @@
   </url>
   
   <url>
-    <loc>http://devopsbox.es/post/2013-02-15-learn-rack-api-by-examples.html</loc>
+    <loc>http://devopsbox.es/post/2013-02-16-puppet-and-osx-mismatch.html</loc>
     <lastmod>2013-02-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://devopsbox.es/post/2013-02-16-puppet-and-osx-mismatch.html</loc>
+    <loc>http://devopsbox.es/post/2013-02-15-learn-rack-api-by-examples.html</loc>
     <lastmod>2013-02-15T00:00:00+00:00</lastmod>
   </url>
   
@@ -343,12 +343,12 @@
   </url>
   
   <url>
-    <loc>http://devopsbox.es/post/2013-02-12-monigusto-monitoring-megapackage-whohoo.html</loc>
+    <loc>http://devopsbox.es/post/2013-02-13-databases-map-omg.html</loc>
     <lastmod>2013-02-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://devopsbox.es/post/2013-02-13-databases-map-omg.html</loc>
+    <loc>http://devopsbox.es/post/2013-02-12-monigusto-monitoring-megapackage-whohoo.html</loc>
     <lastmod>2013-02-12T00:00:00+00:00</lastmod>
   </url>
   

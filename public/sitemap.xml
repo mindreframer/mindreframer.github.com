@@ -58,12 +58,12 @@
   </url>
   
   <url>
-    <loc>http://devopsbox.es/post/2014-07-29-linkdump-week-31.html</loc>
+    <loc>http://devopsbox.es/post/2014-05-01-linkdump-week-18.html</loc>
     <lastmod>2014-05-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://devopsbox.es/post/2014-05-01-linkdump-week-18.html</loc>
+    <loc>http://devopsbox.es/post/2014-07-29-linkdump-week-31.html</loc>
     <lastmod>2014-05-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -223,12 +223,12 @@
   </url>
   
   <url>
-    <loc>http://devopsbox.es/post/2013-08-02-why-docker-was-build.html</loc>
+    <loc>http://devopsbox.es/post/2013-08-02-production-ready-docker-monitoring.html</loc>
     <lastmod>2013-08-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://devopsbox.es/post/2013-08-02-production-ready-docker-monitoring.html</loc>
+    <loc>http://devopsbox.es/post/2013-08-02-why-docker-was-build.html</loc>
     <lastmod>2013-08-02T00:00:00+00:00</lastmod>
   </url>
   
@@ -243,17 +243,17 @@
   </url>
   
   <url>
+    <loc>http://devopsbox.es/post/2013-06-26-dockerui.html</loc>
+    <lastmod>2013-06-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://devopsbox.es/post/2013-06-26-distributed-patterns-in-ruby.html</loc>
     <lastmod>2013-06-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://devopsbox.es/post/2013-06-26-popular-ops-tools-in-japan.html</loc>
-    <lastmod>2013-06-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://devopsbox.es/post/2013-06-26-dockerui.html</loc>
     <lastmod>2013-06-26T00:00:00+00:00</lastmod>
   </url>
   
@@ -278,12 +278,12 @@
   </url>
   
   <url>
-    <loc>http://devopsbox.es/post/2013-06-19-the-future-of-networking-and-the-past-of-protocols-scott-shenker.html</loc>
+    <loc>http://devopsbox.es/post/2013-06-19-dokku-your-own-mini-heroku-in-under-5-minutes.html</loc>
     <lastmod>2013-06-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://devopsbox.es/post/2013-06-19-dokku-your-own-mini-heroku-in-under-5-minutes.html</loc>
+    <loc>http://devopsbox.es/post/2013-06-19-the-future-of-networking-and-the-past-of-protocols-scott-shenker.html</loc>
     <lastmod>2013-06-19T00:00:00+00:00</lastmod>
   </url>
   

@@ -1,4 +1,6 @@
 - Do Not Learn Frameworks. Learn the Architecture - http://kukuruku.co/hub/programming/do-not-learn-frameworks-learn-the-architecture
+- https://muut.com/blog/technology/frameworkless-javascript.html
+- https://muut.com/blog/technology/riotjs-the-1kb-mvp-framework.html
 
 - Let’s Build A Web Server. Part 1. - http://ruslanspivak.com/lsbaws-part1/
 

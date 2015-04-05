@@ -20,7 +20,7 @@ uglyurls     = true
   DateForm              = '2006-Jan-02'
   SyntaxHighlightTheme  = 'tomorrow'
   subscribe_rss         = 'index.xml'
-  muut                  = 'devopsboxes'
+  disqus_short_name     = 'devopsforrunaways'
 
 
 [Author]

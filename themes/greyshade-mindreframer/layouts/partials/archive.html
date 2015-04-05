@@ -21,7 +21,7 @@
 			<div class="meta">
 				<span class="date"><time datetime='{{ dateFormat "2006" .Date }}' itemprop="datePublished">{{ dateFormat "Jan 2" .Date }}</time></span>
 				<br>
-				<span class="tags">{{ partial "post/categories.html" . }}</span>
+				<span class="tags">{{ partial "post/tags.html" . }}</span>
 			    {{ if and (isset .Site.Params "disqus_short_name") (and (.Params.comments) (isset .Site.Params "disqus_show_comment_count")) }}
 			    <span class="comments"><a href="{{ .Permalink }}#disqus_thread">Comments</a></span>
 			    {{ end }}

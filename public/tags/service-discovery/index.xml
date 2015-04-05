@@ -11,10 +11,10 @@
     
     <item>
       <title>Consul - great Service Discovery tool</title>
-      <link>http://devopsbox.es/post/2014-11-03-consul-great-service-discovery-tool.html</link>
+      <link>http://devopsbox.es/posts/2014/11-03-consul---great-service-discovery-tool.html</link>
       <pubDate>Mon, 03 Nov 2014 00:00:00 UTC</pubDate>
       
-      <guid>http://devopsbox.es/post/2014-11-03-consul-great-service-discovery-tool.html</guid>
+      <guid>http://devopsbox.es/posts/2014/11-03-consul---great-service-discovery-tool.html</guid>
       <description>
 
 &lt;p&gt;Great introduction from Armon Dadgar (Hashicorp) to Consul to simplify some major pain points for SOA / Service Oriented deployments of arbitrary sizes.&lt;/p&gt;

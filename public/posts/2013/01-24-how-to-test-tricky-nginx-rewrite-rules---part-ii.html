@@ -1,0 +1,375 @@
+<!DOCTYPE HTML>
+
+<html lang="en-us">
+
+<head>
+	<meta charset="utf-8">
+	<title>How to test tricky nginx rewrite rules - Part II - Bits and pieces to remember</title>
+	<meta name="author" content="map[email:roman.heinrich@gmail.com]">
+
+	
+	
+	<meta name="description" content="">
+	
+
+	
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    
+	<link href='index.xml' rel="alternate" title="Bits and pieces to remember" type="application/atom+xml">
+	
+	<link rel="canonical" href="http://devopsbox.es/posts/2013/01-24-how-to-test-tricky-nginx-rewrite-rules---part-ii.html">
+	<link href="http://devopsbox.es//favicon.png" rel="shortcut icon">
+	<link href="http://devopsbox.es//css/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<link href="http://devopsbox.es//css/font-awesome.min.css" media="screen, projection" rel="stylesheet" type="text/css">
+	
+	<link href='http://fonts.googleapis.com/css?family=Nunito:400,300,700' rel='stylesheet' type='text/css'>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.5/styles/tomorrow.min.css">
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.5/highlight.min.js"></script>
+	<script>hljs.initHighlightingOnLoad();</script>
+
+	
+  
+
+</head>
+
+
+<body>
+	<div class="container">
+		<div class="left-col">
+			<div class="intrude-less">
+			<header id="header" class="inner"><div class="profilepic">
+	
+	<img src='http://www.gravatar.com/avatar/b540757705fa11df3313d5396a3649d9?s=160' alt="Profile Picture" style="width: 160px;" />
+	
+</div>
+
+<nav id="main-nav"><ul class="main">
+    <li><a href="http://devopsbox.es/">Blog</a></li>
+    <li><a href="http://devopsbox.es/about.html">About</a></li>
+    <li><a href="http://devopsbox.es/post.html">Archives</a></li>
+</ul>
+
+
+<section class="aboutme">
+  <p>
+    Bits and pieces to remember
+  </p>
+</section>
+</nav>
+<nav id="sub-nav">
+	<div class="social">
+		
+			<a class="email" href='mailto:roman.heinrich@gmail.com' title="Email">Email</a>
+		
+		
+		
+		
+			<a class="twitter" href='http://twitter.com/mindreframer' title="Twitter">Twitter</a>
+		
+		
+			<a class="github" href='https://github.com/mindreframer' title="GitHub">GitHub</a>
+		
+		
+		
+		  <a class="stackoverflow" href='http://stackoverflow.com/users/785134/mindreframer' title="StackOverflow"></a>
+		
+		
+		
+		
+			<a class="delicious" href='http://delicious.com/mindreframer' title="Delicious">Delicious</a>
+		
+		
+		
+		
+		
+    	
+    	
+			<a class="rss" href='index.xml' title="RSS">RSS</a>
+		
+	</div>
+</nav>
+</header>
+			</div>
+		</div>
+		<div class="mid-col">
+			
+			<div class="mid-col-container">
+				<div id="content" class="inner">
+					<div itemscope itemtype="http://schema.org/Blog">
+					<article class="post" itemscope itemtype="http://schema.org/BlogPosting"><h1 class="title" itemprop="name">
+  How to test tricky nginx rewrite rules - Part II
+</h1>
+<div class="entry-content" itemprop="articleBody">
+  
+
+<p><a href="http://devopsbox.es/posts/2013/01-23-how-to-test-tricky-nginx-rewrite-rules---part-i.html">A possible solution to Part I</a></p>
+
+<p>Take a look here:</p>
+
+<pre>
+  <code class="nohighlight">
+  https://github.com/dawanda/nginx_rules_tests
+  </code>
+</pre>
+
+<p>With a couple commands you get the complete working environment (after you have installed <a href="http://vagrantup.com">Vagrant</a>):</p>
+
+<pre>
+  <code class="lang-bash">
+    $ git clone git://github.com/dawanda/nginx_rules_tests.git
+    $ cd nginx_rules_tests
+
+    # start vagrant + run puppet
+    $ vagrant up
+
+    # ssh into your VM
+    $ vagrant ssh
+
+    # run the tests, they shall pass
+    $ nginx_tests
+  </code>
+</pre>
+
+<h3 id="here-you-can-see-it-in-action:e3abddce61b0dffa564e3dc2112ece11">Here you can see it in action:</h3>
+
+<iframe border='0' height='432' id='shelr_record_5102f4d6966080054900005c' scrolling='no' src='http://shelr.tv/records/5102f4d6966080054900005c/embed' style='border: 0' width='815'>
+
+</iframe>
+
+<p>Here the nginx config we want to test, it is still very short yet.</p>
+
+<p>
+<pre>
+  <code class='nginx'>
+    
+  ## dawanda subdomain tests
+  server {
+    listen 80;
+    # match wildchar subdomains and main domain
+    server_name *.dawanda.com;
+    server_name dawanda.com;
+    location / {
+      # store subdomain in a variable
+      if ($http_host ~ (.*)\.dawanda\.com) {
+        set $subdomain $1;
+      }
+
+      # default language should be german
+      set $current_language &#39;de&#39;;
+      if ($subdomain = &#39;en&#39;){ set $current_language $subdomain; }
+      if ($subdomain = &#39;fr&#39;){ set $current_language $subdomain; }
+      if ($subdomain = &#39;pl&#39;){ set $current_language $subdomain; }
+      if ($subdomain = &#39;nl&#39;){ set $current_language $subdomain; }
+      if ($subdomain = &#39;es&#39;){ set $current_language $subdomain; }
+      if ($subdomain = &#39;it&#39;){ set $current_language $subdomain; }
+
+      # we return a permanent (301) redirect for www
+      if ($subdomain = &#39;www&#39;){
+        rewrite  ^/(.*)$  http://dawanda.com/$1  permanent;
+        break;
+      }
+
+      # nginx has no AND for IFs, have to use $subdomain_could_be_shop to simulate that...
+      # oh, on explicit matches, must be a shop subdomain
+      if ($subdomain != $current_language){
+        set $subdomain_could_be_shop  &#34;1&#34;;
+      }
+
+      # also check, if we requested with subdomain
+      if ($subdomain != &#39;&#39;){
+        set $subdomain_could_be_shop  &#34;${subdomain_could_be_shop}1&#34;;
+      }
+
+      # not a lang subdomain + we have an actual subdomain
+      if ($subdomain_could_be_shop = &#39;11&#39;){
+        rewrite  ^/(.*)$  http://de.dawanda.com/shop/$subdomain  permanent;
+        break;
+      }
+
+      # this is the important part, this will land in env[&#39;REQUEST_URI&#39;]
+      proxy_set_header Host $current_language.dawanda.com:9292;
+
+      # you can proxy-pass to anything on that machine.
+      proxy_pass http://dawanda.com:9292;
+    }
+  }
+
+
+  </code>
+</pre></p>
+
+<p>Basically, we check, if the subdomain is one of the supported languages or <em>www</em>, if not, we assume, it is a user subdomain (looks good on your business card) and transparently proxy the request with correct URL to our app-servers.</p>
+
+<p>We want to make sure that:</p>
+
+<ul>
+<li>lang subdomains work</li>
+<li>we have default &lsquo;de&rsquo; lang subdomain</li>
+<li>&lsquo;www&rsquo; is redirected to &lsquo;de&rsquo; subdomain</li>
+<li>everything else is redirected to <a href="http://de.dawanda.com/shop/SOME_SHOP_SUBDOMAIN">http://de.dawanda.com/shop/SOME_SHOP_SUBDOMAIN</a></li>
+<li>we don&rsquo;t mangle the URL-path and URL-params with our logic in nginx</li>
+</ul>
+
+<p>Let&rsquo;s look at our tests:
+
+<pre>
+  <code class='ruby'>
+    
+
+  describe &#34;subdomains&#34; do
+    describe &#34;lang&#34; do
+      LANGUAGES.each do |lng|
+        it &#34;passes language #{lng} through&#34; do
+          check_request_uri(&#34;#{lng}.dawanda.com&#34;).must_equal &#34;#{lng}.dawanda.com/&#34;
+        end
+      end
+
+      it &#34;defaults to &#39;de&#39; lang&#34; do
+        check_request_uri(&#34;dawanda.com&#34;).must_equal &#34;de.dawanda.com/&#34;
+      end
+    end
+
+    describe &#34;shop subdomains&#34; do
+      it &#34;works&#34; do
+        make_request(&#34;meko.dawanda.com&#34;).must_match &#34;301 Moved&#34;
+        make_request_for_headers(&#34;meko.dawanda.com&#34;).must_match &#34;de.dawanda.com/shop/meko&#34;
+      end
+    end
+
+    describe &#34;www is redirected&#34; do
+      it &#34;works&#34; do
+        make_request(&#34;www.dawanda.com/shop/Meko/first&#34;).must_match &#34;301 Moved&#34;
+      end
+    end
+  end
+
+  describe &#34;path&#34; do
+    it &#34;is left untouched&#34; do
+      check_request_uri(&#34;de.dawanda.com/shop/Meko/first&#34;).must_equal &#34;de.dawanda.com/shop/Meko/first&#34;
+    end
+  end
+
+  describe &#34;params&#34; do
+    it &#34;is left untouched&#34; do
+      check_request_uri(&#34;de.dawanda.com/shop/Meko/first?a=1&#34;).must_equal &#34;de.dawanda.com/shop/Meko/first?a=1&#34;
+    end
+  end
+
+  </code>
+</pre></p>
+
+<p>Isn&rsquo;t it readable Ruby code, we all love to read and understand?</p>
+
+<p>Let&rsquo;s look at the helper-methods:</p>
+
+<pre><code class="ruby">
+  def make_request(url)
+    r = `curl -s '#{url}'`
+    JSON.parse(r) rescue r
+  end
+
+  def make_request_for_headers(url)
+    r = `curl -s --head '#{url}'`
+  end
+
+  def check_request_uri(url)
+    r = make_request(url)
+    remove_port(r["REQUEST_URI"].gsub("http://", ''))
+  end
+
+  def remove_port(url)
+    url.gsub(/\:9292/, '')
+  end
+</code></pre>
+
+<p>And now, the trick - we just return the request environment (well, the parts, that we want to test) as JSON-String from a Sinatra App (could be just plain Rack).</p>
+
+<pre><code class="ruby">
+require 'sinatra/base'
+require 'json'
+
+class EnvApp < Sinatra::Base
+
+  get '*' do
+    #  ["REQUEST_PATH", "REQUEST_URI", "REQUEST_METHOD", "REQUEST_PATH", "PATH_INFO"]
+    keys =  (request.env.keys.grep(/REQ/) + request.env.keys.grep(/PATH/))
+    r = {}
+    keys.each {|k| r[k] = request.env[k]}
+    JSON.unparse(r)
+  end
+end
+
+</code></pre>
+
+<p>Since we&rsquo;re using Dnsmasq, requests to all domains + subdomains you have configured, would arrive at this app, on the port, you&rsquo;re listening on (I kept the default 9292-Sinatra port, but it&rsquo;s up to you).</p>
+
+<p>This solution is by far not perfect. You&rsquo;re testing only rewrite rules. And you have to listen on the ports, that you&rsquo;re proxying to. But since you&rsquo;ve automated everything until now, there is little holding you from automating the rest&hellip; Just don&rsquo;t make it too complicated. And if your configs contain really weird stuff, take a step back and rethink it&hellip; Maybe it&rsquo;s worth skipping. Just sayin&rsquo;.</p>
+
+<p>What do you think, is this approach helpful for your <a href="http://wiki.nginx.org/Main">Nginx</a> setup? Please give me some feedback!</p>
+
+<p><strong>To read about Puppet modules used here, please click here. &ndash;&gt;</strong>  <a href="http://devopsbox.es/posts/2013/01-25-the-perfect-puppet-setup-for-vagrant.html">More on Puppet Modules</a></p>
+
+</div>
+</article>
+					
+						<div class="share">
+	<div class="addthis_toolbox addthis_default_style ">
+	
+	
+	
+	<a class="addthis_counter addthis_pill_style"></a>
+	</div>
+  <script type="text/javascript" src='http://s7.addthis.com/js/250/addthis_widget.js#pubid='></script>
+</div>
+
+					
+					
+					<section id="comment">
+					    <h1 class="title">Comments</h1>
+					    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+					</section>
+					
+					
+
+<script type="text/javascript">
+      var disqus_shortname = 'devopsforrunaways';
+      
+      
+      var disqus_identifier = 'http:\/\/devopsbox.es\/posts\/2013\/01-24-how-to-test-tricky-nginx-rewrite-rules---part-ii.html';
+      var disqus_url        = 'http:\/\/devopsbox.es\/posts\/2013\/01-24-how-to-test-tricky-nginx-rewrite-rules---part-ii.html';
+      var disqus_script     = 'embed.js';
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+					
+
+				    </div>
+				</div>
+			</div>
+			<footer id="footer" class="inner">Copyright &copy; 2015
+
+    Bits and pieces to remember
+
+<script src="http://devopsbox.es//js/slash.js"></script>
+<script src="http://devopsbox.es//js/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+
+
+
+</script>
+</footer>
+		</div>
+	</div>
+	
+</body>
+</html>

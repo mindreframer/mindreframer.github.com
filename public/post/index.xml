@@ -11,26 +11,26 @@
     
     <item>
       <title>Linkdump 2015 - 4</title>
-      <link>http://devopsbox.es/post/2015-03-09-linkdump-2015-4.html</link>
+      <link>http://devopsbox.es/posts/2015/03-09-linkdump-2015-4.html</link>
       <pubDate>Mon, 09 Mar 2015 00:00:00 UTC</pubDate>
       
-      <guid>http://devopsbox.es/post/2015-03-09-linkdump-2015-4.html</guid>
+      <guid>http://devopsbox.es/posts/2015/03-09-linkdump-2015-4.html</guid>
       <description>
 
-&lt;h2 id=&#34;tools:24a405eae4fac48d1aa9d7f70aa66d38&#34;&gt;Tools:&lt;/h2&gt;
+&lt;h2 id=&#34;tools:9fb2656461682b2a8167fc525e652fe0&#34;&gt;Tools:&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://monodraw.helftone.com/?hn&#34;&gt;Monodraw -  Draw great Ascii-Art diagrams - Free during Beta&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;microservices:24a405eae4fac48d1aa9d7f70aa66d38&#34;&gt;Microservices&lt;/h2&gt;
+&lt;h2 id=&#34;microservices:9fb2656461682b2a8167fc525e652fe0&#34;&gt;Microservices&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;[SCaLE 13x] Derek Collison | NATS: A new nervous system for distributed cloud platforms
  &lt;a href=&#34;https://www.youtube.com/watch?v=5GcAgMPECxE&#34;&gt;Video&lt;/a&gt;, &lt;a href=&#34;http://www.slideshare.net/derekcollison/nats-a-new-nervous-system-for-distributed-cloud-platforms&#34;&gt;Slides&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;golang-links:24a405eae4fac48d1aa9d7f70aa66d38&#34;&gt;Golang Links&lt;/h2&gt;
+&lt;h2 id=&#34;golang-links:9fb2656461682b2a8167fc525e652fe0&#34;&gt;Golang Links&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://4gophers.com/article/tulzoviny-i-hrenoviny-14#.VPZFz8s1hAh&#34;&gt;4gophers.com - Great Russian resource for Go&lt;/a&gt;&lt;/li&gt;
@@ -39,7 +39,7 @@
 &lt;li&gt;&lt;a href=&#34;https://github.com/liquidm/aerospike-client-go&#34;&gt;Aerospike Client for Go from LiquidM&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;design:24a405eae4fac48d1aa9d7f70aa66d38&#34;&gt;Design&lt;/h2&gt;
+&lt;h2 id=&#34;design:9fb2656461682b2a8167fc525e652fe0&#34;&gt;Design&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://spin.atomicobject.com/2015/02/25/design-negative-space/&#34;&gt;Mind the Gap(s) – The Importance of Negative Space in Design &lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
@@ -51,39 +51,39 @@
     
     <item>
       <title>Linkdump 2015 - 3</title>
-      <link>http://devopsbox.es/post/2015-02-15-linkdump-2015-3.html</link>
+      <link>http://devopsbox.es/posts/2015/02-15-linkdump-2015-3.html</link>
       <pubDate>Sun, 15 Feb 2015 00:00:00 UTC</pubDate>
       
-      <guid>http://devopsbox.es/post/2015-02-15-linkdump-2015-3.html</guid>
+      <guid>http://devopsbox.es/posts/2015/02-15-linkdump-2015-3.html</guid>
       <description>
 
-&lt;h2 id=&#34;software:bc8afb25d0d26891cc1d4ea92b97c887&#34;&gt;Software&lt;/h2&gt;
+&lt;h2 id=&#34;software:57aed07b087c16abdc9e7e321465713c&#34;&gt;Software&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Presentation: You Won&amp;rsquo;t Believe How the Biggest Sites Build Scalable and Resilient Systems! &lt;a href=&#34;http://www.infoq.com/presentations/scalable-resilient-systems&#34;&gt;http://www.infoq.com/presentations/scalable-resilient-systems&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://martinfowler.com/bliki/SacrificialArchitecture.html&#34;&gt;SacrificialArchitecture&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;peopleware:bc8afb25d0d26891cc1d4ea92b97c887&#34;&gt;Peopleware&lt;/h2&gt;
+&lt;h2 id=&#34;peopleware:57aed07b087c16abdc9e7e321465713c&#34;&gt;Peopleware&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Why You Need Mentors (and Why You Don’t Have Them Yet) &lt;a href=&#34;http://www.scotthyoung.com/blog/2015/01/07/how-to-get-mentors/&#34;&gt;http://www.scotthyoung.com/blog/2015/01/07/how-to-get-mentors/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;golang:bc8afb25d0d26891cc1d4ea92b97c887&#34;&gt;Golang&lt;/h2&gt;
+&lt;h2 id=&#34;golang:57aed07b087c16abdc9e7e321465713c&#34;&gt;Golang&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Fast, Scalable Networking in Go with Mangos | Brave New Geek
 &lt;a href=&#34;http://www.bravenewgeek.com/fast-scalable-networking-in-go-with-mangos/&#34;&gt;http://www.bravenewgeek.com/fast-scalable-networking-in-go-with-mangos/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;devops:bc8afb25d0d26891cc1d4ea92b97c887&#34;&gt;DevOps&lt;/h2&gt;
+&lt;h2 id=&#34;devops:57aed07b087c16abdc9e7e321465713c&#34;&gt;DevOps&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Scrap the SCP. How to copy data fast using pigz and nc &lt;a href=&#34;http://intermediatesql.com/linux/scrap-the-scp-how-to-copy-data-fast-using-pigz-and-nc/&#34;&gt;http://intermediatesql.com/linux/scrap-the-scp-how-to-copy-data-fast-using-pigz-and-nc/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;marketing:bc8afb25d0d26891cc1d4ea92b97c887&#34;&gt;Marketing&lt;/h2&gt;
+&lt;h2 id=&#34;marketing:57aed07b087c16abdc9e7e321465713c&#34;&gt;Marketing&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;The Email Worth $200 A Recipient (And Other Fun Lifecycle Email Stories)
@@ -95,7 +95,7 @@
 &lt;a href=&#34;https://www.polemicdigital.com/2015/01/every-web-developer-know-seo/&#34;&gt;https://www.polemicdigital.com/2015/01/every-web-developer-know-seo/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;misc:bc8afb25d0d26891cc1d4ea92b97c887&#34;&gt;Misc&lt;/h2&gt;
+&lt;h2 id=&#34;misc:57aed07b087c16abdc9e7e321465713c&#34;&gt;Misc&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Are We Really 10% Human and 90% Bacteria? Exploring The Microbiome… &lt;a href=&#34;http://fourhourworkweek.com/2015/01/10/microbiome/&#34;&gt;http://fourhourworkweek.com/2015/01/10/microbiome/&lt;/a&gt;&lt;/li&gt;
@@ -104,11 +104,11 @@
     </item>
     
     <item>
-      <title>Clojurescript Linkdump 2015.01</title>
-      <link>http://devopsbox.es/post/2015-01-10-clojurescript-linkdump.html</link>
+      <title>Linkdump 2015 - 2 (Clojurescript)</title>
+      <link>http://devopsbox.es/posts/2015/01-10-linkdump-2015-2-clojurescript.html</link>
       <pubDate>Sat, 10 Jan 2015 00:00:00 UTC</pubDate>
       
-      <guid>http://devopsbox.es/post/2015-01-10-clojurescript-linkdump.html</guid>
+      <guid>http://devopsbox.es/posts/2015/01-10-linkdump-2015-2-clojurescript.html</guid>
       <description>
 
 &lt;ul&gt;
@@ -149,7 +149,7 @@
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.niwi.be/cljs-workshop/&#34;&gt;http://www.niwi.be/cljs-workshop/&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;libraries:b19a3a526093e0cbc14fc732b79359b7&#34;&gt;Libraries&lt;/h3&gt;
+&lt;h3 id=&#34;libraries:aaaf20d46e8daf56e08a8f17bace7209&#34;&gt;Libraries&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/ptaoussanis/sente&#34;&gt;https://github.com/ptaoussanis/sente&lt;/a&gt; -&amp;gt; Websockets&lt;/li&gt;
@@ -158,14 +158,14 @@
     </item>
     
     <item>
-      <title>Linkdump 2015 - 2</title>
-      <link>http://devopsbox.es/post/2015-01-02-linkdump-2015-2.html</link>
+      <title>Linkdump 2015 - 1</title>
+      <link>http://devopsbox.es/posts/2015/01-02-linkdump-2015-1.html</link>
       <pubDate>Fri, 02 Jan 2015 00:00:00 UTC</pubDate>
       
-      <guid>http://devopsbox.es/post/2015-01-02-linkdump-2015-2.html</guid>
+      <guid>http://devopsbox.es/posts/2015/01-02-linkdump-2015-1.html</guid>
       <description>
 
-&lt;h2 id=&#34;react-js:f50d0212a944338587ab0298e7dfa2b7&#34;&gt;React.js:&lt;/h2&gt;
+&lt;h2 id=&#34;react-js:113dec877eb7669e3e9a0d3f96835b7c&#34;&gt;React.js:&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.toptal.com/front-end/simple-data-flow-in-react-applications-using-flux-and-backbone&#34;&gt;http://www.toptal.com/front-end/simple-data-flow-in-react-applications-using-flux-and-backbone&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
@@ -179,14 +179,14 @@
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://databound.me/&#34;&gt;http://databound.me/&lt;/a&gt; - Databound provides Javascript a simple API to the Ruby on Rails CRUD.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;clojure:f50d0212a944338587ab0298e7dfa2b7&#34;&gt;Clojure:&lt;/h2&gt;
+&lt;h2 id=&#34;clojure:113dec877eb7669e3e9a0d3f96835b7c&#34;&gt;Clojure:&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://swannodette.github.io/2015/01/02/the-essence-of-clojurescript-redux/&#34;&gt;The Essence of ClojureScript Redux - 2015.01&lt;/a&gt; - ClojureScript in Node.js REPL with instant code-reloading&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/gigasquid/wonderland-clojure-katas&#34;&gt;Clojure Alice inspired Katas&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;devops-performance-reliability-high-availability:f50d0212a944338587ab0298e7dfa2b7&#34;&gt;DevOps / Performance / Reliability / High-Availability&lt;/h2&gt;
+&lt;h2 id=&#34;devops-performance-reliability-high-availability:113dec877eb7669e3e9a0d3f96835b7c&#34;&gt;DevOps / Performance / Reliability / High-Availability&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.scalescale.com/scaling-cloudflares-massive-waf/&#34;&gt;http://www.scalescale.com/scaling-cloudflares-massive-waf/&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
@@ -216,7 +216,7 @@
 &lt;li&gt;&lt;p&gt;The Fascinating World of Linux System Calls - &lt;a href=&#34;http://sysdigcloud.com/fascinating-world-linux-system-calls/&#34;&gt;http://sysdigcloud.com/fascinating-world-linux-system-calls/&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;videos:f50d0212a944338587ab0298e7dfa2b7&#34;&gt;Videos&lt;/h2&gt;
+&lt;h2 id=&#34;videos:113dec877eb7669e3e9a0d3f96835b7c&#34;&gt;Videos&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/channel/UCy6gt7XvGJ3AGpSon2pS4nQ&#34;&gt;Nginx.conf 2014&lt;/a&gt;
@@ -228,7 +228,7 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;peopleware:f50d0212a944338587ab0298e7dfa2b7&#34;&gt;Peopleware:&lt;/h2&gt;
+&lt;h2 id=&#34;peopleware:113dec877eb7669e3e9a0d3f96835b7c&#34;&gt;Peopleware:&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://hbr.org/2012/04/the-new-science-of-building-great-teams&#34;&gt;The New Science of Building Great Teams - HBR&lt;/a&gt;&lt;/li&gt;
@@ -237,13 +237,13 @@
 &lt;li&gt;&lt;a href=&#34;http://blog.learningbyshipping.com/2014/12/30/why-remote-engineering-is-so-difficult/&#34;&gt;Why Remote Engineering Is So Difficult!?#@% | Learning by Shipping&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;career:f50d0212a944338587ab0298e7dfa2b7&#34;&gt;Career&lt;/h2&gt;
+&lt;h2 id=&#34;career:113dec877eb7669e3e9a0d3f96835b7c&#34;&gt;Career&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.quora.com/What-should-I-expect-in-a-Software-Engineer-interview-at-Google-and-how-should-I-prepare&#34;&gt;http://www.quora.com/What-should-I-expect-in-a-Software-Engineer-interview-at-Google-and-how-should-I-prepare&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;cqrs:f50d0212a944338587ab0298e7dfa2b7&#34;&gt;CQRS&lt;/h2&gt;
+&lt;h2 id=&#34;cqrs:113dec877eb7669e3e9a0d3f96835b7c&#34;&gt;CQRS&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://blog.fiverr.com/scaling-biggest-marketplace-services-ruby-rails-monolith-microservices-cqrs/&#34;&gt;http://blog.fiverr.com/scaling-biggest-marketplace-services-ruby-rails-monolith-microservices-cqrs/&lt;/a&gt;&lt;/li&gt;
@@ -253,10 +253,10 @@
     
     <item>
       <title>Scalable Deployments - How we deploy Rails app to 100&#43; hosts in a minute (Cookpad - JP)</title>
-      <link>http://devopsbox.es/post/2014-11-05-scalable-deployments-how-we-deploy-rails-app-to-100-hosts-in-a-minute-cookpad-jp.html</link>
+      <link>http://devopsbox.es/posts/2014/11-05-scalable-deployments---how-we-deploy-rails-app-to-100-hosts-in-a-minute-cookpad---jp.html</link>
       <pubDate>Wed, 05 Nov 2014 00:00:00 UTC</pubDate>
       
-      <guid>http://devopsbox.es/post/2014-11-05-scalable-deployments-how-we-deploy-rails-app-to-100-hosts-in-a-minute-cookpad-jp.html</guid>
+      <guid>http://devopsbox.es/posts/2014/11-05-scalable-deployments---how-we-deploy-rails-app-to-100-hosts-in-a-minute-cookpad---jp.html</guid>
       <description>
 
 &lt;h2 id=&#34;mamiya-fast-deployments-with-serf-and-s3:d2329e31bc7cf0962e0e18689be4221f&#34;&gt;Mamiya: Fast deployments with Serf and S3&lt;/h2&gt;
@@ -285,10 +285,10 @@ If you&amp;rsquo;re developing webapps, I guess you deploy sometime using tools 
     
     <item>
       <title>Consul - great Service Discovery tool</title>
-      <link>http://devopsbox.es/post/2014-11-03-consul-great-service-discovery-tool.html</link>
+      <link>http://devopsbox.es/posts/2014/11-03-consul---great-service-discovery-tool.html</link>
       <pubDate>Mon, 03 Nov 2014 00:00:00 UTC</pubDate>
       
-      <guid>http://devopsbox.es/post/2014-11-03-consul-great-service-discovery-tool.html</guid>
+      <guid>http://devopsbox.es/posts/2014/11-03-consul---great-service-discovery-tool.html</guid>
       <description>
 
 &lt;p&gt;Great introduction from Armon Dadgar (Hashicorp) to Consul to simplify some major pain points for SOA / Service Oriented deployments of arbitrary sizes.&lt;/p&gt;
@@ -313,10 +313,10 @@ If you&amp;rsquo;re developing webapps, I guess you deploy sometime using tools 
     
     <item>
       <title>A demonstration of Kolla: Docker and Kubernetes based deployment of OpenStack services on Atomic</title>
-      <link>http://devopsbox.es/post/2014-10-27-a-demonstration-of-kolla-docker-and-kubernetes-based-deployment-of-openstack-services-on-atomic.html</link>
+      <link>http://devopsbox.es/posts/2014/10-27-a-demonstration-of-kolla-docker-and-kubernetes-based-deployment-of-openstack-services-on-atomic.html</link>
       <pubDate>Mon, 27 Oct 2014 00:00:00 UTC</pubDate>
       
-      <guid>http://devopsbox.es/post/2014-10-27-a-demonstration-of-kolla-docker-and-kubernetes-based-deployment-of-openstack-services-on-atomic.html</guid>
+      <guid>http://devopsbox.es/posts/2014/10-27-a-demonstration-of-kolla-docker-and-kubernetes-based-deployment-of-openstack-services-on-atomic.html</guid>
       <description>
 
 &lt;p&gt;Very cool looking deployment approach for complex setups (Docker + Kubernetes + Atomic)&lt;/p&gt;
@@ -335,10 +335,10 @@ If you&amp;rsquo;re developing webapps, I guess you deploy sometime using tools 
     
     <item>
       <title>Go SPA or just fake it?</title>
-      <link>http://devopsbox.es/post/2014-08-24-go-spa-or-just-fake-it.html</link>
+      <link>http://devopsbox.es/posts/2014/08-24-go-spa-or-just-fake-it.html</link>
       <pubDate>Sun, 24 Aug 2014 00:00:00 UTC</pubDate>
       
-      <guid>http://devopsbox.es/post/2014-08-24-go-spa-or-just-fake-it.html</guid>
+      <guid>http://devopsbox.es/posts/2014/08-24-go-spa-or-just-fake-it.html</guid>
       <description>
 
 &lt;h2 id=&#34;jquery-animations:4c626ea2c3f9ed0212f6c58b6f0d7976&#34;&gt;Jquery + Animations&lt;/h2&gt;
@@ -397,10 +397,10 @@ $ make tests
     
     <item>
       <title>Linkdump week 32</title>
-      <link>http://devopsbox.es/post/2014-08-11-linkdump-week-32.html</link>
+      <link>http://devopsbox.es/posts/2014/08-11-linkdump-week-32.html</link>
       <pubDate>Mon, 11 Aug 2014 00:00:00 UTC</pubDate>
       
-      <guid>http://devopsbox.es/post/2014-08-11-linkdump-week-32.html</guid>
+      <guid>http://devopsbox.es/posts/2014/08-11-linkdump-week-32.html</guid>
       <description>
 
 &lt;h3 id=&#34;distributed-systems:15c012182d3400335290c186061501a0&#34;&gt;Distributed Systems&lt;/h3&gt;
@@ -426,10 +426,10 @@ $ make tests
     
     <item>
       <title>Linkdump week 18 (2014)</title>
-      <link>http://devopsbox.es/post/2014-07-29-linkdump-week-31.html</link>
+      <link>http://devopsbox.es/posts/2014/05-01-linkdump-week-18-2014.html</link>
       <pubDate>Thu, 01 May 2014 00:00:00 UTC</pubDate>
       
-      <guid>http://devopsbox.es/post/2014-07-29-linkdump-week-31.html</guid>
+      <guid>http://devopsbox.es/posts/2014/05-01-linkdump-week-18-2014.html</guid>
       <description>
 
 &lt;h3 id=&#34;devops:d0d5b51173109d0a55b21492edea9c48&#34;&gt;DevOps:&lt;/h3&gt;
@@ -479,10 +479,10 @@ $ make tests
     
     <item>
       <title>Linkdump week 18 (2014)</title>
-      <link>http://devopsbox.es/post/2014-05-01-linkdump-week-18.html</link>
+      <link>http://devopsbox.es/posts/2014/05-01-linkdump-week-18-2014.html</link>
       <pubDate>Thu, 01 May 2014 00:00:00 UTC</pubDate>
       
-      <guid>http://devopsbox.es/post/2014-05-01-linkdump-week-18.html</guid>
+      <guid>http://devopsbox.es/posts/2014/05-01-linkdump-week-18-2014.html</guid>
       <description>
 
 &lt;h2 id=&#34;week-18-2014-linkdump:d7756a22ad322fcb72886988ec0bef73&#34;&gt;Week #18 (2014) linkdump:&lt;/h2&gt;
@@ -522,10 +522,10 @@ $ make tests
     
     <item>
       <title>New Service Discovery Tool - Consul</title>
-      <link>http://devopsbox.es/post/2014-04-26-new-service-discovery-tool-consul.html</link>
+      <link>http://devopsbox.es/posts/2014/04-26-new-service-discovery-tool---consul.html</link>
       <pubDate>Sat, 26 Apr 2014 00:00:00 UTC</pubDate>
       
-      <guid>http://devopsbox.es/post/2014-04-26-new-service-discovery-tool-consul.html</guid>
+      <guid>http://devopsbox.es/posts/2014/04-26-new-service-discovery-tool---consul.html</guid>
       <description>
 
 &lt;p&gt;&lt;a href=&#34;http://www.consul.io/&#34;&gt;Consul&lt;/a&gt; - awesome new project from Armon Dadgar, it seems to superseed Serf in it&amp;rsquo;s abilities. Also done in Golang! Way to go!&lt;/p&gt;
@@ -543,10 +543,10 @@ $ make tests
     
     <item>
       <title>First GopherCon Slides are online!</title>
-      <link>http://devopsbox.es/post/2014-04-25-first-gophercon-slides-are-online.html</link>
+      <link>http://devopsbox.es/posts/2014/04-25-first-gophercon-slides-are-online.html</link>
       <pubDate>Fri, 25 Apr 2014 00:00:00 UTC</pubDate>
       
-      <guid>http://devopsbox.es/post/2014-04-25-first-gophercon-slides-are-online.html</guid>
+      <guid>http://devopsbox.es/posts/2014/04-25-first-gophercon-slides-are-online.html</guid>
       <description>
 
 &lt;h2 id=&#34;conf-homepage-http-gophercon-sourcegraph-com:97a621c9bf037eb26d29c1a24b303ee3&#34;&gt;&lt;a href=&#34;http://gophercon.sourcegraph.com/&#34;&gt;Conf Homepage&lt;/a&gt;&lt;/h2&gt;
@@ -563,10 +563,10 @@ $ make tests
     
     <item>
       <title>Frontend Styleguide Links</title>
-      <link>http://devopsbox.es/post/2014-04-24-styleguides.html</link>
+      <link>http://devopsbox.es/posts/2014/04-24-frontend-styleguide-links.html</link>
       <pubDate>Thu, 24 Apr 2014 00:00:00 UTC</pubDate>
       
-      <guid>http://devopsbox.es/post/2014-04-24-styleguides.html</guid>
+      <guid>http://devopsbox.es/posts/2014/04-24-frontend-styleguide-links.html</guid>
       <description>
 
 &lt;h3 id=&#34;projects:e1809ebd01b0bd6c13fa66f691b36e11&#34;&gt;Projects:&lt;/h3&gt;
@@ -634,10 +634,10 @@ $ make tests
     
     <item>
       <title>Linkdump week 17 (2014)</title>
-      <link>http://devopsbox.es/post/2014-04-23-linkdump-week-17.html</link>
+      <link>http://devopsbox.es/posts/2014/04-23-linkdump-week-17-2014.html</link>
       <pubDate>Wed, 23 Apr 2014 00:00:00 UTC</pubDate>
       
-      <guid>http://devopsbox.es/post/2014-04-23-linkdump-week-17.html</guid>
+      <guid>http://devopsbox.es/posts/2014/04-23-linkdump-week-17-2014.html</guid>
       <description>
 
 &lt;h2 id=&#34;week-17-2014-linkdump:0a91ed85db25c852918dd5e98a18eb62&#34;&gt;Week #17 (2014) linkdump:&lt;/h2&gt;

@@ -11,10 +11,10 @@
     
     <item>
       <title>Production-ready Docker monitoring</title>
-      <link>http://devopsbox.es/post/2013-08-02-production-ready-docker-monitoring.html</link>
+      <link>http://devopsbox.es/posts/2013/08-02-production-ready-docker-monitoring.html</link>
       <pubDate>Fri, 02 Aug 2013 00:00:00 UTC</pubDate>
       
-      <guid>http://devopsbox.es/post/2013-08-02-production-ready-docker-monitoring.html</guid>
+      <guid>http://devopsbox.es/posts/2013/08-02-production-ready-docker-monitoring.html</guid>
       <description>&lt;p&gt;There is an &lt;a href=&#39;https://groups.google.com/forum/#!msg/docker-club/PfgpE3p1QKw/bWpKpkSf7pYJ&#39;&gt;interesting discussion in the docker user-group&lt;/a&gt; about docker specific process monitoring. Here is a response from Jérôme Petazzoni, one of the core developers of docker:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;nohighlight&#34;&gt;
@@ -52,10 +52,10 @@
     
     <item>
       <title>Why docker was build</title>
-      <link>http://devopsbox.es/post/2013-08-02-why-docker-was-build.html</link>
+      <link>http://devopsbox.es/posts/2013/08-02-why-docker-was-build.html</link>
       <pubDate>Fri, 02 Aug 2013 00:00:00 UTC</pubDate>
       
-      <guid>http://devopsbox.es/post/2013-08-02-why-docker-was-build.html</guid>
+      <guid>http://devopsbox.es/posts/2013/08-02-why-docker-was-build.html</guid>
       <description>&lt;iframe width=&#34;640&#34; height=&#34;360&#34; src=&#34;http://www.youtube.com/embed/3N3n9FzebAA?feature=player_detailpage&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
 
 &lt;p&gt;&lt;iframe src=&#34;http://www.slideshare.net/slideshow/embed_code/24635474&#34; width=&#34;640&#34; height=&#34;400&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px&#34; allowfullscreen webkitallowfullscreen mozallowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;http://www.slideshare.net/dotCloud/why-docker2bisv4&#34; title=&#34;Why docker | OSCON 2013&#34; target=&#34;_blank&#34;&gt;Why docker | OSCON 2013&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;http://www.slideshare.net/dotCloud&#34; target=&#34;_blank&#34;&gt;dotCloud&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
@@ -64,10 +64,10 @@
     
     <item>
       <title>DockerUI</title>
-      <link>http://devopsbox.es/post/2013-06-26-dockerui.html</link>
+      <link>http://devopsbox.es/posts/2013/06-26-dockerui.html</link>
       <pubDate>Wed, 26 Jun 2013 00:00:00 UTC</pubDate>
       
-      <guid>http://devopsbox.es/post/2013-06-26-dockerui.html</guid>
+      <guid>http://devopsbox.es/posts/2013/06-26-dockerui.html</guid>
       <description>
 
 &lt;h2 id=&#34;dockerui-https-github-com-crosbymichael-dockerui:9b3c31ad40499b49bc641422614e4389&#34;&gt;&lt;a href=&#34;https://github.com/crosbymichael/dockerui&#34;&gt;DockerUI&lt;/a&gt;&lt;/h2&gt;
@@ -78,10 +78,10 @@
     
     <item>
       <title>Building Your Own Platform Service Using Docker</title>
-      <link>http://devopsbox.es/post/2013-06-23-building-your-own-platform-service-using-docker.html</link>
+      <link>http://devopsbox.es/posts/2013/06-23-building-your-own-platform-service-using-docker.html</link>
       <pubDate>Sun, 23 Jun 2013 00:00:00 UTC</pubDate>
       
-      <guid>http://devopsbox.es/post/2013-06-23-building-your-own-platform-service-using-docker.html</guid>
+      <guid>http://devopsbox.es/posts/2013/06-23-building-your-own-platform-service-using-docker.html</guid>
       <description>
 
 &lt;h2 id=&#34;docker-for-paas:cb8f89def4612f249d3a3a63a1abc8dd&#34;&gt;Docker for PAAS&lt;/h2&gt;
@@ -92,10 +92,10 @@
     
     <item>
       <title>dokku: your own mini-heroku in under 5 minutes</title>
-      <link>http://devopsbox.es/post/2013-06-19-dokku-your-own-mini-heroku-in-under-5-minutes.html</link>
+      <link>http://devopsbox.es/posts/2013/06-19-dokku-your-own-mini-heroku-in-under-5-minutes.html</link>
       <pubDate>Wed, 19 Jun 2013 00:00:00 UTC</pubDate>
       
-      <guid>http://devopsbox.es/post/2013-06-19-dokku-your-own-mini-heroku-in-under-5-minutes.html</guid>
+      <guid>http://devopsbox.es/posts/2013/06-19-dokku-your-own-mini-heroku-in-under-5-minutes.html</guid>
       <description>
 
 &lt;h2 id=&#34;dokku-docker-powered-mini-heroku-in-less-than-100-lines-of-bash-https-github-com-progrium-dokku:faa7ef2b8c4ab9fe6f8bf326e2fe3bf8&#34;&gt;&lt;a href=&#34;https://github.com/progrium/dokku&#34;&gt;Dokku - Docker powered mini-Heroku in less than 100 lines of Bash&lt;/a&gt;&lt;/h2&gt;
@@ -106,10 +106,10 @@
     
     <item>
       <title>Containerization</title>
-      <link>http://devopsbox.es/post/2013-04-15-containerization.html</link>
+      <link>http://devopsbox.es/posts/2013/04-15-containerization.html</link>
       <pubDate>Mon, 15 Apr 2013 00:00:00 UTC</pubDate>
       
-      <guid>http://devopsbox.es/post/2013-04-15-containerization.html</guid>
+      <guid>http://devopsbox.es/posts/2013/04-15-containerization.html</guid>
       <description>
 
 &lt;h2 id=&#34;containerization:40bc5aea70feca91a2c987ed7c7ef17e&#34;&gt;Containerization&lt;/h2&gt;
@@ -122,10 +122,10 @@
     
     <item>
       <title>Docker.io - Build your own PAAS</title>
-      <link>http://devopsbox.es/post/2013-03-21-docker.html</link>
+      <link>http://devopsbox.es/posts/2013/03-21-docker.io---build-your-own-paas.html</link>
       <pubDate>Thu, 21 Mar 2013 00:00:00 UTC</pubDate>
       
-      <guid>http://devopsbox.es/post/2013-03-21-docker.html</guid>
+      <guid>http://devopsbox.es/posts/2013/03-21-docker.io---build-your-own-paas.html</guid>
       <description>
 
 &lt;h2 id=&#34;docker-io-http-docker-io:713dce96d5f3f4245a05c8398fc023b7&#34;&gt;&lt;a href=&#34;http://docker.io/&#34;&gt;Docker.io&lt;/a&gt;&lt;/h2&gt;

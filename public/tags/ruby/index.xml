@@ -11,10 +11,10 @@
     
     <item>
       <title>Distributed Patterns in Ruby</title>
-      <link>http://devopsbox.es/post/2013-06-26-distributed-patterns-in-ruby.html</link>
+      <link>http://devopsbox.es/posts/2013/06-26-distributed-patterns-in-ruby.html</link>
       <pubDate>Wed, 26 Jun 2013 00:00:00 UTC</pubDate>
       
-      <guid>http://devopsbox.es/post/2013-06-26-distributed-patterns-in-ruby.html</guid>
+      <guid>http://devopsbox.es/posts/2013/06-26-distributed-patterns-in-ruby.html</guid>
       <description>&lt;p&gt;Interesting presentation, that explains the difficulties about distributing data between several nodes. &lt;code&gt;Riak&lt;/code&gt; algorithms explained with &lt;code&gt;Ruby&lt;/code&gt; code.&lt;/p&gt;
 
 &lt;iframe width=&#34;640&#34; height=&#34;360&#34; src=&#34;http://www.youtube.com/embed/Adu_dbcnUHA?feature=player_detailpage&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
@@ -27,11 +27,25 @@
     </item>
     
     <item>
+      <title>Unix and Ruby in Love</title>
+      <link>http://devopsbox.es/posts/2013/06-26-unix-and-ruby-in-love.html</link>
+      <pubDate>Wed, 26 Jun 2013 00:00:00 UTC</pubDate>
+      
+      <guid>http://devopsbox.es/posts/2013/06-26-unix-and-ruby-in-love.html</guid>
+      <description>
+
+&lt;h2 id=&#34;very-hands-on-example-how-ruby-conforms-to-unix-principles:7881ad8c43fcb737430ea020d086f292&#34;&gt;Very hands-on example, how Ruby conforms to Unix principles.&lt;/h2&gt;
+
+&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;7f9fbef0be4501308b990221c58dc99e&#34; data-ratio=&#34;1.33333333333333&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Learn Rack API By Example</title>
-      <link>http://devopsbox.es/post/2013-02-15-learn-rack-api-by-examples.html</link>
+      <link>http://devopsbox.es/posts/2013/02-15-learn-rack-api-by-example.html</link>
       <pubDate>Fri, 15 Feb 2013 00:00:00 UTC</pubDate>
       
-      <guid>http://devopsbox.es/post/2013-02-15-learn-rack-api-by-examples.html</guid>
+      <guid>http://devopsbox.es/posts/2013/02-15-learn-rack-api-by-example.html</guid>
       <description>&lt;p&gt;Learn Rack API by studying following libraries:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -64,10 +78,10 @@
     
     <item>
       <title>Padrino Presentations</title>
-      <link>http://devopsbox.es/post/2013-02-20-padrino-links.html</link>
+      <link>http://devopsbox.es/posts/2013/01-20-padrino-presentations.html</link>
       <pubDate>Sun, 20 Jan 2013 00:00:00 UTC</pubDate>
       
-      <guid>http://devopsbox.es/post/2013-02-20-padrino-links.html</guid>
+      <guid>http://devopsbox.es/posts/2013/01-20-padrino-presentations.html</guid>
       <description>
 
 &lt;h3 id=&#34;general:7a272570e698fa0177c078ff22deae57&#34;&gt;General:&lt;/h3&gt;

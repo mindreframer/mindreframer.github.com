@@ -11,10 +11,10 @@
     
     <item>
       <title>Scalable Deployments - How we deploy Rails app to 100&#43; hosts in a minute (Cookpad - JP)</title>
-      <link>http://devopsbox.es/post/2014-11-05-scalable-deployments-how-we-deploy-rails-app-to-100-hosts-in-a-minute-cookpad-jp.html</link>
+      <link>http://devopsbox.es/posts/2014/11-05-scalable-deployments---how-we-deploy-rails-app-to-100-hosts-in-a-minute-cookpad---jp.html</link>
       <pubDate>Wed, 05 Nov 2014 00:00:00 UTC</pubDate>
       
-      <guid>http://devopsbox.es/post/2014-11-05-scalable-deployments-how-we-deploy-rails-app-to-100-hosts-in-a-minute-cookpad-jp.html</guid>
+      <guid>http://devopsbox.es/posts/2014/11-05-scalable-deployments---how-we-deploy-rails-app-to-100-hosts-in-a-minute-cookpad---jp.html</guid>
       <description>
 
 &lt;h2 id=&#34;mamiya-fast-deployments-with-serf-and-s3:d2329e31bc7cf0962e0e18689be4221f&#34;&gt;Mamiya: Fast deployments with Serf and S3&lt;/h2&gt;
@@ -43,10 +43,10 @@ If you&amp;rsquo;re developing webapps, I guess you deploy sometime using tools 
     
     <item>
       <title>Consul - great Service Discovery tool</title>
-      <link>http://devopsbox.es/post/2014-11-03-consul-great-service-discovery-tool.html</link>
+      <link>http://devopsbox.es/posts/2014/11-03-consul---great-service-discovery-tool.html</link>
       <pubDate>Mon, 03 Nov 2014 00:00:00 UTC</pubDate>
       
-      <guid>http://devopsbox.es/post/2014-11-03-consul-great-service-discovery-tool.html</guid>
+      <guid>http://devopsbox.es/posts/2014/11-03-consul---great-service-discovery-tool.html</guid>
       <description>
 
 &lt;p&gt;Great introduction from Armon Dadgar (Hashicorp) to Consul to simplify some major pain points for SOA / Service Oriented deployments of arbitrary sizes.&lt;/p&gt;
@@ -71,10 +71,10 @@ If you&amp;rsquo;re developing webapps, I guess you deploy sometime using tools 
     
     <item>
       <title>New Service Discovery Tool - Consul</title>
-      <link>http://devopsbox.es/post/2014-04-26-new-service-discovery-tool-consul.html</link>
+      <link>http://devopsbox.es/posts/2014/04-26-new-service-discovery-tool---consul.html</link>
       <pubDate>Sat, 26 Apr 2014 00:00:00 UTC</pubDate>
       
-      <guid>http://devopsbox.es/post/2014-04-26-new-service-discovery-tool-consul.html</guid>
+      <guid>http://devopsbox.es/posts/2014/04-26-new-service-discovery-tool---consul.html</guid>
       <description>
 
 &lt;p&gt;&lt;a href=&#34;http://www.consul.io/&#34;&gt;Consul&lt;/a&gt; - awesome new project from Armon Dadgar, it seems to superseed Serf in it&amp;rsquo;s abilities. Also done in Golang! Way to go!&lt;/p&gt;
@@ -92,10 +92,10 @@ If you&amp;rsquo;re developing webapps, I guess you deploy sometime using tools 
     
     <item>
       <title>Agent forwarding &#43; Capistrano &#43; UTF-8 ENV settings problems</title>
-      <link>http://devopsbox.es/post/2014-02-27-agent-forwarding-capistrano-utf-8-env-settings-problems.html</link>
+      <link>http://devopsbox.es/posts/2014/02-27-agent-forwarding--capistrano--utf-8-env-settings-problems.html</link>
       <pubDate>Thu, 27 Feb 2014 00:00:00 UTC</pubDate>
       
-      <guid>http://devopsbox.es/post/2014-02-27-agent-forwarding-capistrano-utf-8-env-settings-problems.html</guid>
+      <guid>http://devopsbox.es/posts/2014/02-27-agent-forwarding--capistrano--utf-8-env-settings-problems.html</guid>
       <description>&lt;p&gt;Today I have spent a couple of hours trying to figure out, why my agent forwarding for Capistrano was not working. I have already&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;## added my ssh key with
@@ -135,10 +135,10 @@ export LANGUAGE=en_US.UTF-8
     
     <item>
       <title>Docker on OSX arrived</title>
-      <link>http://devopsbox.es/post/2014-01-09-docker-on-osx-arrived.html</link>
+      <link>http://devopsbox.es/posts/2014/01-09-docker-on-osx-arrived.html</link>
       <pubDate>Thu, 09 Jan 2014 00:00:00 UTC</pubDate>
       
-      <guid>http://devopsbox.es/post/2014-01-09-docker-on-osx-arrived.html</guid>
+      <guid>http://devopsbox.es/posts/2014/01-09-docker-on-osx-arrived.html</guid>
       <description>
 
 &lt;h2 id=&#34;docker-on-osx:063f220a7014a8d0010046eea083c64b&#34;&gt;Docker on OSX:&lt;/h2&gt;
@@ -152,20 +152,20 @@ export LANGUAGE=en_US.UTF-8
     
     <item>
       <title>More Logstash Awesome - Jordan Sissel - PuppetConf 2013</title>
-      <link>http://devopsbox.es/post/2013-12-10-more-logstash-awesome-jordan-sissel-puppetconf-2013.html</link>
+      <link>http://devopsbox.es/posts/2013/12-10-more-logstash-awesome---jordan-sissel---puppetconf-2013.html</link>
       <pubDate>Tue, 10 Dec 2013 00:00:00 UTC</pubDate>
       
-      <guid>http://devopsbox.es/post/2013-12-10-more-logstash-awesome-jordan-sissel-puppetconf-2013.html</guid>
+      <guid>http://devopsbox.es/posts/2013/12-10-more-logstash-awesome---jordan-sissel---puppetconf-2013.html</guid>
       <description>&lt;iframe width=&#34;640&#34; height=&#34;390&#34; src=&#34;//www.youtube.com/embed/fwMnb4-t8vo&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
 </description>
     </item>
     
     <item>
       <title>Partitions for Everyone!</title>
-      <link>http://devopsbox.es/post/2013-11-20-partitions-for-everyone.html</link>
+      <link>http://devopsbox.es/posts/2013/11-20-partitions-for-everyone.html</link>
       <pubDate>Wed, 20 Nov 2013 00:00:00 UTC</pubDate>
       
-      <guid>http://devopsbox.es/post/2013-11-20-partitions-for-everyone.html</guid>
+      <guid>http://devopsbox.es/posts/2013/11-20-partitions-for-everyone.html</guid>
       <description>&lt;p&gt;Kyle  is on fire dissecting various databases behaviour during network partitions! Fun watch.&lt;/p&gt;
 
 &lt;p&gt;
@@ -185,10 +185,10 @@ export LANGUAGE=en_US.UTF-8
     
     <item>
       <title>Varnish Webinar - Cache Invalidation Strategies</title>
-      <link>http://devopsbox.es/post/2013-10-31-varnish-webinar-cache-invalidation-strategies.html</link>
+      <link>http://devopsbox.es/posts/2013/10-31-varnish-webinar---cache-invalidation-strategies.html</link>
       <pubDate>Thu, 31 Oct 2013 00:00:00 UTC</pubDate>
       
-      <guid>http://devopsbox.es/post/2013-10-31-varnish-webinar-cache-invalidation-strategies.html</guid>
+      <guid>http://devopsbox.es/posts/2013/10-31-varnish-webinar---cache-invalidation-strategies.html</guid>
       <description>&lt;iframe width=&#34;640&#34; height=&#34;390&#34; src=&#34;//www.youtube.com/embed/1Uzn31cQUQ8&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://cdn2.hubspot.net/hub/209523/file-366502730-pdf/Cache_Invalidation_Strategies_A_Varnish_Webinar.pdf&#34;&gt;Link to slides&lt;/a&gt;&lt;/p&gt;
@@ -197,20 +197,20 @@ export LANGUAGE=en_US.UTF-8
     
     <item>
       <title>Auth doesn&#39;t have to be a nightmare — Docker to the rescue</title>
-      <link>http://devopsbox.es/post/2013-10-28-auth-doesn-t-have-to-be-a-nightmare-docker-to-the-rescue.html</link>
+      <link>http://devopsbox.es/posts/2013/10-28-auth-doesnt-have-to-be-a-nightmare--docker-to-the-rescue.html</link>
       <pubDate>Mon, 28 Oct 2013 00:00:00 UTC</pubDate>
       
-      <guid>http://devopsbox.es/post/2013-10-28-auth-doesn-t-have-to-be-a-nightmare-docker-to-the-rescue.html</guid>
+      <guid>http://devopsbox.es/posts/2013/10-28-auth-doesnt-have-to-be-a-nightmare--docker-to-the-rescue.html</guid>
       <description>&lt;p&gt;&lt;iframe src=&#34;http://www.slideshare.net/slideshow/embed_code/27510039&#34; width=&#34;512&#34; height=&#34;421&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;https://www.slideshare.net/jpetazzo/auth-doesnt-have-to-be-a-nightmare&#34; title=&#34;Auth doesn&amp;#39;t have to be a nightmare — Docker to the rescue!&#34; target=&#34;_blank&#34;&gt;Auth doesn&amp;#39;t have to be a nightmare — Docker to the rescue!&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;http://www.slideshare.net/jpetazzo&#34; target=&#34;_blank&#34;&gt;Jérôme Petazzoni&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Service Discovery Software Overview</title>
-      <link>http://devopsbox.es/post/2013-10-26-service-discovery-overview.html</link>
+      <link>http://devopsbox.es/posts/2013/10-26-service-discovery-software-overview.html</link>
       <pubDate>Sat, 26 Oct 2013 00:00:00 UTC</pubDate>
       
-      <guid>http://devopsbox.es/post/2013-10-26-service-discovery-overview.html</guid>
+      <guid>http://devopsbox.es/posts/2013/10-26-service-discovery-software-overview.html</guid>
       <description>
 
 &lt;h3 id=&#34;hashcorp-serf:c526b534b0d25d0c80280698ac6d47e5&#34;&gt;Hashcorp - Serf:&lt;/h3&gt;
@@ -270,10 +270,10 @@ export LANGUAGE=en_US.UTF-8
     
     <item>
       <title>Varnish Cache Invalidation</title>
-      <link>http://devopsbox.es/post/2013-10-25-varnish-cache-invalidation.html</link>
+      <link>http://devopsbox.es/posts/2013/10-25-varnish-cache-invalidation.html</link>
       <pubDate>Fri, 25 Oct 2013 00:00:00 UTC</pubDate>
       
-      <guid>http://devopsbox.es/post/2013-10-25-varnish-cache-invalidation.html</guid>
+      <guid>http://devopsbox.es/posts/2013/10-25-varnish-cache-invalidation.html</guid>
       <description>
 
 &lt;h2 id=&#34;solutions-from-varnish:1fd40b3e981fadfa46bbdfd4995c7049&#34;&gt;Solutions from Varnish:&lt;/h2&gt;
@@ -342,10 +342,10 @@ So, in the example above the content presentation layer could spit out the same 
     
     <item>
       <title>Caching With Varnish, Step-By-Step</title>
-      <link>http://devopsbox.es/post/2013-10-24-caching-with-varnish-step-by-step.html</link>
+      <link>http://devopsbox.es/posts/2013/10-24-caching-with-varnish-step-by-step.html</link>
       <pubDate>Thu, 24 Oct 2013 00:00:00 UTC</pubDate>
       
-      <guid>http://devopsbox.es/post/2013-10-24-caching-with-varnish-step-by-step.html</guid>
+      <guid>http://devopsbox.es/posts/2013/10-24-caching-with-varnish-step-by-step.html</guid>
       <description>
 
 &lt;h2 id=&#34;a-basic-introduction-to-varnish:2ee96c99d48fead6c9a74114c753e413&#34;&gt;A basic introduction to Varnish:&lt;/h2&gt;
@@ -363,26 +363,26 @@ So, in the example above the content presentation layer could spit out the same 
 - possible database driven expiry (triggers)
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;See for more information: &lt;a href=&#34;http://devopsbox.es/post/2013-10-25-varnish-cache-invalidation.html&#34;&gt;Varnish Cache Invalidation&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;See for more information: &lt;a href=&#34;http://devopsbox.es/posts/2013/10-25-varnish-cache-invalidation.html&#34;&gt;Varnish Cache Invalidation&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Scalability, Availability &amp; Stability Patterns</title>
-      <link>http://devopsbox.es/post/2013-10-23-scalability-availability-stability-patterns.html</link>
+      <link>http://devopsbox.es/posts/2013/10-23-scalability-availability--stability-patterns.html</link>
       <pubDate>Wed, 23 Oct 2013 00:00:00 UTC</pubDate>
       
-      <guid>http://devopsbox.es/post/2013-10-23-scalability-availability-stability-patterns.html</guid>
+      <guid>http://devopsbox.es/posts/2013/10-23-scalability-availability--stability-patterns.html</guid>
       <description>&lt;p&gt;&lt;iframe src=&#34;http://www.slideshare.net/slideshow/embed_code/4062682&#34; width=&#34;512&#34; height=&#34;421&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;https://www.slideshare.net/jboner/scalability-availability-stability-patterns&#34; title=&#34;Scalability, Availability &amp;amp; Stability Patterns&#34; target=&#34;_blank&#34;&gt;Scalability, Availability &amp;amp; Stability Patterns&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;http://www.slideshare.net/jboner&#34; target=&#34;_blank&#34;&gt;Jonas Bonér&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>OpsWorks vs Chef-Server</title>
-      <link>http://devopsbox.es/post/2013-10-22-opsworks-vs-chef-server.html</link>
+      <link>http://devopsbox.es/posts/2013/10-22-opsworks-vs-chef-server.html</link>
       <pubDate>Tue, 22 Oct 2013 00:00:00 UTC</pubDate>
       
-      <guid>http://devopsbox.es/post/2013-10-22-opsworks-vs-chef-server.html</guid>
+      <guid>http://devopsbox.es/posts/2013/10-22-opsworks-vs-chef-server.html</guid>
       <description>
 
 &lt;p&gt;A couple of days ago I was tasked to get a running MongoDB cluster, that configures itself with AWS OpsWorks.&lt;/p&gt;
@@ -467,10 +467,10 @@ So, in the example above the content presentation layer could spit out the same 
     
     <item>
       <title>Software I am Excited About</title>
-      <link>http://devopsbox.es/post/2013-10-11-software-i-am-excited-about.html</link>
+      <link>http://devopsbox.es/posts/2013/10-11-software-i-am-excited-about.html</link>
       <pubDate>Fri, 11 Oct 2013 00:00:00 UTC</pubDate>
       
-      <guid>http://devopsbox.es/post/2013-10-11-software-i-am-excited-about.html</guid>
+      <guid>http://devopsbox.es/posts/2013/10-11-software-i-am-excited-about.html</guid>
       <description>
 
 &lt;iframe width=&#34;640&#34; height=&#34;360&#34; src=&#34;//www.youtube.com/embed/sYukPc0y_Ro?feature=player_detailpage&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;

@@ -11,10 +11,10 @@
     
     <item>
       <title>SQL Joins Visualized</title>
-      <link>http://devopsbox.es/post/2014-02-28-sql-joins-visualized.html</link>
+      <link>http://devopsbox.es/posts/2014/02-28-sql-joins-visualized.html</link>
       <pubDate>Fri, 28 Feb 2014 00:00:00 UTC</pubDate>
       
-      <guid>http://devopsbox.es/post/2014-02-28-sql-joins-visualized.html</guid>
+      <guid>http://devopsbox.es/posts/2014/02-28-sql-joins-visualized.html</guid>
       <description>&lt;p&gt;Since I struggle every time when joining tables in SQL, here a simple help for me:&lt;/p&gt;
 
 &lt;p&gt;
@@ -31,10 +31,10 @@
     
     <item>
       <title>x509: failed to load system roots and no roots provided</title>
-      <link>http://devopsbox.es/post/2013-10-09-x509-failed-to-load-system-roots-and-no-roots-provided.html</link>
-      <pubDate>Wed, 09 Oct 2013 00:00:00 UTC</pubDate>
+      <link>http://devopsbox.es/posts/2013/10-08-x509-failed-to-load-system-roots-and-no-roots-provided.html</link>
+      <pubDate>Tue, 08 Oct 2013 00:00:00 UTC</pubDate>
       
-      <guid>http://devopsbox.es/post/2013-10-09-x509-failed-to-load-system-roots-and-no-roots-provided.html</guid>
+      <guid>http://devopsbox.es/posts/2013/10-08-x509-failed-to-load-system-roots-and-no-roots-provided.html</guid>
       <description>
 
 &lt;p&gt;While playing today with &lt;strong&gt;&amp;ldquo;github.com/prometheus/client_golang&amp;rdquo;&lt;/strong&gt;, I have encountered that strange error:&lt;/p&gt;

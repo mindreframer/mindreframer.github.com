@@ -1,0 +1,216 @@
+<!DOCTYPE HTML>
+
+<html lang="en-us">
+
+<head>
+	<meta charset="utf-8">
+	<title>How to test tricky nginx rewrite rules - Part I - Bits and pieces to remember</title>
+	<meta name="author" content="map[email:roman.heinrich@gmail.com]">
+
+	
+	
+	<meta name="description" content="">
+	
+
+	
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    
+	<link href='index.xml' rel="alternate" title="Bits and pieces to remember" type="application/atom+xml">
+	
+	<link rel="canonical" href="http://devopsbox.es/posts/2013/01-23-how-to-test-tricky-nginx-rewrite-rules---part-i.html">
+	<link href="http://devopsbox.es//favicon.png" rel="shortcut icon">
+	<link href="http://devopsbox.es//css/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<link href="http://devopsbox.es//css/font-awesome.min.css" media="screen, projection" rel="stylesheet" type="text/css">
+	
+	<link href='http://fonts.googleapis.com/css?family=Nunito:400,300,700' rel='stylesheet' type='text/css'>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.5/styles/tomorrow.min.css">
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.5/highlight.min.js"></script>
+	<script>hljs.initHighlightingOnLoad();</script>
+
+	
+  
+
+</head>
+
+
+<body>
+	<div class="container">
+		<div class="left-col">
+			<div class="intrude-less">
+			<header id="header" class="inner"><div class="profilepic">
+	
+	<img src='http://www.gravatar.com/avatar/b540757705fa11df3313d5396a3649d9?s=160' alt="Profile Picture" style="width: 160px;" />
+	
+</div>
+
+<nav id="main-nav"><ul class="main">
+    <li><a href="http://devopsbox.es/">Blog</a></li>
+    <li><a href="http://devopsbox.es/about.html">About</a></li>
+    <li><a href="http://devopsbox.es/post.html">Archives</a></li>
+</ul>
+
+
+<section class="aboutme">
+  <p>
+    Bits and pieces to remember
+  </p>
+</section>
+</nav>
+<nav id="sub-nav">
+	<div class="social">
+		
+			<a class="email" href='mailto:roman.heinrich@gmail.com' title="Email">Email</a>
+		
+		
+		
+		
+			<a class="twitter" href='http://twitter.com/mindreframer' title="Twitter">Twitter</a>
+		
+		
+			<a class="github" href='https://github.com/mindreframer' title="GitHub">GitHub</a>
+		
+		
+		
+		  <a class="stackoverflow" href='http://stackoverflow.com/users/785134/mindreframer' title="StackOverflow"></a>
+		
+		
+		
+		
+			<a class="delicious" href='http://delicious.com/mindreframer' title="Delicious">Delicious</a>
+		
+		
+		
+		
+		
+    	
+    	
+			<a class="rss" href='index.xml' title="RSS">RSS</a>
+		
+	</div>
+</nav>
+</header>
+			</div>
+		</div>
+		<div class="mid-col">
+			
+			<div class="mid-col-container">
+				<div id="content" class="inner">
+					<div itemscope itemtype="http://schema.org/Blog">
+					<article class="post" itemscope itemtype="http://schema.org/BlogPosting"><h1 class="title" itemprop="name">
+  How to test tricky nginx rewrite rules - Part I
+</h1>
+<div class="entry-content" itemprop="articleBody">
+  <p>So, you&rsquo;re using <a href="http://wiki.nginx.org/Main">Nginx</a> to serve your web-application and feel great about using such a nice piece of russian software mastery and indeed, you&rsquo;re in good company: many high profile sites rely on <a href="http://wiki.nginx.org/Main">Nginx</a> - <a href="http://github.com">Github</a>, <a href="http://heroku.com">Heroku</a>, <a href="http://cloudflare.com">Cloudflare</a> to name a few.</p>
+
+<p>But the configuration language feels tricky and usually it&rsquo;s a very painful process, until you get something usable and working. And the configuration file keeps on growing and growing&hellip; You know, <a href="http://en.wikipedia.org/wiki/Organic_growth">organic growth</a>, they say&hellip; Sometimes it&rsquo;s rather explosive growth&hellip; How do you make sure, that all those weird and old rules are still working and that they should be kept around?</p>
+
+<p>Let&rsquo;s review how we usually test such configuration changes:</p>
+
+<ul>
+<li>change the config (in production!)</li>
+<li>reload nginx with new configuration (with syntax check before)</li>
+<li>pray the site is still up and running</li>
+<li>curl some url, that should now work</li>
+<li>pad yourself on the shoulder or repeat the whole cycle</li>
+<li>if you broke something, revert your change quickly and pretend nothing has happened&hellip;</li>
+<li>sometimes your successful change breaks something else&hellip; But you&rsquo;ve got users to find that out, right?</li>
+</ul>
+
+<p>Sure, you can live that way till you die and still be a happy and awesome human being, but this way of working is such a pile of CRAP. It&rsquo;s fundamentally broken. We&rsquo;re engineers, for Christ&rsquo;s sake! We like our stuff to be &hellip; Verifiable. Solid. Easy to change. Understandable.</p>
+
+<p>First we should identify the problems, that stop us from testing <a href="http://wiki.nginx.org/Main">Nginx</a>.</p>
+
+<p><strong>PAIN points</strong></p>
+
+<ul>
+<li>[1] Nginx must be compiled and installed somewhere</li>
+<li>[2] It takes time to configure it all right and remember all the commandos</li>
+<li>[3] Nginx configuration operates with IPs and domains and URLS and ports and files and folders and many more</li>
+<li>[4] Nginx is written in C and has no <a href="http://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop">REPL</a> and no debugger</li>
+<li>[5] Configuration is not a Turing complete programming language</li>
+</ul>
+
+<p>Plenty of reasons not to test <a href="http://wiki.nginx.org/Main">Nginx</a> configuration&hellip; Sad panda. Guess that&rsquo;s just it. No way to test them. Except in production. Or in QA/staging environment, if you&rsquo;re lucky.</p>
+
+<p><strong>Possible solutions</strong></p>
+
+<ul>
+<li><strong>[1]</strong> Use <a href="http://vagrantup.com">Vagrant</a>. Don&rsquo;t mess with your working environment! Really, if you don&rsquo;t know, what this is, go and read about it! It&rsquo;s awesome. Thx to <a href="https://twitter.com/mitchellh">Mitchell Hashimoto</a> you can recreate in scriptable fashion server environment on your local machine.</li>
+<li><strong>[2]</strong> Use Configuration Management Software like <a href="http://puppetlabs.com/">Puppet</a> or <a href="http://www.opscode.com/chef/">Chef</a>. Manual server-management is suicide! You will hate your life. And you should cherish it instead.</li>
+<li><strong>[3]</strong> Use a real, lightweight DNS-Server for this, for example <a href="http://www.thekelleys.org.uk/dnsmasq/doc.html">Dnsmasq</a>, when you have to  deal with domains, subdomains, etc. <code>/etc/hosts</code>- file is fine, but works not for wildchar subdomains. Use it for IPs.</li>
+<li><strong>[4]</strong> Script your testing steps with UnitTests/Cucumber/whatever.</li>
+<li><strong>[5]</strong> Well, no real help here, but you can use templating in <a href="http://puppetlabs.com/">Puppet</a>/<a href="http://www.opscode.com/chef/">Chef</a> to reduce some repetition. Still not the real thing.</li>
+</ul>
+
+<p>So, a <strong>desired solution</strong> would be:</p>
+
+<ul>
+<li>A <a href="http://vagrantup.com">Vagrant</a> VM with your Linux destribution, that you&rsquo;re using in production with <a href="http://wiki.nginx.org/Main">Nginx</a> installed + properly configured and a script, that ensures, you&rsquo;re doing the right thing + everything is in <a href="http://en.wikipedia.org/wiki/Distributed_revision_control">DVCS</a>.</li>
+</ul>
+
+<p><a href="http://devopsbox.es/posts/2013/01-24-how-to-test-tricky-nginx-rewrite-rules---part-ii.html">Move on to solution in Part II</a></p>
+
+</div>
+</article>
+					
+						<div class="share">
+	<div class="addthis_toolbox addthis_default_style ">
+	
+	
+	
+	<a class="addthis_counter addthis_pill_style"></a>
+	</div>
+  <script type="text/javascript" src='http://s7.addthis.com/js/250/addthis_widget.js#pubid='></script>
+</div>
+
+					
+					
+					<section id="comment">
+					    <h1 class="title">Comments</h1>
+					    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+					</section>
+					
+					
+
+<script type="text/javascript">
+      var disqus_shortname = 'devopsforrunaways';
+      
+      
+      var disqus_identifier = 'http:\/\/devopsbox.es\/posts\/2013\/01-23-how-to-test-tricky-nginx-rewrite-rules---part-i.html';
+      var disqus_url        = 'http:\/\/devopsbox.es\/posts\/2013\/01-23-how-to-test-tricky-nginx-rewrite-rules---part-i.html';
+      var disqus_script     = 'embed.js';
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+					
+
+				    </div>
+				</div>
+			</div>
+			<footer id="footer" class="inner">Copyright &copy; 2015
+
+    Bits and pieces to remember
+
+<script src="http://devopsbox.es//js/slash.js"></script>
+<script src="http://devopsbox.es//js/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+
+
+
+</script>
+</footer>
+		</div>
+	</div>
+	
+</body>
+</html>

@@ -11,10 +11,10 @@
     
     <item>
       <title>Databases Map - OMG! Really?</title>
-      <link>http://devopsbox.es/post/2013-02-13-databases-map-omg.html</link>
+      <link>http://devopsbox.es/posts/2013/02-12-databases-map---omg-really.html</link>
       <pubDate>Tue, 12 Feb 2013 00:00:00 UTC</pubDate>
       
-      <guid>http://devopsbox.es/post/2013-02-13-databases-map-omg.html</guid>
+      <guid>http://devopsbox.es/posts/2013/02-12-databases-map---omg-really.html</guid>
       <description>&lt;p&gt;This is like Buzzword-Bingo in Las Vegas&amp;hellip;&lt;/p&gt;
 
 &lt;p&gt;
@@ -33,15 +33,15 @@
     
     <item>
       <title>Playing With Tokudb</title>
-      <link>http://devopsbox.es/post/2013-01-30-playing-with-tokudb.html</link>
+      <link>http://devopsbox.es/posts/2013/01-30-playing-with-tokudb.html</link>
       <pubDate>Wed, 30 Jan 2013 00:00:00 UTC</pubDate>
       
-      <guid>http://devopsbox.es/post/2013-01-30-playing-with-tokudb.html</guid>
+      <guid>http://devopsbox.es/posts/2013/01-30-playing-with-tokudb.html</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve decided to take a look at &lt;a href=&#34;http://www.tokutek.com/products/tokudb-for-mysql/&#34;&gt;Tokudb&lt;/a&gt; and see, how easy it is to use and administer. Since it&amp;rsquo;s much better to have your stuff being repeatable and easily shareable, we&amp;rsquo;re gonna use &lt;a href=&#34;http://puppetlabs.com&#34;&gt;Puppet&lt;/a&gt; and &lt;a href=&#34;http://vagrantup.com&#34;&gt;Vagrant&lt;/a&gt; for this.&lt;/p&gt;
 
 &lt;p&gt;The layout is based on my article&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://devopsbox.es/post/2013-01-25-the-perfect-puppet-setup-for-vagrant.html&#34;&gt;The Perfect Puppet Setup For Vagrant&lt;/a&gt;-article.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://devopsbox.es/posts/2013/01-25-the-perfect-puppet-setup-for-vagrant.html&#34;&gt;The Perfect Puppet Setup For Vagrant&lt;/a&gt;-article.&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;https://github.com/mindreframer/vagrant-tokudb-puppet/&lt;/code&gt;&lt;/p&gt;
 

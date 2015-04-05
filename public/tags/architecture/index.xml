@@ -11,10 +11,10 @@
     
     <item>
       <title>Microservices - Repeating the idea</title>
-      <link>http://devopsbox.es/post/2014-01-09-microservices.html</link>
+      <link>http://devopsbox.es/posts/2014/01-09-microservices---repeating-the-idea.html</link>
       <pubDate>Thu, 09 Jan 2014 00:00:00 UTC</pubDate>
       
-      <guid>http://devopsbox.es/post/2014-01-09-microservices.html</guid>
+      <guid>http://devopsbox.es/posts/2014/01-09-microservices---repeating-the-idea.html</guid>
       <description>
 
 &lt;h3 id=&#34;fred-george-implementing-micro-service-architecture:0a010a807756aadacbd154d7927a0cbb&#34;&gt;Fred George - Implementing Micro-Service Architecture&lt;/h3&gt;
@@ -81,10 +81,10 @@ a way to say &amp;ldquo;I&amp;rsquo;m gonna blame you, if this does not work, ca
     
     <item>
       <title>Micro-Service Architecture</title>
-      <link>http://devopsbox.es/post/2013-10-02-micro-service-architecture.html</link>
+      <link>http://devopsbox.es/posts/2013/10-02-micro-service-architecture.html</link>
       <pubDate>Wed, 02 Oct 2013 00:00:00 UTC</pubDate>
       
-      <guid>http://devopsbox.es/post/2013-10-02-micro-service-architecture.html</guid>
+      <guid>http://devopsbox.es/posts/2013/10-02-micro-service-architecture.html</guid>
       <description>&lt;iframe width=&#34;640&#34; height=&#34;360&#34; src=&#34;//www.youtube.com/embed/2rKEveL55TY?feature=player_detailpage&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
 
 &lt;p&gt;Baruco 2012: Micro-Service Architecture, by Fred George&lt;/p&gt;
@@ -101,10 +101,10 @@ a way to say &amp;ldquo;I&amp;rsquo;m gonna blame you, if this does not work, ca
     
     <item>
       <title>DCI-DDD-Rails</title>
-      <link>http://devopsbox.es/post/2013-01-14-dci-ddd-rails.html</link>
+      <link>http://devopsbox.es/posts/2013/01-14-dci-ddd-rails.html</link>
       <pubDate>Mon, 14 Jan 2013 00:00:00 UTC</pubDate>
       
-      <guid>http://devopsbox.es/post/2013-01-14-dci-ddd-rails.html</guid>
+      <guid>http://devopsbox.es/posts/2013/01-14-dci-ddd-rails.html</guid>
       <description>
 
 &lt;h1 id=&#34;some-links-for-dci-ruby:c4f3848d375c9ddae6b8a9029e66b7b6&#34;&gt;Some links for DCI + Ruby&lt;/h1&gt;
@@ -120,10 +120,10 @@ Part 1. Decoupling Persistence&lt;/a&gt;&lt;/li&gt;
     
     <item>
       <title>Architecture - Drawing Lines?</title>
-      <link>http://devopsbox.es/post/2013-01-12-architecture-drawing-lines.html</link>
+      <link>http://devopsbox.es/posts/2013/01-12-architecture---drawing-lines.html</link>
       <pubDate>Sat, 12 Jan 2013 00:00:00 UTC</pubDate>
       
-      <guid>http://devopsbox.es/post/2013-01-12-architecture-drawing-lines.html</guid>
+      <guid>http://devopsbox.es/posts/2013/01-12-architecture---drawing-lines.html</guid>
       <description>
 
 &lt;p&gt;I&amp;rsquo;m not the first to chime in about Uncle Bob&amp;rsquo;s Lost Years presentations:&lt;/p&gt;
@@ -268,10 +268,10 @@ Part 1. Decoupling Persistence&lt;/a&gt;&lt;/li&gt;
     
     <item>
       <title>Clean Architecture - Link dump</title>
-      <link>http://devopsbox.es/post/2013-01-12-clean-architecture-link-dump.html</link>
+      <link>http://devopsbox.es/posts/2013/01-12-clean-architecture---link-dump.html</link>
       <pubDate>Sat, 12 Jan 2013 00:00:00 UTC</pubDate>
       
-      <guid>http://devopsbox.es/post/2013-01-12-clean-architecture-link-dump.html</guid>
+      <guid>http://devopsbox.es/posts/2013/01-12-clean-architecture---link-dump.html</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://obvious.retromocha.com/&#34;&gt;Obvious - A Ruby framework/layout&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://blog.8thlight.com/uncle-bob/2011/09/30/Screaming-Architecture.html&#34;&gt;Screaming Architecture&lt;/a&gt;&lt;/li&gt;

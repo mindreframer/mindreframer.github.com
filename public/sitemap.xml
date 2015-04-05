@@ -58,12 +58,12 @@
   </url>
   
   <url>
-    <loc>http://devopsbox.es/post/2014-05-01-linkdump-week-18.html</loc>
+    <loc>http://devopsbox.es/post/2014-07-29-linkdump-week-31.html</loc>
     <lastmod>2014-05-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://devopsbox.es/post/2014-07-29-linkdump-week-31.html</loc>
+    <loc>http://devopsbox.es/post/2014-05-01-linkdump-week-18.html</loc>
     <lastmod>2014-05-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -113,12 +113,12 @@
   </url>
   
   <url>
-    <loc>http://devopsbox.es/post/2014-01-09-microservices.html</loc>
+    <loc>http://devopsbox.es/post/2014-01-09-docker-on-osx-arrived.html</loc>
     <lastmod>2014-01-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://devopsbox.es/post/2014-01-09-docker-on-osx-arrived.html</loc>
+    <loc>http://devopsbox.es/post/2014-01-09-microservices.html</loc>
     <lastmod>2014-01-09T00:00:00+00:00</lastmod>
   </url>
   
@@ -223,12 +223,12 @@
   </url>
   
   <url>
-    <loc>http://devopsbox.es/post/2013-08-02-production-ready-docker-monitoring.html</loc>
+    <loc>http://devopsbox.es/post/2013-08-02-why-docker-was-build.html</loc>
     <lastmod>2013-08-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://devopsbox.es/post/2013-08-02-why-docker-was-build.html</loc>
+    <loc>http://devopsbox.es/post/2013-08-02-production-ready-docker-monitoring.html</loc>
     <lastmod>2013-08-02T00:00:00+00:00</lastmod>
   </url>
   
@@ -238,17 +238,7 @@
   </url>
   
   <url>
-    <loc>http://devopsbox.es/post/2013-06-26-configuration-management-anti-patterns.html</loc>
-    <lastmod>2013-06-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://devopsbox.es/post/2013-06-26-distributed-patterns-in-ruby.html</loc>
-    <lastmod>2013-06-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://devopsbox.es/post/2013-06-26-dockerui.html</loc>
     <lastmod>2013-06-26T00:00:00+00:00</lastmod>
   </url>
   
@@ -258,7 +248,17 @@
   </url>
   
   <url>
+    <loc>http://devopsbox.es/post/2013-06-26-dockerui.html</loc>
+    <lastmod>2013-06-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://devopsbox.es/post/2013-06-26-unix-and-ruby-in-love.html</loc>
+    <lastmod>2013-06-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/post/2013-06-26-configuration-management-anti-patterns.html</loc>
     <lastmod>2013-06-26T00:00:00+00:00</lastmod>
   </url>
   
@@ -333,12 +333,12 @@
   </url>
   
   <url>
-    <loc>http://devopsbox.es/post/2013-02-16-puppet-and-osx-mismatch.html</loc>
+    <loc>http://devopsbox.es/post/2013-02-15-learn-rack-api-by-examples.html</loc>
     <lastmod>2013-02-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://devopsbox.es/post/2013-02-15-learn-rack-api-by-examples.html</loc>
+    <loc>http://devopsbox.es/post/2013-02-16-puppet-and-osx-mismatch.html</loc>
     <lastmod>2013-02-15T00:00:00+00:00</lastmod>
   </url>
   
@@ -368,12 +368,12 @@
   </url>
   
   <url>
-    <loc>http://devopsbox.es/post/2013-02-08-final-startup-grind.html</loc>
+    <loc>http://devopsbox.es/post/2013-02-07-puppet-slides-for-best-practices.html</loc>
     <lastmod>2013-02-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://devopsbox.es/post/2013-02-07-puppet-slides-for-best-practices.html</loc>
+    <loc>http://devopsbox.es/post/2013-02-08-final-startup-grind.html</loc>
     <lastmod>2013-02-07T00:00:00+00:00</lastmod>
   </url>
   

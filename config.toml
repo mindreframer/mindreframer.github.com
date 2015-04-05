@@ -7,6 +7,9 @@ theme        = "greyshade-mindreframer"
 canonifyurls = true
 uglyurls     = true
 
+[permalinks]
+  post = "posts/:year/:month-:day-:slug.html"
+
 [params]
   description           = "Bits and pieces to remember"
   author                = "Roman Heinrich"

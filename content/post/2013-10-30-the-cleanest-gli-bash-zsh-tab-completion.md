@@ -1,6 +1,7 @@
 ---
-date: '2013-10-30'
+date: '2013-10-31'
 title: The cleanest GLI Bash / ZSH Tab-Completion
+slug: the-cleanest-gli-bash-zsh-tab-completion
 tags:
 - tricks
 ---

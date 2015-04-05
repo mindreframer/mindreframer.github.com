@@ -1,6 +1,7 @@
 ---
 date: '2013-02-10'
 title: Writing Ebook - For Dummies
+slug: ebooks-publishing-simplified
 tags:
 - publishing
 ---

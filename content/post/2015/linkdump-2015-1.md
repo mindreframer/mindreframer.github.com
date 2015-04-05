@@ -1,6 +1,7 @@
 ---
 date: '2015-01-02'
-title: Linkdump 2015 - 2
+title: Linkdump 2015 - 1
+slug: linkdump-2015-1
 tags:
 - links
 ---

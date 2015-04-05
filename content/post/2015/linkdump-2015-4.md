@@ -1,6 +1,7 @@
 ---
 date: '2015-03-09'
 title: Linkdump 2015 - 4
+slug: linkdump-2015-4
 tags:
 - links
 ---

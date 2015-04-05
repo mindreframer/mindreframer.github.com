@@ -1,6 +1,7 @@
 ---
-date: '2013-10-09'
+date: '2013-10-08'
 title: 'x509: failed to load system roots and no roots provided'
+slug: x509-failed-to-load-system-roots-and-no-roots-provided
 tags:
 - tips
 ---

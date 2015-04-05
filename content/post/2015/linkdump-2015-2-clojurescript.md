@@ -1,6 +1,7 @@
 ---
 date: '2015-01-10'
-title: Clojurescript Linkdump 2015.01
+title: Linkdump 2015 - 2 (Clojurescript)
+slug: linkdump-2015-2-clojurescript
 tags:
 - links
 ---

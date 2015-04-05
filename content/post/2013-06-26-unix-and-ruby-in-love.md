@@ -1,7 +1,9 @@
 ---
-tags: []
 date: '2013-06-26'
 title: Unix and Ruby in Love
+tags:
+- unix
+- ruby
 ---
 
 

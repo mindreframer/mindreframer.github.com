@@ -1,29 +1,64 @@
-- Do Not Learn Frameworks. Learn the Architecture - http://kukuruku.co/hub/programming/do-not-learn-frameworks-learn-the-architecture
-- https://muut.com/blog/technology/frameworkless-javascript.html
-- https://muut.com/blog/technology/riotjs-the-1kb-mvp-framework.html
-
-- Let’s Build A Web Server. Part 1. - http://ruslanspivak.com/lsbaws-part1/
+### Basics:
+  - Let’s Build A Web Server. Part 1. - http://ruslanspivak.com/lsbaws-part1/
+    Build a webserver from the ground, great to understand web in general
 
 
-
-
-- Software Artchitectural Patterns:
-  - http://www.oreilly.com/programming/free/files/software-architecture-patterns.pdf
-
-
-React.js
-  - http://react.parts/ (Native Libs)
-
-
-Ruby bits:
-  - https://rubymonk.com/ - Free, interactive tutorials to help you discover Ruby idioms, in your browser!
-
-
-- Keep Your Identity Small - http://www.paulgraham.com/identity.html
-
-
-- https://github.com/peterbe/autocompeter -> selfhostes Autocomplete service :)
-
-
-## Some links
+### Softskills:
+  - Keep Your Identity Small - http://www.paulgraham.com/identity.html
   - https://medium.com/@SoundCloud/six-years-at-soundcloud-five-lessons-learned-4a7abc47431b
+  - https://www.groovehq.com/support/customer-service-training
+
+
+### Ruby bits:
+  - https://rubymonk.com/ - Free, interactive tutorials to help you discover Ruby idioms, in your browser!
+  - http://dev.mensfeld.pl/2015/04/ruby-global-method-cache-invalidation-impact-on-a-single-and-multithreaded-applications/
+
+
+### Golang:
+  - https://github.com/peterbe/autocompeter -> selfhostes Autocomplete service :)
+
+
+###  How Designers Destroyed the World (Mike Monteiro)
+  - https://www.youtube.com/watch?v=J0ucEt-La9w
+
+
+### Startups
+  - Introduction to Growth Hacking (books and resources) http://readplan.co/lists/Uv9rruES-introduction-to-growth-hacking
+
+
+### Devops
+  - http://blog.packagecloud.io/eng/2015/03/30/apt-cheat-sheet/ - APT Cheat Sheet
+  - http://blog.packagecloud.io/eng/2015/04/05/yum-cheat-sheet/ - Yum Cheat Sheet
+
+
+### Frontend
+  - http://youmightnotneedjquery.com/
+
+
+  - Evolution Of Airbnb's Frontend - https://www.youtube.com/watch?v=gMvvb6F8dgk
+
+
+  Over the last few years, Airbnb’s frontend architecture has evolved to keep pace with the rapid advancement happening the JavaScript world. Starting as a humble Rails 2 + Prototype.js app in 2008, the frontend stack powering airbnb.com has gone through a few revisions, including a push towards single-page app architecture with Backbone.js and Handlebars.js, an adventure into isomorphic JavaScript with Rendr (our library for using Node.js to server-render Backbone SPAs), and most recently, a move toward React.js and a re-envisioning of our build pipeline to take advantage of CommonJS, ES6, and a Node.js-based transform system. Spike Brehm, software engineer on the @AirbnbNerds team, will walk through how we approached and executed on these changes. Plus, get excited to see a preview of our new approach to isomorphic JavaScript, allowing us to server-render React components from our Rails app.
+
+  - https://github.com/goatslacker/iso
+
+### CCS
+  - https://css-tricks.com/bem-101/
+
+
+### React.js
+  - http://react.parts/ (Native Libs)
+  - Do Not Learn Frameworks. Learn the Architecture - http://kukuruku.co/hub/programming/do-not-learn-frameworks-learn-the-architecture
+  - https://muut.com/blog/technology/frameworkless-javascript.html
+  - https://muut.com/blog/technology/riotjs-the-1kb-mvp-framework.html
+
+
+### Jacque Fresco
+  - http://en.wikipedia.org/wiki/Jacque_Fresco
+  - https://www.kickstarter.com/projects/thechoiceisours/the-choice-is-ours-documentary-series/description
+  - http://www.thezeitgeistmovement.com/orientation
+  - https://www.youtube.com/watch?v=RDL9jNEdAtM
+
+
+### Quotes:
+  We can not solve problems by using the same kind of thinking we used when we created them. (Albert Einstein)

@@ -14,12 +14,11 @@ While playing today with **"github.com/prometheus/client_golang"**, I have encou
 
 
 
-<% code_block 'shell' do %>
-$ gom install
->installing github.com/prometheus/client_golang/prometheus
->package code.google.com/p/goprotobuf/proto: Get https://code.google.com/p/goprotobuf/source/checkout?repo=: x509: failed to load system roots and no roots provided
-gom:  exit status 1
-<% end %>
+
+    $ gom install
+    >installing github.com/prometheus/client_golang/prometheus
+    >package code.google.com/p/goprotobuf/proto: Get https://code.google.com/p/goprotobuf/source/checkout?repo=: x509: failed to load system roots and no roots provided
+    gom:  exit status 1
 
 
 

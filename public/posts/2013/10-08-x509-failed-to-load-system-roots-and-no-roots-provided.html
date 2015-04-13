@@ -110,12 +110,11 @@
 
 <p><code>x509: failed to load system roots and no roots provided</code></p>
 
-<p>&lt;% code_block &lsquo;shell&rsquo; do %&gt;
-$ gom install
+<pre><code>$ gom install
 &gt;installing github.com/prometheus/client_golang/prometheus
-&gt;package code.google.com/p/goprotobuf/proto: Get <a href="https://code.google.com/p/goprotobuf/source/checkout?repo=:">https://code.google.com/p/goprotobuf/source/checkout?repo=:</a> x509: failed to load system roots and no roots provided
+&gt;package code.google.com/p/goprotobuf/proto: Get https://code.google.com/p/goprotobuf/source/checkout?repo=: x509: failed to load system roots and no roots provided
 gom:  exit status 1
-&lt;% end %&gt;</p>
+</code></pre>
 
 <p>After a solid 30 minutes of googling,  that answer really helped:</p>
 

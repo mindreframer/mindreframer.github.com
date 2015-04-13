@@ -1,6 +1,6 @@
 ---
 date: '2013-02-19'
-title: Lua / Nginx Combo
+title: Lua and Nginx Combo
 tags:
 - devops
 - nginx

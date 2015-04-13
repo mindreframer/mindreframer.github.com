@@ -7,6 +7,7 @@
   - Keep Your Identity Small - http://www.paulgraham.com/identity.html
   - https://medium.com/@SoundCloud/six-years-at-soundcloud-five-lessons-learned-4a7abc47431b
   - https://www.groovehq.com/support/customer-service-training
+  - https://zapier.com/learn/the-ultimate-guide-to-remote-working/
 
 
 ### Ruby bits:
@@ -44,6 +45,7 @@
 
 ### CCS
   - https://css-tricks.com/bem-101/
+  - http://www.basscss.com/docs/flex-object/
 
 
 ### React.js
@@ -62,3 +64,54 @@
 
 ### Quotes:
   We can not solve problems by using the same kind of thinking we used when we created them. (Albert Einstein)
+
+
+
+
+
+https://zapier.com/learn/
+
+
+
+https://github.com/stack72/ops-books
+https://speakerdeck.com/garethr/service-discovery-and-configuration-management
+
+https://growthhackers.com/videos/video-unlocking-the-secrets-of-growth-in-20-minutes-by-james-currier/
+http://www.madebymarket.com/blog/dev/ruby-web-benchmark-report.html
+
+
+
+Roda:
+  http://confreaks.tv/videos/mwrc2015-better-routing-through-trees
+
+
+
+- https://javascriptkicks.com/articles/2657 - I won't be using Angular for my next project...and neither should you.
+
+
+https://about.gitlab.com/2015/04/08/the-remote-manifesto/
+
+
+http://users.ece.utexas.edu/~adnan/pike.html
+
+
+
+https://devmynd.com/blog/2015-1-pairing-with-junior-developers
+
+
+https://www.linkedin.com/pulse/best-mistake-end-your-career-advice-almost-doomed-me-sallie-krawcheck - 'This Mistake Will End Your Career' — the Advice That Almost Doomed Me… | Sallie Krawcheck | LinkedIn
+
+
+MiniTest:
+  - https://ariejan.net/2015/04/07/testing-with-minitest/
+
+
+Hackpad (https://hackpad.com/) will be opensource soon:
+  We have some exciting news — Hackpad will be released as open source software in the next few weeks!
+
+
+
+
+
+Git styleguide:
+  - https://github.com/agis-/git-style-guide

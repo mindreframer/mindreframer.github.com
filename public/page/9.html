@@ -104,6 +104,38 @@
 					
 				        <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
     <div class="meta">
+		<div class="date"><time datetime='Fri, Jan 25, 2013' data-updated="true" itemprop="datePublished">Fri, Jan 25, 2013</time>
+</div>
+		<div class="tags">
+</div>
+		
+	</div>
+	<h1 class="title" itemprop="name"><a href="http://devopsbox.es/posts/2013/01-25-the-perfect-puppet-setup-for-vagrant.html" itemprop="url">The Perfect Puppet Setup For Vagrant</a></h1>
+	<div class="entry-content" itemprop="articleBody">
+		To get the complete picture about the modules here, please take a look at the article Testing Tricky Nginx Rewrite Rules So, you&rsquo;re ready to jump in and start automating your server infractructure with some server provisioning software. Let&rsquo;s try Puppet. I will present you the solution and later discuss, why it&rsquo;s done this way. Vagrantfile: we specify puppet provisioner in Vagrantfile. We keep the configs in puppet folder with two subfolders: manifests and modules config.vm.provision :puppet do |puppet| puppet.manifests_path = "puppet/manifests" puppet.manifest_file = "base.pp" puppet.module_path = "puppet/modules" end puppet/manifests/base.pp: despite being quite short, it contains a bunch of Puppet best practices.
+		<a href="http://devopsbox.es/posts/2013/01-25-the-perfect-puppet-setup-for-vagrant.html" class="more-link">Read on →</a>
+	</div>
+</article>
+
+				    
+				        <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+    <div class="meta">
+		<div class="date"><time datetime='Thu, Jan 24, 2013' data-updated="true" itemprop="datePublished">Thu, Jan 24, 2013</time>
+</div>
+		<div class="tags">
+</div>
+		
+	</div>
+	<h1 class="title" itemprop="name"><a href="http://devopsbox.es/posts/2013/01-24-how-to-test-tricky-nginx-rewrite-rules---part-ii.html" itemprop="url">How to test tricky nginx rewrite rules - Part II</a></h1>
+	<div class="entry-content" itemprop="articleBody">
+		A possible solution to Part I Take a look here: https://github.com/dawanda/nginx_rules_tests With a couple commands you get the complete working environment (after you have installed Vagrant): $ git clone git://github.com/dawanda/nginx_rules_tests.git $ cd nginx_rules_tests # start vagrant + run puppet $ vagrant up # ssh into your VM $ vagrant ssh # run the tests, they shall pass $ nginx_tests Here you can see it in action: Here the nginx config we want to test, it is still very short yet.
+		<a href="http://devopsbox.es/posts/2013/01-24-how-to-test-tricky-nginx-rewrite-rules---part-ii.html" class="more-link">Read on →</a>
+	</div>
+</article>
+
+				    
+				        <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+    <div class="meta">
 		<div class="date"><time datetime='Wed, Jan 23, 2013' data-updated="true" itemprop="datePublished">Wed, Jan 23, 2013</time>
 </div>
 		<div class="tags">
@@ -230,43 +262,13 @@
 </article>
 
 				    
-				        <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
-    <div class="meta">
-		<div class="date"><time datetime='Sat, Jan 12, 2013' data-updated="true" itemprop="datePublished">Sat, Jan 12, 2013</time>
-</div>
-		<div class="tags">
-</div>
-		
-	</div>
-	<h1 class="title" itemprop="name"><a href="http://devopsbox.es/posts/2013/01-12-architecture---drawing-lines.html" itemprop="url">Architecture - Drawing Lines?</a></h1>
-	<div class="entry-content" itemprop="articleBody">
-		I&rsquo;m not the first to chime in about Uncle Bob&rsquo;s Lost Years presentations: Robert C. Martin - Clean Architecture Keynote: Architecture the Lost Years by Robert Martin - YouTube His ideas (maybe not originally his) lure you in with loud promices about clean architecture&hellip; This got me thinking&hellip; Yeah, I&rsquo;m easily seduced by cleanness. Sigh&hellip; Here some ideas worth thinking about: - Test are not for QA Team, good tests guide YOU and allow you to _rapidly_ and _radically_ refactor your code - If you're afraid to change something, you're dominated by your creation - Good architecture allows deferring decisions - Is your application build around a database?
-		<a href="http://devopsbox.es/posts/2013/01-12-architecture---drawing-lines.html" class="more-link">Read on →</a>
-	</div>
-</article>
-
-				    
-				        <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
-    <div class="meta">
-		<div class="date"><time datetime='Fri, Jan 11, 2013' data-updated="true" itemprop="datePublished">Fri, Jan 11, 2013</time>
-</div>
-		<div class="tags">
-</div>
-		
-	</div>
-	<h1 class="title" itemprop="name"><a href="http://devopsbox.es/posts/2013/01-11-hey-2013-has-started.html" itemprop="url">Hey, 2013 has started!</a></h1>
-	<div class="entry-content" itemprop="articleBody">
-		Hello, this year I will try to be consistently blogging. There are many things, that float around in my head, and I hope to get them in good shape by blogging about them. This will also remind me of myself later, because I don&rsquo;t use facebook or other social networks and my online presence is mostly professional. Here will be more stuff later.
-		
-	</div>
-</article>
-
-				    
 				    </div>
 				    <nav id="pagenavi">
 					    
 					        <a href="http://devopsbox.es/page/8.html" class="prev">Prev</a>
 					    
+					    
+					        <a href="http://devopsbox.es/page/10.html" class="next">Next</a>
 					    
 					    <div class="center"><a href="http://devopsbox.es//post.html">Blog Archives</a></div>
 					</nav>

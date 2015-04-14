@@ -7,7 +7,31 @@
     <language>en-us</language>
     
     
-    <updated>Wed, 15 Apr 2015 00:00:00 UTC</updated>
+    <updated>Thu, 16 Apr 2015 00:00:00 UTC</updated>
+    
+    <item>
+      <title>Linkdump 2015 - 7</title>
+      <link>http://devopsbox.es/posts/2015/04-16-linkdump-2015-7.html</link>
+      <pubDate>Thu, 16 Apr 2015 00:00:00 UTC</pubDate>
+      
+      <guid>http://devopsbox.es/posts/2015/04-16-linkdump-2015-7.html</guid>
+      <description>
+
+&lt;h3 id=&#34;general:108db00f7682c57f9a9062b6365a095d&#34;&gt;General:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;The Monolith Myth - &lt;a href=&#34;https://www.devmynd.com/blog/2014-4-the-monolith-myth&#34;&gt;https://www.devmynd.com/blog/2014-4-the-monolith-myth&lt;/a&gt; -
+A solid separation of concerns within the same code base can yield the same type of flexibility as having several smaller repos. Plus you eliminate all of the aforementioned complexity and can use that energy to keep your garden tended.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Let’s Build A Web Server. Part 1. - &lt;a href=&#34;http://ruslanspivak.com/lsbaws-part1/&#34;&gt;http://ruslanspivak.com/lsbaws-part1/&lt;/a&gt; -
+Build a webserver from the ground, great to understand web in general&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Git styleguide -  &lt;a href=&#34;https://github.com/agis-/git-style-guide&#34;&gt;https://github.com/agis-/git-style-guide&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;5 Rules of Programming - &lt;a href=&#34;http://users.ece.utexas.edu/~adnan/pike.html&#34;&gt;http://users.ece.utexas.edu/~adnan/pike.html&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Linkdump 2015 - 6</title>
@@ -635,26 +659,6 @@ $ make tests
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://symas.com/mdb/&#34;&gt;Symas Lightning Memory-Mapped Database (LMDB)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Golang&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>First GopherCon Slides are online!</title>
-      <link>http://devopsbox.es/posts/2014/04-25-first-gophercon-slides-are-online.html</link>
-      <pubDate>Fri, 25 Apr 2014 00:00:00 UTC</pubDate>
-      
-      <guid>http://devopsbox.es/posts/2014/04-25-first-gophercon-slides-are-online.html</guid>
-      <description>
-
-&lt;h2 id=&#34;conf-homepage-http-gophercon-sourcegraph-com:97a621c9bf037eb26d29c1a24b303ee3&#34;&gt;&lt;a href=&#34;http://gophercon.sourcegraph.com/&#34;&gt;Conf Homepage&lt;/a&gt;&lt;/h2&gt;
-
-&lt;h3 id=&#34;slides:97a621c9bf037eb26d29c1a24b303ee3&#34;&gt;Slides&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://go-talks.appspot.com/github.com/kelseyhightower/gophercon2014/go_for_sysadmins.slide&#34;&gt;Go for Sysadmins - Kelsey Hightower, New Relic&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.slideshare.net/cloudflare/a-channel-compendium&#34;&gt;A Channel Compendium - Cloudflare&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.slideshare.net/derekcollison/gophercon-2014&#34;&gt;High Performance Systems in Go - Derek Collison&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>

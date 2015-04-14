@@ -104,6 +104,22 @@
 					
 				        <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
     <div class="meta">
+		<div class="date"><time datetime='Thu, Feb 27, 2014' data-updated="true" itemprop="datePublished">Thu, Feb 27, 2014</time>
+</div>
+		<div class="tags">
+</div>
+		
+	</div>
+	<h1 class="title" itemprop="name"><a href="http://devopsbox.es/posts/2014/02-27-agent-forwarding--capistrano--utf-8-env-settings-problems.html" itemprop="url">Agent forwarding &#43; Capistrano &#43; UTF-8 ENV settings problems</a></h1>
+	<div class="entry-content" itemprop="articleBody">
+		Today I have spent a couple of hours trying to figure out, why my agent forwarding for Capistrano was not working. I have already ## added my ssh key with $ ssh-add ## adjusted ~/.ssh/config Host *.the-domain-to-deploy.com ForwardAgent yes # configured capistrano in config/deploy.rb set :ssh_options, { :forward_agent =&gt; true } Still no luck&hellip; Host key verification failed. fatal: The remote end hung up unexpectedly Even that post was not helping: http://dchua.com/2013/08/29/properly-using-ssh-agent-forwarding-in-capistrano/.
+		<a href="http://devopsbox.es/posts/2014/02-27-agent-forwarding--capistrano--utf-8-env-settings-problems.html" class="more-link">Read on →</a>
+	</div>
+</article>
+
+				    
+				        <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+    <div class="meta">
 		<div class="date"><time datetime='Tue, Feb 11, 2014' data-updated="true" itemprop="datePublished">Tue, Feb 11, 2014</time>
 </div>
 		<div class="tags">
@@ -242,22 +258,6 @@
 	<div class="entry-content" itemprop="articleBody">
 		Docker and Go: why did we decide to write Docker in Go? from Jérôme Petazzoni
 		
-	</div>
-</article>
-
-				    
-				        <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
-    <div class="meta">
-		<div class="date"><time datetime='Thu, Oct 31, 2013' data-updated="true" itemprop="datePublished">Thu, Oct 31, 2013</time>
-</div>
-		<div class="tags">
-</div>
-		
-	</div>
-	<h1 class="title" itemprop="name"><a href="http://devopsbox.es/posts/2013/10-31-the-cleanest-gli-bash-zsh-tab-completion.html" itemprop="url">The cleanest GLI Bash / ZSH Tab-Completion</a></h1>
-	<div class="entry-content" itemprop="articleBody">
-		The perfect solution for you GLI::App based console-tools in Bash/ZSH Official recommendation function get_todo_commands() { if [ -z $2 ] ; then COMPREPLY=(`todo help -c`) else COMPREPLY=(`todo help -c $2`) fi } Problems with that solution: does not work on ZSH does autocompletion only for the 1st and 2nd level, stops after that is not very extendable After fiddling for 2 hours I came up with the simplest and always
-		<a href="http://devopsbox.es/posts/2013/10-31-the-cleanest-gli-bash-zsh-tab-completion.html" class="more-link">Read on →</a>
 	</div>
 </article>
 

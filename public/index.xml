@@ -554,6 +554,49 @@ $ make tests
       <guid>http://devopsbox.es/posts/2014/05-01-linkdump-week-18-2014.html</guid>
       <description>
 
+&lt;h2 id=&#34;week-18-2014-linkdump:d7756a22ad322fcb72886988ec0bef73&#34;&gt;Week #18 (2014) linkdump:&lt;/h2&gt;
+
+&lt;h3 id=&#34;networking:d7756a22ad322fcb72886988ec0bef73&#34;&gt;Networking:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/zachlatta/postman&#34;&gt;Postman – A command-line utility for batch-sending email&lt;/a&gt; - made in Golang&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;general:d7756a22ad322fcb72886988ec0bef73&#34;&gt;General:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.destroyallsoftware.com/blog/2014/tdd-straw-men-and-rhetoric&#34;&gt;TDD, Straw Men, and Rhetoric&lt;/a&gt; - a rather long answer to DHHs rant about TDD. I have to agree on most of the points, DHH seems to have lost it&amp;hellip; He should keep on racing and not making such absurd statements about curent state of software development.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;javascript:d7756a22ad322fcb72886988ec0bef73&#34;&gt;Javascript&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://mattgreer.org/articles/promises-in-wicked-detail/&#34;&gt;JavaScript Promises in Wicked Detail&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;design-frontend:d7756a22ad322fcb72886988ec0bef73&#34;&gt;Design/Frontend:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://developers.google.com/web/fundamentals/&#34;&gt;Web Fundamentals - A handbook for best practices&lt;/a&gt; - a guide from Google how to approach&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://learnlayout.com/&#34;&gt;Learn Layout&lt;/a&gt; - CSS fundamentals, explained clearly and visually&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;docker-vagrant:d7756a22ad322fcb72886988ec0bef73&#34;&gt;Docker/Vagrant&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.vagrantup.com/blog/feature-preview-vagrant-1-6-docker-dev-environments.html&#34;&gt;Vagrant Feature Preview: Docker-Based Development Environments&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Linkdump week 18 (2014)</title>
+      <link>http://devopsbox.es/posts/2014/05-01-linkdump-week-18-2014.html</link>
+      <pubDate>Thu, 01 May 2014 00:00:00 UTC</pubDate>
+      
+      <guid>http://devopsbox.es/posts/2014/05-01-linkdump-week-18-2014.html</guid>
+      <description>
+
 &lt;h3 id=&#34;devops:d0d5b51173109d0a55b21492edea9c48&#34;&gt;DevOps:&lt;/h3&gt;
 
 &lt;ul&gt;
@@ -595,49 +638,6 @@ $ make tests
 
 &lt;ul&gt;
 &lt;li&gt;No Russian - &lt;a href=&#34;http://skibinsky.com/no-russian/&#34;&gt;part 1&lt;/a&gt;,  &lt;a href=&#34;http://skibinsky.com/no-russian-2/&#34;&gt;part 2&lt;/a&gt; - a rather deep interpretation about the current conflict Russia vs Ukraine&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Linkdump week 18 (2014)</title>
-      <link>http://devopsbox.es/posts/2014/05-01-linkdump-week-18-2014.html</link>
-      <pubDate>Thu, 01 May 2014 00:00:00 UTC</pubDate>
-      
-      <guid>http://devopsbox.es/posts/2014/05-01-linkdump-week-18-2014.html</guid>
-      <description>
-
-&lt;h2 id=&#34;week-18-2014-linkdump:d7756a22ad322fcb72886988ec0bef73&#34;&gt;Week #18 (2014) linkdump:&lt;/h2&gt;
-
-&lt;h3 id=&#34;networking:d7756a22ad322fcb72886988ec0bef73&#34;&gt;Networking:&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/zachlatta/postman&#34;&gt;Postman – A command-line utility for batch-sending email&lt;/a&gt; - made in Golang&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;general:d7756a22ad322fcb72886988ec0bef73&#34;&gt;General:&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.destroyallsoftware.com/blog/2014/tdd-straw-men-and-rhetoric&#34;&gt;TDD, Straw Men, and Rhetoric&lt;/a&gt; - a rather long answer to DHHs rant about TDD. I have to agree on most of the points, DHH seems to have lost it&amp;hellip; He should keep on racing and not making such absurd statements about curent state of software development.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;javascript:d7756a22ad322fcb72886988ec0bef73&#34;&gt;Javascript&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://mattgreer.org/articles/promises-in-wicked-detail/&#34;&gt;JavaScript Promises in Wicked Detail&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;design-frontend:d7756a22ad322fcb72886988ec0bef73&#34;&gt;Design/Frontend:&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://developers.google.com/web/fundamentals/&#34;&gt;Web Fundamentals - A handbook for best practices&lt;/a&gt; - a guide from Google how to approach&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://learnlayout.com/&#34;&gt;Learn Layout&lt;/a&gt; - CSS fundamentals, explained clearly and visually&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;docker-vagrant:d7756a22ad322fcb72886988ec0bef73&#34;&gt;Docker/Vagrant&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.vagrantup.com/blog/feature-preview-vagrant-1-6-docker-dev-environments.html&#34;&gt;Vagrant Feature Preview: Docker-Based Development Environments&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>

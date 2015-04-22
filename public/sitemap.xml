@@ -263,12 +263,12 @@
   </url>
   
   <url>
-    <loc>http://devopsbox.es/posts/2013/06-26-dockerui.html</loc>
+    <loc>http://devopsbox.es/posts/2013/06-26-popular-ops-tools-in-japan.html</loc>
     <lastmod>2013-06-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://devopsbox.es/posts/2013/06-26-popular-ops-tools-in-japan.html</loc>
+    <loc>http://devopsbox.es/posts/2013/06-26-dockerui.html</loc>
     <lastmod>2013-06-26T00:00:00+00:00</lastmod>
   </url>
   
@@ -288,7 +288,7 @@
   </url>
   
   <url>
-    <loc>http://devopsbox.es/posts/2013/06-19-debugging-large-scale-service-oriented-systems.html</loc>
+    <loc>http://devopsbox.es/posts/2013/06-19-dokku-your-own-mini-heroku-in-under-5-minutes.html</loc>
     <lastmod>2013-06-19T00:00:00+00:00</lastmod>
   </url>
   
@@ -298,7 +298,7 @@
   </url>
   
   <url>
-    <loc>http://devopsbox.es/posts/2013/06-19-dokku-your-own-mini-heroku-in-under-5-minutes.html</loc>
+    <loc>http://devopsbox.es/posts/2013/06-19-debugging-large-scale-service-oriented-systems.html</loc>
     <lastmod>2013-06-19T00:00:00+00:00</lastmod>
   </url>
   
@@ -383,12 +383,12 @@
   </url>
   
   <url>
-    <loc>http://devopsbox.es/posts/2013/02-07-final-startup-grind---useful-infos-for-startup-founders.html</loc>
+    <loc>http://devopsbox.es/posts/2013/02-07-puppet-slides---what-not-to-do--automated-testing.html</loc>
     <lastmod>2013-02-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://devopsbox.es/posts/2013/02-07-puppet-slides---what-not-to-do--automated-testing.html</loc>
+    <loc>http://devopsbox.es/posts/2013/02-07-final-startup-grind---useful-infos-for-startup-founders.html</loc>
     <lastmod>2013-02-07T00:00:00+00:00</lastmod>
   </url>
   
@@ -428,12 +428,12 @@
   </url>
   
   <url>
-    <loc>http://devopsbox.es/posts/2013/01-23-how-to-test-tricky-nginx-rewrite-rules---part-i.html</loc>
+    <loc>http://devopsbox.es/posts/2013/01-23-devopsdays-2013-videos-are-online.html</loc>
     <lastmod>2013-01-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://devopsbox.es/posts/2013/01-23-devopsdays-2013-videos-are-online.html</loc>
+    <loc>http://devopsbox.es/posts/2013/01-23-how-to-test-tricky-nginx-rewrite-rules---part-i.html</loc>
     <lastmod>2013-01-23T00:00:00+00:00</lastmod>
   </url>
   
@@ -463,18 +463,30 @@
   </url>
   
   <url>
-    <loc>http://devopsbox.es/posts/2013/01-12-architecture---drawing-lines.html</loc>
+    <loc>http://devopsbox.es/posts/2013/01-12-clean-architecture---link-dump.html</loc>
     <lastmod>2013-01-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://devopsbox.es/posts/2013/01-12-clean-architecture---link-dump.html</loc>
+    <loc>http://devopsbox.es/posts/2013/01-12-architecture---drawing-lines.html</loc>
     <lastmod>2013-01-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://devopsbox.es/posts/2013/01-11-hey-2013-has-started.html</loc>
     <lastmod>2013-01-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/resume/resume-de.html</loc>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/resume/resume.html</loc>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/resume/projects.html</loc>
   </url>
   
 </urlset>

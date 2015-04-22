@@ -20,3 +20,29 @@
 
 Hackpad (https://hackpad.com/) will be opensource soon:
   We have some exciting news — Hackpad will be released as open source software in the next few weeks!
+
+
+### Node.js
+  - http://thenodeway.io/posts/testing-essentials/
+
+
+
+### DevOps
+  True Zero Downtime HAProxy Reloads - http://engineeringblog.yelp.com/2015/04/true-zero-downtime-haproxy-reloads.html
+
+
+
+### Softskills
+  - http://firstround.com/review/what-i-learned-scaling-engineering-teams-through-euphoria-and-horror/
+  - https://zapier.com/blog/top-employee-performance/
+  - http://blog.bench.co/patrick-mckenzie
+
+
+
+
+### Growthhacking
+
+http://doubleyouraudience.com/microconf/ - Microconf 2015 Recap Page
+
+https://www.groovehq.com/blog/neil-patel-interview - Building Businesses, Learning From Mistakes and
+the ROI of Helicopters

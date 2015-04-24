@@ -35,6 +35,7 @@ Hackpad (https://hackpad.com/) will be opensource soon:
 ### Softskills
   - http://firstround.com/review/what-i-learned-scaling-engineering-teams-through-euphoria-and-horror/
   - https://zapier.com/blog/top-employee-performance/
+  - https://www.youtube.com/watch?v=FKTxC9pl-WM - Making Badass Developers - Kathy Sierra (Serious Pony) keynote
   - http://blog.bench.co/patrick-mckenzie
 
 

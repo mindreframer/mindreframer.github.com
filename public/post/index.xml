@@ -7,7 +7,47 @@
     <language>en-us</language>
     
     
-    <updated>Thu, 16 Apr 2015 00:00:00 UTC</updated>
+    <updated>Fri, 24 Apr 2015 00:00:00 UTC</updated>
+    
+    <item>
+      <title>Making Badass Developers</title>
+      <link>http://devopsbox.es/posts/2015/04-24-making-badass-developers.html</link>
+      <pubDate>Fri, 24 Apr 2015 00:00:00 UTC</pubDate>
+      
+      <guid>http://devopsbox.es/posts/2015/04-24-making-badass-developers.html</guid>
+      <description>&lt;p&gt;Kathy Sierra drops magic wisdom!&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Treat your devs as People, not humanoids or unicorns!&lt;/li&gt;
+&lt;li&gt;Save cognitive resources on everything, that is ONE SINGLE POOL!&lt;/li&gt;
+&lt;li&gt;fasten up the process to get from &amp;ldquo;can&amp;rsquo;t do&amp;rdquo; to &amp;ldquo;mastered&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;bypass B -&amp;gt; this is magic. High quantitative exposure to high quality code let&amp;rsquo;s the brain recognize patterns and learn much faster. JUST EXPOSURE! We should definetelly use this!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Very excited about possible applications of this advice.&lt;/p&gt;
+
+&lt;p&gt;
+
+&lt;figure &gt;
+    &lt;img src=&#34;http://devopsbox.es/media/posts/2015/badass-devs-1.png&#34; /&gt;
+    &lt;figcaption&gt;
+        
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+
+
+&lt;figure &gt;
+    &lt;img src=&#34;http://devopsbox.es/media/posts/2015/badass-devs-2.png&#34; /&gt;
+    &lt;figcaption&gt;
+        
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+
+&lt;iframe width=&#34;854&#34; height=&#34;510&#34; src=&#34;https://www.youtube.com/embed/FKTxC9pl-WM&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+</description>
+    </item>
     
     <item>
       <title>Linkdump 2015 - 7</title>
@@ -554,49 +594,6 @@ $ make tests
       <guid>http://devopsbox.es/posts/2014/05-01-linkdump-week-18-2014.html</guid>
       <description>
 
-&lt;h2 id=&#34;week-18-2014-linkdump:d7756a22ad322fcb72886988ec0bef73&#34;&gt;Week #18 (2014) linkdump:&lt;/h2&gt;
-
-&lt;h3 id=&#34;networking:d7756a22ad322fcb72886988ec0bef73&#34;&gt;Networking:&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/zachlatta/postman&#34;&gt;Postman – A command-line utility for batch-sending email&lt;/a&gt; - made in Golang&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;general:d7756a22ad322fcb72886988ec0bef73&#34;&gt;General:&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.destroyallsoftware.com/blog/2014/tdd-straw-men-and-rhetoric&#34;&gt;TDD, Straw Men, and Rhetoric&lt;/a&gt; - a rather long answer to DHHs rant about TDD. I have to agree on most of the points, DHH seems to have lost it&amp;hellip; He should keep on racing and not making such absurd statements about curent state of software development.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;javascript:d7756a22ad322fcb72886988ec0bef73&#34;&gt;Javascript&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://mattgreer.org/articles/promises-in-wicked-detail/&#34;&gt;JavaScript Promises in Wicked Detail&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;design-frontend:d7756a22ad322fcb72886988ec0bef73&#34;&gt;Design/Frontend:&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://developers.google.com/web/fundamentals/&#34;&gt;Web Fundamentals - A handbook for best practices&lt;/a&gt; - a guide from Google how to approach&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://learnlayout.com/&#34;&gt;Learn Layout&lt;/a&gt; - CSS fundamentals, explained clearly and visually&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;docker-vagrant:d7756a22ad322fcb72886988ec0bef73&#34;&gt;Docker/Vagrant&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.vagrantup.com/blog/feature-preview-vagrant-1-6-docker-dev-environments.html&#34;&gt;Vagrant Feature Preview: Docker-Based Development Environments&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Linkdump week 18 (2014)</title>
-      <link>http://devopsbox.es/posts/2014/05-01-linkdump-week-18-2014.html</link>
-      <pubDate>Thu, 01 May 2014 00:00:00 UTC</pubDate>
-      
-      <guid>http://devopsbox.es/posts/2014/05-01-linkdump-week-18-2014.html</guid>
-      <description>
-
 &lt;h3 id=&#34;devops:d0d5b51173109d0a55b21492edea9c48&#34;&gt;DevOps:&lt;/h3&gt;
 
 &lt;ul&gt;
@@ -643,22 +640,44 @@ $ make tests
     </item>
     
     <item>
-      <title>New Service Discovery Tool - Consul</title>
-      <link>http://devopsbox.es/posts/2014/04-26-new-service-discovery-tool---consul.html</link>
-      <pubDate>Sat, 26 Apr 2014 00:00:00 UTC</pubDate>
+      <title>Linkdump week 18 (2014)</title>
+      <link>http://devopsbox.es/posts/2014/05-01-linkdump-week-18-2014.html</link>
+      <pubDate>Thu, 01 May 2014 00:00:00 UTC</pubDate>
       
-      <guid>http://devopsbox.es/posts/2014/04-26-new-service-discovery-tool---consul.html</guid>
+      <guid>http://devopsbox.es/posts/2014/05-01-linkdump-week-18-2014.html</guid>
       <description>
 
-&lt;p&gt;&lt;a href=&#34;http://www.consul.io/&#34;&gt;Consul&lt;/a&gt; - awesome new project from Armon Dadgar, it seems to superseed Serf in it&amp;rsquo;s abilities. Also done in Golang! Way to go!&lt;/p&gt;
+&lt;h2 id=&#34;week-18-2014-linkdump:d7756a22ad322fcb72886988ec0bef73&#34;&gt;Week #18 (2014) linkdump:&lt;/h2&gt;
 
-&lt;p&gt;Check the &lt;a href=&#34;http://www.consul.io/intro/vs/index.html&#34;&gt;VS page&lt;/a&gt;, so see how it stacks up against competitor products.&lt;/p&gt;
-
-&lt;h2 id=&#34;technologies-used:d4f78c62f33bda83cdaed0d93513eda1&#34;&gt;Technologies used&lt;/h2&gt;
+&lt;h3 id=&#34;networking:d7756a22ad322fcb72886988ec0bef73&#34;&gt;Networking:&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://symas.com/mdb/&#34;&gt;Symas Lightning Memory-Mapped Database (LMDB)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Golang&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/zachlatta/postman&#34;&gt;Postman – A command-line utility for batch-sending email&lt;/a&gt; - made in Golang&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;general:d7756a22ad322fcb72886988ec0bef73&#34;&gt;General:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.destroyallsoftware.com/blog/2014/tdd-straw-men-and-rhetoric&#34;&gt;TDD, Straw Men, and Rhetoric&lt;/a&gt; - a rather long answer to DHHs rant about TDD. I have to agree on most of the points, DHH seems to have lost it&amp;hellip; He should keep on racing and not making such absurd statements about curent state of software development.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;javascript:d7756a22ad322fcb72886988ec0bef73&#34;&gt;Javascript&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://mattgreer.org/articles/promises-in-wicked-detail/&#34;&gt;JavaScript Promises in Wicked Detail&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;design-frontend:d7756a22ad322fcb72886988ec0bef73&#34;&gt;Design/Frontend:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://developers.google.com/web/fundamentals/&#34;&gt;Web Fundamentals - A handbook for best practices&lt;/a&gt; - a guide from Google how to approach&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://learnlayout.com/&#34;&gt;Learn Layout&lt;/a&gt; - CSS fundamentals, explained clearly and visually&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;docker-vagrant:d7756a22ad322fcb72886988ec0bef73&#34;&gt;Docker/Vagrant&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.vagrantup.com/blog/feature-preview-vagrant-1-6-docker-dev-environments.html&#34;&gt;Vagrant Feature Preview: Docker-Based Development Environments&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>

@@ -650,47 +650,37 @@ $ make tests
       <guid>http://devopsbox.es/posts/2014/05-01-linkdump-week-18-2014.html</guid>
       <description>
 
-&lt;h3 id=&#34;devops:d0d5b51173109d0a55b21492edea9c48&#34;&gt;DevOps:&lt;/h3&gt;
+&lt;h2 id=&#34;week-18-2014-linkdump:d7756a22ad322fcb72886988ec0bef73&#34;&gt;Week #18 (2014) linkdump:&lt;/h2&gt;
+
+&lt;h3 id=&#34;networking:d7756a22ad322fcb72886988ec0bef73&#34;&gt;Networking:&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/ibuildthecloud/coreos-on-do&#34;&gt;Install CoreOS on Digital Ocean&lt;/a&gt; - hmm&amp;hellip;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://igor.moomers.org/smartstack-vs-consul/&#34;&gt;SmartStack vs. Consul&lt;/a&gt; - interestiong arguments pro SmartStack from the core developer Igor&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.digitalocean.com/community/tutorial_series/an-introduction-to-managing-dns&#34;&gt;An Introduction to Managing DNS&lt;/a&gt; - very good introduction how to manage DNS with Digital Ocean&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://highscalability.com/blog/2014/7/28/the-great-microservices-vs-monolithic-apps-twitter-melee.html&#34;&gt;The Great Microservices vs Monolithic Apps Twitter Melee&lt;/a&gt; - a fun twitter disscussion microservices VS monolith&amp;hellip; I&amp;rsquo;m still not sure, what the best approach would be.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/ctdk/goiardi&#34;&gt;Chef Server in Go&lt;/a&gt; - Wow&amp;hellip; Chef server in Golang, with tests, might come in handy&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.aerospike.com/blog/entrepreneurs-break-all-the-rules-aerospike-goes-open-source/&#34;&gt;Aerospike goes Open Source&lt;/a&gt; - aerospike is a rather&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.terraform.io/&#34;&gt;Terraform&lt;/a&gt; - Infrastructure as code, from HashiCorp. really interesting.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/zachlatta/postman&#34;&gt;Postman – A command-line utility for batch-sending email&lt;/a&gt; - made in Golang&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;programming:d0d5b51173109d0a55b21492edea9c48&#34;&gt;Programming:&lt;/h3&gt;
+&lt;h3 id=&#34;general:d7756a22ad322fcb72886988ec0bef73&#34;&gt;General:&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.coolgithubprojects.com/&#34;&gt;Coolgithubprojects&lt;/a&gt; - top trending projects on Github&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://blog.cognitect.com/blog/2014/7/22/transit&#34;&gt;Transit - new data-exchange format for multiple programming languages&lt;/a&gt;, &lt;a href=&#34;https://github.com/cognitect/transit-format&#34;&gt;Repo&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://dieter.plaetinck.be/beautiful_go_patterns_for_concurrent_access_to_shared_resources_and_coordinating_responses.html&#34;&gt;Beautiful Go patterns for concurrent access to shared resources and coordinating responses&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.destroyallsoftware.com/blog/2014/tdd-straw-men-and-rhetoric&#34;&gt;TDD, Straw Men, and Rhetoric&lt;/a&gt; - a rather long answer to DHHs rant about TDD. I have to agree on most of the points, DHH seems to have lost it&amp;hellip; He should keep on racing and not making such absurd statements about curent state of software development.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;peopleware:d0d5b51173109d0a55b21492edea9c48&#34;&gt;Peopleware&lt;/h3&gt;
+&lt;h3 id=&#34;javascript:d7756a22ad322fcb72886988ec0bef73&#34;&gt;Javascript&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.nicolasbize.com/blog/how-i-ended-up-conducting-the-most-successful-technical-interviews-with-a-single-question/&#34;&gt;How I ended up conducting successful tech interviews with just 1 question&lt;/a&gt; - in one sentence: look for inspired people, when hiring!&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://flowa.fi/blog/2014/03/22/are-the-best-people-leaving-your-organization.html&#34;&gt;Are the best people leaving your organization?&lt;/a&gt; - Reasons for employee disengagement and how to change it&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://mattgreer.org/articles/promises-in-wicked-detail/&#34;&gt;JavaScript Promises in Wicked Detail&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;design:d0d5b51173109d0a55b21492edea9c48&#34;&gt;Design&lt;/h2&gt;
+&lt;h3 id=&#34;design-frontend:d7756a22ad322fcb72886988ec0bef73&#34;&gt;Design/Frontend:&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.webdesignrepo.com/&#34;&gt;Web Design Repo&lt;/a&gt; - HUGE link collection for webdesign&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://tympanus.net/codrops/2014/07/23/notification-styles-inspiration/&#34;&gt;Notification styles inspiration&lt;/a&gt; - fancy animated UI notificaions&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developers.google.com/web/fundamentals/&#34;&gt;Web Fundamentals - A handbook for best practices&lt;/a&gt; - a guide from Google how to approach&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://learnlayout.com/&#34;&gt;Learn Layout&lt;/a&gt; - CSS fundamentals, explained clearly and visually&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;politics:d0d5b51173109d0a55b21492edea9c48&#34;&gt;Politics&lt;/h2&gt;
+&lt;h3 id=&#34;docker-vagrant:d7756a22ad322fcb72886988ec0bef73&#34;&gt;Docker/Vagrant&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;No Russian - &lt;a href=&#34;http://skibinsky.com/no-russian/&#34;&gt;part 1&lt;/a&gt;,  &lt;a href=&#34;http://skibinsky.com/no-russian-2/&#34;&gt;part 2&lt;/a&gt; - a rather deep interpretation about the current conflict Russia vs Ukraine&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.vagrantup.com/blog/feature-preview-vagrant-1-6-docker-dev-environments.html&#34;&gt;Vagrant Feature Preview: Docker-Based Development Environments&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>

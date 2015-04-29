@@ -6,6 +6,12 @@
 ###  How Designers Destroyed the World (Mike Monteiro)
   - https://www.youtube.com/watch?v=J0ucEt-La9w
 
+
+
+### Bem
+  - https://www.youtube.com/watch?v=vgg-NsKZaE4 - "MindBEMding – Rethink Web Development" - Presentation By Kevin Mack
+
+
 ### Jacque Fresco
   - http://en.wikipedia.org/wiki/Jacque_Fresco
   - https://www.kickstarter.com/projects/thechoiceisours/the-choice-is-ours-documentary-series/description
@@ -26,6 +32,9 @@ Hackpad (https://hackpad.com/) will be opensource soon:
   - http://thenodeway.io/posts/testing-essentials/
 
 
+### Ruby
+  - https://speakerdeck.com/a_matsuda/the-recipe-for-the-worlds-largest-rails-monolith
+
 
 ### DevOps
   True Zero Downtime HAProxy Reloads - http://engineeringblog.yelp.com/2015/04/true-zero-downtime-haproxy-reloads.html
@@ -37,13 +46,15 @@ Hackpad (https://hackpad.com/) will be opensource soon:
   - https://zapier.com/blog/top-employee-performance/
   - https://www.youtube.com/watch?v=FKTxC9pl-WM - Making Badass Developers - Kathy Sierra (Serious Pony) keynote
   - http://blog.bench.co/patrick-mckenzie
+  - https://www.youtube.com/watch?v=sm9QB_OyB9w&list=PLWbHc_FXPo2h0sJW6X2RZDtT1ndw6KKpQ&index=21 - Erlang Factory SF 2015 - Inaki Garay - Teaching is Learning: Training New Hires
 
 
+
+### Startups
+  - Founder Institute Webinar Archive:  http://fi.co/contents/10311
 
 
 ### Growthhacking
-
-http://doubleyouraudience.com/microconf/ - Microconf 2015 Recap Page
-
-https://www.groovehq.com/blog/neil-patel-interview - Building Businesses, Learning From Mistakes and
+  - http://doubleyouraudience.com/microconf/ - Microconf 2015 Recap Page
+  - https://www.groovehq.com/blog/neil-patel-interview - Building Businesses, Learning From Mistakes and
 the ROI of Helicopters

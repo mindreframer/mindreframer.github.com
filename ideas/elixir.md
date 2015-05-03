@@ -23,6 +23,7 @@
 
 
 ### Phoenix
+  - https://github.com/lancehalvorsen/phoenix-guides (!!!)
   - http://phoenix.thefirehoseproject.com/2.html
   - http://blog.rokkincat.com/json-views-in-phoenix/
   - http://gogogarrett.sexy/programming-in-elixir-with-the-phoenix-framework-building-a-basic-CRUD-app/
@@ -40,6 +41,7 @@
   - https://www.youtube.com/watch?v=3jMbzGv_6tA - Elixir Conf 2014 - Rise of The Phoenix - Building an Elixir Web Framework by Chris McCord
   - https://www.youtube.com/watch?v=Nh5OQjb8G9E - Phoenix 0.10 screencast: asset compilation, live-reload, & generators  (08.03.2015)
   - https://www.youtube.com/watch?v=1TpK4NDEEVA&index=18&list=PLWbHc_FXPo2h0sJW6X2RZDtT1ndw6KKpQ - Erlang Factory SF 2015 - Michal Slaski & Sonny Scroggin - MongooseIM + Phoenix - GREAT INTRO!
+  - https://www.youtube.com/watch?v=RPs4SHpSThU - Elixir chat application with the Phoenix Framework (06.05.2014)
 
 
 
@@ -52,3 +54,46 @@
 
 ### Libraries
   - https://github.com/boldpoker/edeliver - Deployment for Elixir and Erlang
+
+
+
+
+### Learning
+  Basic:
+    - https://www.youtube.com/watch?v=lly-1UYmnFI - Intro to Elixir
+
+    - https://www.youtube.com/watch?v=uWSGBpW3xEQ - Programming Elixir: The magic of today's tonic (good one! )
+
+  - http://confreaks.tv/events/elixirconf2014
+
+  - http://confreaks.tv/videos/railsconf2014-workshop-all-aboard-the-elixir-express
+    - https://github.com/chrismccord/elixir_express (3 hours workshop on Elixir, mustwatch!)
+
+  Elixir Tutorials:
+    - https://vimeo.com/channels/elixir/105526157
+
+  http://devfreecasts.org/elixir/
+
+  http://elixirdose.com/#
+  http://www.elixre.uk/ - An Elixir regular expression editor & tester
+
+
+  Elixir Sips:
+    http://elixirsips.com/episodes.html -> looks like a good deal....
+
+
+
+### Learning Erlang
+  - https://www.youtube.com/watch?v=1_beLWlLAOc&index=2&list=PLE4AAD4222D8CFEFE - Erlang. from Yuri Zhloba (!!!!)
+  - https://www.youtube.com/watch?v=LscdVp7wgqQ - Опыт использования Erlang, Юрий Жлоба
+  - https://www.youtube.com/watch?v=Nt3UjQ7pKvg - "Чем хорош Erlang вообще и для веб-разработки в частности? "Юрий Жлоба (TvZavr.ru, Москва)
+  - https://www.youtube.com/watch?v=OCkL9z8IxOI - Learning Erlang - Easier than you think
+  - https://www.youtube.com/watch?v=HnP5symRqcE - Local Hack Day - Intro to Erlang
+  - https://www.youtube.com/watch?v=LbR0LtEw_OA - Torben Hoffmann - Erlang Patterns Matching Business Needs
+  - https://www.youtube.com/watch?v=TxM3JeThiqg - O'Reilly Webcast: Modern Server Application Design with Erlang
+  - https://www.youtube.com/watch?v=c12cYAUTXXs - Erlang Factory 2014 - That's 'Billion' with a 'B': Scaling to the Next Level at WhatsApp
+  - https://www.youtube.com/watch?v=0ZGHzI9F5YE - Essential Erlang/OTP
+  - http://www.erlangpatterns.org/patterns.html
+  - http://ftp.stu.edu.tw/FreeBSD/distfiles/erlang-doc/r12b3/master_thesis_patterns.pdf (Good theses on Design Patterns)
+
+  - https://www.pinterest.com/smalllinux/erlang-programming/ - some links for Erlang

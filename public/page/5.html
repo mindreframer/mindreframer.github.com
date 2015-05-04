@@ -105,6 +105,22 @@
 					
 				        <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
     <div class="meta">
+		<div class="date"><time datetime='Tue, Oct 22, 2013' data-updated="true" itemprop="datePublished">Tue, Oct 22, 2013</time>
+</div>
+		<div class="tags">
+</div>
+		
+	</div>
+	<h1 class="title" itemprop="name"><a href="http://devopsbox.es/posts/2013/10-22-opsworks-vs-chef-server.html" itemprop="url">OpsWorks vs Chef-Server</a></h1>
+	<div class="entry-content" itemprop="articleBody">
+		A couple of days ago I was tasked to get a running MongoDB cluster, that configures itself with AWS OpsWorks. Requirements: create EBS volumes discover other nodes with this recipe in run-list create MongoDB replica set or join an existing one The cookbook from Edelight provides most of it, and I created a fork with changes from Parse.com for EBS-Volumes creation here: https://github.com/devopsbox/chef-mongodb/tree/ec2. It works nicely with Chef-Server. Shouldn&rsquo;t be that hard to rewrite it for OpsWorks, right?
+		<a href="http://devopsbox.es/posts/2013/10-22-opsworks-vs-chef-server.html" class="more-link">Read on →</a>
+	</div>
+</article>
+
+				    
+				        <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+    <div class="meta">
 		<div class="date"><time datetime='Fri, Oct 11, 2013' data-updated="true" itemprop="datePublished">Fri, Oct 11, 2013</time>
 </div>
 		<div class="tags">
@@ -223,10 +239,10 @@
 </div>
 		
 	</div>
-	<h1 class="title" itemprop="name"><a href="http://devopsbox.es/posts/2013/08-02-production-ready-docker-monitoring.html" itemprop="url">Production-ready Docker monitoring</a></h1>
+	<h1 class="title" itemprop="name"><a href="http://devopsbox.es/posts/2013/08-02-why-docker-was-build.html" itemprop="url">Why docker was build</a></h1>
 	<div class="entry-content" itemprop="articleBody">
-		There is an interesting discussion in the docker user-group about docker specific process monitoring. Here is a response from Jérôme Petazzoni, one of the core developers of docker: Let's see what we can do with docker as it is today. If we were to write an upstart service or systemd unit, it would probably do something like the following: ID=$(docker run -d foo) docker wait $ID When the container exits/crashes, a new one is restarted automatically.
-		<a href="http://devopsbox.es/posts/2013/08-02-production-ready-docker-monitoring.html" class="more-link">Read on →</a>
+		Why docker | OSCON 2013 from dotCloud
+		
 	</div>
 </article>
 
@@ -239,26 +255,10 @@
 </div>
 		
 	</div>
-	<h1 class="title" itemprop="name"><a href="http://devopsbox.es/posts/2013/08-02-why-docker-was-build.html" itemprop="url">Why docker was build</a></h1>
+	<h1 class="title" itemprop="name"><a href="http://devopsbox.es/posts/2013/08-02-production-ready-docker-monitoring.html" itemprop="url">Production-ready Docker monitoring</a></h1>
 	<div class="entry-content" itemprop="articleBody">
-		Why docker | OSCON 2013 from dotCloud
-		
-	</div>
-</article>
-
-				    
-				        <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
-    <div class="meta">
-		<div class="date"><time datetime='Mon, Jul 8, 2013' data-updated="true" itemprop="datePublished">Mon, Jul 8, 2013</time>
-</div>
-		<div class="tags">
-</div>
-		
-	</div>
-	<h1 class="title" itemprop="name"><a href="http://devopsbox.es/posts/2013/07-08-play-with-tokumx-now.html" itemprop="url">Play with TokuMX now!</a></h1>
-	<div class="entry-content" itemprop="articleBody">
-		Hey there, do you want to play with TokuMX - a MongoDB fork with transactions ACID high compression better indexing than pure mongodb ? Then wait no further! Grab your beloved Vagrant, and give this new, very promising Fractal-Tree-based database a try, you might witness something rather revolutionary! All the hard work is already done, just execute $ git clone git://github.com/mindreframer/vagrant-tokumx-puppet.git $ cd vagrant-tokumx-puppet $ vagrant up and drink a beer!
-		<a href="http://devopsbox.es/posts/2013/07-08-play-with-tokumx-now.html" class="more-link">Read on →</a>
+		There is an interesting discussion in the docker user-group about docker specific process monitoring. Here is a response from Jérôme Petazzoni, one of the core developers of docker: Let's see what we can do with docker as it is today. If we were to write an upstart service or systemd unit, it would probably do something like the following: ID=$(docker run -d foo) docker wait $ID When the container exits/crashes, a new one is restarted automatically.
+		<a href="http://devopsbox.es/posts/2013/08-02-production-ready-docker-monitoring.html" class="more-link">Read on →</a>
 	</div>
 </article>
 

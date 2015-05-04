@@ -7,7 +7,62 @@
     <language>en-us</language>
     
     
-    <updated>Wed, 29 Apr 2015 00:00:00 UTC</updated>
+    <updated>Mon, 04 May 2015 00:00:00 UTC</updated>
+    
+    <item>
+      <title>Linkdump 2015 - 9</title>
+      <link>http://devopsbox.es/posts/2015/05-04-linkdump-2015-9.html</link>
+      <pubDate>Mon, 04 May 2015 00:00:00 UTC</pubDate>
+      
+      <guid>http://devopsbox.es/posts/2015/05-04-linkdump-2015-9.html</guid>
+      <description>
+
+&lt;h3 id=&#34;softskills:4dcec23f3147b5bda3f26102eeee630e&#34;&gt;Softskills&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://firstround.com/review/what-i-learned-scaling-engineering-teams-through-euphoria-and-horror/&#34;&gt;http://firstround.com/review/what-i-learned-scaling-engineering-teams-through-euphoria-and-horror/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zapier.com/blog/top-employee-performance/&#34;&gt;https://zapier.com/blog/top-employee-performance/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=FKTxC9pl-WM&#34;&gt;https://www.youtube.com/watch?v=FKTxC9pl-WM&lt;/a&gt; - Making Badass Developers - Kathy Sierra (Serious Pony) keynote&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.bench.co/patrick-mckenzie&#34;&gt;http://blog.bench.co/patrick-mckenzie&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=sm9QB_OyB9w&#34;&gt;https://www.youtube.com/watch?v=sm9QB_OyB9w&lt;/a&gt; - Erlang Factory SF 2015 - Inaki Garay - Teaching is Learning: Training New Hires&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://radianttiger.com/2015/04/20/a-culture-that-attracts-quality-candidates/&#34;&gt;http://radianttiger.com/2015/04/20/a-culture-that-attracts-quality-candidates/&lt;/a&gt; - A culture that attracts quality candidates&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.scotthyoung.com/blog/Programs/HolisticLearningEBook.pdf&#34;&gt;http://www.scotthyoung.com/blog/Programs/HolisticLearningEBook.pdf&lt;/a&gt; - Holistic Learning Free Ebook&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;growthhacking:4dcec23f3147b5bda3f26102eeee630e&#34;&gt;Growthhacking&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://doubleyouraudience.com/microconf/&#34;&gt;http://doubleyouraudience.com/microconf/&lt;/a&gt; - Microconf 2015 Recap Page&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.groovehq.com/blog/neil-patel-interview&#34;&gt;https://www.groovehq.com/blog/neil-patel-interview&lt;/a&gt; - Building Businesses, Learning From Mistakes and
+the ROI of Helicopters&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;startups:4dcec23f3147b5bda3f26102eeee630e&#34;&gt;Startups&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Founder Institute Webinar Archive:  &lt;a href=&#34;http://fi.co/contents/10311&#34;&gt;http://fi.co/contents/10311&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.bablic.com/why-startups-need-a-multilingual-website/&#34;&gt;http://blog.bablic.com/why-startups-need-a-multilingual-website/&lt;/a&gt; - Why #Startups Need #Multilingual Website #strategy&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;elixir:4dcec23f3147b5bda3f26102eeee630e&#34;&gt;Elixir:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://natescottwest.com/continuous-deployment-of-phoenix-apps-with-travis-and-heroku/&#34;&gt;http://natescottwest.com/continuous-deployment-of-phoenix-apps-with-travis-and-heroku/&lt;/a&gt; - Continuous Deployment of #Phoenix Apps with Travis and Heroku #devops #elixir&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/slogsdon/plug-web-socket&#34;&gt;https://github.com/slogsdon/plug-web-socket&lt;/a&gt; - An exploration into a stand-alone library for Plug applications to easily adopt WebSockets #elixir #websockets&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/orgs/elixir-lang/people&#34;&gt;https://github.com/orgs/elixir-lang/people&lt;/a&gt; - #Elixir core developers&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://vysakh0.github.io/how-a-rubyist-tried-to-learn-elixir-lang-part-2/&#34;&gt;http://vysakh0.github.io/how-a-rubyist-tried-to-learn-elixir-lang-part-2/&lt;/a&gt; - How a Rubyist tried to learn Elixir lang (part 2)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;programming-general:4dcec23f3147b5bda3f26102eeee630e&#34;&gt;Programming General&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://c2.com/cgi/wiki?AlanKayOnMessaging&#34;&gt;http://c2.com/cgi/wiki?AlanKayOnMessaging&lt;/a&gt; - Alan Kay On Messaging #erlang #message&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.sics.se/~joe/bluetail/vol1/v1_oo.html&#34;&gt;https://www.sics.se/~joe/bluetail/vol1/v1_oo.html&lt;/a&gt; - Why OO Sucks&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://techcrunch.com/2015/05/02/and-c-plus-plus-too/&#34;&gt;http://techcrunch.com/2015/05/02/and-c-plus-plus-too/&lt;/a&gt; - Death To C | TechCrunch - Rust&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://joearms.github.io/2014/06/26/Background-to-programming-erlang.html&#34;&gt;http://joearms.github.io/2014/06/26/Background-to-programming-erlang.html&lt;/a&gt; - Background to Programming Erlang (Joe Armstrong)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Linkdump 2015 - 8</title>
@@ -638,49 +693,6 @@ $ make tests
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.develop-online.net/opinions/death-of-the-game-design-document/0195381&#34;&gt;Death of the game design document&lt;/a&gt; - the article talks about game development, but this is true for any kind of software project&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Linkdump week 18 (2014)</title>
-      <link>http://devopsbox.es/posts/2014/05-01-linkdump-week-18-2014.html</link>
-      <pubDate>Thu, 01 May 2014 00:00:00 UTC</pubDate>
-      
-      <guid>http://devopsbox.es/posts/2014/05-01-linkdump-week-18-2014.html</guid>
-      <description>
-
-&lt;h2 id=&#34;week-18-2014-linkdump:d7756a22ad322fcb72886988ec0bef73&#34;&gt;Week #18 (2014) linkdump:&lt;/h2&gt;
-
-&lt;h3 id=&#34;networking:d7756a22ad322fcb72886988ec0bef73&#34;&gt;Networking:&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/zachlatta/postman&#34;&gt;Postman – A command-line utility for batch-sending email&lt;/a&gt; - made in Golang&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;general:d7756a22ad322fcb72886988ec0bef73&#34;&gt;General:&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.destroyallsoftware.com/blog/2014/tdd-straw-men-and-rhetoric&#34;&gt;TDD, Straw Men, and Rhetoric&lt;/a&gt; - a rather long answer to DHHs rant about TDD. I have to agree on most of the points, DHH seems to have lost it&amp;hellip; He should keep on racing and not making such absurd statements about curent state of software development.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;javascript:d7756a22ad322fcb72886988ec0bef73&#34;&gt;Javascript&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://mattgreer.org/articles/promises-in-wicked-detail/&#34;&gt;JavaScript Promises in Wicked Detail&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;design-frontend:d7756a22ad322fcb72886988ec0bef73&#34;&gt;Design/Frontend:&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://developers.google.com/web/fundamentals/&#34;&gt;Web Fundamentals - A handbook for best practices&lt;/a&gt; - a guide from Google how to approach&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://learnlayout.com/&#34;&gt;Learn Layout&lt;/a&gt; - CSS fundamentals, explained clearly and visually&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;docker-vagrant:d7756a22ad322fcb72886988ec0bef73&#34;&gt;Docker/Vagrant&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.vagrantup.com/blog/feature-preview-vagrant-1-6-docker-dev-environments.html&#34;&gt;Vagrant Feature Preview: Docker-Based Development Environments&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>

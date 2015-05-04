@@ -223,12 +223,12 @@
   </url>
   
   <url>
-    <loc>http://devopsbox.es/posts/2013/10-08-adaptive-replacement-cache---alternative-to-lru.html</loc>
+    <loc>http://devopsbox.es/posts/2013/10-08-x509-failed-to-load-system-roots-and-no-roots-provided.html</loc>
     <lastmod>2013-10-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://devopsbox.es/posts/2013/10-08-x509-failed-to-load-system-roots-and-no-roots-provided.html</loc>
+    <loc>http://devopsbox.es/posts/2013/10-08-adaptive-replacement-cache---alternative-to-lru.html</loc>
     <lastmod>2013-10-08T00:00:00+00:00</lastmod>
   </url>
   
@@ -253,12 +253,12 @@
   </url>
   
   <url>
-    <loc>http://devopsbox.es/posts/2013/08-02-why-docker-was-build.html</loc>
+    <loc>http://devopsbox.es/posts/2013/08-02-production-ready-docker-monitoring.html</loc>
     <lastmod>2013-08-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://devopsbox.es/posts/2013/08-02-production-ready-docker-monitoring.html</loc>
+    <loc>http://devopsbox.es/posts/2013/08-02-why-docker-was-build.html</loc>
     <lastmod>2013-08-02T00:00:00+00:00</lastmod>
   </url>
   
@@ -278,17 +278,17 @@
   </url>
   
   <url>
+    <loc>http://devopsbox.es/posts/2013/06-26-dockerui.html</loc>
+    <lastmod>2013-06-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://devopsbox.es/posts/2013/06-26-popular-ops-tools-in-japan.html</loc>
     <lastmod>2013-06-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://devopsbox.es/posts/2013/06-26-unix-and-ruby-in-love.html</loc>
-    <lastmod>2013-06-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://devopsbox.es/posts/2013/06-26-dockerui.html</loc>
     <lastmod>2013-06-26T00:00:00+00:00</lastmod>
   </url>
   
@@ -308,12 +308,12 @@
   </url>
   
   <url>
-    <loc>http://devopsbox.es/posts/2013/06-19-the-future-of-networking-and-the-past-of-protocols---scott-shenker.html</loc>
+    <loc>http://devopsbox.es/posts/2013/06-19-dokku-your-own-mini-heroku-in-under-5-minutes.html</loc>
     <lastmod>2013-06-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://devopsbox.es/posts/2013/06-19-dokku-your-own-mini-heroku-in-under-5-minutes.html</loc>
+    <loc>http://devopsbox.es/posts/2013/06-19-the-future-of-networking-and-the-past-of-protocols---scott-shenker.html</loc>
     <lastmod>2013-06-19T00:00:00+00:00</lastmod>
   </url>
   
@@ -497,11 +497,11 @@
   </url>
   
   <url>
-    <loc>http://devopsbox.es/resume/projects.html</loc>
+    <loc>http://devopsbox.es/resume/resume.html</loc>
   </url>
   
   <url>
-    <loc>http://devopsbox.es/resume/resume.html</loc>
+    <loc>http://devopsbox.es/resume/projects.html</loc>
   </url>
   
 </urlset>

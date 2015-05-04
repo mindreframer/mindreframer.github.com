@@ -23,12 +23,11 @@
   We can not solve problems by using the same kind of thinking we used when we created them. (Albert Einstein)
 
 
-
 Hackpad (https://hackpad.com/) will be opensource soon:
   We have some exciting news — Hackpad will be released as open source software in the next few weeks!
 
 
-### Node.js
+### Node.js / JavaScript
   - http://thenodeway.io/posts/testing-essentials/
 
 
@@ -37,24 +36,10 @@ Hackpad (https://hackpad.com/) will be opensource soon:
 
 
 ### DevOps
-  True Zero Downtime HAProxy Reloads - http://engineeringblog.yelp.com/2015/04/true-zero-downtime-haproxy-reloads.html
+  - True Zero Downtime HAProxy Reloads - http://engineeringblog.yelp.com/2015/04/true-zero-downtime-haproxy-reloads.html
+  - https://www.youtube.com/watch?v=JOl1Je6ZskI - 6 Ways Ansible Can Improve Your Workflow - VividCortex, Inc.
 
 
+### Reactjs
+  - https://www.paypal-engineering.com/2015/04/27/isomorphic-react-apps-with-react-engine #reactjs #isomorphic
 
-### Softskills
-  - http://firstround.com/review/what-i-learned-scaling-engineering-teams-through-euphoria-and-horror/
-  - https://zapier.com/blog/top-employee-performance/
-  - https://www.youtube.com/watch?v=FKTxC9pl-WM - Making Badass Developers - Kathy Sierra (Serious Pony) keynote
-  - http://blog.bench.co/patrick-mckenzie
-  - https://www.youtube.com/watch?v=sm9QB_OyB9w&list=PLWbHc_FXPo2h0sJW6X2RZDtT1ndw6KKpQ&index=21 - Erlang Factory SF 2015 - Inaki Garay - Teaching is Learning: Training New Hires
-
-
-
-### Startups
-  - Founder Institute Webinar Archive:  http://fi.co/contents/10311
-
-
-### Growthhacking
-  - http://doubleyouraudience.com/microconf/ - Microconf 2015 Recap Page
-  - https://www.groovehq.com/blog/neil-patel-interview - Building Businesses, Learning From Mistakes and
-the ROI of Helicopters

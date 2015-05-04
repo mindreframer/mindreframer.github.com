@@ -1,5 +1,6 @@
 #### Elixir
 
+  - https://github.com/elixir-lang/elixir/wiki/Talks
   - https://github.com/h4cc/awesome-elixir#books (EVERYTHING YOU MIGHT NEED)
   - http://reefpoints.dockyard.com/2015/04/08/elixir-come-for-the-syntax-stay-for-everything-else.html
   - http://zohaib.me/railway-programming-pattern-in-elixir/ - Railway Oriented Programming in Elixir (2015.03)
@@ -14,6 +15,16 @@
 
   Erlang:
     - http://www.erlang-in-anger.com/
+
+
+  # Slides
+    - http://www.slideshare.net/benjamintanweihao/elixir-hnp (Elixir – Peeking into Elixir's Processes, OTP and Supervisors)  Apr 18, 2014
+    - http://www.slideshare.net/justinxreese/elixir-otp-1  - Concurrency in Elixir with OTP - ( Aug 23, 2014) (with Video)
+    - http://www.slideshare.net/pmontrasio/rubys-influence-on-the-elixir-language-paolo-montrasio - Ruby's Influence over the Elixir Language - Ruby Day 2014
+    - http://www.slideshare.net/devbash/introducing-elixir-devbash (Introducing Elixir and OTP at the Erlang BASH) (Jan 28, 2015)
+    - http://www.slideshare.net/BrianTroutwine1/erlang-lfe-elixir-and-joxa-oscon-2014 - Erlang, LFE, Joxa and Elixir: Established and Emerging Languages in the Erlang Ecosystem (Jul 24, 2014)
+    - http://www.slideshare.net/DanniFriedland/elixir-for-rubysts  (Mar 04, 2014)
+
 
 
 
@@ -35,6 +46,7 @@
   Slides:
   - https://speakerdeck.com/pedroassumpcao/phoenix-framework
   - https://speakerdeck.com/mschae/individualised-content-at-web-scale
+  - http://www.slideshare.net/BrianHogan6/realtime-web-apps-with-elixir-and-phoenix (Apr 25, 2015)
 
   Videos:
 
@@ -84,6 +96,7 @@
 
 
 ### Learning Erlang
+  - http://www.tryerlang.org/#
   - https://www.youtube.com/watch?v=1_beLWlLAOc&index=2&list=PLE4AAD4222D8CFEFE - Erlang. from Yuri Zhloba (!!!!)
   - https://www.youtube.com/watch?v=LscdVp7wgqQ - Опыт использования Erlang, Юрий Жлоба
   - https://www.youtube.com/watch?v=Nt3UjQ7pKvg - "Чем хорош Erlang вообще и для веб-разработки в частности? "Юрий Жлоба (TvZavr.ru, Москва)
@@ -97,3 +110,22 @@
   - http://ftp.stu.edu.tw/FreeBSD/distfiles/erlang-doc/r12b3/master_thesis_patterns.pdf (Good theses on Design Patterns)
 
   - https://www.pinterest.com/smalllinux/erlang-programming/ - some links for Erlang
+
+
+  Slides:
+    - http://de.slideshare.net/JanHenryNystrom/automatic-assessment-of-failure-recovery-in-erlang-applications
+    - http://twvideo01.ubm-us.net/o1/vault/gdconline12/Presentations/Diedrich_Henning_WhyErlang.pdf
+
+
+    - Russian:
+      - http://www.slideshare.net/YuriZhloba
+      - http://www.slideshare.net/YuriZhloba/erlang-ruby (Jan 25, 2014 )
+      - http://www.slideshare.net/maxlapshin/erlangrails - (Erlang&rails)
+      - http://www.slideshare.net/maxlapshin/rails-eventmachine-erlang (Dec 16, 2012)
+      - http://www.slideshare.net/ArtemBaranov2/think-parallel-let-it-crash (Jan 28, 2015)
+
+
+
+
+
+  - http://ferd.github.io/recon/ (Recon is a library to be dropped into any other Erlang project, to be used to assist DevOps people diagnose problems in production nodes.)

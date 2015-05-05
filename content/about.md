@@ -29,15 +29,11 @@ title = "about"
 <br><br>
 <p>
   <strong>Check my twitter for see my current interests and follow me, if you like what you see!</strong>
-
-<a class="twitter-follow-button"
-  href="https://twitter.com/mindreframer"
-  data-dnt="true">
-Follow @mindreframer
-</a>
-<script>window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.twttr||{};if(d.getElementById(id))return;js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);t._e=[];t.ready=function(f){t._e.push(f);};return t;}(document,"script","twitter-wjs"));</script>
-
+  {{< twitter  >}}
 </p>
+
+
+
 
 <!--My name is Roman Heinrich, I write code. I'm doing it since 1994, when I first got my hands on a Apple Macintosh Classic II with hyper-easy and fun
 <a href="http://en.wikipedia.org/wiki/HyperCard">HyperCard + HyperTalk</a>

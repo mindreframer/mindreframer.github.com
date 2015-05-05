@@ -6,6 +6,9 @@ title = "about"
 +++
 
 <p>Hi, I'm Roman and I am a software engineer</p>
+
+<p>I help my team to deliver great maintainable products on time, fostering personal growth and culture of sharing</p>
+
 <p>I fix things</p>
 
 <p>I love to tinker, try new ideas, experiment with things, break them apart, put them together</p>
@@ -19,6 +22,8 @@ title = "about"
 <p>I re-evaluate my know-how quite a lot, and the only thing that is consistent is the change of things</p>
 
 <p>I prefer concepts over concrete frameworks, simplicity over new trendy fads</p>
+
+<p>I'd love to hear from you and your unique challenges, if you appreciate good engineering work!</p>
 
 
 <br><br>

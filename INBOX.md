@@ -43,3 +43,24 @@ Hackpad (https://hackpad.com/) will be opensource soon:
 ### Reactjs
   - https://www.paypal-engineering.com/2015/04/27/isomorphic-react-apps-with-react-engine #reactjs #isomorphic
 
+
+
+### Peopleware
+  - http://www.forbes.com/sites/georgeanders/2015/05/06/airbnbs-5-star-recruiting-twist-the-competitive-power-of-nice - How Airbnb Rewrote Its Recruiting Playbook  #hiring #always-be-hiring
+  - https://www.groovehq.com/blog/connecting-with-mentors - Connecting with mentors #personal-growth #networking
+
+
+### Javascript
+  - http://tonsky.me/blog/decomposing-web-app-development/ - Good in-memory browser-database with advanced features!  #reactjs #datascript
+
+### Elixir
+  - http://zohaib.me/railway-programming-pattern-in-elixir/ - Railsway Programming in Elixir #elixirlang #patterns #error-handling #functional-programming
+
+
+
+### Databases
+  - http://blog.confluent.io/2015/04/23/bottled-water-real-time-integration-of-postgresql-and-kafka/ -
+  - https://github.com/confluentinc/bottledwater-pg/tree/master/kafka
+
+
+http://www.slideshare.net/nathariel/patterns-for-building-resilient-and-scalable-microservices-platform-onaws-full

@@ -64,3 +64,32 @@ Hackpad (https://hackpad.com/) will be opensource soon:
 
 
 http://www.slideshare.net/nathariel/patterns-for-building-resilient-and-scalable-microservices-platform-onaws-full
+
+http://www.reddit.com/r/javascript/comments/2jav2q/is_there_any_good_standalone_implementation_of/
+
+
+https://gist.github.com/gcanti/52d6240ee8e51b857985
+
+
+http://www.nickkolenda.com/psychological-pricing-strategies Psychological #Pricing Strategies #startup #strategy #psychology
+
+
+https://davenicolette.wordpress.com/2015/04/22/the-mother-of-all-management-anti-patterns/
+  A team member isn’t a resource. A team member is a human being.
+
+  The words we use influence the way we think and act
+  they tend to treat people like “things
+  I hope you will mention it to them
+
+
+
+http://www.reddit.com/r/gamedev/comments/34pnhr/programming_everyone_who_has_finished_a_game_with/
+
+
+
+http://www.reddit.com/r/rust/comments/34rszb/pony_type_and_memory_safe_language/
+
+A proper way to treat engineers:
+  http://www.causality.io/#process
+  https://github.com/andymcn
+  https://twitter.com/ponylang

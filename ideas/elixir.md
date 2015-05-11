@@ -8,7 +8,7 @@
   - https://medium.com/@kenmazaika/why-im-betting-on-elixir-7c8f847b58 - Why I’m betting on Elixir - Jan 31, 2015
 
   - http://learnelixir.com/blog/archives/ (good blog)
-
+  - http://learningelixir.joekain.com/ (great articles)
   - http://ap4y.github.io/2013/11/05/my-first-elixir-code-in-production.html
   - http://beamster.org/jb/ - Junior Beamster Elixir Course
   - http://benjamintan.io/blog/
@@ -24,6 +24,7 @@
     - http://www.slideshare.net/devbash/introducing-elixir-devbash (Introducing Elixir and OTP at the Erlang BASH) (Jan 28, 2015)
     - http://www.slideshare.net/BrianTroutwine1/erlang-lfe-elixir-and-joxa-oscon-2014 - Erlang, LFE, Joxa and Elixir: Established and Emerging Languages in the Erlang Ecosystem (Jul 24, 2014)
     - http://www.slideshare.net/DanniFriedland/elixir-for-rubysts  (Mar 04, 2014)
+    - https://speakerdeck.com/benjamintan/rubyists-have-a-sip-of-elixir (November 18, 2014)
 
 
 

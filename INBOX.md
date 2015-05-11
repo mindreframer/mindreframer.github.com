@@ -1,11 +1,11 @@
-
 ### Golang:
   - https://github.com/peterbe/autocompeter -> selfhostes Autocomplete service :)
+  - Gonix – Unix tools written in Go https://github.com/polegone/gonix
+  - http://didipkerabat.com/posts/1430960969799974572-can-you-build-a-web-application-in-go.html - Can you build a web application in Go? #golang
 
 
 ###  How Designers Destroyed the World (Mike Monteiro)
   - https://www.youtube.com/watch?v=J0ucEt-La9w
-
 
 
 ### Bem
@@ -23,9 +23,6 @@
   We can not solve problems by using the same kind of thinking we used when we created them. (Albert Einstein)
 
 
-Hackpad (https://hackpad.com/) will be opensource soon:
-  We have some exciting news — Hackpad will be released as open source software in the next few weeks!
-
 
 ### Node.js / JavaScript
   - http://thenodeway.io/posts/testing-essentials/
@@ -38,43 +35,27 @@ Hackpad (https://hackpad.com/) will be opensource soon:
 ### DevOps
   - True Zero Downtime HAProxy Reloads - http://engineeringblog.yelp.com/2015/04/true-zero-downtime-haproxy-reloads.html
   - https://www.youtube.com/watch?v=JOl1Je6ZskI - 6 Ways Ansible Can Improve Your Workflow - VividCortex, Inc.
+  - Rtop – agentless sever monitoring tool (built with Go) http://www.rtop-monitor.org/
+  - Automating the Modern Datacenter with Terraform and Consul http://www.infoq.com/news/2015/05/hashimoto-modern-datacenter #terraform #consol #automation #devops
+  - http://www.slideshare.net/nathariel/patterns-for-building-resilient-and-scalable-microservices-platform-onaws-full #devops #scalable
+  - http://www.opsdash.com/ #devops #monitoring
+  - 10 Examples of how to get Docker Container IP Address http://networkstatic.net/10-examples-of-how-to-get-docker-container-ip-address/ #devops #docker
+  - http://capgemini.github.io/devops/apollo/ #devops
 
 
 ### Reactjs
   - https://www.paypal-engineering.com/2015/04/27/isomorphic-react-apps-with-react-engine #reactjs #isomorphic
+  - React JS Best Practices http://blog.siftscience.com/blog/2015/react-applications-that-scale
 
 
 
 ### Peopleware
   - http://www.forbes.com/sites/georgeanders/2015/05/06/airbnbs-5-star-recruiting-twist-the-competitive-power-of-nice - How Airbnb Rewrote Its Recruiting Playbook  #hiring #always-be-hiring
-  - https://www.groovehq.com/blog/connecting-with-mentors - Connecting with mentors #personal-growth #networking
 
+  - http://www.entrepreneur.com/article/245385 - The 10 Best Life and Business Lessons I've Learned So Far
+  - http://writing.jan.io/2013/08/16/lets-start-a-revolution.html - Let's start a revolution
 
-### Javascript
-  - http://tonsky.me/blog/decomposing-web-app-development/ - Good in-memory browser-database with advanced features!  #reactjs #datascript
-
-### Elixir
-  - http://zohaib.me/railway-programming-pattern-in-elixir/ - Railsway Programming in Elixir #elixirlang #patterns #error-handling #functional-programming
-
-
-
-### Databases
-  - http://blog.confluent.io/2015/04/23/bottled-water-real-time-integration-of-postgresql-and-kafka/ -
-  - https://github.com/confluentinc/bottledwater-pg/tree/master/kafka
-
-
-http://www.slideshare.net/nathariel/patterns-for-building-resilient-and-scalable-microservices-platform-onaws-full
-
-http://www.reddit.com/r/javascript/comments/2jav2q/is_there_any_good_standalone_implementation_of/
-
-
-https://gist.github.com/gcanti/52d6240ee8e51b857985
-
-
-http://www.nickkolenda.com/psychological-pricing-strategies Psychological #Pricing Strategies #startup #strategy #psychology
-
-
-https://davenicolette.wordpress.com/2015/04/22/the-mother-of-all-management-anti-patterns/
+  - https://davenicolette.wordpress.com/2015/04/22/the-mother-of-all-management-anti-patterns/
   A team member isn’t a resource. A team member is a human being.
 
   The words we use influence the way we think and act
@@ -82,14 +63,51 @@ https://davenicolette.wordpress.com/2015/04/22/the-mother-of-all-management-anti
   I hope you will mention it to them
 
 
+### Javascript
+  - http://tonsky.me/blog/decomposing-web-app-development/ - Good in-memory browser-database with advanced features!  #reactjs #datascript
+  - http://jetbus.io/ #realtimeweb
+  - http://www.reddit.com/r/javascript/comments/2jav2q/is_there_any_good_standalone_implementation_of/
+  - https://gist.github.com/gcanti/52d6240ee8e51b857985
+  - https://github.com/radioactive/radioactive
 
-http://www.reddit.com/r/gamedev/comments/34pnhr/programming_everyone_who_has_finished_a_game_with/
+### Elixir
+  - http://zohaib.me/railway-programming-pattern-in-elixir/ - Railsway Programming in Elixir #elixirlang #patterns #error-handling #functional-programming
+
+
+### Erlang
+  - https://vimeo.com/erlang
+  - https://www.youtube.com/playlist?embed=no&list=PLlML6SMLMRgAooeL26mW502jCgWikqx_n (Course!)
+
+
+### Databases
+  - http://blog.confluent.io/2015/04/23/bottled-water-real-time-integration-of-postgresql-and-kafka/ -
+  - https://github.com/confluentinc/bottledwater-pg/tree/master/kafka
 
 
 
-http://www.reddit.com/r/rust/comments/34rszb/pony_type_and_memory_safe_language/
+### UX
+  - Fixing UI Elements that Float Away http://feeds.feedblitz.com/~/91280937/0/spin-author-english~Fixing-UI-Elements-that-Float-Away/
 
-A proper way to treat engineers:
-  http://www.causality.io/#process
-  https://github.com/andymcn
-  https://twitter.com/ponylang
+
+
+### Misc
+  - A Freelancer's Guide to Effective Budgeting http://business.tutsplus.com/tutorials/a-freelancers-guide-to-effective-budgeting--cms-23923 #bugdeting
+
+
+
+### Growthhacking
+  - http://www.nickkolenda.com/psychological-pricing-strategies Psychological #Pricing Strategies #startup #strategy #psychology
+
+
+### Software Systems
+  - http://www.reddit.com/r/gamedev/comments/34pnhr/programming_everyone_who_has_finished_a_game_with/
+
+
+
+### Ponylang:
+  - http://www.reddit.com/r/rust/comments/34rszb/pony_type_and_memory_safe_language/
+
+  - A proper way to treat engineers:
+    http://www.causality.io/#process
+    https://github.com/andymcn
+    https://twitter.com/ponylang

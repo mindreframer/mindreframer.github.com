@@ -98,6 +98,7 @@
 
 ### Learning Erlang
   - http://www.tryerlang.org/#
+  - http://ferd.ca/an-open-letter-to-the-erlang-beginner-or-onlooker.html - An Open Letter to the Erlang Beginner (or Onlooker)
   - https://www.youtube.com/watch?v=1_beLWlLAOc&index=2&list=PLE4AAD4222D8CFEFE - Erlang. from Yuri Zhloba (!!!!)
   - https://www.youtube.com/watch?v=LscdVp7wgqQ - Опыт использования Erlang, Юрий Жлоба
   - https://www.youtube.com/watch?v=Nt3UjQ7pKvg - "Чем хорош Erlang вообще и для веб-разработки в частности? "Юрий Жлоба (TvZavr.ru, Москва)
@@ -105,10 +106,13 @@
   - https://www.youtube.com/watch?v=HnP5symRqcE - Local Hack Day - Intro to Erlang
   - https://www.youtube.com/watch?v=LbR0LtEw_OA - Torben Hoffmann - Erlang Patterns Matching Business Needs
   - https://www.youtube.com/watch?v=TxM3JeThiqg - O'Reilly Webcast: Modern Server Application Design with Erlang
+  - https://www.youtube.com/watch?v=W3szsF6X5r8 - Learning Erlang - the advantages of keeping things simple (17.04.2013)
   - https://www.youtube.com/watch?v=c12cYAUTXXs - Erlang Factory 2014 - That's 'Billion' with a 'B': Scaling to the Next Level at WhatsApp
   - https://www.youtube.com/watch?v=0ZGHzI9F5YE - Essential Erlang/OTP
   - http://www.erlangpatterns.org/patterns.html
   - http://ftp.stu.edu.tw/FreeBSD/distfiles/erlang-doc/r12b3/master_thesis_patterns.pdf (Good theses on Design Patterns)
+
+  - https://pragprog.com/articles/erlang - What's all this fuss about Erlang?
 
   - https://www.pinterest.com/smalllinux/erlang-programming/ - some links for Erlang
 

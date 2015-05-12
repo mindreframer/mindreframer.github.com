@@ -51,6 +51,7 @@
 
 ### Peopleware
   - http://www.forbes.com/sites/georgeanders/2015/05/06/airbnbs-5-star-recruiting-twist-the-competitive-power-of-nice - How Airbnb Rewrote Its Recruiting Playbook  #hiring #always-be-hiring
+  - http://kevinlondon.com/2015/05/05/code-review-best-practices.html
 
   - http://www.entrepreneur.com/article/245385 - The 10 Best Life and Business Lessons I've Learned So Far
   - http://writing.jan.io/2013/08/16/lets-start-a-revolution.html - Let's start a revolution

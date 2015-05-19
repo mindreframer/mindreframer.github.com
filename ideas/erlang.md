@@ -1,4 +1,5 @@
 ####### Garrett Smith
+http://www.gar1t.com/blog/index.html
 
 
   2012
@@ -54,9 +55,75 @@
 
 
 
+###### Michał Ślaski
+
+
+- https://pdincau.wordpress.com/2015/02/16/an-interview-with-michal-slaski-about-tdd-and-testing-in-erlang/ (2015)
+- http://www.elixirconf.eu/elixirconf2015/michal-slaski
+- http://www.erlang.se/euc/05/Slaski.pdf (A Virtual World Distributed Server developed in Erlang
+as a Tool for analysing Needs
+of Massively Multiplayer Online Game Servers )
+- https://twitter.com/michalslaski
+- https://github.com/michalslaski/erlang-workshop
+
+
+
+
+
+
+
+#### Intros
+  - https://www.youtube.com/watch?v=kw-UryvWfog&feature=youtu.be - SF Scala: Steven Grady, An Introduction to Erlang ( 06.11.2014)
 
 
 
 ###########
   The Cool Kids love Erlang - Gustav Simonsson, Henning Diedrich - Berlin Erlang Factory Lite (2014.12)
     https://www.youtube.com/watch?v=V1UaFRnbWEk
+
+
+
+  http://www.gar1t.com/blog/oscon-2012-erlang-kung-fu.html
+  http://www.gar1t.com/presentations/2012-07-16-oscon/index.html#slide25
+
+
+
+
+
+Videos + Slides:
+  - http://www.erlang-factory.com/chicago2014#speakers
+  - https://www.erlang-solutions.com/resources/webinars
+  - https://www.erlang-solutions.com/resources/presentations
+
+  - https://www.erlang-solutions.com/resources/webinars/understanding-erlang-scheduler
+
+  - https://vimeo.com/erlang/videos/
+
+
+
+
+#### Libraries
+  - https://github.com/massemanet/eper
+  - https://github.com/meh/reagent
+
+
+### Podcasts
+  - http://www.digitalpodcast.com/feeds/56740-mostly-erlang-podcast?page=1
+  - http://mostlyerlang.com/page/5/
+
+
+
+### Motivation
+  - http://www.bluegraybox.com/blog/2011/09/18/erlang-your-new-favorite-scripting-language/ - Erlang: Your New Favorite Scripting Language? #erlang # (September 18, 2011)
+
+
+
+
+
+### Publications
+  - https://sites.google.com/site/janhenrynystrom/Home/jan-henry-nystroms-publications
+
+
+### DEvelopers
+  - https://github.com/orgs/inaka/people
+  - https://github.com/inaka/erlang_guidelines

@@ -6,6 +6,7 @@
   - http://zohaib.me/railway-programming-pattern-in-elixir/ - Railway Oriented Programming in Elixir (2015.03)
   - http://learningelixir.joekain.com/stream-patterns-in-elixir/ - Elixir Stream Patterns (March 17, 2015)
   - https://medium.com/@kenmazaika/why-im-betting-on-elixir-7c8f847b58 - Why I’m betting on Elixir - Jan 31, 2015
+  - https://www.youtube.com/watch?v=B4rOG9Bc65Q - José Valim - Idioms for building distributed fault-tolerant applications with Elixir
 
   - http://learnelixir.com/blog/archives/ (good blog)
   - http://learningelixir.joekain.com/ (great articles)
@@ -103,6 +104,7 @@
   - https://www.youtube.com/watch?v=LscdVp7wgqQ - Опыт использования Erlang, Юрий Жлоба
   - https://www.youtube.com/watch?v=Nt3UjQ7pKvg - "Чем хорош Erlang вообще и для веб-разработки в частности? "Юрий Жлоба (TvZavr.ru, Москва)
   - https://www.youtube.com/watch?v=OCkL9z8IxOI - Learning Erlang - Easier than you think
+  - https://www.youtube.com/watch?v=2cCUNomLxpM - PolyConf 14: Lessons from Erlang / Michał Ślaski
   - https://www.youtube.com/watch?v=HnP5symRqcE - Local Hack Day - Intro to Erlang
   - https://www.youtube.com/watch?v=LbR0LtEw_OA - Torben Hoffmann - Erlang Patterns Matching Business Needs
   - https://www.youtube.com/watch?v=TxM3JeThiqg - O'Reilly Webcast: Modern Server Application Design with Erlang

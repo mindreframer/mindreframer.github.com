@@ -1,5 +1,5 @@
 ---
-date: '2015-05-04'
+date: '2015-05-11'
 title: Zotonic Resources
 slug: zotonic-resources
 tags:
@@ -23,3 +23,7 @@ tags:
 
 Erlang:
 - http://www.slideshare.net/Arjan/erlang-software-for-a-concurrent-world?related=2
+
+
+
+<!--more-->

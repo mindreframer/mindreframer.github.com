@@ -106,11 +106,18 @@ Videos + Slides:
   - https://github.com/massemanet/eper
   - https://github.com/meh/reagent
 
+### Seaches for code:
+  - https://erlangcentral.org/erlang-projects/2
+  - https://github.com/search?l=elixir&p=2&q=stars%3A%3E1&s=stars&type=Repositories
+
 
 ### Podcasts
   - http://www.digitalpodcast.com/feeds/56740-mostly-erlang-podcast?page=1
   - http://mostlyerlang.com/page/5/
 
+
+### Books
+  - https://github.com/esl/erlang-handbook
 
 
 ### Motivation
@@ -124,6 +131,6 @@ Videos + Slides:
   - https://sites.google.com/site/janhenrynystrom/Home/jan-henry-nystroms-publications
 
 
-### DEvelopers
+### Developers
   - https://github.com/orgs/inaka/people
   - https://github.com/inaka/erlang_guidelines

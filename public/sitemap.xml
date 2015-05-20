@@ -3,8 +3,18 @@
   
   <url>
     <loc>http://devopsbox.es/</loc>
-    <lastmod>2015-05-04T00:00:00+00:00</lastmod>
+    <lastmod>2015-05-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/posts/2015/05-20-memsql-community-edition-unlimited.html</loc>
+    <lastmod>2015-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/posts/2015/05-11-zotonic-resources.html</loc>
+    <lastmod>2015-05-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -273,22 +283,22 @@
   </url>
   
   <url>
-    <loc>http://devopsbox.es/posts/2013/06-26-distributed-patterns-in-ruby.html</loc>
-    <lastmod>2013-06-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://devopsbox.es/posts/2013/06-26-dockerui.html</loc>
     <lastmod>2013-06-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://devopsbox.es/posts/2013/06-26-unix-and-ruby-in-love.html</loc>
+    <loc>http://devopsbox.es/posts/2013/06-26-distributed-patterns-in-ruby.html</loc>
     <lastmod>2013-06-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://devopsbox.es/posts/2013/06-26-popular-ops-tools-in-japan.html</loc>
+    <lastmod>2013-06-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/posts/2013/06-26-unix-and-ruby-in-love.html</loc>
     <lastmod>2013-06-26T00:00:00+00:00</lastmod>
   </url>
   
@@ -308,12 +318,12 @@
   </url>
   
   <url>
-    <loc>http://devopsbox.es/posts/2013/06-19-the-future-of-networking-and-the-past-of-protocols---scott-shenker.html</loc>
+    <loc>http://devopsbox.es/posts/2013/06-19-dokku-your-own-mini-heroku-in-under-5-minutes.html</loc>
     <lastmod>2013-06-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://devopsbox.es/posts/2013/06-19-dokku-your-own-mini-heroku-in-under-5-minutes.html</loc>
+    <loc>http://devopsbox.es/posts/2013/06-19-the-future-of-networking-and-the-past-of-protocols---scott-shenker.html</loc>
     <lastmod>2013-06-19T00:00:00+00:00</lastmod>
   </url>
   
@@ -468,22 +478,22 @@
   </url>
   
   <url>
-    <loc>http://devopsbox.es/posts/2013/01-14-print-protected-pdfs-in-osx.html</loc>
-    <lastmod>2013-01-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://devopsbox.es/posts/2013/01-14-dci-ddd-rails.html</loc>
     <lastmod>2013-01-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://devopsbox.es/posts/2013/01-12-clean-architecture---link-dump.html</loc>
-    <lastmod>2013-01-12T00:00:00+00:00</lastmod>
+    <loc>http://devopsbox.es/posts/2013/01-14-print-protected-pdfs-in-osx.html</loc>
+    <lastmod>2013-01-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://devopsbox.es/posts/2013/01-12-architecture---drawing-lines.html</loc>
+    <lastmod>2013-01-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/posts/2013/01-12-clean-architecture---link-dump.html</loc>
     <lastmod>2013-01-12T00:00:00+00:00</lastmod>
   </url>
   

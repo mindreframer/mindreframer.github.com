@@ -7,7 +7,73 @@
     <language>en-us</language>
     
     
-    <updated>Wed, 05 Nov 2014 00:00:00 UTC</updated>
+    <updated>Wed, 20 May 2015 00:00:00 UTC</updated>
+    
+    <item>
+      <title>MemSQL Community Edition 4.0 free unlimited capacity</title>
+      <link>http://devopsbox.es/posts/2015/05-20-memsql-community-edition-unlimited.html</link>
+      <pubDate>Wed, 20 May 2015 00:00:00 UTC</pubDate>
+      
+      <guid>http://devopsbox.es/posts/2015/05-20-memsql-community-edition-unlimited.html</guid>
+      <description>
+
+&lt;h3 id=&#34;memsql-launches-community-edition-world-s-fastest-in-memory-database-now-available-to-all:498d0e2cc64a1c968dc45d1980597f30&#34;&gt;MemSQL Launches Community Edition: World’s Fastest In-Memory Database Now Available to All&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.memsql.com/releases/memsql-4/&#34;&gt;http://www.memsql.com/releases/memsql-4/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;links:498d0e2cc64a1c968dc45d1980597f30&#34;&gt;Links:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.memsql.com/high-speed-counters/&#34;&gt;http://blog.memsql.com/high-speed-counters/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://docs.memsql.com/latest/admin/high_availability/&#34;&gt;http://docs.memsql.com/latest/admin/high_availability/&lt;/a&gt; - HA details&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://docs.memsql.com/latest/setup/setup_cloud/&#34;&gt;http://docs.memsql.com/latest/setup/setup_cloud/&lt;/a&gt; - Setup in Cloud&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/memsql&#34;&gt;https://github.com/memsql&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;people:498d0e2cc64a1c968dc45d1980597f30&#34;&gt;People:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/NikitaShamgunov&#34;&gt;https://twitter.com/NikitaShamgunov&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;videos:498d0e2cc64a1c968dc45d1980597f30&#34;&gt;Videos:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=FF6Sb4LLDso&#34;&gt;https://www.youtube.com/watch?v=FF6Sb4LLDso&lt;/a&gt; - MemSQL 4 Community Edition&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://vimeo.com/gomemsql&#34;&gt;https://vimeo.com/gomemsql&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://vimeo.com/89430711&#34;&gt;https://vimeo.com/89430711&lt;/a&gt; - Strata Santa Clara 2014 MemSQL CPXi Speaking Session&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://vimeo.com/105708657&#34;&gt;https://vimeo.com/105708657&lt;/a&gt; - Webinar On-Demand: NoSQL vs NewSQL&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=MWo5rY06RTw&#34;&gt;https://www.youtube.com/watch?v=MWo5rY06RTw&lt;/a&gt; - Moving Beyond Mongo Webinar HD (01.05.2015)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=QhlqDmJHLK0&#34;&gt;https://www.youtube.com/watch?v=QhlqDmJHLK0&lt;/a&gt; - Solving Big Data Challenges with In Memory Technology HD (28.04.2015)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=5_0rG5GhHNE&#34;&gt;https://www.youtube.com/watch?v=5_0rG5GhHNE&lt;/a&gt; - Bringing OLAP Fully Online: Analyze Changing Datasets in MemSQL and Spark with Pinterest Demo (08.05.2015)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;user-stories:498d0e2cc64a1c968dc45d1980597f30&#34;&gt;User stories&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://insidebigdata.com/2014/03/28/memsql-eliminates-etl-delivering-real-time-advantage/&#34;&gt;http://insidebigdata.com/2014/03/28/memsql-eliminates-etl-delivering-real-time-advantage/&lt;/a&gt; - MemSQL Delivers Advantage for Real-Time Ad Bidding&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.memsql.com/case-studies/&#34;&gt;http://www.memsql.com/case-studies/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;discussion-on-hn:498d0e2cc64a1c968dc45d1980597f30&#34;&gt;Discussion on HN&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://news.ycombinator.com/item?id=9577663&#34;&gt;https://news.ycombinator.com/item?id=9577663&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Some comments:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;I have been an enterprise user and had the luxury of using the 4 beta for the last month or so. I run a cluster of 18 machines with 192 cores and 540GB of RAM.
+Impressions:
+memSQL is remarkably stable. I actually have one machine running the old memSQL 1.0 beta that has not rebooted in months. 4.0 has similarly stable. The only problems happen when you run too many other processes on the aggregators (which is really just me being stupid).
+Speed is great and the wire compliance with mySQL makes it very easy to develop for. To be honest, the &amp;quot;keeping the data in memory&amp;quot; part isn&#39;t the best part, it is the query compiling. It is incredibly fast. Often a query that takes 30sec to 1min to execute will compile down to fractions of a second. It is very cool to watch and never gets old.
+We are looking to literally move all of our internal stuff to memSQL community edition while keeping our customer tools on enterprise.
+reply
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
     
     <item>
       <title>Scalable Deployments - How we deploy Rails app to 100&#43; hosts in a minute (Cookpad - JP)</title>
@@ -462,73 +528,6 @@ So, in the example above the content presentation layer could spit out the same 
 &lt;/ul&gt;
 
 &lt;p&gt;But overall the limitation are too limiting. Maybe next time.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Software I am Excited About</title>
-      <link>http://devopsbox.es/posts/2013/10-11-software-i-am-excited-about.html</link>
-      <pubDate>Fri, 11 Oct 2013 00:00:00 UTC</pubDate>
-      
-      <guid>http://devopsbox.es/posts/2013/10-11-software-i-am-excited-about.html</guid>
-      <description>
-
-&lt;iframe width=&#34;640&#34; height=&#34;360&#34; src=&#34;//www.youtube.com/embed/sYukPc0y_Ro?feature=player_detailpage&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;blockquote&gt;
-  Chubby is Google&#39;s &lt;strong&gt;least-appreciated secret sauce&lt;/strong&gt;. But Paxos is super confusing.
-&lt;/blockquote&gt;
-
-&lt;p&gt;&amp;lt;%= post_image &amp;lsquo;lock_server.png&amp;rsquo; %&amp;gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;well-now-you-have-raft:da57c56502d238dac620bac5c4906edb&#34;&gt;Well&amp;hellip; NOW you have Raft!&lt;/h2&gt;
-
-&lt;h3 id=&#34;code-examples-of-real-life-implementations:da57c56502d238dac620bac5c4906edb&#34;&gt;Code + Examples of Real Life implementations&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/goraft/raft&#34;&gt;https://github.com/goraft/raft&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/goraft/raftd&#34;&gt;https://github.com/goraft/raftd&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/coreos/etcd&#34;&gt;https://github.com/coreos/etcd&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/skynetservices/skydns&#34;&gt;https://github.com/skynetservices/skydns&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;slides-papers:da57c56502d238dac620bac5c4906edb&#34;&gt;Slides/Papers&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://speakerdeck.com/tsantero/consensus-raft-and-rafter&#34;&gt;https://speakerdeck.com/tsantero/consensus-raft-and-rafter&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://speakerdeck.com/benbjohnson/raft-the-understandable-distributed-consensus-protocol&#34;&gt;https://speakerdeck.com/benbjohnson/raft-the-understandable-distributed-consensus-protocol&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://speakerdeck.com/vanstee/consensus-an-introduction-to-raft&#34;&gt;https://speakerdeck.com/vanstee/consensus-an-introduction-to-raft&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://ramcloud.stanford.edu/wiki/download/attachments/11370504/raft.pdf&#34;&gt;https://ramcloud.stanford.edu/wiki/download/attachments/11370504/raft.pdf&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;other-things-brad-is-excited-about:da57c56502d238dac620bac5c4906edb&#34;&gt;Other things Brad is excited about:&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;ul&gt;
-    &lt;li&gt;Fast, cheap, reliable VMs&lt;/li&gt;
-    &lt;li&gt;Good machine + cluster management system&lt;/li&gt;
-    &lt;li&gt;a good programming language (efficient + expressive + readable + safe + fun)&lt;/li&gt;
-    &lt;li&gt;a good lock server&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;h4 id=&#34;cheap-machines:da57c56502d238dac620bac5c4906edb&#34;&gt;Cheap Machines&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;LXC/OpenVZ&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&#34;cluster-management:da57c56502d238dac620bac5c4906edb&#34;&gt;Cluster Management&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Docker/Juju&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&#34;good-programming-languages:da57c56502d238dac620bac5c4906edb&#34;&gt;Good Programming Languages&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Golang&lt;/li&gt;
-&lt;/ul&gt;
 </description>
     </item>
     

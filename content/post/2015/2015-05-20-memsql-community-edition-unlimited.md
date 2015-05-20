@@ -29,6 +29,7 @@ tags:
   - https://vimeo.com/gomemsql
   - https://vimeo.com/89430711 - Strata Santa Clara 2014 MemSQL CPXi Speaking Session
   - https://vimeo.com/105708657 - Webinar On-Demand: NoSQL vs NewSQL
+  - https://www.youtube.com/watch?v=Lf0qgt_G2-s - MemSQL - Real Time Big Data in a Distributed SQL System (21.10.2013)
   - https://www.youtube.com/watch?v=MWo5rY06RTw - Moving Beyond Mongo Webinar HD (01.05.2015)
   - https://www.youtube.com/watch?v=QhlqDmJHLK0 - Solving Big Data Challenges with In Memory Technology HD (28.04.2015)
   - https://www.youtube.com/watch?v=5_0rG5GhHNE - Bringing OLAP Fully Online: Analyze Changing Datasets in MemSQL and Spark with Pinterest Demo (08.05.2015)

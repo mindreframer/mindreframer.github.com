@@ -4,6 +4,8 @@
   - http://erlanger.ru/wiki/index.php/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0 - Заглавная страница
   - http://www.tryerlang.org/#
   - http://ferd.ca/an-open-letter-to-the-erlang-beginner-or-onlooker.html - An Open Letter to the Erlang Beginner (or Onlooker)
+
+  - http://habrahabr.ru/hub/erlang/ (Articles about Erlang in russian)
   - https://www.youtube.com/watch?v=1_beLWlLAOc&index=2&list=PLE4AAD4222D8CFEFE - Erlang. from Yuri Zhloba (!!!!)
   - https://www.youtube.com/watch?v=LscdVp7wgqQ - Опыт использования Erlang, Юрий Жлоба
   - https://www.youtube.com/watch?v=Nt3UjQ7pKvg - "Чем хорош Erlang вообще и для веб-разработки в частности? "Юрий Жлоба (TvZavr.ru, Москва)

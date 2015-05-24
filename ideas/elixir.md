@@ -45,6 +45,8 @@
   - http://blog.drewolson.org/pagination-with-phoenix-ecto/ - Pagination with Phoenix & Ecto(20 FEBRUARY 2015)
   - http://blog.drewolson.org/building-an-elixir-web-app/
 
+  - https://medium.com/@mschae/measuring-your-phoenix-app-d63a77b13bda - MONITORING IN PRODUCTION!
+
   - http://manukall.de/2015/04/25/building-a-simple-chat-app-in-elixir-with-phoenix-and-rethinkdb/
 
   Slides:

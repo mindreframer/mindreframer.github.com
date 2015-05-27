@@ -53,27 +53,7 @@
 ### Reactjs
   - https://www.paypal-engineering.com/2015/04/27/isomorphic-react-apps-with-react-engine #reactjs #isomorphic
   - React JS Best Practices http://blog.siftscience.com/blog/2015/react-applications-that-scale
-
-
-
-### Peopleware
-  - http://www.forbes.com/sites/georgeanders/2015/05/06/airbnbs-5-star-recruiting-twist-the-competitive-power-of-nice - How Airbnb Rewrote Its Recruiting Playbook  #hiring #always-be-hiring
-  - http://kevinlondon.com/2015/05/05/code-review-best-practices.html
-
-  - http://www.entrepreneur.com/article/245385 - The 10 Best Life and Business Lessons I've Learned So Far
-  - http://writing.jan.io/2013/08/16/lets-start-a-revolution.html - Let's start a revolution
-
-  - https://davenicolette.wordpress.com/2015/04/22/the-mother-of-all-management-anti-patterns/
-    A team member isn’t a resource. A team member is a human being.
-
-    The words we use influence the way we think and act
-    they tend to treat people like “things
-    I hope you will mention it to them
-
-  - Requirements Is A Word That Needs To Go Away http://thecodist.com/article/requirements_is_a_word_that_needs_to_go_away
-
-
-- http://blog.fogcreek.com/how-to-find-hire-and-retain-developers-interview-with-cal-evans/ - How to Find, Hire, and Retain Developers – Interview with Cal Evans
+  - https://github.com/QubitProducts/react-test-tree -
 
 
 ### Javascript
@@ -82,6 +62,7 @@
   - http://www.reddit.com/r/javascript/comments/2jav2q/is_there_any_good_standalone_implementation_of/
   - https://gist.github.com/gcanti/52d6240ee8e51b857985
   - https://github.com/radioactive/radioactive
+  - http://pouchdb.com/2015/05/18/we-have-a-problem-with-promises.html
 
 ### Elixir
   - http://zohaib.me/railway-programming-pattern-in-elixir/ - Railsway Programming in Elixir #elixirlang #patterns #error-handling #functional-programming
@@ -120,6 +101,7 @@
   - http://sarabander.github.io/sicp/html/Chapter-1.xhtml#Chapter-1
 
   - http://www.benstopford.com/2015/04/28/elements-of-scale-composing-and-scaling-data-platforms/ - Elements of Scale: Composing and Scaling Data Platforms - ben stopford
+  - https://www.recurse.com/blog/7-understanding-c-by-learning-assembly - Understanding C by learning assembly - Blog - Recurse Center
 
 
 
@@ -139,3 +121,34 @@
 
 
   http://www.ted.com/playlists/140/how_leaders_inspire
+
+
+### Peopleware
+  - http://www.forbes.com/sites/georgeanders/2015/05/06/airbnbs-5-star-recruiting-twist-the-competitive-power-of-nice - How Airbnb Rewrote Its Recruiting Playbook  #hiring #always-be-hiring
+  - http://kevinlondon.com/2015/05/05/code-review-best-practices.html
+
+  - http://www.entrepreneur.com/article/245385 - The 10 Best Life and Business Lessons I've Learned So Far
+  - http://writing.jan.io/2013/08/16/lets-start-a-revolution.html - Let's start a revolution
+
+  - https://davenicolette.wordpress.com/2015/04/22/the-mother-of-all-management-anti-patterns/
+    A team member isn’t a resource. A team member is a human being.
+
+    The words we use influence the way we think and act
+    they tend to treat people like “things
+    I hope you will mention it to them
+
+  - Requirements Is A Word That Needs To Go Away http://thecodist.com/article/requirements_is_a_word_that_needs_to_go_away
+
+  - http://blog.fogcreek.com/how-to-find-hire-and-retain-developers-interview-with-cal-evans/ - How to Find, Hire, and Retain Developers – Interview with Cal Evans
+
+  - http://benramsey.com/blog/2015/05/my-failed-attempts-at-soft-skills-talks/ - My Failed Attempts at Soft Skills Talks
+
+  - http://www.vox.com/2015/5/22/8639717/reid-hoffman-the-alliance - LinkedIn founder Reid Hoffman on the biggest lie employers tell employees - Vox
+
+  - http://steveblank.com/2015/05/19/organizational-debt-is-like-technical-debt-but-worse - Organizational Debt is like Technical debt – but worse
+  - http://danieltenner.com/2015/05/11/an-open-letter-to-tony-hsieh - An Open Letter to Tony Hsieh
+
+  - https://medium.com/@pedramkeyani/hacking-company-culture-1daa3be1d769 - Hacking Company Culture
+
+  - http://lizabinante.com/blog/how-i-prepare-conference-talks - How I prepare conference talks
+  - https://blog.intercom.io/traits-of-exceptional-engineers - TRAITS OF EXCEPTIONAL ENGINEERS

@@ -52,6 +52,8 @@ Videos + Slides:
 
 
 
+#### Community
+  - https://groups.google.com/forum/#!topic/erlang-programming/
 
 #### Libraries
   - https://github.com/massemanet/eper
@@ -74,6 +76,7 @@ Videos + Slides:
 ### Motivation
   - http://videlalvaro.github.io/2014/02/why-you-should-learn-erlang.html
   - http://www.bluegraybox.com/blog/2011/09/18/erlang-your-new-favorite-scripting-language/ - Erlang: Your New Favorite Scripting Language? #erlang # (September 18, 2011)
+  - http://www.quora.com/Would-you-use-Erlang-again
 
 
 

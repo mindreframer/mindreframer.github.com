@@ -35,6 +35,7 @@
 ### Ruby
   - https://speakerdeck.com/a_matsuda/the-recipe-for-the-worlds-largest-rails-monolith
   - https://github.com/pokonski/gush - Fast and distributed workflow runner using only Sidekiq and Redis
+  - https://blog.pusher.com/websockets-from-scratch/ - WebSockets From Scratch - Pusher Blog #ruby #websockets #tutorial
 
 
 ### DevOps
@@ -73,6 +74,8 @@
 ### Erlang
   - https://vimeo.com/erlang
   - https://www.youtube.com/playlist?embed=no&list=PLlML6SMLMRgAooeL26mW502jCgWikqx_n (Course!)
+  - https://verne.mq/ - MQTT Brocker
+  -
 
 
 ### Databases
@@ -94,6 +97,7 @@
 
 ### Growthhacking
   - http://www.nickkolenda.com/psychological-pricing-strategies Psychological #Pricing Strategies #startup #strategy #psychology
+  - http://www.enterprisesales.nyc/ - Enterprise Sales Guide
 
 
 ### Software Systems
@@ -102,17 +106,6 @@
 
   - http://www.benstopford.com/2015/04/28/elements-of-scale-composing-and-scaling-data-platforms/ - Elements of Scale: Composing and Scaling Data Platforms - ben stopford
   - https://www.recurse.com/blog/7-understanding-c-by-learning-assembly - Understanding C by learning assembly - Blog - Recurse Center
-
-
-
-### Ponylang:
-  - http://www.reddit.com/r/rust/comments/34rszb/pony_type_and_memory_safe_language/
-
-  - A proper way to treat engineers:
-    http://www.causality.io/#process
-    https://github.com/andymcn
-    https://twitter.com/ponylang
-
 
 
 
@@ -152,3 +145,9 @@
 
   - http://lizabinante.com/blog/how-i-prepare-conference-talks - How I prepare conference talks
   - https://blog.intercom.io/traits-of-exceptional-engineers - TRAITS OF EXCEPTIONAL ENGINEERS
+  - http://firstround.com/review/fixing-engineerings-loyalty-and-longevity-problem/ - Fixing Engineering's Loyalty and Longevity Problem - First Round Review
+
+
+
+AI / Intelligence
+  - http://karpathy.github.io/2015/05/21/rnn-effectiveness/ - The Unreasonable Effectiveness of Recurrent Neural Networks

@@ -44,6 +44,7 @@
   - http://gogogarrett.sexy/programming-in-elixir-with-the-phoenix-framework-building-a-basic-CRUD-app/
   - http://blog.drewolson.org/pagination-with-phoenix-ecto/ - Pagination with Phoenix & Ecto(20 FEBRUARY 2015)
   - http://blog.drewolson.org/building-an-elixir-web-app/
+  - http://manukall.de/2015/05/01/automatically-building-your-phoenix-assets-with-webpack (WEBPACK!)
 
   - https://medium.com/@mschae/measuring-your-phoenix-app-d63a77b13bda - MONITORING IN PRODUCTION!
 
@@ -90,6 +91,10 @@
   Elixir Tutorials:
     - https://vimeo.com/channels/elixir/105526157
 
+
+  REGEX:
+    - http://www.elixre.uk/
+
   http://devfreecasts.org/elixir/
 
   http://elixirdose.com/#
@@ -100,6 +105,11 @@
     http://elixirsips.com/episodes.html -> looks like a good deal....
 
   - http://elixirexperience.com/
+
+
+### Motivation
+  - http://devchat.tv/ruby-rogues/114-rr-elixir-with-jose-valim
+  - http://blog.drewolson.org/the-value-of-explicitness
 
 
 

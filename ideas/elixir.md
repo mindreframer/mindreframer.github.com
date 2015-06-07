@@ -3,6 +3,7 @@
   - https://github.com/elixir-lang/elixir/wiki/Talks
   - http://planet.elixircentral.com/ (https://github.com/prio/planet.elixir)
   - http://getawesomeness.com/get/elixir
+  - http://planet.elixircentral.com/
   - https://github.com/h4cc/awesome-elixir#books (EVERYTHING YOU MIGHT NEED)
   - http://reefpoints.dockyard.com/2015/04/08/elixir-come-for-the-syntax-stay-for-everything-else.html
   - http://zohaib.me/railway-programming-pattern-in-elixir/ - Railway Oriented Programming in Elixir (2015.03)

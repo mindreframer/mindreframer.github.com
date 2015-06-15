@@ -109,8 +109,12 @@
 
 
 ### Motivation
+  - http://codetunes.com/2015/we-all-are-going-to-meet-in-the-elixir-world/
   - http://devchat.tv/ruby-rogues/114-rr-elixir-with-jose-valim
   - http://blog.drewolson.org/the-value-of-explicitness
+  - http://blog.alexrp.com/2013/02/14/elixir-isnt-hipster/
+  - http://www.tattdcodemonkey.com/blog/2015/2/5/elixir-tastes-good
+
 
 
 

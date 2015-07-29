@@ -1,5 +1,6 @@
 ### Learning Erlang
 
+  - http://blog.dynamicprogrammer.com/categories/erlang.html
   - http://www.k-press.ru/cs/2006/3/erlang/erlang.asp - Начала работы с Erlang
   - http://erlanger.ru/wiki/index.php/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0 - Заглавная страница
   - http://www.tryerlang.org/#
@@ -24,10 +25,42 @@
   - https://pragprog.com/articles/erlang - What's all this fuss about Erlang?
   - https://www.pinterest.com/smalllinux/erlang-programming/ - some links for Erlang
 
+  - https://erlanglabnotes.wordpress.com/
+  - http://soerlang-eng.tumblr.com/page - Erlang Solutions KRK
+  - http://advanced-erlang.com/videos/ - Advanced Erlang Initiative
+
+  - http://marcelog.github.io/articles/articles.html
+
+
+
+## Advanced Tutorials
+  - http://inaka.net/blog/2013/01/21/erlang-event-driven/ - Erlang Event-Driven Applications
+  - https://rshestakov.wordpress.com/2013/05/27/resource-discovery-in-erlang/
+
+### Link Collections
+  - https://github.com/inaka/spawnedshelter
+  - https://github.com/0xAX/erlang-bookmarks/blob/master/ErlangBookmarks.md
+
+
+
+
+  Debugging / Tricks
+    - http://blog.equanimity.nl/blog/2015/03/15/erlang-one-weird-trick-goodiebag/
 
   Slides:
     - http://de.slideshare.net/JanHenryNystrom/automatic-assessment-of-failure-recovery-in-erlang-applications
     - http://twvideo01.ubm-us.net/o1/vault/gdconline12/Presentations/Diedrich_Henning_WhyErlang.pdf
+    - http://www.slideshare.net/BrianTroutwine1/let-it-crash-the-erlang-approach-to-building-reliable-services
+
+    http://www.slideshare.net/lpgauth/debugging-complex-systemsefsf2015?qid=0b9dde58-f13a-49cf-a93f-85380713289d&v=default&b=&from_search=10
+
+    http://www.slideshare.net/bosky101/recursion-and-erlang - Recursion & Erlang, FunctionalConf 14, Bangalore
+
+    - http://www.slideshare.net/torbenhoffmann90/ndc-london-2014-erlang-patterns-matching-business-needs - NDC London 2014: Erlang Patterns Matching Business Needs
+
+
+    - http://www.slideshare.net/enriquepazperez/slides-32015044 - Caching Strategies for an Erlang Based Web Stack (2014)
+    - http://www.slideshare.net/motiejusj/slides-36799870 - Large Partially-connected Erlang Clusters (2014)
 
 
     - Russian:
@@ -41,7 +74,17 @@
 
 
 
+
+
   - http://ferd.github.io/recon/ (Recon is a library to be dropped into any other Erlang project, to be used to assist DevOps people diagnose problems in production nodes.)
+
+Libraries
+  - http://www.ostinelli.net/an-evaluation-of-erlang-global-process-registries-meet-syn/
+
+
+Great tutorials
+  - https://coderwall.com/p/1lyfxg/parsing-the-kafka-protocol-with-erlang-pattern-matching-ftw - https://github.com/helpshift/ekaf
+  - https://github.com/helpshift/kafkamocker
 
 
 Videos + Slides:
@@ -78,9 +121,12 @@ Videos + Slides:
 
 
 ### Motivation
+  - http://blog.equanimity.nl/blog/2013/05/29/a-beginners-guide-to-erlang/
   - http://videlalvaro.github.io/2014/02/why-you-should-learn-erlang.html
   - http://www.bluegraybox.com/blog/2011/09/18/erlang-your-new-favorite-scripting-language/ - Erlang: Your New Favorite Scripting Language? #erlang # (September 18, 2011)
   - http://www.quora.com/Would-you-use-Erlang-again
+  - http://www.slideshare.net/pavlobaron/erlang-is-a-one-way
+
 
 
 
@@ -92,6 +138,8 @@ Videos + Slides:
 ### Developers
   - https://github.com/orgs/inaka/people
   - https://github.com/inaka/erlang_guidelines
+
+  - https://twitter.com/bryan_hunter/lists/erlang/members (huge list)
 
 
 ####### Garrett Smith
@@ -172,3 +220,13 @@ Videos + Slides:
     https://www.youtube.com/watch?v=V1UaFRnbWEk
   http://www.gar1t.com/blog/oscon-2012-erlang-kung-fu.html
   http://www.gar1t.com/presentations/2012-07-16-oscon/index.html#slide25
+
+
+
+
+
+
+#### Erlang Code
+  - http://ekalinin.github.io/erlang-libs/
+  - https://github.com/zincwombat/arachnid - Erlang Internet Crawler
+  - https://github.com/wardbekker/search - Erlang implementation of WAND/max_score TOP-K retrieval algo.

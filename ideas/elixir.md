@@ -29,6 +29,11 @@
     - http://www.slideshare.net/BrianTroutwine1/erlang-lfe-elixir-and-joxa-oscon-2014 - Erlang, LFE, Joxa and Elixir: Established and Emerging Languages in the Erlang Ecosystem (Jul 24, 2014)
     - http://www.slideshare.net/DanniFriedland/elixir-for-rubysts  (Mar 04, 2014)
     - https://speakerdeck.com/benjamintan/rubyists-have-a-sip-of-elixir (November 18, 2014)
+    - http://www.slideshare.net/devbash/introducing-elixir-devbash (Jan 28, 2015)
+    - http://www.slideshare.net/g33ktalk/erlang-because-st-happens-by-mahesh-paolinisubramanya - Erlang - Because s**t Happens by Mahesh Paolini-Subramanya
+
+    - http://www.slideshare.net/btedev/erlang-concurrency-presentation - Erlang Concurrency (2008)
+    - http://www.slideshare.net/bosky101/parsing-binaries-and-protocols-with-erlang - Parsing binaries and protocols with erlang (2009)
 
 
 
@@ -36,7 +41,16 @@
 
 ### Tutorials
   - https://blog.process-one.net/embedding-ejabberd-into-an-elixir-phoenix-web-application/ (Video)
+  - http://engineering-blog.alphasights.com/how-i-learned-to-stop-worrying-and-learned-to-love-the-crash
 
+  - https://github.com/amberbit/elixir-cocktails (some recipies)
+
+
+
+## Deployment
+  - https://github.com/lnikkila/ansible-phoenix
+  - https://github.com/HashNuke/ansible-elixir-stack
+  - http://www.mod.fi/article/deploying-phoenix-website-with-ansible
 
 ### Phoenix
   - https://github.com/lancehalvorsen/phoenix-guides (!!!)
@@ -46,7 +60,9 @@
   - http://blog.drewolson.org/pagination-with-phoenix-ecto/ - Pagination with Phoenix & Ecto(20 FEBRUARY 2015)
   - http://blog.drewolson.org/building-an-elixir-web-app/
   - http://manukall.de/2015/05/01/automatically-building-your-phoenix-assets-with-webpack (WEBPACK!)
+  - http://www.slideshare.net/devmyndmichael/phoenix-and-thepluglife
 
+  - http://blog.danielberkompas.com/elixir/2015/06/16/rate-limiting-a-phoenix-api.html - Rate Limiting a Phoenix API
   - https://medium.com/@mschae/measuring-your-phoenix-app-d63a77b13bda - MONITORING IN PRODUCTION!
 
   - http://manukall.de/2015/04/25/building-a-simple-chat-app-in-elixir-with-phoenix-and-rethinkdb/

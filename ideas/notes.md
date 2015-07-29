@@ -12,7 +12,7 @@ I like challenges, but they should be meaningful, forcing crappy design on me an
 
 Highly autonomous, respecting, mentoring, motivated, ever-improving, always in Reaching-Failing-Learing-Applying-loop, always pushing the comfort-zone.
 
-My current interest lies in highly distributed, robust and scaleable systems. My Goal is too sleep at night, so I work pretty hard on making my systems as robust as possible.
+My current interest lies in highly distributed, robust and scaleable systems. My goal is to sleep at night, so I work pretty hard on making my systems as robust as possible.
 
 
 

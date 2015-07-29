@@ -151,3 +151,112 @@
 
 AI / Intelligence
   - http://karpathy.github.io/2015/05/21/rnn-effectiveness/ - The Unreasonable Effectiveness of Recurrent Neural Networks
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+###### links
+
+- https://medium.com/@brandon_lee_09/trust-hacking-3dddfd71955f - Trust Hacking — Startup Growth — Medium
+
+
+
+-  https://www.snapcard.io/masspay - MassPay - Cross-border payments built on the Blockchain
+
+
+
+- https://www.zweitag.de/en/blog/technology/elixir-code-reading-blacksmith - Elixir Code Reading: Blacksmith - Blog - Zweitag
+
+- http://planet.elixircentral.com/ - Planet Elixir
+
+
+- http://blog.jordan-dimov.com/round-up-of-elixir-books-and-resources/ - Round-up of Elixir Books and Resources
+
+
+- http://habrahabr.ru/post/157583/ - Учимся думать и писать на Erlang (на примере двух комбинаторных задач) / Хабрахабр
+
+
+- http://elixir-lang.readthedocs.org/en/new-guides/ref/topical/#collections - Topical Reference — Elixir documentation
+
+
+- http://www.infoq.com/presentations/erlang-async-protocols -  Protocols - The Glue for Applications - by Torben Hoffmann on Jun 28, 2015
+
+
+- http://habrahabr.ru/post/142594/ - Erlang. Рекомендации к оформлению кода / Хабрахабр
+
+
+- http://wiki.wsmoak.net/cgi-bin/wiki.pl?PhoenixHeroku - Wendy Smoak Wiki: PhoenixHeroku
+
+-  Hotjar is an All-in-one Analytics and Feedback
+
+
+
+- https://ru.hexlet.io/courses/ansible - Основы Ansible - Курсы - Hexlet.io
+
+- https://ru.hexlet.io/courses/erlang_101 - Эрланг на практике - Курсы - Hexlet.io
+
+
+- https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0 - Smart and Dumb Components — Medium
+
+
+- https://medium.com/@Smrimell/escape-the-trap-avoiding-traps-in-software-development-with-systems-thinking-cbc20af7c719 - Escape the trap! Avoiding traps in software development with systems thinking — Medium
+
+
+
+
+- http://builditwith.com/nitrogen - New Beta Release of Nitrogen Book
+
+
+- https://github.com/xudafeng/autoresponsive-react - Auto Responsive Layout Library For React (http://xudafeng.github.com/autoresponsive-react)
+
+
+
+## Devops
+  - http://tech.gc.com/why-we-wrote-dusty/ -
+  - http://m.marketwired.com/press-release/memsql-launches-the-database-speed-test-through-new-release-of-memsql-ops-2034453.htm - MemSQL Launches the "Database Speed Test" Through New Release of MemSQL Ops
+  - https://medium.com/@dan.ellis/you-dont-need-1mm-for-a-distributed-system-70901d4741e1 - You Don’t Need $1MM for a Distributed System — Medium
+
+
+
+### UX:
+  - https://github.com/google/material-design-lite?files=1
+
+
+
+## General
+
+  - http://malisper.me/2015/07/07/debugging-lisp-part-1-recompilation/ -  Debugging Lisp Part 1: Recompilation
+
+  - http://berkeley-cs61as.github.io/index.html - CS 61AS - Structure and Interpretation of Computer Programs (Self-Paced)
+
+- http://trustiosity.com/snow/advanced-config.html - snow: Advanced Configuration
+
+- https://www.markshuttleworth.com/archives/1471 - Introducing the Fan – simpler container networking
+
+
+
+
+
+###
+
+  - https://fizzle.co/sparkline/how-to-run-an-affiliate-program-without-being-a-douchebag - How to Run an Affiliate Program (Without Being a Douchebag, FS116)
+
+
+
+
+### Reactjs
+- https://github.com/Cmdv/essential-tdd-bdd-react-list
+- https://www.youtube.com/watch?v=Uu4Yz2HmCgE - Evan Morikawa & Ben Gotow - How React & Flux Turn Apps Into Extensible Platforms @ react-europe 2015
+- https://www.youtube.com/channel/UCorlLn2oZfgOJ-FUcF2eZ1A - React Europe

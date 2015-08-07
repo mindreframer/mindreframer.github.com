@@ -71,6 +71,17 @@
   - https://www.youtube.com/watch?v=X2HjaFCCxeo - Lambda Days 2015 - Alexei Sholik - Functional Survival In The World Of Concurrent I/O -
 
 
+  Simple web site in Elixir/Phoenix! - 3 / 3 (01.07.2015)
+    - https://www.youtube.com/watch?v=6RAeigbTKa0
+
+
+  - https://www.youtube.com/watch?v=766s1Cv1H_c - Intro to Elixir Erlang Distributed Systems in a Functional World by James Smith (2014.12)
+
+  - https://www.youtube.com/watch?v=WIyXz2wxnJQ - PolyConf 15: Phoenix a web framework for the new web / José Valim (11.07.2015)
+
+  - https://www.youtube.com/watch?v=DKGqJpT5pvU - CorkDev: Real time web applications with Elixir and Phoenix ( 19.06.2015)
+
+
 ### Erlang
   - https://vimeo.com/erlang
   - https://www.youtube.com/playlist?embed=no&list=PLlML6SMLMRgAooeL26mW502jCgWikqx_n (Course!)

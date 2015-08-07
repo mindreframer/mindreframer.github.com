@@ -158,12 +158,12 @@
   </url>
   
   <url>
-    <loc>http://devopsbox.es/posts/2014/01-09-docker-on-osx-arrived.html</loc>
+    <loc>http://devopsbox.es/posts/2014/01-09-microservices---repeating-the-idea.html</loc>
     <lastmod>2014-01-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://devopsbox.es/posts/2014/01-09-microservices---repeating-the-idea.html</loc>
+    <loc>http://devopsbox.es/posts/2014/01-09-docker-on-osx-arrived.html</loc>
     <lastmod>2014-01-09T00:00:00+00:00</lastmod>
   </url>
   
@@ -268,12 +268,12 @@
   </url>
   
   <url>
-    <loc>http://devopsbox.es/posts/2013/08-02-why-docker-was-build.html</loc>
+    <loc>http://devopsbox.es/posts/2013/08-02-production-ready-docker-monitoring.html</loc>
     <lastmod>2013-08-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://devopsbox.es/posts/2013/08-02-production-ready-docker-monitoring.html</loc>
+    <loc>http://devopsbox.es/posts/2013/08-02-why-docker-was-build.html</loc>
     <lastmod>2013-08-02T00:00:00+00:00</lastmod>
   </url>
   
@@ -288,12 +288,7 @@
   </url>
   
   <url>
-    <loc>http://devopsbox.es/posts/2013/06-26-distributed-patterns-in-ruby.html</loc>
-    <lastmod>2013-06-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://devopsbox.es/posts/2013/06-26-unix-and-ruby-in-love.html</loc>
+    <loc>http://devopsbox.es/posts/2013/06-26-dockerui.html</loc>
     <lastmod>2013-06-26T00:00:00+00:00</lastmod>
   </url>
   
@@ -303,7 +298,12 @@
   </url>
   
   <url>
-    <loc>http://devopsbox.es/posts/2013/06-26-dockerui.html</loc>
+    <loc>http://devopsbox.es/posts/2013/06-26-distributed-patterns-in-ruby.html</loc>
+    <lastmod>2013-06-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/posts/2013/06-26-unix-and-ruby-in-love.html</loc>
     <lastmod>2013-06-26T00:00:00+00:00</lastmod>
   </url>
   
@@ -393,12 +393,12 @@
   </url>
   
   <url>
-    <loc>http://devopsbox.es/posts/2013/02-12-databases-map---omg-really.html</loc>
+    <loc>http://devopsbox.es/posts/2013/02-12-monigusto---monitoring-mega-package---whoohoo.html</loc>
     <lastmod>2013-02-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://devopsbox.es/posts/2013/02-12-monigusto---monitoring-mega-package---whoohoo.html</loc>
+    <loc>http://devopsbox.es/posts/2013/02-12-databases-map---omg-really.html</loc>
     <lastmod>2013-02-12T00:00:00+00:00</lastmod>
   </url>
   
@@ -493,12 +493,12 @@
   </url>
   
   <url>
-    <loc>http://devopsbox.es/posts/2013/01-12-architecture---drawing-lines.html</loc>
+    <loc>http://devopsbox.es/posts/2013/01-12-clean-architecture---link-dump.html</loc>
     <lastmod>2013-01-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://devopsbox.es/posts/2013/01-12-clean-architecture---link-dump.html</loc>
+    <loc>http://devopsbox.es/posts/2013/01-12-architecture---drawing-lines.html</loc>
     <lastmod>2013-01-12T00:00:00+00:00</lastmod>
   </url>
   

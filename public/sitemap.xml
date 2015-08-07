@@ -3,8 +3,13 @@
   
   <url>
     <loc>http://devopsbox.es/</loc>
-    <lastmod>2015-05-20T00:00:00+00:00</lastmod>
+    <lastmod>2015-08-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://devopsbox.es/posts/2015/08-07-linkdump-2015-10.html</loc>
+    <lastmod>2015-08-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -288,12 +293,12 @@
   </url>
   
   <url>
-    <loc>http://devopsbox.es/posts/2013/06-26-popular-ops-tools-in-japan.html</loc>
+    <loc>http://devopsbox.es/posts/2013/06-26-unix-and-ruby-in-love.html</loc>
     <lastmod>2013-06-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://devopsbox.es/posts/2013/06-26-unix-and-ruby-in-love.html</loc>
+    <loc>http://devopsbox.es/posts/2013/06-26-popular-ops-tools-in-japan.html</loc>
     <lastmod>2013-06-26T00:00:00+00:00</lastmod>
   </url>
   
@@ -408,12 +413,12 @@
   </url>
   
   <url>
-    <loc>http://devopsbox.es/posts/2013/02-07-final-startup-grind---useful-infos-for-startup-founders.html</loc>
+    <loc>http://devopsbox.es/posts/2013/02-07-puppet-slides---what-not-to-do--automated-testing.html</loc>
     <lastmod>2013-02-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://devopsbox.es/posts/2013/02-07-puppet-slides---what-not-to-do--automated-testing.html</loc>
+    <loc>http://devopsbox.es/posts/2013/02-07-final-startup-grind---useful-infos-for-startup-founders.html</loc>
     <lastmod>2013-02-07T00:00:00+00:00</lastmod>
   </url>
   
@@ -488,12 +493,12 @@
   </url>
   
   <url>
-    <loc>http://devopsbox.es/posts/2013/01-12-architecture---drawing-lines.html</loc>
+    <loc>http://devopsbox.es/posts/2013/01-12-clean-architecture---link-dump.html</loc>
     <lastmod>2013-01-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://devopsbox.es/posts/2013/01-12-clean-architecture---link-dump.html</loc>
+    <loc>http://devopsbox.es/posts/2013/01-12-architecture---drawing-lines.html</loc>
     <lastmod>2013-01-12T00:00:00+00:00</lastmod>
   </url>
   

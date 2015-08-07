@@ -7,7 +7,98 @@
     <language>en-us</language>
     
     
-    <updated>Mon, 04 May 2015 00:00:00 UTC</updated>
+    <updated>Fri, 07 Aug 2015 00:00:00 UTC</updated>
+    
+    <item>
+      <title>Linkdump 2015 - 10</title>
+      <link>http://devopsbox.es/posts/2015/08-07-linkdump-2015-10.html</link>
+      <pubDate>Fri, 07 Aug 2015 00:00:00 UTC</pubDate>
+      
+      <guid>http://devopsbox.es/posts/2015/08-07-linkdump-2015-10.html</guid>
+      <description>
+
+&lt;h2 id=&#34;elixir-erlang:78a0488ac16e47674c84f94aad36cdf3&#34;&gt;Elixir /  Erlang&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://getawesomeness.com/get/erlang_bm&#34;&gt;http://getawesomeness.com/get/erlang_bm&lt;/a&gt; - Erlang Bookmarks | getAwesomeness() #erlang&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://homeonrails.com/2015/08/from-ruby-to-erlang/&#34;&gt;http://homeonrails.com/2015/08/from-ruby-to-erlang/&lt;/a&gt; - From Ruby to Erlang. Beginner’s Mistakes (2015/08/03)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.lookintens.com/#monitor&#34;&gt;http://www.lookintens.com/#monitor&lt;/a&gt; - A live reloader for iex #elixir #tips (2015/08/02)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://queue.acm.org/detail.cfm?id=1454463&#34;&gt;http://queue.acm.org/detail.cfm?id=1454463&lt;/a&gt; - Erlang for Concurrent Programming (2008/10/24) (from JIM LARSON, a software engineer at Google)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.theerlangelist.com/2015/07/beyond-taskasync.html&#34;&gt;http://www.theerlangelist.com/2015/07/beyond-taskasync.html&lt;/a&gt; - BEYOND TASK.ASYNC #elixir (2015/07/31)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.jonharrington.org/elixir-and-czmq/&#34;&gt;http://blog.jonharrington.org/elixir-and-czmq/&lt;/a&gt;  - Elixir and ZeroMQ -&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://hashnuke.com/2015/07/19/convenience-hacks-for-using-exrm-with-phoenix-apps.html&#34;&gt;http://hashnuke.com/2015/07/19/convenience-hacks-for-using-exrm-with-phoenix-apps.html&lt;/a&gt; - Convenience hacks for using exrm with Phoenix apps #elixir #devops #phoenixframework #deployment&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://cabol.github.io/programming-languages-and-multicore-crisis/&#34;&gt;http://cabol.github.io/programming-languages-and-multicore-crisis/&lt;/a&gt;  - Programming Languages and Multicore Crisis (2013/11/24) #erlang #future&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gun.io/developers/erlang/&#34;&gt;https://gun.io/developers/erlang/&lt;/a&gt;  - GUN.io Erlang Developers list, quite interesting&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;react-js:78a0488ac16e47674c84f94aad36cdf3&#34;&gt;React.js&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://react.rocks/example/Bidirectional_Infinite_Scrolling&#34;&gt;http://react.rocks/example/Bidirectional_Infinite_Scrolling&lt;/a&gt; - Bidirectional Infinite Scrolling - ReactJS Example&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.codementor.io/reactjs/tutorial/visualizing-data-react-js-cross-filtering-hover-interaction-histogram#/&#34;&gt;https://www.codementor.io/reactjs/tutorial/visualizing-data-react-js-cross-filtering-hover-interaction-histogram#/&lt;/a&gt; - Visualizing Data in React.js: Cross-Filtering &amp;amp; Adding Mouse-over Interaction #reactjs #visualization (2015/04/30) - Very thourough tutorial for real live React.js code&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.fikesfarm.com/posts/2015-07-19-develop-now-with-clojurescript-for-react-native.html&#34;&gt;http://blog.fikesfarm.com/posts/2015-07-19-develop-now-with-clojurescript-for-react-native.html&lt;/a&gt; - Develop Now with ClojureScript for React Native #reactjs #clojurescript&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://nylas.com/blog/react-plugins&#34;&gt;https://nylas.com/blog/react-plugins&lt;/a&gt; - Building Plugins for React Apps - Techniques for modular, robust &amp;amp; flexible JavaScript plugins #reactjs #best-practices&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://nikgraf.github.io/belle/&#34;&gt;http://nikgraf.github.io/belle/&lt;/a&gt; - Configurable React Components with great UX #reactjs #code&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ipselon/react-ui-builder&#34;&gt;https://github.com/ipselon/react-ui-builder&lt;/a&gt; -  &lt;a href=&#34;http://helmetrex.com/react-ui-builder/&#34;&gt;http://helmetrex.com/react-ui-builder/&lt;/a&gt; - React.js UI Builder #code&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;startup-bootstrapping-growthhacking:78a0488ac16e47674c84f94aad36cdf3&#34;&gt;Startup / Bootstrapping / Growthhacking&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.bufferapp.com/&#34;&gt;https://blog.bufferapp.com/&lt;/a&gt; #social #growthhacking&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.bufferapp.com/words-and-phrases-that-convert-ultimate-list&#34;&gt;https://blog.bufferapp.com/words-and-phrases-that-convert-ultimate-list&lt;/a&gt; #social #growthhacking&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.limedaring.com/articles/how-i-run-a-marketplace-with-eleven-different-properties-and-5000-vendors&#34;&gt;http://www.limedaring.com/articles/how-i-run-a-marketplace-with-eleven-different-properties-and-5000-vendors&lt;/a&gt; - How I run a bootstrapped marketplace with eleven different properties and 5,000 vendors — by myself. (2015/07/21) #bootstrapper&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;javascript:78a0488ac16e47674c84f94aad36cdf3&#34;&gt;Javascript&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://meteor.hackpad.com/Building-Large-Apps-Tips-d8PQ848nLyE&#34;&gt;https://meteor.hackpad.com/Building-Large-Apps-Tips-d8PQ848nLyE&lt;/a&gt; - Patterns for large Meteor.js Apps&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;devops:78a0488ac16e47674c84f94aad36cdf3&#34;&gt;Devops&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.convox.com/&#34;&gt;http://www.convox.com/&lt;/a&gt; - Launch a Private Cloud in Minutes on AWS #devops&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.hyper.sh/index.html&#34;&gt;https://docs.hyper.sh/index.html&lt;/a&gt; - Hyper is a Hypervisor-agnostic Docker Engine that allows you to run Docker images on any hypervisor (KVM, Xen, etc.). #devops&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.mihasya.com/2015/07/19/thoughts-evoked-by-circleci-outage.html&#34;&gt;http://blog.mihasya.com/2015/07/19/thoughts-evoked-by-circleci-outage.html&lt;/a&gt; - Thoughts Evoked By CircleCI&amp;rsquo;s July 2015 Outage  (2015/07/19)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.travisthieman.com/fast-zero-downtime-deploy-with-serf-and-lox/&#34;&gt;http://blog.travisthieman.com/fast-zero-downtime-deploy-with-serf-and-lox/&lt;/a&gt; - Fast, zero-downtime deploy with Serf and LOX #devops #serf&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;peopleware-productivity:78a0488ac16e47674c84f94aad36cdf3&#34;&gt;Peopleware / Productivity&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://venturebeat.com/2015/08/01/our-startup-got-rid-of-email-meetings-and-managers-and-thrived/&#34;&gt;http://venturebeat.com/2015/08/01/our-startup-got-rid-of-email-meetings-and-managers-and-thrived/&lt;/a&gt; Our startup got rid of email, meetings, and managers — and thrived  #peapleware&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.breakoutcareers.com/&#34;&gt;http://www.breakoutcareers.com/&lt;/a&gt; - BREAKOUT CAREER NOTES #peopleware&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.troyhunt.com/2015/07/how-i-optimised-my-life-to-make-my-job.html&#34;&gt;http://www.troyhunt.com/2015/07/how-i-optimised-my-life-to-make-my-job.html&lt;/a&gt; - How I optimised my life to make my job redundant  #productivity #lifehacks&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.onlamp.com/lpt/a/6377&#34;&gt;http://www.onlamp.com/lpt/a/6377&lt;/a&gt; - Organizing Files  (2005) #productivity&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;databases:78a0488ac16e47674c84f94aad36cdf3&#34;&gt;Databases&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://changelog.com/improving-your-sql-skills/&#34;&gt;https://changelog.com/improving-your-sql-skills/&lt;/a&gt; - Improving your SQL skills #tutorial #sql&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.mongodb.org/post/65517193370/schema-design-for-time-series-data-in-mongodb&#34;&gt;http://blog.mongodb.org/post/65517193370/schema-design-for-time-series-data-in-mongodb&lt;/a&gt; - Schema Design for Time Series Data in MongoDB #nosql #timeseries #mongodb&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.andreamostosi.name/big-data/&#34;&gt;http://blog.andreamostosi.name/big-data/&lt;/a&gt; - huge Big Data link collection!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;ux-ui:78a0488ac16e47674c84f94aad36cdf3&#34;&gt;UX / UI&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://uipalette.net/&#34;&gt;http://uipalette.net/&lt;/a&gt; - UI colors, tools &amp;amp; trends all in one place&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;code:78a0488ac16e47674c84f94aad36cdf3&#34;&gt;Code:&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/MyMedsAndMe/marco_polo&#34;&gt;https://github.com/MyMedsAndMe/marco_polo&lt;/a&gt; - Marco Polo is a binary OrientDB driver for Elixir. #elixir #graphdb&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/google/flatbuffers&#34;&gt;https://github.com/google/flatbuffers&lt;/a&gt; - Memory Efficient Serialization Library&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://mweststrate.github.io/mobservable/&#34;&gt;http://mweststrate.github.io/mobservable/&lt;/a&gt; - unobtrusive library to make data structures reactive and create seamlessly self-updating view functions #reactjs #reactive #frontend&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/facebook/wdt&#34;&gt;https://github.com/facebook/wdt&lt;/a&gt; - Warp speed Data Transfer (WDT) - FAST file transfer from Facebook&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.symmetricds.org/&#34;&gt;http://www.symmetricds.org/&lt;/a&gt; - SymmetricDS is open source software for both file and database synchronization with support for multi-master replication, filtered synchronization, and transformation across the network in a heterogeneous environment.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Linkdump 2015 - 9</title>
@@ -647,77 +738,6 @@ Great short guidelines for distributed teams from Gitlab&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://go-talks.appspot.com/github.com/kelseyhightower/gophercon2014/go_for_sysadmins.slide&#34;&gt;Go for Sysadmins - Kelsey Hightower, New Relic&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.slideshare.net/cloudflare/a-channel-compendium&#34;&gt;A Channel Compendium - Cloudflare&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.slideshare.net/derekcollison/gophercon-2014&#34;&gt;High Performance Systems in Go - Derek Collison&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Frontend Styleguide Links</title>
-      <link>http://devopsbox.es/posts/2014/04-24-frontend-styleguide-links.html</link>
-      <pubDate>Thu, 24 Apr 2014 00:00:00 UTC</pubDate>
-      
-      <guid>http://devopsbox.es/posts/2014/04-24-frontend-styleguide-links.html</guid>
-      <description>
-
-&lt;h3 id=&#34;projects:e1809ebd01b0bd6c13fa66f691b36e11&#34;&gt;Projects:&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://vinspee.me/style-guide-guide/&#34;&gt;http://vinspee.me/style-guide-guide/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://welchcanavan.com/styleguide-roundup/&#34;&gt;http://welchcanavan.com/styleguide-roundup/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/bjankord/Style-Guide-Boilerplate&#34;&gt;https://github.com/bjankord/Style-Guide-Boilerplate&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://trulia.github.io/hologram/&#34;&gt;http://trulia.github.io/hologram/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://demo.patternlab.io/&#34;&gt;http://demo.patternlab.io/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;examples:e1809ebd01b0bd6c13fa66f691b36e11&#34;&gt;Examples:&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.yelp.com/styleguide&#34;&gt;http://www.yelp.com/styleguide&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.bbc.co.uk/gel/&#34;&gt;http://www.bbc.co.uk/gel/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://editorially.github.io/styleguide/&#34;&gt;http://editorially.github.io/styleguide/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.mapbox.com/base/styling/&#34;&gt;https://www.mapbox.com/base/styling/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.starbucks.com/static/reference/styleguide/&#34;&gt;http://www.starbucks.com/static/reference/styleguide/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://style.codeforamerica.org/patchwork.php&#34;&gt;http://style.codeforamerica.org/patchwork.php&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://sideproject.io/front-end-and-ui-style-guides/&#34;&gt;http://sideproject.io/front-end-and-ui-style-guides/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://ux.mailchimp.com/patterns&#34;&gt;https://ux.mailchimp.com/patterns&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/styleguide/css/2.0&#34;&gt;https://github.com/styleguide/css/2.0&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.gov.uk/design-principles/style-guide&#34;&gt;https://www.gov.uk/design-principles/style-guide&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;presentations-articles:e1809ebd01b0bd6c13fa66f691b36e11&#34;&gt;Presentations / Articles:&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://gimmebar.com/collection/4ecd439c2f0aaad734000022/front-end-styleguides&#34;&gt;https://gimmebar.com/collection/4ecd439c2f0aaad734000022/front-end-styleguides&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://alistapart.com/article/creating-style-guides&#34;&gt;http://alistapart.com/article/creating-style-guides&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://alistapart.com/blog/post/getting-started-with-pattern-libraries&#34;&gt;http://alistapart.com/blog/post/getting-started-with-pattern-libraries&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://patternlab.io/resources.html&#34;&gt;http://patternlab.io/resources.html&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.besquare.me/session/atomic-design/&#34;&gt;ATOMIC DESIGN - video (2013.03)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://robinrendle.com/essays/the-other-interface/&#34;&gt;http://robinrendle.com/essays/the-other-interface/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://medium.com/p/c8f3001f709b&#34;&gt;Designing Products That Scale - The design system and style guide behind Salesforce1 &lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://futurefriendly.io/t/component-libraries-living-style-guides/120/3&#34;&gt;http://futurefriendly.io/t/component-libraries-living-style-guides/120/3&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://speakerdeck.com/bencallahan/get-your-visual-style-on&#34;&gt;https://speakerdeck.com/bencallahan/get-your-visual-style-on&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://css-tricks.com/design-systems-building-future/&#34;&gt;http://css-tricks.com/design-systems-building-future/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://speakerdeck.com/mobywhale/how-to-create-a-living-style-guide&#34;&gt;https://speakerdeck.com/mobywhale/how-to-create-a-living-style-guide&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://speakerdeck.com/lukebrooker/future-friendly-style-guides&#34;&gt;https://speakerdeck.com/lukebrooker/future-friendly-style-guides&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://speakerdeck.com/susanjrobertson/style-guides-why-i-love-them&#34;&gt;https://speakerdeck.com/susanjrobertson/style-guides-why-i-love-them&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://speakerdeck.com/canarymason/living-style-guides-in-sass&#34;&gt;https://speakerdeck.com/canarymason/living-style-guides-in-sass&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://pivotallabs.com/nicole-sullivan-colin-obyrne-components-sgdd-cf-developer-console/&#34;&gt;http://pivotallabs.com/nicole-sullivan-colin-obyrne-components-sgdd-cf-developer-console/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.nothing.ch/en/research/mission-impossible-writing-dynamic-styleguide-existing-website&#34;&gt;https://www.nothing.ch/en/research/mission-impossible-writing-dynamic-styleguide-existing-website&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;why-pattern-labs:e1809ebd01b0bd6c13fa66f691b36e11&#34;&gt;Why Pattern Labs?&lt;/h3&gt;
-
-&lt;p&gt;Here is why we chose Pattern Labs as styleguide foundation:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://vimeo.com/67476280#t=30m50s&#34;&gt;http://vimeo.com/67476280#t=30m50s&lt;/a&gt; (the Infomercial - Part)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.slideshare.net/bradfrostweb/atomic-design-bdconf-nashville-2013&#34;&gt;http://www.slideshare.net/bradfrostweb/atomic-design-bdconf-nashville-2013&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.slideshare.net/bradfrostweb/atomic-design&#34;&gt;http://www.slideshare.net/bradfrostweb/atomic-design&lt;/a&gt; (MUST READ!)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.slideshare.net/dmolsenwvu/the-what-and-why-of-pattern-lab&#34;&gt;http://www.slideshare.net/dmolsenwvu/the-what-and-why-of-pattern-lab&lt;/a&gt; (2014.02)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://twitter.com/brad_frost/status/456476755822276609/photo/1&#34;&gt;https://twitter.com/brad_frost/status/456476755822276609/photo/1&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://brianmuenzenmeyer.com/post/83488039805/on-pattern-lab-node&#34;&gt;http://brianmuenzenmeyer.com/post/83488039805/on-pattern-lab-node&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://gist.github.com/bradfrost/10906886&#34;&gt;https://gist.github.com/bradfrost/10906886&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.phase2technology.com/blog/your-frontend-methodology-is-all-of-them-atomic-design-patternlab/&#34;&gt;http://www.phase2technology.com/blog/your-frontend-methodology-is-all-of-them-atomic-design-patternlab/&lt;/a&gt; (2014.02)&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>

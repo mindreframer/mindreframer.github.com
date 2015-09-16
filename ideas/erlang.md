@@ -7,6 +7,7 @@
   - http://ferd.ca/an-open-letter-to-the-erlang-beginner-or-onlooker.html - An Open Letter to the Erlang Beginner (or Onlooker)
   - http://www.kent.ac.uk/elearning/themes/masterclasses.html - Master Class for Erlang
   - http://www.cs.kent.ac.uk/ErlangMasterClasses/
+  - https://abdullin.com/erlang/basics/
 
   - http://habrahabr.ru/hub/erlang/ (Articles about Erlang in russian)
   - https://www.youtube.com/watch?v=1_beLWlLAOc&index=2&list=PLE4AAD4222D8CFEFE - Erlang. from Yuri Zhloba (!!!!)
@@ -140,6 +141,10 @@ Videos + Slides:
   - https://github.com/inaka/erlang_guidelines
 
   - https://twitter.com/bryan_hunter/lists/erlang/members (huge list)
+
+
+
+
 
 
 ####### Garrett Smith

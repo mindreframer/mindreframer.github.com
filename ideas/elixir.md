@@ -17,6 +17,9 @@
   - http://beamster.org/jb/ - Junior Beamster Elixir Course
   - http://benjamintan.io/blog/
 
+
+  - https://www.youtube.com/watch?v=Zee4bbsDvrA - Functional Programming Principles in Elixir - Elixir Louisville (11.09.2015)
+
   Erlang:
     - http://www.erlang-in-anger.com/
 
@@ -73,6 +76,13 @@
   - http://www.slideshare.net/BrianHogan6/realtime-web-apps-with-elixir-and-phoenix (Apr 25, 2015)
 
   Videos:
+
+
+  - https://www.youtube.com/watch?v=4fSsTdn195g - Austin Elixir - Routing Securely with Phoenix Framework (2015.09.11)
+  - https://www.youtube.com/watch?v=TZl7f0KAQz4 - Austin.RB - Ruby to Elixir (2015.08.03)
+  - http://confreaks.tv/videos/lonestarruby2015-phoenix-productive-reliable-fast (2015)
+
+  - https://www.youtube.com/watch?v=aWaleoYD1Ro - Austin Elixir -- Erlang OTP framework, RethinkDB, and Phoenix Channels (2015.08.05)
 
   - https://www.youtube.com/watch?v=3jMbzGv_6tA - Elixir Conf 2014 - Rise of The Phoenix - Building an Elixir Web Framework by Chris McCord
   - https://www.youtube.com/watch?v=Nh5OQjb8G9E - Phoenix 0.10 screencast: asset compilation, live-reload, & generators  (08.03.2015)

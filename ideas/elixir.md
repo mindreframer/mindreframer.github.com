@@ -77,6 +77,9 @@
 
   Videos:
 
+  - https://excasts.com/ - ExCasts
+  - https://www.learnelixir.tv/ - LearnElixir.tv
+
 
   - https://www.youtube.com/watch?v=4fSsTdn195g - Austin Elixir - Routing Securely with Phoenix Framework (2015.09.11)
   - https://www.youtube.com/watch?v=TZl7f0KAQz4 - Austin.RB - Ruby to Elixir (2015.08.03)

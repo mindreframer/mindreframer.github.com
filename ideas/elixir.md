@@ -55,6 +55,9 @@
   - https://github.com/HashNuke/ansible-elixir-stack
   - http://www.mod.fi/article/deploying-phoenix-website-with-ansible
 
+
+
+
 ### Phoenix
   - https://github.com/lancehalvorsen/phoenix-guides (!!!)
   - http://phoenix.thefirehoseproject.com/2.html
@@ -80,7 +83,7 @@
   - https://excasts.com/ - ExCasts
   - https://www.learnelixir.tv/ - LearnElixir.tv
 
-
+  - https://www.youtube.com/watch?v=EBbSM6DSZnA - Debugging in Phoenix (2015.10)
   - https://www.youtube.com/watch?v=4fSsTdn195g - Austin Elixir - Routing Securely with Phoenix Framework (2015.09.11)
   - https://www.youtube.com/watch?v=TZl7f0KAQz4 - Austin.RB - Ruby to Elixir (2015.08.03)
   - http://confreaks.tv/videos/lonestarruby2015-phoenix-productive-reliable-fast (2015)
@@ -143,7 +146,3 @@
   - http://blog.drewolson.org/the-value-of-explicitness
   - http://blog.alexrp.com/2013/02/14/elixir-isnt-hipster/
   - http://www.tattdcodemonkey.com/blog/2015/2/5/elixir-tastes-good
-
-
-
-

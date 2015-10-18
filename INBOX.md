@@ -271,3 +271,189 @@ AI / Intelligence
 - https://github.com/Cmdv/essential-tdd-bdd-react-list
 - https://www.youtube.com/watch?v=Uu4Yz2HmCgE - Evan Morikawa & Ben Gotow - How React & Flux Turn Apps Into Extensible Platforms @ react-europe 2015
 - https://www.youtube.com/channel/UCorlLn2oZfgOJ-FUcF2eZ1A - React Europe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+####### Links from
+
+@dan_abramov: Remember I told you about something cool built with Redux? Meet Subdivide by Phil Holden: https://t.co/GQ4zN6yKIA
+
+
+
+
+Erlang Datastructures - http://www.infoq.com/presentations/erlang-data-structures
+
+
+- @asolovyov: devcards seem like a great way to develop an app. Watch @bhauman talk about his little library, it's really good - https://t.co/YdJHhCvRsY
+
+
+
+ElasticSearch 2.0 and Pipeline Aggregations : Luminis Amsterdam
+  http://amsterdam.luminis.eu/2015/08/31/elasticsearch-2-0-and-pipeline-aggregations/
+
+Elasticsearch Top-K Aggregation Plugin:
+  https://github.com/algolia/elasticsearch-topk-plugin
+
+
+http://elasticsearch-cheatsheet.jolicode.com/ - cheatsheet
+
+
+Faster Analytics through Elasticsearch | Vox Product Blog - http://product.voxmedia.com/2015/6/22/8626903/faster-analytics-through-elasticsearch
+
+
+https://www.inovex.de/de/leistungen/analytics/search/empfehlungsgenerierung-mit-elasticsearch/ - Empfehlungsgenerierung mit Elasticsearch
+
+
+
+Concisely about Aggregations in Elasticsearch - http://zaiste.net/2014/06/concisely_about_aggregations_in_elasticsearch/
+
+Code972 :: Elasticsearch One Tip a Day: Avoid Costly Scripts At All Cost - http://code972.com/blog/2015/03/84-elasticsearch-one-tip-a-day-avoid-costly-scripts-at-all-costs
+
+
+http://chrissimpson.co.uk/elasticsearch-aggregations-overview.html - Elasticsearch Aggregations Overview
+
+
+http://blog.quarkslab.com/mongodb-vs-elasticsearch-the-quest-of-the-holy-performances.html - MongoDB vs. Elasticsearch: The Quest of the Holy Performances
+Percona Server for MongoDB 3.0.5-rc7 is now available - https://www.percona.com/blog/2015/09/21/percona-server-for-mongodb-3-0-5-rc7-is-now-available/
+
+
+
+
+http://armada.sh/ - #devops #docker Shipping docker containers with ease
+
+
+
+http://mmikowski.github.io/json-pure/ - JSON-Pure: Use WebSockets and JSON
+
+
+
+Electron:
+  - http://kodgemisi.com/2015/09/using-sequelize-sqlite-electron-ubuntu-linux/ - Using Sequelize with sqlite in an Electron app on Ubuntu Linux
+  - https://speakerdeck.com/paulcbetts/native-modules-in-electron
+
+  - https://google.github.io/lovefield/ - Lovefield is a relational database for web apps.
+  - http://cnpmjs.org/browse/keyword/atom-shell - Packages match "atom-shell"
+  - http://verysimple.com/2015/05/30/using-node_sqlite3-with-electron/ - Using node_sqlite3 with Electron
+  - https://discuss.atom.io/t/electron-app-database-file-structure-code-structure/16491/11 - Electron App Database File Structure/Code Structure
+  - https://medium.com/developers-writing/building-a-desktop-application-with-electron-204203eeb658 - Building a desktop application with Electron
+
+
+
+- https://medium.com/building-coursera/why-and-how-coursera-does-isomorphic-javascript-a-fast-and-snappy-quiz-5ba7bb9bf367 - Why and How Coursera Does Isomorphic Javascript:
+A Fast and Snappy Quiz (2015.08)
+
+
+React.js
+   http://survivejs.com/blog/mobservable-interview/ - Mobservable - Reactive React - Interview with Michel Weststrate
+
+  Pros and Cons of using immutability with React.js:
+    http://reactkungfu.com/2015/08/pros-and-cons-of-using-immutability-with-react-js/
+
+  A simpler web architecture using Flux, CSP, and FRP concepts:
+    http://codrspace.com/allenkim67/a-simpler-web-architecture-using-flux-csp-and-frp-concepts/
+
+
+  Update React Native apps, instantly.
+    https://apphub.io/
+
+
+Phoenix:
+  - http://confreaks.tv/videos/lonestarruby2015-phoenix-productive-reliable-fast - Phoenix - Productive. Reliable. Fast.
+
+  - http://blog.plataformatec.com.br/2015/08/working-with-ecto-associations-and-embeds/ - Working with Ecto associations and embeds
+
+
+ERLANG:
+
+
+  Riak and Erlang/OTP:
+    http://aosabook.org/en/riak.html - Architecture
+
+  Eric Merritt, Erlang and distributed systems expert, gives his views on BEAM languages, Hindley–Milner type systems and new technologies:
+    https://medium.com/this-is-not-a-monad-tutorial/eric-merritt-erlang-and-distributed-systems-expert-gives-his-views-on-beam-languages-hindley-a09b15f53a2f
+
+
+MongoDB - Fast backups
+  - http://blog.parse.com/learn/engineering/strata-open-source-library-for-efficient-mongodb-backups/
+
+  - https://github.com/facebookgo/rocks-strata
+
+
+
+Devops:
+  - Crazy Tech Stack for Imgix:
+    http://stackshare.io/imgix/how-imgix-built-a-stack-to-serve-100-000-images-per-second
+
+
+  - 1M QPS with nginx and Ubuntu 12.04 on EC2 | Datacratic
+    http://datacratic.com/site/blog/1m-qps-nginx-and-ubuntu-1204-ec2
+
+  - Dkron - Distributed, fault tolerant job scheduling system
+    Dkron - Distributed, fault tolerant job scheduling system http://dkron.io
+    http://dkron.io/intro/#dcron-distributed-fault-tolerant-job-scheduling-system
+
+
+  -  Sharding Pinterest: How we scaled our MySQL fleet (2015.08)
+    https://engineering.pinterest.com/blog/sharding-pinterest-how-we-scaled-our-mysql-fleet
+
+  - Notes on Distributed Systems for Young Bloods (2013.01)
+  http://www.somethingsimilar.com/2013/01/14/notes-on-distributed-systems-for-young-bloods/
+
+
+
+Clojure/Clojurescript:
+
+
+  - http://www.parens-of-the-dead.com/e1.html - A screencast series of zombie-themed games
+written with Clojure and ClojureScript.
+
+  - http://www.afronski.pl/sicp-in-clojure/2015/08/07/sicp-in-clojure-chapter-2.html - SICP in Clojure - Chapter 2
+
+
+
+
+Machine Learning:
+  - https://github.com/szilard/benchm-ml - A minimal benchmark for scalability
+  - 50+ Data Science and Machine Learning Cheat Sheets - http://www.kdnuggets.com/2015/07/good-data-science-machine-learning-cheat-sheets.html
+  - https://flipboard.com/topic/machinelearning/machine-learning-for-programmers:-leap-from-developer-to-machine-learning-practi/a-RzFrtpwQSx20bv_T7gQg-A:a:53564644-d815d2fc17%2Fmachinelearningmastery.com - Machine Learning for Programmers: Leap from developer to machine learning practitioner
+
+
+
+Elm:
+  - https://github.com/Dobiasd/articles/blob/master/switching_from_imperative_to_functional_programming_with_games_in_Elm.md
+  - http://engineering.truqu.com/2015/08/19/real-world-elm-part-1.html  (Real World Elm - Part 1)
+
+
+
+
+
+
+Peopleware:
+  - http://www.artofmanliness.com/2015/08/19/skin-in-the-game/ - Strip or Retire: Why Every Man Should Have Skin in the Game
+  - http://firstround.com/review/the-story-behind-how-pocket-hit-20m-users-with-20-people/ - The Story Behind How Pocket Hit 20M Users with 20 People
+
+
+
+
+Learning:
+  - Learning How to Learn: Powerful mental tools to help you master tough subjects - University of California, San Diego | Coursera - https://www.coursera.org/learn/learning-how-to-learn/home/info
+
+  - http://www.instructables.com/id/How-to-build-a-memory-palace-SuperStruct-Instruc/step1/Creating-your-memory-palace-and-giving-it-persiste/ - How to build a memory palace - SuperStruct Instructables Series
+
+  - http://www.deutsche-startups.de/2015/08/18/15-buecher-auf-die-gruender-richtig-abfahren/ - http://www.deutsche-startups.de/2015/08/18/15-buecher-auf-die-gruender-richtig-abfahren/ (2015.08)
+
+
+  - Immersive Math - http://immersivemath.com/

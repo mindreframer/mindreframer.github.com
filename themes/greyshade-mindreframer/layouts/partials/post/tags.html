@@ -3,9 +3,9 @@
 {{ range $idx, $tag := .Params.tags }}
   {{ $i := add $idx 1 }}
   {{ if lt $i $len }}
-    <a href="{{ $.Site.BaseUrl }}/tags/{{ $tag | urlize }}.html"> {{ $tag }} </a>,
+    <a href="{{ $.Site.BaseURL }}/tags/{{ $tag | urlize }}.html"> {{ $tag }} </a>,
   {{ else }}
-      <a href="{{ $.Site.BaseUrl }}/tags/{{ $tag | urlize }}.html"> {{ $tag }} </a>
+      <a href="{{ $.Site.BaseURL }}/tags/{{ $tag | urlize }}.html"> {{ $tag }} </a>
   {{ end }}
 {{ end }}
 {{ end }}

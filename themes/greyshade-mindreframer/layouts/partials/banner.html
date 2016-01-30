@@ -6,7 +6,7 @@
 	<small><a href='http://twitter.com/{{ index .Site.Params "twitter_user" }}'>{{ index .Site.Params "twitter_user" }}</a> @ <a href="http://twitter.com">Twitter</a></small>
 	<div class="loading">Loading...</div>
 </div>
-<script src="{{ .Site.BaseUrl }}/js/twitter.js"></script>
+<script src="{{ .Site.BaseURL }}/js/twitter.js"></script>
 <script type="text/javascript">
 	(function($){
 		$('#banner').getTwitterFeed('{{ index .Site.Params "twitter_user" }}', {{ index .Site.Params "twitter_tweet_count" }}, {{ index .Site.Params "twitter_show_replies" }});

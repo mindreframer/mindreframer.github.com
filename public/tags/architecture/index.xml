@@ -206,7 +206,7 @@ Part 1. Decoupling Persistence&lt;/a&gt;&lt;/li&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://vimeo.com/43612849&#34;&gt;Presentation&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;
+
 
 &lt;figure &gt;
     &lt;img src=&#34;http://devopsbox.es/media/posts/controller_interactor.png&#34; /&gt;
@@ -214,13 +214,13 @@ Part 1. Decoupling Persistence&lt;/a&gt;&lt;/li&gt;
         
     &lt;/figcaption&gt;
 &lt;/figure&gt;
-&lt;/p&gt;
+
 
 &lt;h4 id=&#34;db-and-web-framework-irrelevant-yet:d68bfb7bdbece911616586c9b1b64d62&#34;&gt;DB and Web Framework irrelevant yet&lt;/h4&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://vimeo.com/43612849&#34;&gt;Presentation&lt;/a&gt; (43:00)&lt;/p&gt;
 
-&lt;p&gt;
+
 
 &lt;figure &gt;
     &lt;img src=&#34;http://devopsbox.es/media/posts/delivery_db_behind_lines.png&#34; /&gt;
@@ -228,13 +228,13 @@ Part 1. Decoupling Persistence&lt;/a&gt;&lt;/li&gt;
         
     &lt;/figcaption&gt;
 &lt;/figure&gt;
-&lt;/p&gt;
+
 
 &lt;h4 id=&#34;responsemodel-presenter-viewmodel-view:d68bfb7bdbece911616586c9b1b64d62&#34;&gt;ResponseModel-Presenter-ViewModel-View&lt;/h4&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://vimeo.com/43612849&#34;&gt;Presentation&lt;/a&gt; (48:30)&lt;/p&gt;
 
-&lt;p&gt;
+
 
 &lt;figure &gt;
     &lt;img src=&#34;http://devopsbox.es/media/posts/model_view_presenter.png&#34; /&gt;
@@ -242,13 +242,13 @@ Part 1. Decoupling Persistence&lt;/a&gt;&lt;/li&gt;
         
     &lt;/figcaption&gt;
 &lt;/figure&gt;
-&lt;/p&gt;
+
 
 &lt;h4 id=&#34;console-delivery:d68bfb7bdbece911616586c9b1b64d62&#34;&gt;Console Delivery&lt;/h4&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://vimeo.com/43612849&#34;&gt;Presentation&lt;/a&gt; (50:50)&lt;/p&gt;
 
-&lt;p&gt;
+
 
 &lt;figure &gt;
     &lt;img src=&#34;http://devopsbox.es/media/posts/console_delivery.png&#34; /&gt;
@@ -256,7 +256,7 @@ Part 1. Decoupling Persistence&lt;/a&gt;&lt;/li&gt;
         
     &lt;/figcaption&gt;
 &lt;/figure&gt;
-&lt;/p&gt;
+
 
 &lt;hr /&gt;
 

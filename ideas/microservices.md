@@ -17,6 +17,8 @@
   - http://www.slideshare.net/Apcera/nats-control-flow-for-distributed-systems
   - http://www.slideshare.net/Apcera/integration-patterns-for-microservices-architectures
   - http://www.acadiant.com/NATSLondon2015.pdf
+  - http://www.slideshare.net/PaulMooney11/microservice-vs-monolithic-architecture-50200869
+  - http://de.slideshare.net/bjflanne/natsio-meetup-october-2015-community-update
 
 
 ### Talks
@@ -24,4 +26,18 @@
   - [Powered by NATS: Integration Patterns for Microservices Architectures](https://www.youtube.com/watch?v=f5gZdK8ir4M) + [Slides](http://www.slideshare.net/Apcera/integration-patterns-for-microservices-architectures)
   - [Scaling for the Future: A NATS Roadmap - 02.09.2015](https://www.youtube.com/watch?v=jxpYszUi8JQ)
   - [NATS - A Nervous System for Microservices - 4th November 2015](https://skillsmatter.com/skillscasts/7149-nats-a-nervous-system-for-microservices)
+
+
+
+
+
+### Some interesting links
+  - http://howtocookmicroservices.com/
+  - http://howtocookmicroservices.com/docker-continous-delivery-pipeline/#introduction-to-gocd
+
+
+
+### NSQ
+  http://itmarketplace.net/irismq/#messaging
+  https://medium.com/@sw4humans/nsq-message-queue-for-the-masses-a2b7a17586d2#.pkow1vz8n
 

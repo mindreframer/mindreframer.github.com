@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Database on Bits and pieces to remember </title>
+      <generator uri="https://gohugo.io">Hugo</generator>
+    <link>http://devopsbox.es/tags/database.html</link>
+    <language>en-us</language>
+    
+    
+    <updated>Tue, 12 Feb 2013 00:00:00 UTC</updated>
+    
+    <item>
+      <title>Databases Map - OMG! Really?</title>
+      <link>http://devopsbox.es/posts/2013/02-12-databases-map---omg-really.html.html</link>
+      <pubDate>Tue, 12 Feb 2013 00:00:00 UTC</pubDate>
+      
+      <guid>http://devopsbox.es/posts/2013/02-12-databases-map---omg-really.html.html</guid>
+      <description>&lt;p&gt;This is like Buzzword-Bingo in Las Vegas&amp;hellip;&lt;/p&gt;
+
+
+
+&lt;figure &gt;
+    &lt;img src=&#34;http://devopsbox.es/media/posts/db_Map_2_13.jpg&#34; /&gt;
+    &lt;figcaption&gt;
+        
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+
+&lt;p&gt;source: &lt;a href=&#34;http://blogs.the451group.com/information_management/2013/02/04/updated-database-lanscape-map-february-2013/&#34;&gt;http://blogs.the451group.com/information_management/2013/02/04/updated-database-lanscape-map-february-2013/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Playing With Tokudb</title>
+      <link>http://devopsbox.es/posts/2013/01-30-playing-with-tokudb.html.html</link>
+      <pubDate>Wed, 30 Jan 2013 00:00:00 UTC</pubDate>
+      
+      <guid>http://devopsbox.es/posts/2013/01-30-playing-with-tokudb.html.html</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve decided to take a look at &lt;a href=&#34;http://www.tokutek.com/products/tokudb-for-mysql/&#34;&gt;Tokudb&lt;/a&gt; and see, how easy it is to use and administer. Since it&amp;rsquo;s much better to have your stuff being repeatable and easily shareable, we&amp;rsquo;re gonna use &lt;a href=&#34;http://puppetlabs.com&#34;&gt;Puppet&lt;/a&gt; and &lt;a href=&#34;http://vagrantup.com&#34;&gt;Vagrant&lt;/a&gt; for this.&lt;/p&gt;
+
+&lt;p&gt;The layout is based on my article&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://devopsbox.es/posts/2013/01-25-the-perfect-puppet-setup-for-vagrant.html.html&#34;&gt;The Perfect Puppet Setup For Vagrant&lt;/a&gt;-article.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;https://github.com/mindreframer/vagrant-tokudb-puppet/&lt;/code&gt;&lt;/p&gt;
+
+&lt;iframe border=&#39;0&#39; height=&#39;418&#39; id=&#39;shelr_record_510953719660805f8d000042&#39; scrolling=&#39;no&#39; src=&#39;http://shelr.tv/records/510953719660805f8d000042/embed&#39; style=&#39;border: 0&#39; width=&#39;815&#39;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Let&amp;rsquo;s dive deeper into a slightly more complext module for &lt;a href=&#34;http://puppetlabs.com&#34;&gt;Puppet&lt;/a&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;puppet&#34;&gt;
+class tokudb{
+  class{&#34;tokudb::params&#34;: }
+    -&gt; class{&#34;tokudb::users&#34;:}
+    -&gt; class{&#34;tokudb::download&#34;:}
+    -&gt; class{&#34;tokudb::packages&#34;:}
+    -&gt; class{&#34;tokudb::configs&#34;:}
+    -&gt; class{&#34;tokudb::initialize&#34;:}
+    -&gt; class{&#34;tokudb::service&#34;:}
+}
+
+class tokudb::users{
+  user { &#39;mysql&#39;:
+    ensure =&gt; &#39;present&#39;,
+    uid    =&gt; $tokudb::params::user_id,
+  }
+  -&gt; group { &#34;mysql&#34;:
+    ensure  =&gt; &#34;present&#34;,
+    gid     =&gt; $tokudb::params::user_id,
+  }
+}
+
+class tokudb::download{
+  $filepath = $tokudb::params::download_file
+  $fullpath = $tokudb::params::fullpath
+
+  file{&#34;/vagrant&#34;:
+    ensure =&gt; directory
+  }
+  -&gt; exec{&#34;download tokudb&#34;:
+    command =&gt; &#34;curl $tokudb::params::download_url &gt; /vagrant/$filepath&#34;,
+    unless  =&gt;  &#34;test -e /vagrant/$filepath&#34;
+  }
+  -&gt; exec{&#34;decompress tokudb&#34;:
+    command =&gt; &#34;tar xvfz /vagrant/$filepath&#34;,
+    cwd     =&gt; &#34;/usr/local&#34;,
+    unless  =&gt; &#34;test -e $tokudb::params::base_dir&#34;
+  }
+  -&gt; file{$tokudb::params::base_dir:
+    ensure  =&gt; link,
+    target  =&gt; &#34;/usr/local/$fullpath&#34;,
+  }
+  -&gt; exec{&#34;adjust filerights tokudb&#34;:
+    command =&gt; &#34;chown -R mysql:mysql $tokudb::params::base_dir&#34;
+  }
+}
+
+class tokudb::packages{
+  package{$tokudb::params::packagenames: ensure =&gt; installed}
+}
+
+class tokudb::configs{
+  file{&#34;/etc/init.d/mysql&#34;:
+    content =&gt; template(&#34;tokudb/mysql.server.erb&#34;),
+    mode    =&gt; 0755,
+  }
+
+  file{&#34;/etc/mysql&#34;:
+    ensure =&gt; directory
+  }
+  -&gt; file{&#34;/etc/mysql/my.cnf&#34;:
+    content =&gt; template(&#34;tokudb/my.cnf.erb&#34;),
+  }
+  -&gt; file{$tokudb::params::data_dir:
+    ensure =&gt; directory,
+    owner =&gt; &#39;mysql&#39;, group =&gt; &#39;mysql&#39;
+  }
+}
+
+class tokudb::initialize{
+  $check_file = &#34;$tokudb::params::base_dir/.installed&#34;
+  exec{&#34;init mysql&#34;:
+    command =&gt; &#34;echo 1 &amp;&amp; cd $tokudb::params::base_dir &amp;&amp; ./scripts/mysql_install_db --user=mysql &amp;&amp; touch $check_file&#34;,
+    unless  =&gt; &#34;test -e $check_file&#34;
+  }
+}
+
+class tokudb::service{
+  service{&#34;mysql&#34;:
+    ensure    =&gt; running,
+    subscribe =&gt; Class[&#34;tokudb::configs&#34;]
+  }
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Let&amp;rsquo;s discuss some attributes, that this script exposes:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;It is composed of &lt;strong&gt;small&lt;/strong&gt; classes with &lt;strong&gt;descriptive&lt;/strong&gt; names&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;the wiring up for &lt;strong&gt;dependencies&lt;/strong&gt; happens in the &lt;strong&gt;main class&lt;/strong&gt;, e.g. on a highlevel. We don&amp;rsquo;t  use &lt;code&gt;require&lt;/code&gt;  for smaller folders, files, packages, etc.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;it has no external dependencies (except relying on &lt;code&gt;Curl&lt;/code&gt; being installed)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;we use absolute variables, like &lt;code&gt;$tokudb::params::download_file&lt;/code&gt;, that means the configuration happens in &lt;code&gt;params.pp&lt;/code&gt; class. The &lt;code&gt;tokudb&lt;/code&gt;- class does not care, where those params came from: hardcoded, &lt;code&gt;Hiera&lt;/code&gt;, CSV, with logic conditions, etc&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;the order of methods is optimized for reading, it tells us a story.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;it is sequential, since people are much better at following simple 1-2-3-steps instructions, like:&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Prepare params first,  then create users, download stuff, install packages, now please create configuration files, now would be a good moment to initialize our database, ah, and since we&amp;rsquo;re prepared everything, be so nice and start the process!&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;puppet&#34;&gt;
+class tokudb{
+  class{&#34;tokudb::params&#34;: }
+    -&gt; class{&#34;tokudb::users&#34;:}
+    -&gt; class{&#34;tokudb::download&#34;:}
+    -&gt; class{&#34;tokudb::packages&#34;:}
+    -&gt; class{&#34;tokudb::configs&#34;:}
+    -&gt; class{&#34;tokudb::initialize&#34;:}
+    -&gt; class{&#34;tokudb::service&#34;:}
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;It&amp;rsquo;s  making liberal usage of &lt;code&gt;Exec&lt;/code&gt;-resource for &lt;a href=&#34;http://puppetlabs.com&#34;&gt;Puppet&lt;/a&gt;, that is officially not the best practice, but it&amp;rsquo;s much-much faster and more flexible, than writing your own Puppet Ruby-Code for Resources&lt;/li&gt;
+&lt;li&gt;that includes:
+
+&lt;ul&gt;
+&lt;li&gt;managing file rights for bigger folders ( puppet would try to store the file attributes for every file in the hierarchy and check it on every run, don&amp;rsquo;t do it)&lt;/li&gt;
+&lt;li&gt;testing the outcome of an Exec, I don&amp;rsquo;t like the &lt;code&gt;creates =&amp;gt; &#39;blah&#39;&lt;/code&gt; attribute, Unix with &amp;lsquo;test -condition evaluation utility&amp;rsquo; is more flexible&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;it&amp;rsquo;s idempotent, means it won&amp;rsquo;t download files twice, initialize database twice, so every &lt;code&gt;Exec&lt;/code&gt; Resource should have an &lt;code&gt;unless&lt;/code&gt;-attribute&lt;/li&gt;
+&lt;li&gt;it makes heavy use of &lt;code&gt;-&amp;gt;&lt;/code&gt; (ordering arrow)-Operator (&lt;a href=&#34;http://docs.puppetlabs.com/puppet/2.7/reference/lang_relationships.html&#34;&gt;Relationshiops in Puppet&lt;/a&gt;), e.g.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;puppet&#34;&gt;
+class tokudb::download{
+  $filepath = $tokudb::params::download_file
+  $fullpath = $tokudb::params::fullpath
+
+  file{&#34;/vagrant&#34;:
+    ensure =&gt; directory
+  }
+  -&gt; exec{&#34;download tokudb&#34;:
+    command =&gt; &#34;curl $tokudb::params::download_url &gt; /vagrant/$filepath&#34;,
+    unless  =&gt;  &#34;test -e /vagrant/$filepath&#34;
+  }
+  -&gt; exec{&#34;decompress tokudb&#34;:
+    command =&gt; &#34;echo 1 &amp;&amp; cd /usr/local &amp;&amp; tar xvfz /vagrant/$filepath&#34;,
+    unless  =&gt; &#34;test -e $tokudb::params::base_dir&#34;
+  }
+  -&gt; file{$tokudb::params::base_dir:
+    ensure  =&gt; link,
+    target  =&gt; &#34;/usr/local/$fullpath&#34;,
+  }
+  -&gt; exec{&#34;adjust filerights tokudb&#34;:
+    command =&gt; &#34;chown -R mysql:mysql $tokudb::params::base_dir&#34;
+  }
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;for operations, that produce no easily checkable output (like the database initialization), I&amp;rsquo;m just &lt;code&gt;touch&lt;/code&gt;-ing a file after success and skip the operation, if it is already present&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;puppet&#34;&gt;
+class tokudb::initialize{
+  $check_file = &#34;$tokudb::params::base_dir/.installed&#34;
+  exec{&#34;init mysql&#34;:
+    command =&gt; &#34;echo 1 &amp;&amp; cd $tokudb::params::base_dir &amp;&amp; scripts/mysql_install_db --user=mysql &amp;&amp; touch $check_file&#34;,
+    unless  =&gt; &#34;test -e $check_file&#34;
+  }
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;for operations, that require changing into a directory, we use the &lt;code&gt;cwd&lt;/code&gt;-attribute of the &lt;code&gt;Exec&lt;/code&gt; Resource. Sometimes,  for no obvious reasoms, it won&amp;rsquo;t work. Just prepending your command with &amp;ldquo;cd /some/directory &amp;amp;&amp;amp; &amp;hellip;&amp;rdquo; will also fail, because puppet checks for binary presence, and &lt;code&gt;cd&lt;/code&gt; is not a binary&amp;hellip; So, I employ the &lt;code&gt;echo&lt;/code&gt;-hack: &amp;ldquo;echo 1 &amp;amp;&amp;amp; cd /some/dir &amp;amp;&amp;amp; &amp;hellip;&amp;ldquo;. Looks stupid, but works. If you have any better suggestions, pls tell me!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&#34;page-divider&#34;&gt;&lt;/div&gt;
+
+&lt;p&gt;I&amp;rsquo;m quite happy with the outcome, it&amp;rsquo;s comprehensible, shareable and future-proof, since we extacted the params, that might change from system-to-system or in future.&lt;/p&gt;
+
+&lt;p&gt;Go ahead and play with it, see, if you like it!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

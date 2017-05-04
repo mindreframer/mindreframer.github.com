@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Architecture on Bits and pieces to remember </title>
+      <generator uri="https://gohugo.io">Hugo</generator>
+    <link>http://devopsbox.es/tags/architecture.html</link>
+    <language>en-us</language>
+    
+    
+    <updated>Thu, 09 Jan 2014 00:00:00 UTC</updated>
+    
+    <item>
+      <title>Microservices - Repeating the idea</title>
+      <link>http://devopsbox.es/posts/2014/01-09-microservices---repeating-the-idea.html.html</link>
+      <pubDate>Thu, 09 Jan 2014 00:00:00 UTC</pubDate>
+      
+      <guid>http://devopsbox.es/posts/2014/01-09-microservices---repeating-the-idea.html.html</guid>
+      <description>
+
+&lt;h3 id=&#34;fred-george-implementing-micro-service-architecture&#34;&gt;Fred George - Implementing Micro-Service Architecture&lt;/h3&gt;
+
+&lt;iframe src=&#34;http://new.livestream.com/accounts/60688/events/2478486/videos/33534085/player?autoPlay=false&amp;height=360&amp;mute=false&amp;width=640&#34; width=&#34;640&#34; height=&#34;360&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+
+&lt;h3 id=&#34;chad-fowler-disposable-components&#34;&gt;Chad Fowler - Disposable Components&lt;/h3&gt;
+
+&lt;iframe src=&#34;http://new.livestream.com/accounts/60688/events/2478486/videos/33533032/player?autoPlay=false&amp;height=360&amp;mute=false&amp;width=640&#34; width=&#34;640&#34; height=&#34;360&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+
+&lt;h3 id=&#34;microservices-and-functional-programming&#34;&gt;Microservices  and Functional Programming&lt;/h3&gt;
+
+&lt;p&gt;&lt;iframe src=&#34;http://www.slideshare.net/slideshow/embed_code/26994133&#34; width=&#34;425&#34; height=&#34;355&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;https://www.slideshare.net/michaelneale/microservices-and-functional-programming&#34; title=&#34;Microservices and functional programming&#34; target=&#34;_blank&#34;&gt;Microservices and functional programming&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;http://www.slideshare.net/michaelneale&#34; target=&#34;_blank&#34;&gt;Michael Neale&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;innovating-faster-with-a-micro-service-architecture-using-sbt-continuous-delivery-and-lxc-http-opensourcebridge-org-sessions-989&#34;&gt;&lt;a href=&#34;http://opensourcebridge.org/sessions/989&#34;&gt;Innovating Faster with a Micro-Service Architecture using SBT, Continuous Delivery, and LXC&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;iframe src=&#34;http://www.slideshare.net/slideshow/embed_code/23200086&#34; width=&#34;425&#34; height=&#34;355&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;https://www.slideshare.net/kscaldef/innovating-faster-wsbtcdlxc&#34; title=&#34;Innovating faster with SBT, Continuous Delivery, and LXC&#34; target=&#34;_blank&#34;&gt;Innovating faster with SBT, Continuous Delivery, and LXC&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;http://www.slideshare.net/kscaldef&#34; target=&#34;_blank&#34;&gt;kscaldef&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;node-js&#34;&gt;Node.js:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://senecajs.org/&#34;&gt;Seneca.js&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.richardrodger.com/monolithic-nodejs&#34;&gt;Monolithic Node.js&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.nearform.com/nodecrunch/release-the-kracken-how-paypal-is-being-revolutionized-by-node-js-and-lean-ux&#34;&gt;Kracken.js @ Paypal&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;python&#34;&gt;Python&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://gilliam.github.io/&#34;&gt;Gilliam&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;even-moar-links&#34;&gt;Even moar links&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/tobyclemson/testing-micro-service-architecture-presentation/blob/master/presentation/testing-strategies-in-a-micro-service-architecture.pdf&#34;&gt;Testing Microservices&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://yobriefca.se/blog/2013/04/29/micro-service-architecture/&#34;&gt;http://yobriefca.se/blog/2013/04/29/micro-service-architecture/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.josephwilk.net/clojure/building-clojure-services-at-scale.html&#34;&gt;Microservices @ Soundcloud&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.wordnik.com/with-software-small-is-the-new-big&#34;&gt;Microservices @ Wordnik&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://speakerdeck.com/shah/service-oriented-architecture-soa-deserves-service-oriented-data&#34;&gt;SOA deserves Service-Oriented-Data&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;iframe src=&#34;//player.vimeo.com/video/43690647&#34; width=&#34;500&#34; height=&#34;281&#34; frameborder=&#34;0&#34; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt; &lt;p&gt;&lt;a href=&#34;http://vimeo.com/43690647&#34;&gt;Fred George - Programmer Anarchy&lt;/a&gt; from &lt;a href=&#34;http://vimeo.com/ndcoslo&#34;&gt;NDC Conferences&lt;/a&gt; on &lt;a href=&#34;https://vimeo.com&#34;&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;from 18:20&lt;/strong&gt; &lt;br&gt;
+&lt;p&gt;
+I chose it to call it &amp;ldquo;Programmer Anarchy&amp;rdquo;
+Why &amp;ldquo;Anarchy&amp;rdquo;? Well, I have heard the word &amp;ldquo;Empowerment&amp;rdquo; all my career.
+&amp;ldquo;Oh, you&amp;rsquo;re empowered to make this decisions!&amp;rdquo;.
+We talked about, how that is not a real thing. And I believe that.
+Somebody has got to give you that. But if they give it to you,
+then they can probably have the power to take it away. And you always learn,
+where that boundary is, between the two. Where is that point, when I step over the
+line and sudden &amp;ldquo;No, I can&amp;rsquo;t do this anymore.&amp;rdquo; And it sorta leads to
+&amp;ldquo;Well, can I do this?&amp;rdquo; and you start asking permissions rather than just acting.&lt;/p&gt;
+
+&lt;p&gt;I don&amp;rsquo;t want that environment. I don&amp;rsquo;t want the idea, that empowerement is just
+a way to say &amp;ldquo;I&amp;rsquo;m gonna blame you, if this does not work, cause you were empowered.&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;So I call it anarchy. Well in anarchy there is a concept - there is nobody to ask.
+&lt;/p&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Micro-Service Architecture</title>
+      <link>http://devopsbox.es/posts/2013/10-02-micro-service-architecture.html.html</link>
+      <pubDate>Wed, 02 Oct 2013 00:00:00 UTC</pubDate>
+      
+      <guid>http://devopsbox.es/posts/2013/10-02-micro-service-architecture.html.html</guid>
+      <description>&lt;iframe width=&#34;640&#34; height=&#34;360&#34; src=&#34;//www.youtube.com/embed/2rKEveL55TY?feature=player_detailpage&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Baruco 2012: Micro-Service Architecture, by Fred George&lt;/p&gt;
+
+&lt;p&gt;SOA, service-oriented architectures, burst on the scene in the new millennium as the latest technology to support application growth. In concert with the Web, SOA ushered in new paradigms for structuring enterprise applications.&lt;/p&gt;
+
+&lt;p&gt;At the Forward Internet Group in London, we are implementing SOA in unusual ways. Rather than a few, business-related services being implemented per the original vision, we have developed systems made of myriads of very small, usually short-lived services. In this workshop, we will start by exploring the evolution of SOA implementations by the speaker. In particular, lessons learned from each implementation will be discussed, and re-application of these lessons on the next implementation. Challenges (and even failures) will be explicitly identified.&lt;/p&gt;
+
+&lt;p&gt;We will arrive at a model of the current systems: An environment of very small services that are loosely coupled into a complex system. We explore the demise of acceptance tests in this complex environment, and the clever replacement of business metrics in their stead.&lt;/p&gt;
+
+&lt;p&gt;Finally, we will conclude with the surprising programmer development process impacts of this architecture. Indeed, bedrock principles of Agile have been rendered unnecessary, something that equally surprised us.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>DCI-DDD-Rails</title>
+      <link>http://devopsbox.es/posts/2013/01-14-dci-ddd-rails.html.html</link>
+      <pubDate>Mon, 14 Jan 2013 00:00:00 UTC</pubDate>
+      
+      <guid>http://devopsbox.es/posts/2013/01-14-dci-ddd-rails.html.html</guid>
+      <description>
+
+&lt;h1 id=&#34;some-links-for-dci-ruby&#34;&gt;Some links for DCI + Ruby&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://victorsavkin.com/post/41016739721/building-rich-domain-models-in-rails-separating&#34;&gt;Building Rich Domain Models in Rails.
+Part 1. Decoupling Persistence&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/vsavkin/DCI-Sample&#34;&gt;DCI-Sample from vsavkin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://victorsavkin.com/post/23966050610/dci-resources&#34;&gt;DCI-Resources&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Architecture - Drawing Lines?</title>
+      <link>http://devopsbox.es/posts/2013/01-12-architecture---drawing-lines.html.html</link>
+      <pubDate>Sat, 12 Jan 2013 00:00:00 UTC</pubDate>
+      
+      <guid>http://devopsbox.es/posts/2013/01-12-architecture---drawing-lines.html.html</guid>
+      <description>
+
+&lt;p&gt;I&amp;rsquo;m not the first to chime in about Uncle Bob&amp;rsquo;s Lost Years presentations:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://vimeo.com/43612849&#34;&gt;Robert C. Martin - Clean Architecture&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://confreaks.com/videos/759-rubymidwest2011-keynote-architecture-the-lost-years&#34;&gt;Keynote: Architecture the Lost Years by Robert Martin - YouTube&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;His ideas (maybe not originally his) lure you in with loud promices about clean architecture&amp;hellip; This got me thinking&amp;hellip; Yeah, I&amp;rsquo;m easily seduced by &lt;em&gt;cleanness&lt;/em&gt;. Sigh&amp;hellip;&lt;/p&gt;
+
+&lt;h2 id=&#34;here-some-ideas-worth-thinking-about&#34;&gt;Here some ideas worth thinking about:&lt;/h2&gt;
+
+&lt;pre&gt;
+  &lt;code class=&#34;nohighlight&#34;&gt;
+    - Test are not for QA Team, good tests guide YOU
+      and allow you to _rapidly_ and _radically_ refactor your code
+    - If you&#39;re afraid to change something, you&#39;re dominated by your creation
+    - Good architecture allows deferring decisions
+    - Is your application build around a database?
+    - Is your application build around a framework?
+  &lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;h2 id=&#34;some-more&#34;&gt;Some more:&lt;/h2&gt;
+
+&lt;pre&gt;
+  &lt;code class=&#34;nohighlight&#34;&gt;
+  - Rails is a web delivery mechanism
+  - It&#39;s a minor implementation detail (WOW)
+  - It should be easy to change your framework
+  - It should be easy to change your database
+  - It should be easy to change your cache store
+  - It should be easy to change your background queue
+  - It should be easy to change your services
+  &lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;h2 id=&#34;some-implications&#34;&gt;Some implications:&lt;/h2&gt;
+
+&lt;pre&gt;
+  &lt;code class=&#34;nohighlight&#34;&gt;
+  - your business logic can live in a lib/gem/dll/jar/etc
+  - your business logic does not depend on concrete implementations
+  - tests for your business logic are damn fast
+  - you&#39;re not afraid to change it, since it is coverred by tests
+  - it has no notion of HTTP-ness in it!
+  - divorce the WEB! ))
+  - run use-cases without the web-server!
+  - delivery(e.g. Web Framework) is a plugin to your Application
+  &lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;h2 id=&#34;objects-with-roles&#34;&gt;Objects with Roles:&lt;/h2&gt;
+
+&lt;pre&gt;
+  &lt;code class=&#34;nohighlight&#34;&gt;
+  - Entities:
+    - have Application independent business rules
+  - Boundaries
+    - just the Interface(-s) to communicate to/from UseCases
+    - nothing special in Ruby, just method names
+  - Interactors (UseCases):
+    - have Application specific business rules
+    - could have a names like: DeleteUserAction, CreateOrderAction, CheckoutAction, etc
+  - Presenter:
+    - massages the ResponseModel into a viewable structure (ViewModel) (formatting, booleans for checkboxes, etc)
+    - can be easily tested - shove in a ResponseModel, check the returned ViewModel
+  - ViewModel:
+    - is rendered by the View
+  - View:
+    - dumb renderer
+    - can be easily tested - shove in a ViewModel, check the returned HTML
+  - Request/Response Models
+    - pure data structures, easily created, follow a simple protocol
+  &lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;h4 id=&#34;request-response-model&#34;&gt;Request/Response Model&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://vimeo.com/43612849&#34;&gt;Presentation&lt;/a&gt;&lt;/p&gt;
+
+
+
+&lt;figure &gt;
+    &lt;img src=&#34;http://devopsbox.es/media/posts/controller_interactor.png&#34; /&gt;
+    &lt;figcaption&gt;
+        
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+
+&lt;h4 id=&#34;db-and-web-framework-irrelevant-yet&#34;&gt;DB and Web Framework irrelevant yet&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://vimeo.com/43612849&#34;&gt;Presentation&lt;/a&gt; (43:00)&lt;/p&gt;
+
+
+
+&lt;figure &gt;
+    &lt;img src=&#34;http://devopsbox.es/media/posts/delivery_db_behind_lines.png&#34; /&gt;
+    &lt;figcaption&gt;
+        
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+
+&lt;h4 id=&#34;responsemodel-presenter-viewmodel-view&#34;&gt;ResponseModel-Presenter-ViewModel-View&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://vimeo.com/43612849&#34;&gt;Presentation&lt;/a&gt; (48:30)&lt;/p&gt;
+
+
+
+&lt;figure &gt;
+    &lt;img src=&#34;http://devopsbox.es/media/posts/model_view_presenter.png&#34; /&gt;
+    &lt;figcaption&gt;
+        
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+
+&lt;h4 id=&#34;console-delivery&#34;&gt;Console Delivery&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://vimeo.com/43612849&#34;&gt;Presentation&lt;/a&gt; (50:50)&lt;/p&gt;
+
+
+
+&lt;figure &gt;
+    &lt;img src=&#34;http://devopsbox.es/media/posts/console_delivery.png&#34; /&gt;
+    &lt;figcaption&gt;
+        
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+
+&lt;hr /&gt;
+
+&lt;h4 id=&#34;summary&#34;&gt;Summary&lt;/h4&gt;
+
+&lt;p&gt;Divorce your database will be really hard&amp;hellip;. Can&amp;rsquo;t really imagine it in a real complex application without beeing major PITA to use. But I might be wrong. Isolate yourself from Rails - yes, you should do it.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Clean Architecture - Link dump</title>
+      <link>http://devopsbox.es/posts/2013/01-12-clean-architecture---link-dump.html.html</link>
+      <pubDate>Sat, 12 Jan 2013 00:00:00 UTC</pubDate>
+      
+      <guid>http://devopsbox.es/posts/2013/01-12-clean-architecture---link-dump.html.html</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://obvious.retromocha.com/&#34;&gt;Obvious - A Ruby framework/layout&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.8thlight.com/uncle-bob/2011/09/30/Screaming-Architecture.html&#34;&gt;Screaming Architecture&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.8thlight.com/uncle-bob/2012/08/13/the-clean-architecture.html&#34;&gt;Clean Architecture - More links from Uncle Bob&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://groups.google.com/forum/?fromgroups=#!topic/objects-on-rails/TXAbqQRJ8iw&#34;&gt;Discussion - Objects On Rails&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

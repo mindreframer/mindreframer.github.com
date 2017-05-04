@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Ruby on Bits and pieces to remember </title>
+      <generator uri="https://gohugo.io">Hugo</generator>
+    <link>http://devopsbox.es/tags/ruby.html</link>
+    <language>en-us</language>
+    
+    
+    <updated>Wed, 26 Jun 2013 00:00:00 UTC</updated>
+    
+    <item>
+      <title>Distributed Patterns in Ruby</title>
+      <link>http://devopsbox.es/posts/2013/06-26-distributed-patterns-in-ruby.html.html</link>
+      <pubDate>Wed, 26 Jun 2013 00:00:00 UTC</pubDate>
+      
+      <guid>http://devopsbox.es/posts/2013/06-26-distributed-patterns-in-ruby.html.html</guid>
+      <description>&lt;p&gt;Interesting presentation, that explains the difficulties about distributing data between several nodes. &lt;code&gt;Riak&lt;/code&gt; algorithms explained with &lt;code&gt;Ruby&lt;/code&gt; code.&lt;/p&gt;
+
+&lt;iframe width=&#34;640&#34; height=&#34;360&#34; src=&#34;http://www.youtube.com/embed/Adu_dbcnUHA?feature=player_detailpage&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;pre&gt;&lt;code&gt;$ git clone https://github.com/coderoshi/dds.git
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;31718050ac0d0130ad7c5e284c808be8&#34; data-ratio=&#34;1.2994923857868&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Unix and Ruby in Love</title>
+      <link>http://devopsbox.es/posts/2013/06-26-unix-and-ruby-in-love.html.html</link>
+      <pubDate>Wed, 26 Jun 2013 00:00:00 UTC</pubDate>
+      
+      <guid>http://devopsbox.es/posts/2013/06-26-unix-and-ruby-in-love.html.html</guid>
+      <description>
+
+&lt;h2 id=&#34;very-hands-on-example-how-ruby-conforms-to-unix-principles&#34;&gt;Very hands-on example, how Ruby conforms to Unix principles.&lt;/h2&gt;
+
+&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;7f9fbef0be4501308b990221c58dc99e&#34; data-ratio=&#34;1.33333333333333&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Learn Rack API By Example</title>
+      <link>http://devopsbox.es/posts/2013/02-15-learn-rack-api-by-example.html.html</link>
+      <pubDate>Fri, 15 Feb 2013 00:00:00 UTC</pubDate>
+      
+      <guid>http://devopsbox.es/posts/2013/02-15-learn-rack-api-by-example.html.html</guid>
+      <description>&lt;p&gt;Learn Rack API by studying following libraries:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://github.com/soveran/cuba.git&#34;&gt;http://github.com/soveran/cuba.git&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://github.com/citrusbyte/cuba-app.git&#34;&gt;http://github.com/citrusbyte/cuba-app.git&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://github.com/espresso/espresso&#34;&gt;http://github.com/espresso/espresso&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://github.com/sickill/example-rack-framework.git&#34;&gt;http://github.com/sickill/example-rack-framework.git&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://github.com/mtodd/fuck.git&#34;&gt;http://github.com/mtodd/fuck.git&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://github.com/intridea/grape.git&#34;&gt;http://github.com/intridea/grape.git&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://github.com/joshbuddy/http_router.git&#34;&gt;http://github.com/joshbuddy/http_router.git&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://github.com/ivanvc/lunetas.git&#34;&gt;http://github.com/ivanvc/lunetas.git&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://github.com/hassox/pancake.git&#34;&gt;http://github.com/hassox/pancake.git&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://github.com/fnando/rack-api.git&#34;&gt;http://github.com/fnando/rack-api.git&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://github.com/bparanj/Rack-Developer-s-Notebook-Source-Code.git&#34;&gt;http://github.com/bparanj/Rack-Developer-s-Notebook-Source-Code.git&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://github.com/josh/rack-mount.git&#34;&gt;http://github.com/josh/rack-mount.git&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://github.com/renee-project/renee.git&#34;&gt;http://github.com/renee-project/renee.git&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://github.com/stjohncj/RESTRack.git&#34;&gt;http://github.com/stjohncj/RESTRack.git&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://github.com/madx/roy.git&#34;&gt;http://github.com/madx/roy.git&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://github.com/godfat/ruby-server-exp.git&#34;&gt;http://github.com/godfat/ruby-server-exp.git&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://github.com/bry4n/simple.git&#34;&gt;http://github.com/bry4n/simple.git&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://github.com/sinatra/sinatra.git&#34;&gt;http://github.com/sinatra/sinatra.git&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://github.com/mindreframer/sinatra-bootstrap.git&#34;&gt;http://github.com/mindreframer/sinatra-bootstrap.git&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://github.com/zhengjia/sinatra-explained.git&#34;&gt;http://github.com/zhengjia/sinatra-explained.git&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://github.com/mwunsch/weary.git&#34;&gt;http://github.com/mwunsch/weary.git&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://github.com/DAddYE/web-frameworks-benchmark.git&#34;&gt;http://github.com/DAddYE/web-frameworks-benchmark.git&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://github.com/zh/yarf.git&#34;&gt;http://github.com/zh/yarf.git&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Padrino Presentations</title>
+      <link>http://devopsbox.es/posts/2013/01-20-padrino-presentations.html.html</link>
+      <pubDate>Sun, 20 Jan 2013 00:00:00 UTC</pubDate>
+      
+      <guid>http://devopsbox.es/posts/2013/01-20-padrino-presentations.html.html</guid>
+      <description>
+
+&lt;h3 id=&#34;general&#34;&gt;General:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/padrinorb&#34;&gt;https://twitter.com/padrinorb&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://speakerdeck.com/daddye/padrino-framework-0-dot-11-and-1-dot-0&#34;&gt;https://speakerdeck.com/daddye/padrino-framework-0-dot-11-and-1-dot-0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://speakerdeck.com/aereal/the-brief-seeds-of-padrino&#34;&gt;https://speakerdeck.com/aereal/the-brief-seeds-of-padrino&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://speakerdeck.com/tyabe/edge-padrino&#34;&gt;https://speakerdeck.com/tyabe/edge-padrino&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://speakerdeck.com/kwappa/padrino-in-production&#34;&gt;https://speakerdeck.com/kwappa/padrino-in-production&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://speakerdeck.com/coffeeaddict/ipc-webtechcon-padrino-xor-rails&#34;&gt;https://speakerdeck.com/coffeeaddict/ipc-webtechcon-padrino-xor-rails&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://speakerdeck.com/schokomarie/using-slanger-and-websockets-to-power-a-warehouse-backend&#34;&gt;https://speakerdeck.com/schokomarie/using-slanger-and-websockets-to-power-a-warehouse-backend&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;asset-pipeline&#34;&gt;Asset Pipeline:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/padrino/padrino-framework/issues/1047&#34;&gt;https://github.com/padrino/padrino-framework/issues/1047&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/rstacruz/sinatra-assetpack&#34;&gt;https://github.com/rstacruz/sinatra-assetpack&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://kevin.kenwa-solutions.co.uk/posts/writing-a-tumblelog-with-padrino-and-mongodb-part-1&#34;&gt;http://kevin.kenwa-solutions.co.uk/posts/writing-a-tumblelog-with-padrino-and-mongodb-part-1&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;more-info&#34;&gt;More Info:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/padrino/padrino-framework/wiki/Projects-using-Padrino&#34;&gt;https://github.com/padrino/padrino-framework/wiki/Projects-using-Padrino&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/padrino/padrino-framework/wiki/Press&#34;&gt;https://github.com/padrino/padrino-framework/wiki/Press&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/padrino/padrino-framework/wiki/Roadmap-for-1.0&#34;&gt;https://github.com/padrino/padrino-framework/wiki/Roadmap-for-1.0&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

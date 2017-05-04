@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Programming on Bits and pieces to remember </title>
+      <generator uri="https://gohugo.io">Hugo</generator>
+    <link>http://devopsbox.es/tags/programming.html</link>
+    <language>en-us</language>
+    
+    
+    <updated>Wed, 26 Jun 2013 00:00:00 UTC</updated>
+    
+    <item>
+      <title>Distributed Patterns in Ruby</title>
+      <link>http://devopsbox.es/posts/2013/06-26-distributed-patterns-in-ruby.html.html</link>
+      <pubDate>Wed, 26 Jun 2013 00:00:00 UTC</pubDate>
+      
+      <guid>http://devopsbox.es/posts/2013/06-26-distributed-patterns-in-ruby.html.html</guid>
+      <description>&lt;p&gt;Interesting presentation, that explains the difficulties about distributing data between several nodes. &lt;code&gt;Riak&lt;/code&gt; algorithms explained with &lt;code&gt;Ruby&lt;/code&gt; code.&lt;/p&gt;
+
+&lt;iframe width=&#34;640&#34; height=&#34;360&#34; src=&#34;http://www.youtube.com/embed/Adu_dbcnUHA?feature=player_detailpage&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;pre&gt;&lt;code&gt;$ git clone https://github.com/coderoshi/dds.git
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;31718050ac0d0130ad7c5e284c808be8&#34; data-ratio=&#34;1.2994923857868&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Learn Rack API By Example</title>
+      <link>http://devopsbox.es/posts/2013/02-15-learn-rack-api-by-example.html.html</link>
+      <pubDate>Fri, 15 Feb 2013 00:00:00 UTC</pubDate>
+      
+      <guid>http://devopsbox.es/posts/2013/02-15-learn-rack-api-by-example.html.html</guid>
+      <description>&lt;p&gt;Learn Rack API by studying following libraries:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://github.com/soveran/cuba.git&#34;&gt;http://github.com/soveran/cuba.git&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://github.com/citrusbyte/cuba-app.git&#34;&gt;http://github.com/citrusbyte/cuba-app.git&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://github.com/espresso/espresso&#34;&gt;http://github.com/espresso/espresso&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://github.com/sickill/example-rack-framework.git&#34;&gt;http://github.com/sickill/example-rack-framework.git&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://github.com/mtodd/fuck.git&#34;&gt;http://github.com/mtodd/fuck.git&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://github.com/intridea/grape.git&#34;&gt;http://github.com/intridea/grape.git&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://github.com/joshbuddy/http_router.git&#34;&gt;http://github.com/joshbuddy/http_router.git&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://github.com/ivanvc/lunetas.git&#34;&gt;http://github.com/ivanvc/lunetas.git&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://github.com/hassox/pancake.git&#34;&gt;http://github.com/hassox/pancake.git&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://github.com/fnando/rack-api.git&#34;&gt;http://github.com/fnando/rack-api.git&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://github.com/bparanj/Rack-Developer-s-Notebook-Source-Code.git&#34;&gt;http://github.com/bparanj/Rack-Developer-s-Notebook-Source-Code.git&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://github.com/josh/rack-mount.git&#34;&gt;http://github.com/josh/rack-mount.git&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://github.com/renee-project/renee.git&#34;&gt;http://github.com/renee-project/renee.git&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://github.com/stjohncj/RESTRack.git&#34;&gt;http://github.com/stjohncj/RESTRack.git&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://github.com/madx/roy.git&#34;&gt;http://github.com/madx/roy.git&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://github.com/godfat/ruby-server-exp.git&#34;&gt;http://github.com/godfat/ruby-server-exp.git&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://github.com/bry4n/simple.git&#34;&gt;http://github.com/bry4n/simple.git&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://github.com/sinatra/sinatra.git&#34;&gt;http://github.com/sinatra/sinatra.git&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://github.com/mindreframer/sinatra-bootstrap.git&#34;&gt;http://github.com/mindreframer/sinatra-bootstrap.git&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://github.com/zhengjia/sinatra-explained.git&#34;&gt;http://github.com/zhengjia/sinatra-explained.git&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://github.com/mwunsch/weary.git&#34;&gt;http://github.com/mwunsch/weary.git&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://github.com/DAddYE/web-frameworks-benchmark.git&#34;&gt;http://github.com/DAddYE/web-frameworks-benchmark.git&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://github.com/zh/yarf.git&#34;&gt;http://github.com/zh/yarf.git&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Git Subtree Testing</title>
+      <link>http://devopsbox.es/posts/2013/02-14-git-subtree-testing.html.html</link>
+      <pubDate>Thu, 14 Feb 2013 00:00:00 UTC</pubDate>
+      
+      <guid>http://devopsbox.es/posts/2013/02-14-git-subtree-testing.html.html</guid>
+      <description>
+
+&lt;h4 id=&#34;the-problem&#34;&gt;The problem&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://git.661346.n2.nabble.com/organizing-multiple-repositories-with-dependencies-td7469712.html&#34;&gt;http://git.661346.n2.nabble.com/organizing-multiple-repositories-with-dependencies-td7469712.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;git-subtree&#34;&gt;Git subtree&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/apenwarr/git-subtree&#34;&gt;https://github.com/apenwarr/git-subtree&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://code.dimilow.com/git-subtree-notes-and-workflows/&#34;&gt;http://code.dimilow.com/git-subtree-notes-and-workflows/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.featurist.co.uk/blog/2012/10/08/git-subtree/&#34;&gt;http://www.featurist.co.uk/blog/2012/10/08/git-subtree/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://endot.org/2012/02/12/git-subtree-tracking-made-easy/&#34;&gt;http://endot.org/2012/02/12/git-subtree-tracking-made-easy/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ande3577/Git-Subtree-Workflow-Proposal/wiki/Subtree-Based-Workflow&#34;&gt;https://github.com/ande3577/Git-Subtree-Workflow-Proposal/wiki/Subtree-Based-Workflow&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ande3577/Git-Subtree-Workflow-Proposal/wiki/Why%20Use%20Subtree&#34;&gt;https://github.com/ande3577/Git-Subtree-Workflow-Proposal/wiki/Why%20Use%20Subtree&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://log.pardus.de/2012/08/modular-git-with-git-subtree.html&#34;&gt;http://log.pardus.de/2012/08/modular-git-with-git-subtree.html&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.perforce.com/blog/121025/managing-projects-across-git-repositories&#34;&gt;http://www.perforce.com/blog/121025/managing-projects-across-git-repositories&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/projecthydra/hydrangea/blob/master/README_SUBTREE.textile&#34;&gt;https://github.com/projecthydra/hydrangea/blob/master/README_SUBTREE.textile&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://ruleant.blogspot.com/2011/04/git-subtree-module.html&#34;&gt;http://ruleant.blogspot.com/2011/04/git-subtree-module.html&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://somethingsinistral.net/blog/git-submodules-are-probably-not-the-answer/&#34;&gt;http://somethingsinistral.net/blog/git-submodules-are-probably-not-the-answer/&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.acquia.com/blog/using-git-subtree-make-distro-your-docroot&#34;&gt;https://www.acquia.com/blog/using-git-subtree-make-distro-your-docroot&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;install&#34;&gt;Install&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code&gt;$ cd /tmp
+$ git clone git://github.com/apenwarr/git-subtree.git
+$ cd git-subtree
+$ (sudo) bash install.sh
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;more-stuff&#34;&gt;More stuff&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/camptocamp/puppet-git-subtree&#34;&gt;https://github.com/camptocamp/puppet-git-subtree&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://rubygems.org/gems/thor_subtree&#34;&gt;https://rubygems.org/gems/thor_subtree&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://endot.org/2012/02/12/git-subtree-tracking-made-easy/&#34;&gt;http://endot.org/2012/02/12/git-subtree-tracking-made-easy/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;alternatives-http-stackoverflow-com-questions-6500524-git-subtree-or-gitslave-if-switch-away-from-git-submodules&#34;&gt;Alternatives (&lt;a href=&#34;http://stackoverflow.com/questions/6500524/git-subtree-or-gitslave-if-switch-away-from-git-submodules&#34;&gt;http://stackoverflow.com/questions/6500524/git-subtree-or-gitslave-if-switch-away-from-git-submodules&lt;/a&gt;) :&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Repo : &lt;a href=&#34;https://source.android.com/source/downloading.html&#34;&gt;https://source.android.com/source/downloading.html&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Modman:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/colinmollenhour/modman&#34;&gt;modman - Module Manager&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/jreinke/modgit&#34;&gt;https://github.com/jreinke/modgit&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/rjocoleman/modgit/tree/subtree&#34;&gt;https://github.com/rjocoleman/modgit/tree/subtree&lt;/a&gt; (with subtree as backend)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/rjocoleman/modgit/tree/subtree&#34;&gt;https://github.com/rjocoleman/modgit/tree/subtree&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/evilchelu/braid&#34;&gt;Braid&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Presentation Software For Hackers</title>
+      <link>http://devopsbox.es/posts/2013/01-26-presentation-software-for-hackers.html.html</link>
+      <pubDate>Sat, 26 Jan 2013 00:00:00 UTC</pubDate>
+      
+      <guid>http://devopsbox.es/posts/2013/01-26-presentation-software-for-hackers.html.html</guid>
+      <description>
+
+&lt;h1 id=&#34;presentation-software&#34;&gt;Presentation Software&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://lab.hakim.se/reveal-js/&#34;&gt;RevealJS&lt;/a&gt; - best!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;ruby&#34;&gt;Ruby&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/schacon/showoff&#34;&gt;Showoff&lt;/a&gt;
+ShowOff is a Sinatra web app that reads simple configuration files for a presentation. It is sort of like a Keynote web app engine - think S5 + Slidedown. I am using it to do all my talks in 2010, because I have a deep hatred in my heart for Keynote and yet it is by far the best in the field.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/nono/slide-em-up&#34;&gt;https://github.com/nono/slide-em-up&lt;/a&gt;
+Slide&amp;rsquo;em up is a presentation tool. You write some slides in markdown, choose a style and it displays it in HTML5. With a browser in full-screen, you can make amazing presentations!&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://krainboltgreene.github.com/termnote/ ()&#34;&gt;Keynote - A Terminal Keynote processor&lt;/a&gt;
+TermNote is a program that allows you to write presentations either in Ruby:&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/fxn/tkn&#34;&gt;Terminal Keynote&lt;/a&gt;
+Terminal Keynote is a quick and dirty script I wrote for presenting my talks at BaRuCo 2012 and RailsClub 2012.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/dgoodlad/slider&#34;&gt;Slider&lt;/a&gt;
+Slider is a simple Ruby module to allow a presenter to create and view a
+slideshow using only a terminal emulator. It requires the use of the console
+application &amp;lsquo;figlet&amp;rsquo; to draw the fancy headings.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/cbbrowne/tpp&#34;&gt;tpp - text presentation program&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;node-js-javascript&#34;&gt;Node.js/Javascript&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://lab.hakim.se/reveal-js/&#34;&gt;RevealJS&lt;/a&gt; - best!&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/cykod/CoderDeck&#34;&gt;CoderDeck&lt;/a&gt;
+Create interactive live-coding presentations for the web.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;CoderDeck combines Deck.js with the CodeMirror2 highlighting code editor to make it easy to demo and teach live HTML, CSS and Javascript directly in the browser.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/LeaVerou/CSSS&#34;&gt;CSSS&lt;/a&gt;
+CSS-based SlideShow System&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;automate-user-interactions&#34;&gt;Automate User interactions:&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/avdi/greenletters&#34;&gt;Greenletters&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,246 @@
+<!DOCTYPE HTML>
+
+<html lang="en-us">
+
+<head>
+	<meta charset="utf-8">
+	<title>OpsWorks vs Chef-Server - Bits and pieces to remember</title>
+	<meta name="author" content="map[]">
+
+	
+	
+	<meta name="description" content="">
+	
+
+	
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    
+	<link href='index.xml' rel="alternate" title="Bits and pieces to remember" type="application/atom+xml">
+	
+	<link rel="canonical" href="http://devopsbox.es/posts/2013/10-22-opsworks-vs-chef-server.html.html">
+	<link href="http://devopsbox.es//favicon.png" rel="shortcut icon">
+	<link href="http://devopsbox.es//css/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<link href="http://devopsbox.es//css/font-awesome.min.css" media="screen, projection" rel="stylesheet" type="text/css">
+	
+	<link href='http://fonts.googleapis.com/css?family=Nunito:400,300,700' rel='stylesheet' type='text/css'>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.5/styles/tomorrow.min.css">
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.5/highlight.min.js"></script>
+	<script>hljs.initHighlightingOnLoad();</script>
+
+	
+  
+
+</head>
+
+
+<body>
+	<div class="container">
+		<div class="left-col">
+			<div class="intrude-less">
+			<header id="header" class="inner"><div class="profilepic">
+
+	<img src="http://devopsbox.es/media/profile/profile-pic-square.jpg" alt="" width="150" height="150">
+
+</div>
+
+<nav id="main-nav"><ul class="main">
+    <li><a href="http://devopsbox.es/">Blog</a></li>
+    <li><a href="http://devopsbox.es/about.html">About</a></li>
+    <li><a href="http://devopsbox.es/post.html">Archives</a></li>
+    <li><a href="http://devopsbox.es/resume/resume.html">CV</a></li>
+</ul>
+
+
+<section class="aboutme">
+  <p>
+    Bits and pieces to remember
+  </p>
+</section>
+</nav>
+<nav id="sub-nav">
+	<div class="social">
+		
+		
+		
+		
+			<a class="twitter" href='http://twitter.com/mindreframer' title="Twitter">Twitter</a>
+		
+		
+			<a class="github" href='https://github.com/mindreframer' title="GitHub">GitHub</a>
+		
+		
+		
+		  <a class="stackoverflow" href='http://stackoverflow.com/users/785134/mindreframer' title="StackOverflow"></a>
+		
+		
+		
+		
+			<a class="delicious" href='http://delicious.com/mindreframer' title="Delicious">Delicious</a>
+		
+		
+		
+		
+		
+    	
+    	
+			<a class="rss" href='index.xml' title="RSS">RSS</a>
+		
+	</div>
+</nav>
+</header>
+			</div>
+		</div>
+		<div class="mid-col">
+			
+			<div class="mid-col-container">
+				<div id="content" class="inner">
+					<div itemscope itemtype="http://schema.org/Blog">
+					<article class="post" itemscope itemtype="http://schema.org/BlogPosting"><h1 class="title" itemprop="name">
+  OpsWorks vs Chef-Server
+</h1>
+<div class="entry-content" itemprop="articleBody">
+  
+
+<p>A couple of days ago I was tasked to get a running MongoDB cluster, that configures itself with AWS OpsWorks.</p>
+
+<h2 id="requirements">Requirements:</h2>
+
+<ul>
+<li>create EBS volumes</li>
+<li>discover other nodes with this recipe in run-list</li>
+<li>create MongoDB replica set or join an existing one</li>
+</ul>
+
+<p>The cookbook from <a href="https://github.com/edelight/chef-mongodb">Edelight</a> provides most of it, and I created a fork with changes from Parse.com for EBS-Volumes creation here:</p>
+
+<ul>
+<li><a href="https://github.com/devopsbox/chef-mongodb/tree/ec2">https://github.com/devopsbox/chef-mongodb/tree/ec2</a>.</li>
+</ul>
+
+<p>It works nicely with Chef-Server. Shouldn&rsquo;t be that hard to rewrite it for OpsWorks, right?</p>
+
+<p>After spending two days on it, <strong>I basically gave up</strong>.</p>
+
+<h3 id="light-problems">Light Problems:</h3>
+
+<ul>
+<li>private ssh key for my custom cookbooks repo is stored in plaintext</li>
+<li>no real possibility to use Librarian/Berkshelf, you have everything in one repository</li>
+<li>only one repository for custom chef cookbooks allowed</li>
+<li>anything interesting requires you to use custom cookbooks</li>
+<li>feedback in the web UI is rather slow</li>
+<li><code>opsworks-agent-cli run_command update_custom_cookbooks</code> did not work, until I have run it from the Web UI, took me a while to figure it out</li>
+<li>changing JSON data for the whole <a href="http://docs.aws.amazon.com/opsworks/latest/userguide/workingstacks.html">Stack</a> was not reflected on running instances, checked with <code>opsworks-agent-cli get_json</code></li>
+<li>even after having rebootet them, the data was just not there&hellip;</li>
+</ul>
+
+<h3 id="heavy-problems">Heavy problems:</h3>
+
+<ul>
+<li>no possibility to have encrypted/secured data bags</li>
+<li>no search available</li>
+<li>the json, that represents the whole <a href="http://docs.aws.amazon.com/opsworks/latest/userguide/workingstacks.html">Stack</a>, does not contain all the meta- information about chef configuration on that instances. That was all I could get:</li>
+</ul>
+
+<pre><code class="ruby">
+> node['opsworks']['layers']['mongodb']['instances'].first
+=> ["doughnut",
+{"region"=>"eu-west-1",
+"status"=>"online",
+"private_dns_name"=>"ip-10-34-130-XXX.eu-west-1.compute.internal",
+"created_at"=>"2013-10-22T11:55:31+00:00",
+"elastic_ip"=>nil,
+"booted_at"=>"2013-10-22T12:06:35+00:00",
+"aws_instance_id"=>"i-a8055XXX",
+"instance_type"=>"m1.medium",
+"private_ip"=>"10.34.130.XXX",
+"availability_zone"=>"eu-west-1a",
+"id"=>"9769861c-ae1f-473a-a37d-0462934515da",
+"ip"=>"54.247.56.XXX",
+"backends"=>4,
+"public_dns_name"=>"ec2-54-247-56-XXX.eu-west-1.compute.amazonaws.com"}]
+
+</code></pre>
+
+<ul>
+<li>you have to rewrite plenty of cookbooks, that use advanced Chef-Server capabilities, like <strong>search</strong>, <strong>databags</strong> etc.</li>
+</ul>
+
+<p>I did like thinking in:</p>
+
+<ul>
+<li>Stacks</li>
+<li>Layers</li>
+<li>Applications</li>
+<li>time/load-based Instancess</li>
+<li>integrated Monitoring</li>
+<li>Permission Management</li>
+</ul>
+
+<p>But overall the limitation are too limiting. Maybe next time.</p>
+
+</div>
+</article>
+					
+						<div class="share">
+	<div class="addthis_toolbox addthis_default_style ">
+	
+	
+	
+	<a class="addthis_counter addthis_pill_style"></a>
+	</div>
+  <script type="text/javascript" src='http://s7.addthis.com/js/250/addthis_widget.js#pubid='></script>
+</div>
+
+					
+					
+					<section id="comment">
+					    <h1 class="title">Comments</h1>
+					    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+					</section>
+					
+					
+
+<script type="text/javascript">
+      var disqus_shortname = 'devopsforrunaways';
+      
+      
+      var disqus_identifier = 'http:\/\/devopsbox.es\/posts\/2013\/10-22-opsworks-vs-chef-server.html.html';
+      var disqus_url        = 'http:\/\/devopsbox.es\/posts\/2013\/10-22-opsworks-vs-chef-server.html.html';
+      var disqus_script     = 'embed.js';
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+					
+
+				    </div>
+				</div>
+			</div>
+			<footer id="footer" class="inner">Copyright &copy; 2017
+
+    Bits and pieces to remember
+
+<script src="http://devopsbox.es//js/slash.js"></script>
+<script src="http://devopsbox.es//js/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+
+
+
+</script>
+
+</footer>
+		</div>
+	</div>
+	
+</body>
+</html>

@@ -1,0 +1,279 @@
+<!DOCTYPE HTML>
+
+<html lang="en-us">
+
+<head>
+	<meta charset="utf-8">
+	<title>Docker.io - Build your own PAAS - Bits and pieces to remember</title>
+	<meta name="author" content="map[]">
+
+	
+	
+	<meta name="description" content="">
+	
+
+	
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    
+	<link href='index.xml' rel="alternate" title="Bits and pieces to remember" type="application/atom+xml">
+	
+	<link rel="canonical" href="http://devopsbox.es/posts/2013/03-21-docker.io---build-your-own-paas.html.html">
+	<link href="http://devopsbox.es//favicon.png" rel="shortcut icon">
+	<link href="http://devopsbox.es//css/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<link href="http://devopsbox.es//css/font-awesome.min.css" media="screen, projection" rel="stylesheet" type="text/css">
+	
+	<link href='http://fonts.googleapis.com/css?family=Nunito:400,300,700' rel='stylesheet' type='text/css'>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.5/styles/tomorrow.min.css">
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.5/highlight.min.js"></script>
+	<script>hljs.initHighlightingOnLoad();</script>
+
+	
+  
+
+</head>
+
+
+<body>
+	<div class="container">
+		<div class="left-col">
+			<div class="intrude-less">
+			<header id="header" class="inner"><div class="profilepic">
+
+	<img src="http://devopsbox.es/media/profile/profile-pic-square.jpg" alt="" width="150" height="150">
+
+</div>
+
+<nav id="main-nav"><ul class="main">
+    <li><a href="http://devopsbox.es/">Blog</a></li>
+    <li><a href="http://devopsbox.es/about.html">About</a></li>
+    <li><a href="http://devopsbox.es/post.html">Archives</a></li>
+    <li><a href="http://devopsbox.es/resume/resume.html">CV</a></li>
+</ul>
+
+
+<section class="aboutme">
+  <p>
+    Bits and pieces to remember
+  </p>
+</section>
+</nav>
+<nav id="sub-nav">
+	<div class="social">
+		
+		
+		
+		
+			<a class="twitter" href='http://twitter.com/mindreframer' title="Twitter">Twitter</a>
+		
+		
+			<a class="github" href='https://github.com/mindreframer' title="GitHub">GitHub</a>
+		
+		
+		
+		  <a class="stackoverflow" href='http://stackoverflow.com/users/785134/mindreframer' title="StackOverflow"></a>
+		
+		
+		
+		
+			<a class="delicious" href='http://delicious.com/mindreframer' title="Delicious">Delicious</a>
+		
+		
+		
+		
+		
+    	
+    	
+			<a class="rss" href='index.xml' title="RSS">RSS</a>
+		
+	</div>
+</nav>
+</header>
+			</div>
+		</div>
+		<div class="mid-col">
+			
+			<div class="mid-col-container">
+				<div id="content" class="inner">
+					<div itemscope itemtype="http://schema.org/Blog">
+					<article class="post" itemscope itemtype="http://schema.org/BlogPosting"><h1 class="title" itemprop="name">
+  Docker.io - Build your own PAAS
+</h1>
+<div class="entry-content" itemprop="articleBody">
+  
+
+<h2 id="docker-io-http-docker-io"><a href="http://docker.io/">Docker.io</a></h2>
+
+<pre><code>https://github.com/dotcloud/docker
+</code></pre>
+
+<h2 id="articles">Articles:</h2>
+
+<ul>
+<li><a href="http://www.johnmcostaiii.net/2013/installing-redis-on-docker/">http://www.johnmcostaiii.net/2013/installing-redis-on-docker/</a></li>
+<li><a href="http://www.memcachedasaservice.com/">http://www.memcachedasaservice.com/</a></li>
+<li><a href="http://www.slideshare.net/julienbarbier42/building-a-saas-using-docker">http://www.slideshare.net/julienbarbier42/building-a-saas-using-docker</a></li>
+<li><a href="https://github.com/jbarbier/SaaS_Memcached/">https://github.com/jbarbier/SaaS_Memcached/</a></li>
+</ul>
+
+<h2 id="irc-log">IRC log:</h2>
+
+<pre><code>https://botbot.me/freenode/docker/2013-03-18/?tz=Europe/Helsinki
+</code></pre>
+
+<h2 id="asciicasts">ASCIICASTs:</h2>
+
+<pre><code>- http://ascii.io/~kencochrane (by kencochrane) (http://kencochrane.net/)
+</code></pre>
+
+<h2 id="https-news-ycombinator-com-item-id-5408002"><a href="https://news.ycombinator.com/item?id=5408002">https://news.ycombinator.com/item?id=5408002</a></h2>
+
+<h3 id="interesting-quotes-from-disscusion">Interesting Quotes from disscusion:</h3>
+
+<p>shykes:</p>
+
+<pre><code>Docker is the direct result of dotCloud's experience running hundreds of thousands of containers in production over the last 2 years. We tried very hard to put it in a form factor which makes it useful beyond the traditional PaaS.
+We think Docker's API is a fundamental building block for running any process on the server. heyhoe
+</code></pre>
+
+<p>shykes:</p>
+
+<pre><code>Think of a Docker container as a universal build artifact. Your build step can be an arbitrary sequence of unix commands (download dependencies, build libssl, run shell scripts etc.). Docker can freeze the result of that build and guarantee that it will run in a repeatable and self-contained way, no matter where you run it.
+So you get clean separation of build and run, which is a hugely important part of reliable deployment.
+</code></pre>
+
+<p>shykes</p>
+
+<pre><code>Other benefits: docker images are basically tarballs, which means they are much smaller.
+And, importantly, Docker maintains a filesystem-level diff between versions of an image, and only needs to transmit each diff once. So you get tremendous bandwidth savings when transmitting multiple images created from the same base.
+</code></pre>
+
+<p>shykes</p>
+
+<pre><code>Docker solves the problem of running things in a repeatable and infrastructure-agnostic way. Mesos solves the problem of telling many nodes what to run and when.
+In other words, Docker + Mesos is a killer combo. There is already experimentation underway to use Docker as an execution engine for Mesos.
+</code></pre>
+
+<p>derefr</p>
+
+<pre><code>It's a white-labelling of dotCloud's implementation of Heroku's &quot;slug&quot; concept (https://devcenter.heroku.com/articles/slug-compiler): basically, a SquashFS image with a known SHA, storing a precompiled runtime+libraries+code artifact that will never change, able to be union-mounted atop a &quot;base image&quot; (a chroot filesystem, possibly also a known-SHA SquashFS image), then spun up as an ephemeral LXC container. I actually use the idea in my own ad-hoc deployment process; they're very convenient for ensuring repeatability.
+(As a side-note, this is an example of an interesting bit of game theory: in a niche, the Majority Player will tend to keep their tech proprietary to stay ahead, while the Second String will tend to release everything OSS in order to remove the Majority Player's advantages. This one is dotCloud taking a stab at Heroku, but you can also think of, for example, Atlassian--who runs Github-competitor Bitbucket--poking at Github by releasing a generic Git GUI client, whereas Github released a Github client.)
+</code></pre>
+
+<p>trotsky:</p>
+
+<pre><code>Container based virtualization can provide an impressive amount of isolation while improving density dramatically on light duty loads over virtualization. Solaris zones are very well regarded and are used for multi-tenant by Joyent, and many many linux hosts provide multi-tenant solutions based on virtuozzo which predates linux containers by a good number of years.
+The main theoretical difference between hypervisor isolation and container isolation is one sits above the kernel, so a kernel level exploit only applies to a single virtual machine. With containers you're relying on the kernel to provide the isolation so you are still subject to (some) kernel level exploits.
+Practically linux containers (the mainline implementation) have only provided full isolation in recent patches and probably shouldn't be considered full shaken out for something like full in the wild root level multi-tenant access.
+They are super for application isolation for delivery of multiple single tenant workloads on one machine though - something people use hypervisors for quite a bit. The resources used can be a small fraction of what you're committing to with a hypervisor.
+</code></pre>
+
+<p>laumars</p>
+
+<pre><code>A very bad description would be: &quot;containers are essentially what you get when you cross virtualisation with chroot&quot;.
+The reason why I give that description to begin with is because containers solve a lot of problems that often lead people towards the virtualisation route. And to the guest &quot;OS&quot;, all the applications think they're running on a unique machine from the host. However containers differ from virtualisation in that it's just one OS (one shared kernel). This means you can only run one unique OS (though if you know what you're doing, you can run multiple different distros of Linux in different containers - but you couldn't run FreeBSD nor Windows inside a Linux container). Containers can also have their own resources and network interfaces (both virtual devices and dedicated hardware passed through).
+Because you're not virtualising hardware with containers and because you're only running one OS, containers do have performance advantages over virtualisation while still being just as secure. So I personally think they're a massively underrated and under utilised solution.
+If you're interested in investigating a little more into containers, Linux also has OpenVZ, and FreeBSD and Solaris has Jails and Zones (respectively). The wikipedia articles on each of them also offer some good details (despite the stigma attached to wikipedia entries).
+</code></pre>
+
+<p>lukeschlather:</p>
+
+<pre><code>Personally I think the biggest value these days with para-virtualization like this is in development. I can be running twenty or so different applications on the same physical machine, and for the most part (as long as they're idle since I'm only working with one) I don't even notice that they're running.
+</code></pre>
+
+<p>bradrydzewski:</p>
+
+<pre><code>This is still technically a virtualization technique, known as &quot;operating system-level virtualization&quot;. http://en.wikipedia.org/wiki/Operating_system-level_virtuali...
+Here are some of the technologies explained:
+cgroups: Linux kernel feature that allows resource limiting and metering, as well as process isolation. The process isolation, also called namespaces, is important because it prevents a process from seeing or terminating other running processes.
+lxc: this is a utility that glues together cgroups and chroots to provide virtualization. It helps you easily setup a guest OS by downloading your favorite distro and unpacking it (kind of like debootstrap). It can then &quot;boot&quot; the guest OS by starting it's &quot;init&quot; process. The init process runs in its own namespace, inside a chroot. This is why they call LXC a chroot on steroids. It does everything that chroot does, with full process isolation and metering.
+aufs: this is sometimes called a &quot;stacked&quot; file system. It allows you to mount one file system on top of another. Why is this important? Because if you are managing a large number of virtual machines, each one with 1GB+ OS, it uses a lot of disk space. Also, the slowest part of creating a new container is copying the distro (can take up to 30 seconds). Using something like AUFS gives you much better performance.
+So what about security? Well, like every (relatively) new technology LXC has its issues. If you use Ubuntu 12.04 they provide a set of Apparmor scripts to mitigate known security risks (like disabling reboot or shutdown commands inside containers, and write access to the /sys filesystem).
+</code></pre>
+
+<p>laumars</p>
+
+<pre><code>Containers have existed as long as virtual machines have. FreeBSD implemented &quot;Jails&quot; back in the late 90s / yr2000. Linux also has OpenVZ and Solaris has Zones.
+If you couple a container with a CoW file system that supports snapshotting (eg ZFS or BtrFS), then you can have most of the features you'd expect from virtualisation but without as heavy footprint.
+Containers are an underrated and often forgotten solution in my opinion.
+</code></pre>
+
+<h2 id="companies-using-docker-besides-dotcloud">Companies using Docker (besides dotCloud)</h2>
+
+<ul>
+<li><a href="http://stridercd.com/">http://stridercd.com/</a></li>
+<li><a href="http://blog.frozenridge.co/next-generation-continuous-integration-deployment-with-dotclouds-docker-and-strider/">http://blog.frozenridge.co/next-generation-continuous-integration-deployment-with-dotclouds-docker-and-strider/</a></li>
+</ul>
+
+<h2 id="more-about-lxc">More about LXC:</h2>
+
+<ul>
+<li><a href="https://lwn.net/Articles/524952/">https://lwn.net/Articles/524952/</a> (LCE: The failure of operating systems and how we can fix it)</li>
+<li><a href="https://github.com/Incubaid/jenkins-lxc">https://github.com/Incubaid/jenkins-lxc</a></li>
+<li><a href="http://dtrace.org/blogs/brendan/2013/01/11/virtualization-performance-zones-kvm-xen/">http://dtrace.org/blogs/brendan/2013/01/11/virtualization-performance-zones-kvm-xen/</a></li>
+</ul>
+
+</div>
+</article>
+					
+						<div class="share">
+	<div class="addthis_toolbox addthis_default_style ">
+	
+	
+	
+	<a class="addthis_counter addthis_pill_style"></a>
+	</div>
+  <script type="text/javascript" src='http://s7.addthis.com/js/250/addthis_widget.js#pubid='></script>
+</div>
+
+					
+					
+					<section id="comment">
+					    <h1 class="title">Comments</h1>
+					    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+					</section>
+					
+					
+
+<script type="text/javascript">
+      var disqus_shortname = 'devopsforrunaways';
+      
+      
+      var disqus_identifier = 'http:\/\/devopsbox.es\/posts\/2013\/03-21-docker.io---build-your-own-paas.html.html';
+      var disqus_url        = 'http:\/\/devopsbox.es\/posts\/2013\/03-21-docker.io---build-your-own-paas.html.html';
+      var disqus_script     = 'embed.js';
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+					
+
+				    </div>
+				</div>
+			</div>
+			<footer id="footer" class="inner">Copyright &copy; 2017
+
+    Bits and pieces to remember
+
+<script src="http://devopsbox.es//js/slash.js"></script>
+<script src="http://devopsbox.es//js/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+
+
+
+</script>
+
+</footer>
+		</div>
+	</div>
+	
+</body>
+</html>

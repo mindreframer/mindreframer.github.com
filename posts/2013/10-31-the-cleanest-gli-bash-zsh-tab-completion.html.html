@@ -1,0 +1,217 @@
+<!DOCTYPE HTML>
+
+<html lang="en-us">
+
+<head>
+	<meta charset="utf-8">
+	<title>The cleanest GLI Bash / ZSH Tab-Completion - Bits and pieces to remember</title>
+	<meta name="author" content="map[]">
+
+	
+	
+	<meta name="description" content="">
+	
+
+	
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    
+	<link href='index.xml' rel="alternate" title="Bits and pieces to remember" type="application/atom+xml">
+	
+	<link rel="canonical" href="http://devopsbox.es/posts/2013/10-31-the-cleanest-gli-bash-zsh-tab-completion.html.html">
+	<link href="http://devopsbox.es//favicon.png" rel="shortcut icon">
+	<link href="http://devopsbox.es//css/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<link href="http://devopsbox.es//css/font-awesome.min.css" media="screen, projection" rel="stylesheet" type="text/css">
+	
+	<link href='http://fonts.googleapis.com/css?family=Nunito:400,300,700' rel='stylesheet' type='text/css'>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.5/styles/tomorrow.min.css">
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.5/highlight.min.js"></script>
+	<script>hljs.initHighlightingOnLoad();</script>
+
+	
+  
+
+</head>
+
+
+<body>
+	<div class="container">
+		<div class="left-col">
+			<div class="intrude-less">
+			<header id="header" class="inner"><div class="profilepic">
+
+	<img src="http://devopsbox.es/media/profile/profile-pic-square.jpg" alt="" width="150" height="150">
+
+</div>
+
+<nav id="main-nav"><ul class="main">
+    <li><a href="http://devopsbox.es/">Blog</a></li>
+    <li><a href="http://devopsbox.es/about.html">About</a></li>
+    <li><a href="http://devopsbox.es/post.html">Archives</a></li>
+    <li><a href="http://devopsbox.es/resume/resume.html">CV</a></li>
+</ul>
+
+
+<section class="aboutme">
+  <p>
+    Bits and pieces to remember
+  </p>
+</section>
+</nav>
+<nav id="sub-nav">
+	<div class="social">
+		
+		
+		
+		
+			<a class="twitter" href='http://twitter.com/mindreframer' title="Twitter">Twitter</a>
+		
+		
+			<a class="github" href='https://github.com/mindreframer' title="GitHub">GitHub</a>
+		
+		
+		
+		  <a class="stackoverflow" href='http://stackoverflow.com/users/785134/mindreframer' title="StackOverflow"></a>
+		
+		
+		
+		
+			<a class="delicious" href='http://delicious.com/mindreframer' title="Delicious">Delicious</a>
+		
+		
+		
+		
+		
+    	
+    	
+			<a class="rss" href='index.xml' title="RSS">RSS</a>
+		
+	</div>
+</nav>
+</header>
+			</div>
+		</div>
+		<div class="mid-col">
+			
+			<div class="mid-col-container">
+				<div id="content" class="inner">
+					<div itemscope itemtype="http://schema.org/Blog">
+					<article class="post" itemscope itemtype="http://schema.org/BlogPosting"><h1 class="title" itemprop="name">
+  The cleanest GLI Bash / ZSH Tab-Completion
+</h1>
+<div class="entry-content" itemprop="articleBody">
+  
+
+<h2 id="the-perfect-solution-for-you-gli-app-based-console-tools-in-bash-zsh">The perfect solution for you GLI::App based console-tools in Bash/ZSH</h2>
+
+<h3 id="official-recommendation">Official recommendation</h3>
+
+<pre><code>function get_todo_commands()
+{
+  if [ -z $2 ] ; then
+    COMPREPLY=(`todo help -c`)
+  else
+    COMPREPLY=(`todo help -c $2`)
+  fi
+}
+</code></pre>
+
+<p>Problems with that solution:</p>
+
+<ul>
+<li>does not work on ZSH</li>
+<li>does autocompletion only for the 1st and 2nd level, stops after that</li>
+<li>is not very extendable</li>
+</ul>
+
+<p>After fiddling for 2 hours I came up with the simplest and always working solution:</p>
+
+<pre><code>## this enables bash completion in ZSH
+if [[ -n ${ZSH_VERSION-} ]]; then
+  autoload -U +X bashcompinit &amp;&amp; bashcompinit
+fi
+
+## instruct, where the completions for my-cli come from
+complete -F get_my_cli_commands my-cli
+
+function get_my_cli_commands()
+{
+  ## we have following variables available:
+  # - COMP_WORDS: array with arguments, that starts with  &quot;my-cli&quot;
+  # - COMP_CWORD: the index of the current &quot;tab-completed&quot; word
+
+  local binary=&quot;my-cli&quot;
+
+  # args-array starting by index:1
+  help_params=${COMP_WORDS[@]:1}
+
+  # remove flags/options, so we have only &quot;verbs&quot;
+  clean_params=${help_params//-*([^ ])?( )}
+  COMPREPLY=(`$binary help -c $clean_params`)
+}
+</code></pre>
+
+</div>
+</article>
+					
+						<div class="share">
+	<div class="addthis_toolbox addthis_default_style ">
+	
+	
+	
+	<a class="addthis_counter addthis_pill_style"></a>
+	</div>
+  <script type="text/javascript" src='http://s7.addthis.com/js/250/addthis_widget.js#pubid='></script>
+</div>
+
+					
+					
+					<section id="comment">
+					    <h1 class="title">Comments</h1>
+					    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+					</section>
+					
+					
+
+<script type="text/javascript">
+      var disqus_shortname = 'devopsforrunaways';
+      
+      
+      var disqus_identifier = 'http:\/\/devopsbox.es\/posts\/2013\/10-31-the-cleanest-gli-bash-zsh-tab-completion.html.html';
+      var disqus_url        = 'http:\/\/devopsbox.es\/posts\/2013\/10-31-the-cleanest-gli-bash-zsh-tab-completion.html.html';
+      var disqus_script     = 'embed.js';
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+					
+
+				    </div>
+				</div>
+			</div>
+			<footer id="footer" class="inner">Copyright &copy; 2017
+
+    Bits and pieces to remember
+
+<script src="http://devopsbox.es//js/slash.js"></script>
+<script src="http://devopsbox.es//js/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+
+
+
+</script>
+
+</footer>
+		</div>
+	</div>
+	
+</body>
+</html>

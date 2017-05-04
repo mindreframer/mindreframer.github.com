@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Unix on Bits and pieces to remember </title>
+      <generator uri="https://gohugo.io">Hugo</generator>
+    <link>http://devopsbox.es/tags/unix.html</link>
+    <language>en-us</language>
+    
+    
+    <updated>Wed, 26 Jun 2013 00:00:00 UTC</updated>
+    
+    <item>
+      <title>Unix and Ruby in Love</title>
+      <link>http://devopsbox.es/posts/2013/06-26-unix-and-ruby-in-love.html.html</link>
+      <pubDate>Wed, 26 Jun 2013 00:00:00 UTC</pubDate>
+      
+      <guid>http://devopsbox.es/posts/2013/06-26-unix-and-ruby-in-love.html.html</guid>
+      <description>
+
+&lt;h2 id=&#34;very-hands-on-example-how-ruby-conforms-to-unix-principles&#34;&gt;Very hands-on example, how Ruby conforms to Unix principles.&lt;/h2&gt;
+
+&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;7f9fbef0be4501308b990221c58dc99e&#34; data-ratio=&#34;1.33333333333333&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

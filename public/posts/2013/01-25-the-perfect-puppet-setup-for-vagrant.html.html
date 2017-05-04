@@ -1,0 +1,337 @@
+<!DOCTYPE HTML>
+
+<html lang="en-us">
+
+<head>
+	<meta charset="utf-8">
+	<title>The Perfect Puppet Setup For Vagrant - Bits and pieces to remember</title>
+	<meta name="author" content="map[]">
+
+	
+	
+	<meta name="description" content="">
+	
+
+	
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    
+	<link href='index.xml' rel="alternate" title="Bits and pieces to remember" type="application/atom+xml">
+	
+	<link rel="canonical" href="http://devopsbox.es/posts/2013/01-25-the-perfect-puppet-setup-for-vagrant.html.html">
+	<link href="http://devopsbox.es//favicon.png" rel="shortcut icon">
+	<link href="http://devopsbox.es//css/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<link href="http://devopsbox.es//css/font-awesome.min.css" media="screen, projection" rel="stylesheet" type="text/css">
+	
+	<link href='http://fonts.googleapis.com/css?family=Nunito:400,300,700' rel='stylesheet' type='text/css'>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.5/styles/tomorrow.min.css">
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.5/highlight.min.js"></script>
+	<script>hljs.initHighlightingOnLoad();</script>
+
+	
+  
+
+</head>
+
+
+<body>
+	<div class="container">
+		<div class="left-col">
+			<div class="intrude-less">
+			<header id="header" class="inner"><div class="profilepic">
+
+	<img src="http://devopsbox.es/media/profile/profile-pic-square.jpg" alt="" width="150" height="150">
+
+</div>
+
+<nav id="main-nav"><ul class="main">
+    <li><a href="http://devopsbox.es/">Blog</a></li>
+    <li><a href="http://devopsbox.es/about.html">About</a></li>
+    <li><a href="http://devopsbox.es/post.html">Archives</a></li>
+    <li><a href="http://devopsbox.es/resume/resume.html">CV</a></li>
+</ul>
+
+
+<section class="aboutme">
+  <p>
+    Bits and pieces to remember
+  </p>
+</section>
+</nav>
+<nav id="sub-nav">
+	<div class="social">
+		
+		
+		
+		
+			<a class="twitter" href='http://twitter.com/mindreframer' title="Twitter">Twitter</a>
+		
+		
+			<a class="github" href='https://github.com/mindreframer' title="GitHub">GitHub</a>
+		
+		
+		
+		  <a class="stackoverflow" href='http://stackoverflow.com/users/785134/mindreframer' title="StackOverflow"></a>
+		
+		
+		
+		
+			<a class="delicious" href='http://delicious.com/mindreframer' title="Delicious">Delicious</a>
+		
+		
+		
+		
+		
+    	
+    	
+			<a class="rss" href='index.xml' title="RSS">RSS</a>
+		
+	</div>
+</nav>
+</header>
+			</div>
+		</div>
+		<div class="mid-col">
+			
+			<div class="mid-col-container">
+				<div id="content" class="inner">
+					<div itemscope itemtype="http://schema.org/Blog">
+					<article class="post" itemscope itemtype="http://schema.org/BlogPosting"><h1 class="title" itemprop="name">
+  The Perfect Puppet Setup For Vagrant
+</h1>
+<div class="entry-content" itemprop="articleBody">
+  <p>To get the complete picture about the modules here, please take a look at the article
+<a href="http://devopsbox.es/posts/2013/01-23-how-to-test-tricky-nginx-rewrite-rules---part-i.html.html">Testing Tricky Nginx Rewrite Rules</a></p>
+
+<p>So, you&rsquo;re ready to jump in and start automating your server infractructure with some server provisioning software. Let&rsquo;s try <a href="http://puppetlabs.com">Puppet</a>.</p>
+
+<p>I will present you the solution and later discuss, why it&rsquo;s done this way.</p>
+
+<p><strong>Vagrantfile</strong>: we specify puppet provisioner in Vagrantfile.
+We keep the configs in <code>puppet</code>  folder with two subfolders: <code>manifests</code> and <code>modules</code></p>
+
+<pre><code class="puppet">
+config.vm.provision :puppet do |puppet|
+  puppet.manifests_path = "puppet/manifests"
+  puppet.manifest_file  = "base.pp"
+  puppet.module_path    = "puppet/modules"
+end
+</code></pre>
+
+<p><strong>puppet/manifests/base.pp</strong>: despite being quite short, it contains a bunch of Puppet best practices.</p>
+
+<pre><code class="puppet">
+# this is the entry point for puppet client
+# setup some basic stuff here
+
+# puppet group
+group { "puppet":
+  ensure => "present",
+}
+
+# the default path for puppet to look for executables
+Exec { path => [ "/bin/", "/sbin/" , "/usr/bin/", "/usr/sbin/" ] }
+
+# the default file attributes
+File { owner => 0, group => 0, mode => 0644 }
+
+# we define run-stages, so we can prepare the system
+# to have basic requirements installed
+# http://docs.puppetlabs.com/puppet/2.7/reference/lang_run_stages.html
+
+# first stage should do general OS updating/upgrading
+stage { 'first': }
+
+# last stage should cleanup/ do something unusual
+stage { 'last': }
+
+# declare dependancies
+Stage['first'] -> Stage['main'] -> Stage['last']
+
+# just some packages
+package{"tmux": ensure => installed}
+package{"curl": ensure => installed}
+
+# a helper script to run puppet
+file{"/usr/local/bin/runpuppet":
+  content => "sudo puppet apply -vv  --modulepath=/tmp/vagrant-puppet/modules-0/ /tmp/vagrant-puppet/manifests/base.pp\n",
+  mode    => 0755
+}
+
+# a helper script to run nginx tests
+# runs puppet + runs the unit tests
+file{"/usr/local/bin/nginx_tests":
+  content => "
+    cd /vagrant/nginx_tests && \
+    runpuppet && \
+    sudo /etc/init.d/nginx restart && \
+    sudo /etc/init.d/dnsmasq restart && \
+    ruby nginx_test.rb",
+  mode    => 0755
+}
+
+# brings the system up-to-date after importing it with Vagrant
+# runs only once after booting (checks /tmp/apt-get-update existence)
+class update_aptget{
+  exec{"apt-get update && touch /tmp/apt-get-updated":
+    unless => "test -e /tmp/apt-get-updated"
+  }
+}
+
+# run apt-get update before anything else runs
+class {'update_aptget':
+  stage => first,
+}
+
+class{'nginx':}
+class{"rewriter_test":}
+
+# install dnsmasq as last, because it does something to
+# the network and installing after dnsmasq would not work
+# for a couple seconds.
+class {'dnsmasq':
+  stage => last,
+}
+
+</code></pre>
+
+<p><a href="http://www.thekelleys.org.uk/dnsmasq/doc.html">Dnsmasq</a></p>
+
+<pre><code class="puppet">
+# we use dnsmasq to allow wildchar testing for subdomains
+# /etc/hosts is too limited
+class dnsmasq{
+  # include classes + declare dependencies in one step
+  class{"dnsmasq::packages":}
+    -> class{"dnsmasq::configs":}
+    -> class{"dnsmasq::service":}
+}
+
+
+class dnsmasq::packages{
+  package{"dnsmasq": ensure => installed}
+}
+
+class dnsmasq::configs{
+  # all requests to (*.)dawanda.com will go to 127.0.0.1
+  file{"/etc/dnsmasq.d/my_local":
+    content => "address=/dawanda.com/127.0.0.1\n",
+  }
+}
+
+class dnsmasq::service{
+  service{"dnsmasq":
+    ensure    => running,
+    subscribe => Class["dnsmasq::configs"]
+  }
+}
+
+</code></pre>
+
+<p><a href="http://wiki.nginx.org/Main">Nginx</a></p>
+
+<pre><code class="puppet">
+class nginx{
+  include nginx::packages
+  include nginx::configs
+  include nginx::service
+  Class['nginx::packages'] -> Class['nginx::configs']-> Class['nginx::service']
+}
+
+class nginx::packages{
+  package { "nginx":
+    ensure => installed,
+  }
+}
+
+class nginx::configs{
+  file{"/etc/nginx/nginx.conf":
+    content => template("nginx/nginx.conf.erb")
+  }
+}
+
+class nginx::service{
+  service{"nginx":
+    ensure    => running,
+    subscribe => Class["nginx::configs"]
+  }
+}
+
+</code></pre>
+
+<p>The layout for those modules is applicable to nearly every software, you might encounter:</p>
+
+<pre><code class="puppet">
+[1] You install packages  + install dependencies + download stuff
+[2] You modify the configuration files or the downloaded software, create init scripts, folders, etc.
+[3] You start your software, and subscribe to changes in config class
+
+</code></pre>
+
+<p>To see a more complex real example, check my
+<a href="http://devopsbox.es/posts/2013/01-30-playing-with-tokudb.html.html">Playing With Tokudb</a>-article.</p>
+
+</div>
+</article>
+					
+						<div class="share">
+	<div class="addthis_toolbox addthis_default_style ">
+	
+	
+	
+	<a class="addthis_counter addthis_pill_style"></a>
+	</div>
+  <script type="text/javascript" src='http://s7.addthis.com/js/250/addthis_widget.js#pubid='></script>
+</div>
+
+					
+					
+					<section id="comment">
+					    <h1 class="title">Comments</h1>
+					    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+					</section>
+					
+					
+
+<script type="text/javascript">
+      var disqus_shortname = 'devopsforrunaways';
+      
+      
+      var disqus_identifier = 'http:\/\/devopsbox.es\/posts\/2013\/01-25-the-perfect-puppet-setup-for-vagrant.html.html';
+      var disqus_url        = 'http:\/\/devopsbox.es\/posts\/2013\/01-25-the-perfect-puppet-setup-for-vagrant.html.html';
+      var disqus_script     = 'embed.js';
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+					
+
+				    </div>
+				</div>
+			</div>
+			<footer id="footer" class="inner">Copyright &copy; 2017
+
+    Bits and pieces to remember
+
+<script src="http://devopsbox.es//js/slash.js"></script>
+<script src="http://devopsbox.es//js/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+
+
+
+</script>
+
+</footer>
+		</div>
+	</div>
+	
+</body>
+</html>

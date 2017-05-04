@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Devops on Bits and pieces to remember </title>
+      <generator uri="https://gohugo.io">Hugo</generator>
+    <link>http://devopsbox.es/tags/devops.html</link>
+    <language>en-us</language>
+    
+    
+    <updated>Wed, 20 May 2015 00:00:00 UTC</updated>
+    
+    <item>
+      <title>MemSQL Community Edition 4.0 free unlimited capacity</title>
+      <link>http://devopsbox.es/posts/2015/05-20-memsql-community-edition-unlimited.html.html</link>
+      <pubDate>Wed, 20 May 2015 00:00:00 UTC</pubDate>
+      
+      <guid>http://devopsbox.es/posts/2015/05-20-memsql-community-edition-unlimited.html.html</guid>
+      <description>&lt;h3 id=&#34;memsql-launches-community-edition-world-s-fastest-in-memory-database-now-available-to-all&#34;&gt;MemSQL Launches Community Edition: World’s Fastest In-Memory Database Now Available to All&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.memsql.com/releases/memsql-4/&#34;&gt;http://www.memsql.com/releases/memsql-4/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;links&#34;&gt;Links:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.memsql.com/high-speed-counters/&#34;&gt;http://blog.memsql.com/high-speed-counters/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://docs.memsql.com/latest/admin/high_availability/&#34;&gt;http://docs.memsql.com/latest/admin/high_availability/&lt;/a&gt; - HA details&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://docs.memsql.com/latest/setup/setup_cloud/&#34;&gt;http://docs.memsql.com/latest/setup/setup_cloud/&lt;/a&gt; - Setup in Cloud&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/memsql&#34;&gt;https://github.com/memsql&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;people&#34;&gt;People:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/NikitaShamgunov&#34;&gt;https://twitter.com/NikitaShamgunov&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;videos&#34;&gt;Videos:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=FF6Sb4LLDso&#34;&gt;https://www.youtube.com/watch?v=FF6Sb4LLDso&lt;/a&gt; - MemSQL 4 Community Edition&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://vimeo.com/gomemsql&#34;&gt;https://vimeo.com/gomemsql&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://vimeo.com/89430711&#34;&gt;https://vimeo.com/89430711&lt;/a&gt; - Strata Santa Clara 2014 MemSQL CPXi Speaking Session&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://vimeo.com/105708657&#34;&gt;https://vimeo.com/105708657&lt;/a&gt; - Webinar On-Demand: NoSQL vs NewSQL&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=Lf0qgt_G2-s&#34;&gt;https://www.youtube.com/watch?v=Lf0qgt_G2-s&lt;/a&gt; - MemSQL - Real Time Big Data in a Distributed SQL System (21.10.2013)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=MWo5rY06RTw&#34;&gt;https://www.youtube.com/watch?v=MWo5rY06RTw&lt;/a&gt; - Moving Beyond Mongo Webinar HD (01.05.2015)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=QhlqDmJHLK0&#34;&gt;https://www.youtube.com/watch?v=QhlqDmJHLK0&lt;/a&gt; - Solving Big Data Challenges with In Memory Technology HD (28.04.2015)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=5_0rG5GhHNE&#34;&gt;https://www.youtube.com/watch?v=5_0rG5GhHNE&lt;/a&gt; - Bringing OLAP Fully Online: Analyze Changing Datasets in MemSQL and Spark with Pinterest Demo (08.05.2015)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;user-stories&#34;&gt;User stories&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://insidebigdata.com/2014/03/28/memsql-eliminates-etl-delivering-real-time-advantage/&#34;&gt;http://insidebigdata.com/2014/03/28/memsql-eliminates-etl-delivering-real-time-advantage/&lt;/a&gt; - MemSQL Delivers Advantage for Real-Time Ad Bidding&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.memsql.com/case-studies/&#34;&gt;http://www.memsql.com/case-studies/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;discussion-on-hn&#34;&gt;Discussion on HN&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://news.ycombinator.com/item?id=9577663&#34;&gt;https://news.ycombinator.com/item?id=9577663&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Some comments:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;I have been an enterprise user and had the luxury of using the 4 beta for the last month or so. I run a cluster of 18 machines with 192 cores and 540GB of RAM.
+Impressions:
+memSQL is remarkably stable. I actually have one machine running the old memSQL 1.0 beta that has not rebooted in months. 4.0 has similarly stable. The only problems happen when you run too many other processes on the aggregators (which is really just me being stupid).
+Speed is great and the wire compliance with mySQL makes it very easy to develop for. To be honest, the &amp;quot;keeping the data in memory&amp;quot; part isn&#39;t the best part, it is the query compiling. It is incredibly fast. Often a query that takes 30sec to 1min to execute will compile down to fractions of a second. It is very cool to watch and never gets old.
+We are looking to literally move all of our internal stuff to memSQL community edition while keeping our customer tools on enterprise.
+reply
+&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    
+    <item>
+      <title>Scalable Deployments - How we deploy Rails app to 100&#43; hosts in a minute (Cookpad - JP)</title>
+      <link>http://devopsbox.es/posts/2014/11-05-scalable-deployments---how-we-deploy-rails-app-to-100--hosts-in-a-minute-cookpad---jp.html.html</link>
+      <pubDate>Wed, 05 Nov 2014 00:00:00 UTC</pubDate>
+      
+      <guid>http://devopsbox.es/posts/2014/11-05-scalable-deployments---how-we-deploy-rails-app-to-100--hosts-in-a-minute-cookpad---jp.html.html</guid>
+      <description>&lt;h2 id=&#34;mamiya-fast-deployments-with-serf-and-s3&#34;&gt;Mamiya: Fast deployments with Serf and S3&lt;/h2&gt;
+
+&lt;p&gt;Nice and simple usecase for &lt;a href=&#34;https://www.serfdom.io/&#34;&gt;Serf&lt;/a&gt;: massive fast deployments. I really like the simplicity of the approach. Serf could be replaced by &lt;a href=&#34;https://consul.io/&#34;&gt;Consul&lt;/a&gt;, it even has got remote execution framework, so deployment would be even simpler!&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/sorah/mamiya&#34;&gt;On Github&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://rubykaigi.org/2014/presentation/S-ShotaFukumori&#34;&gt;Japanese Presentation video&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;b22712e0246e0132bddb12a238f45ab0&#34; data-ratio=&#34;1.77777777777778&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://speakerdeck.com/sorah/scalable-deployments-how-we-deploy-rails-app-to-150-plus-hosts-in-a-minute&#34;&gt;https://speakerdeck.com/sorah/scalable-deployments-how-we-deploy-rails-app-to-150-plus-hosts-in-a-minute&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;SCALABLE DEPLOYMENTS - HOW WE DEPLOY RAILS APP TO 100+ HOSTS IN A MINUTE&lt;/p&gt;
+
+&lt;p&gt;Shota Fukumori
+If you&amp;rsquo;re developing webapps, I guess you deploy sometime using tools like Capistrano. We think existing tools slow for huge apps and a lot of servers.&lt;/p&gt;
+
+&lt;p&gt;We serves cookpad.com, which is a huge Rails app, and the largest recipe site in Japan. It&amp;rsquo;s backed 120+ app servers. We&amp;rsquo;ve used Capistrano + SSH + rsync, but it became a bottleneck, slower and slower, as well as server increases. Our developer have wanted to focus on development. Deployments should be done in short time.&lt;/p&gt;
+
+&lt;p&gt;In this talk I&amp;rsquo;ll introduce about our new deploy tool Mamiya, and will talk about how we deploy webapp in a minute.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Consul - great Service Discovery tool</title>
+      <link>http://devopsbox.es/posts/2014/11-03-consul---great-service-discovery-tool.html.html</link>
+      <pubDate>Mon, 03 Nov 2014 00:00:00 UTC</pubDate>
+      
+      <guid>http://devopsbox.es/posts/2014/11-03-consul---great-service-discovery-tool.html.html</guid>
+      <description>&lt;p&gt;Great introduction from Armon Dadgar (Hashicorp) to Consul to simplify some major pain points for SOA / Service Oriented deployments of arbitrary sizes.&lt;/p&gt;
+
+&lt;h2 id=&#34;consul-service-oriented-at-scale&#34;&gt;Consul: Service Oriented at Scale&lt;/h2&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;iframe width=&#34;640&#34; height=&#34;390&#34; src=&#34;//www.youtube.com/embed/eR0899h_1Ac&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&#34;dotscale-2014-mitchell-hashimoto-building-robust-systems-with-consul&#34;&gt;dotScale 2014 - Mitchell Hashimoto - Building Robust Systems With Consul&lt;/h2&gt;
+
+&lt;iframe width=&#34;640&#34; height=&#34;390&#34; src=&#34;//www.youtube.com/embed/tQ99V7QjEHc&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&#34;highly-available-service-discovery-with-consul&#34;&gt;Highly Available Service Discovery with Consul:&lt;/h2&gt;
+
+&lt;p&gt;Also another talk from Evan Ochs, DevOps Engineering Manager at Rackspace&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.brighttalk.com/webcast/11427/132817&#34;&gt;https://www.brighttalk.com/webcast/11427/132817&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;(you have to be registered to watch the video)&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>New Service Discovery Tool - Consul</title>
+      <link>http://devopsbox.es/posts/2014/04-26-new-service-discovery-tool---consul.html.html</link>
+      <pubDate>Sat, 26 Apr 2014 00:00:00 UTC</pubDate>
+      
+      <guid>http://devopsbox.es/posts/2014/04-26-new-service-discovery-tool---consul.html.html</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;http://www.consul.io/&#34;&gt;Consul&lt;/a&gt; - awesome new project from Armon Dadgar, it seems to superseed Serf in it&amp;rsquo;s abilities. Also done in Golang! Way to go!&lt;/p&gt;
+
+&lt;p&gt;Check the &lt;a href=&#34;http://www.consul.io/intro/vs/index.html&#34;&gt;VS page&lt;/a&gt;, so see how it stacks up against competitor products.&lt;/p&gt;
+
+&lt;h2 id=&#34;technologies-used&#34;&gt;Technologies used&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://symas.com/mdb/&#34;&gt;Symas Lightning Memory-Mapped Database (LMDB)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Golang&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Agent forwarding &#43; Capistrano &#43; UTF-8 ENV settings problems</title>
+      <link>http://devopsbox.es/posts/2014/02-27-agent-forwarding---capistrano---utf-8-env-settings-problems.html.html</link>
+      <pubDate>Thu, 27 Feb 2014 00:00:00 UTC</pubDate>
+      
+      <guid>http://devopsbox.es/posts/2014/02-27-agent-forwarding---capistrano---utf-8-env-settings-problems.html.html</guid>
+      <description>&lt;p&gt;Today I have spent a couple of hours trying to figure out, why my agent forwarding for Capistrano was not working. I have already&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;## added my ssh key with
+$ ssh-add
+
+## adjusted  ~/.ssh/config
+Host *.the-domain-to-deploy.com
+  ForwardAgent yes
+
+# configured capistrano in config/deploy.rb
+set :ssh_options, { :forward_agent =&amp;gt; true }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Still no luck&amp;hellip;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Host key verification failed.
+fatal: The remote end hung up unexpectedly
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Even that post was not helping: &lt;a href=&#34;http://dchua.com/2013/08/29/properly-using-ssh-agent-forwarding-in-capistrano/&#34;&gt;http://dchua.com/2013/08/29/properly-using-ssh-agent-forwarding-in-capistrano/&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;But&amp;hellip; My colleages had hit the same problem before and the solution is:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;set ALL YOUR LC_* ENV VARIABLES!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The last missing bit : in your .bashrc/.zshrc/.whateverrc&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;export LC_CTYPE=UTF-8
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+export LANGUAGE=en_US.UTF-8
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Thanks a lot!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Docker on OSX arrived</title>
+      <link>http://devopsbox.es/posts/2014/01-09-docker-on-osx-arrived.html.html</link>
+      <pubDate>Thu, 09 Jan 2014 00:00:00 UTC</pubDate>
+      
+      <guid>http://devopsbox.es/posts/2014/01-09-docker-on-osx-arrived.html.html</guid>
+      <description>
+
+&lt;h2 id=&#34;docker-on-osx&#34;&gt;Docker on OSX:&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://continuousdelivery.uglyduckling.nl/docker/running-docker-natively-on-osx/&#34;&gt;http://continuousdelivery.uglyduckling.nl/docker/running-docker-natively-on-osx/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://hw-ops.com/blog/2014/01/07/introducing-dvm-docker-in-a-box-for-unsupported-platforms&#34;&gt;http://hw-ops.com/blog/2014/01/07/introducing-dvm-docker-in-a-box-for-unsupported-platforms&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>More Logstash Awesome - Jordan Sissel - PuppetConf 2013</title>
+      <link>http://devopsbox.es/posts/2013/12-10-more-logstash-awesome---jordan-sissel---puppetconf-2013.html.html</link>
+      <pubDate>Tue, 10 Dec 2013 00:00:00 UTC</pubDate>
+      
+      <guid>http://devopsbox.es/posts/2013/12-10-more-logstash-awesome---jordan-sissel---puppetconf-2013.html.html</guid>
+      <description>&lt;iframe width=&#34;640&#34; height=&#34;390&#34; src=&#34;//www.youtube.com/embed/fwMnb4-t8vo&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Partitions for Everyone!</title>
+      <link>http://devopsbox.es/posts/2013/11-20-partitions-for-everyone.html.html</link>
+      <pubDate>Wed, 20 Nov 2013 00:00:00 UTC</pubDate>
+      
+      <guid>http://devopsbox.es/posts/2013/11-20-partitions-for-everyone.html.html</guid>
+      <description>&lt;p&gt;Kyle  is on fire dissecting various databases behaviour during network partitions! Fun watch.&lt;/p&gt;
+
+
+
+&lt;figure &gt;
+    &lt;img src=&#34;http://devopsbox.es/media/posts/kyle_on_fire.png&#34; /&gt;
+    &lt;figcaption&gt;
+        
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+
+&lt;p&gt;&lt;a href=&#34;http://www.infoq.com/presentations/partitioning-comparison&#34;&gt;Video&lt;/a&gt;
+&lt;a href=&#34;https://github.com/strangeloop/StrangeLoop2013/blob/master/slides/sessions/Kingsbury-PartitionsForEveryone.pdf&#34;&gt;Slides&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Varnish Webinar - Cache Invalidation Strategies</title>
+      <link>http://devopsbox.es/posts/2013/10-31-varnish-webinar---cache-invalidation-strategies.html.html</link>
+      <pubDate>Thu, 31 Oct 2013 00:00:00 UTC</pubDate>
+      
+      <guid>http://devopsbox.es/posts/2013/10-31-varnish-webinar---cache-invalidation-strategies.html.html</guid>
+      <description>&lt;iframe width=&#34;640&#34; height=&#34;390&#34; src=&#34;//www.youtube.com/embed/1Uzn31cQUQ8&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://cdn2.hubspot.net/hub/209523/file-366502730-pdf/Cache_Invalidation_Strategies_A_Varnish_Webinar.pdf&#34;&gt;Link to slides&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Auth doesn&#39;t have to be a nightmare — Docker to the rescue</title>
+      <link>http://devopsbox.es/posts/2013/10-28-auth-doesnt-have-to-be-a-nightmare--docker-to-the-rescue.html.html</link>
+      <pubDate>Mon, 28 Oct 2013 00:00:00 UTC</pubDate>
+      
+      <guid>http://devopsbox.es/posts/2013/10-28-auth-doesnt-have-to-be-a-nightmare--docker-to-the-rescue.html.html</guid>
+      <description>&lt;p&gt;&lt;iframe src=&#34;http://www.slideshare.net/slideshow/embed_code/27510039&#34; width=&#34;512&#34; height=&#34;421&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;https://www.slideshare.net/jpetazzo/auth-doesnt-have-to-be-a-nightmare&#34; title=&#34;Auth doesn&amp;#39;t have to be a nightmare — Docker to the rescue!&#34; target=&#34;_blank&#34;&gt;Auth doesn&amp;#39;t have to be a nightmare — Docker to the rescue!&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;http://www.slideshare.net/jpetazzo&#34; target=&#34;_blank&#34;&gt;Jérôme Petazzoni&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Service Discovery Software Overview</title>
+      <link>http://devopsbox.es/posts/2013/10-26-service-discovery-software-overview.html.html</link>
+      <pubDate>Sat, 26 Oct 2013 00:00:00 UTC</pubDate>
+      
+      <guid>http://devopsbox.es/posts/2013/10-26-service-discovery-software-overview.html.html</guid>
+      <description>
+
+&lt;h3 id=&#34;hashcorp-serf&#34;&gt;Hashcorp - Serf:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.serfdom.io/&#34;&gt;http://www.serfdom.io/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/hashicorp/serf&#34;&gt;https://github.com/hashicorp/serf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://news.ycombinator.com/item?id=6600063&#34;&gt;https://news.ycombinator.com/item?id=6600063&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;coreos-etcd&#34;&gt;Coreos - Etcd:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://coreos.com/blog/distributed-configuration-with-etcd/&#34;&gt;http://coreos.com/blog/distributed-configuration-with-etcd/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/coreos/etcd&#34;&gt;https://github.com/coreos/etcd&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;airbnb-smartstack&#34;&gt;Airbnb - Smartstack:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://nerds.airbnb.com/smartstack-service-discovery-cloud/&#34;&gt;http://nerds.airbnb.com/smartstack-service-discovery-cloud/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/airbnb/nerve&#34;&gt;https://github.com/airbnb/nerve&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/airbnb/synapse&#34;&gt;https://github.com/airbnb/synapse&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://news.ycombinator.com/item?id=6601409&#34;&gt;https://news.ycombinator.com/item?id=6601409&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;skynet-skydns&#34;&gt;Skynet - SkyDNS:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.gopheracademy.com/skydns&#34;&gt;http://blog.gopheracademy.com/skydns&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/skynetservices/skydns&#34;&gt;https://github.com/skynetservices/skydns&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;apcera-gnats&#34;&gt;Apcera - Gnats:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://docs.cloudfoundry.com/docs/running/architecture/messaging-nats.html&#34;&gt;http://docs.cloudfoundry.com/docs/running/architecture/messaging-nats.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/apcera/gnatsd&#34;&gt;https://github.com/apcera/gnatsd&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/derekcollison/nats&#34;&gt;https://github.com/derekcollison/nats&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.reddit.com/r/golang/comments/1oqqx7/gnatsd_from_apcera_a_high_performance_nats_server/&#34;&gt;http://www.reddit.com/r/golang/comments/1oqqx7/gnatsd_from_apcera_a_high_performance_nats_server/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.quora.com/Cloud-Foundry/Why-does-CloudFoundry-use-NATS-a-specially-written-messaging-system-whereas-OpenStack-uses-AMQP&#34;&gt;http://www.quora.com/Cloud-Foundry/Why-does-CloudFoundry-use-NATS-a-specially-written-messaging-system-whereas-OpenStack-uses-AMQP&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;yahoo-zookeeper&#34;&gt;Yahoo - Zookeeper:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://zookeeper.apache.org/&#34;&gt;http://zookeeper.apache.org/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;protocols&#34;&gt;Protocols:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://raftconsensus.github.io/&#34;&gt;Raft&lt;/a&gt;, &lt;a href=&#34;http://www.youtube.com/watch?v=YbZ3zDzDnrw&#34;&gt;Introduction Video&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Varnish Cache Invalidation</title>
+      <link>http://devopsbox.es/posts/2013/10-25-varnish-cache-invalidation.html.html</link>
+      <pubDate>Fri, 25 Oct 2013 00:00:00 UTC</pubDate>
+      
+      <guid>http://devopsbox.es/posts/2013/10-25-varnish-cache-invalidation.html.html</guid>
+      <description>
+
+&lt;h2 id=&#34;solutions-from-varnish&#34;&gt;Solutions from Varnish:&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.varnish-software.com/static/book/Cache_invalidation.html&#34;&gt;Default approach&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.varnish-software.com/blog/advanced-cache-invalidation-strategies&#34;&gt;Hashtwo/Hashninja&lt;/a&gt;
+Hashtwo maintains an additional hash, in addition to the main hash that links objects and content in Varnish. You can put whatever you want into the hash and it will maintain a many-to-many relationship between keys and objects
+So, in the example above the content presentation layer could spit out the same list of articles in a header and hashtwo will maintain pointers from article numbers to cached object. The hash is pretty efficient and won&amp;rsquo;t require much overhead.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.varnish-software.com/blog/vac-203-high-performance-cache-invalidation-api-aka-super-fast-purger&#34;&gt;Super Fast Purger&lt;/a&gt;, &lt;a href=&#34;http://vimeo.com/74388108&#34;&gt;video&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;how-fastly-deals-with-it&#34;&gt;How Fastly deals with it:&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.fastly.com/blog/surrogate-keys-part-1&#34;&gt;http://www.fastly.com/blog/surrogate-keys-part-1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.fastly.com/blog/surrogate-keys-part-2&#34;&gt;http://www.fastly.com/blog/surrogate-keys-part-2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.varnish-cache.org/trac/wiki/VDD13Q2_notes&#34;&gt;https://www.varnish-cache.org/trac/wiki/VDD13Q2_notes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;bans-vs-purges&#34;&gt;Bans vs Purges:&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.varnish-cache.org/docs/3.0/tutorial/purging.html&#34;&gt;https://www.varnish-cache.org/docs/3.0/tutorial/purging.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.varnish-software.com/blog/bans-and-purges-varnish-30&#34;&gt;https://www.varnish-software.com/blog/bans-and-purges-varnish-30&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gist.github.com/aderowbotham/5517123&#34;&gt;https://gist.github.com/aderowbotham/5517123&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;home-grown-solutions&#34;&gt;Home-Grown Solutions:&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://drupaltv.org/video/tag-youre-it-keep-your-reverse-proxy-cache-date&#34;&gt;Tag, you&amp;rsquo;re it! Keep your reverse - Proxy Cache Up-To-Date, 2013.09&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.kevburnsjr.com/tagged-cache-invalidation&#34;&gt;Tagged Cache Invalidation, 2012.09&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://groups.drupal.org/node/297773&#34;&gt;Use Tagged Cache Invalidation instead of purging specific URLs in Varnish, 2013&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ocharles/varnish-cache-invalidation&#34;&gt;Varnish Cache Invalidation Via PostgreSQL and RabbitMQ, 2012&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.hagander.net/talks/Database%20driven%20cache%20invalidation.pdf&#34;&gt;Database Driven Cache Invalidation, 2011&lt;/a&gt;, &lt;a href=&#34;https://ep2013.europython.eu/conference/talks/data-driven-cache-invalidation&#34;&gt;video&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://s.urge.omniti.net/i/content/slides/ArturBergman.pdf&#34;&gt;Wikia Approach, pp. 62-67&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;database-triggers&#34;&gt;Database Triggers:&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Postgres:
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/CartoDB/cartodb/issues/197&#34;&gt;CartoDB - centralize-varnish-trigger&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.chrisstucchio.com/blog/2013/postgres_external_triggers.html&#34;&gt;Postgres NOTIFY for cache busting and more&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;some-varnish-links&#34;&gt;Some Varnish Links:&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.adayinthelifeof.nl/2012/07/06/using-varnish-to-offload-and-cache-your-oauth-requests/&#34;&gt;OAuth with Varnish&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.speedawarenessmonth.com/caching-everything-step-by-step/&#34;&gt;Caching Everything, 2013.08&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.iweb-hosting.co.uk/blog/2012/11/20/moving-varnish-caching-logic-into-php-with-the-curl-vmod/&#34;&gt;Moving Varnish Caching Logic Into PHP With the cURL VMOD&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;caching-logged-in-users&#34;&gt;Caching Logged in Users&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.varnish-cache.org/trac/wiki/VCLExampleCachingLoggedInUsers&#34;&gt;Caching logged in users&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Caching With Varnish, Step-By-Step</title>
+      <link>http://devopsbox.es/posts/2013/10-24-caching-with-varnish-step-by-step.html.html</link>
+      <pubDate>Thu, 24 Oct 2013 00:00:00 UTC</pubDate>
+      
+      <guid>http://devopsbox.es/posts/2013/10-24-caching-with-varnish-step-by-step.html.html</guid>
+      <description>
+
+&lt;h2 id=&#34;a-basic-introduction-to-varnish&#34;&gt;A basic introduction to Varnish:&lt;/h2&gt;
+
+&lt;iframe width=&#34;640&#34; height=&#34;390&#34; src=&#34;//www.youtube.com/embed/qbtZuyE-6YQ&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&#34;interesting-points&#34;&gt;Interesting Points:&lt;/h2&gt;
+
+&lt;p&gt;Advanced Cache Invalidation:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;- https://www.youtube.com/watch?v=qbtZuyE-6YQ&amp;amp;feature=player_detailpage#t=2336 (38:00)
+- Tag pages with custom headers:
+  - X-Skus: 49991,12345,453453
+- execute with bans or hashninja
+- possible database driven expiry (triggers)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;See for more information: &lt;a href=&#34;http://devopsbox.es/posts/2013/10-25-varnish-cache-invalidation.html.html&#34;&gt;Varnish Cache Invalidation&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Scalability, Availability &amp; Stability Patterns</title>
+      <link>http://devopsbox.es/posts/2013/10-23-scalability-availability--stability-patterns.html.html</link>
+      <pubDate>Wed, 23 Oct 2013 00:00:00 UTC</pubDate>
+      
+      <guid>http://devopsbox.es/posts/2013/10-23-scalability-availability--stability-patterns.html.html</guid>
+      <description>&lt;p&gt;&lt;iframe src=&#34;http://www.slideshare.net/slideshow/embed_code/4062682&#34; width=&#34;512&#34; height=&#34;421&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;https://www.slideshare.net/jboner/scalability-availability-stability-patterns&#34; title=&#34;Scalability, Availability &amp;amp; Stability Patterns&#34; target=&#34;_blank&#34;&gt;Scalability, Availability &amp;amp; Stability Patterns&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;http://www.slideshare.net/jboner&#34; target=&#34;_blank&#34;&gt;Jonas Bonér&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>OpsWorks vs Chef-Server</title>
+      <link>http://devopsbox.es/posts/2013/10-22-opsworks-vs-chef-server.html.html</link>
+      <pubDate>Tue, 22 Oct 2013 00:00:00 UTC</pubDate>
+      
+      <guid>http://devopsbox.es/posts/2013/10-22-opsworks-vs-chef-server.html.html</guid>
+      <description>
+
+&lt;p&gt;A couple of days ago I was tasked to get a running MongoDB cluster, that configures itself with AWS OpsWorks.&lt;/p&gt;
+
+&lt;h2 id=&#34;requirements&#34;&gt;Requirements:&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;create EBS volumes&lt;/li&gt;
+&lt;li&gt;discover other nodes with this recipe in run-list&lt;/li&gt;
+&lt;li&gt;create MongoDB replica set or join an existing one&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The cookbook from &lt;a href=&#34;https://github.com/edelight/chef-mongodb&#34;&gt;Edelight&lt;/a&gt; provides most of it, and I created a fork with changes from Parse.com for EBS-Volumes creation here:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/devopsbox/chef-mongodb/tree/ec2&#34;&gt;https://github.com/devopsbox/chef-mongodb/tree/ec2&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;It works nicely with Chef-Server. Shouldn&amp;rsquo;t be that hard to rewrite it for OpsWorks, right?&lt;/p&gt;
+
+&lt;p&gt;After spending two days on it, &lt;strong&gt;I basically gave up&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;light-problems&#34;&gt;Light Problems:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;private ssh key for my custom cookbooks repo is stored in plaintext&lt;/li&gt;
+&lt;li&gt;no real possibility to use Librarian/Berkshelf, you have everything in one repository&lt;/li&gt;
+&lt;li&gt;only one repository for custom chef cookbooks allowed&lt;/li&gt;
+&lt;li&gt;anything interesting requires you to use custom cookbooks&lt;/li&gt;
+&lt;li&gt;feedback in the web UI is rather slow&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;opsworks-agent-cli run_command update_custom_cookbooks&lt;/code&gt; did not work, until I have run it from the Web UI, took me a while to figure it out&lt;/li&gt;
+&lt;li&gt;changing JSON data for the whole &lt;a href=&#34;http://docs.aws.amazon.com/opsworks/latest/userguide/workingstacks.html&#34;&gt;Stack&lt;/a&gt; was not reflected on running instances, checked with &lt;code&gt;opsworks-agent-cli get_json&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;even after having rebootet them, the data was just not there&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;heavy-problems&#34;&gt;Heavy problems:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;no possibility to have encrypted/secured data bags&lt;/li&gt;
+&lt;li&gt;no search available&lt;/li&gt;
+&lt;li&gt;the json, that represents the whole &lt;a href=&#34;http://docs.aws.amazon.com/opsworks/latest/userguide/workingstacks.html&#34;&gt;Stack&lt;/a&gt;, does not contain all the meta- information about chef configuration on that instances. That was all I could get:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;ruby&#34;&gt;
+&gt; node[&#39;opsworks&#39;][&#39;layers&#39;][&#39;mongodb&#39;][&#39;instances&#39;].first
+=&gt; [&#34;doughnut&#34;,
+{&#34;region&#34;=&gt;&#34;eu-west-1&#34;,
+&#34;status&#34;=&gt;&#34;online&#34;,
+&#34;private_dns_name&#34;=&gt;&#34;ip-10-34-130-XXX.eu-west-1.compute.internal&#34;,
+&#34;created_at&#34;=&gt;&#34;2013-10-22T11:55:31+00:00&#34;,
+&#34;elastic_ip&#34;=&gt;nil,
+&#34;booted_at&#34;=&gt;&#34;2013-10-22T12:06:35+00:00&#34;,
+&#34;aws_instance_id&#34;=&gt;&#34;i-a8055XXX&#34;,
+&#34;instance_type&#34;=&gt;&#34;m1.medium&#34;,
+&#34;private_ip&#34;=&gt;&#34;10.34.130.XXX&#34;,
+&#34;availability_zone&#34;=&gt;&#34;eu-west-1a&#34;,
+&#34;id&#34;=&gt;&#34;9769861c-ae1f-473a-a37d-0462934515da&#34;,
+&#34;ip&#34;=&gt;&#34;54.247.56.XXX&#34;,
+&#34;backends&#34;=&gt;4,
+&#34;public_dns_name&#34;=&gt;&#34;ec2-54-247-56-XXX.eu-west-1.compute.amazonaws.com&#34;}]
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;you have to rewrite plenty of cookbooks, that use advanced Chef-Server capabilities, like &lt;strong&gt;search&lt;/strong&gt;, &lt;strong&gt;databags&lt;/strong&gt; etc.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I did like thinking in:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Stacks&lt;/li&gt;
+&lt;li&gt;Layers&lt;/li&gt;
+&lt;li&gt;Applications&lt;/li&gt;
+&lt;li&gt;time/load-based Instancess&lt;/li&gt;
+&lt;li&gt;integrated Monitoring&lt;/li&gt;
+&lt;li&gt;Permission Management&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;But overall the limitation are too limiting. Maybe next time.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

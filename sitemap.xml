@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://devopsbox.es/posts/2017/06-06-blog-revival---2017-edition.html.html</loc>
+    <lastmod>2017-06-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://devopsbox.es/posts/2015/08-07-linkdump-2015-10.html.html</loc>
     <lastmod>2015-08-07T00:00:00+00:00</lastmod>
   </url>
@@ -517,7 +522,7 @@
   
   <url>
     <loc>http://devopsbox.es/</loc>
-    <lastmod>2015-08-07T00:00:00+00:00</lastmod>
+    <lastmod>2017-06-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -564,7 +569,7 @@
   
   <url>
     <loc>http://devopsbox.es/tags/general.html</loc>
-    <lastmod>2013-01-11T00:00:00+00:00</lastmod>
+    <lastmod>2017-06-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -622,7 +627,7 @@
   
   <url>
     <loc>http://devopsbox.es/post.html</loc>
-    <lastmod>2015-08-07T00:00:00+00:00</lastmod>
+    <lastmod>2017-06-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

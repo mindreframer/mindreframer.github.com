@@ -23,7 +23,7 @@ tags:
     - possible database driven expiry (triggers)
 
 
-See for more information: [Varnish Cache Invalidation]({{< relref "post/2013-10-25-varnish-cache-invalidation.md" >}})
+See for more information: [Varnish Cache Invalidation]({{< relref "post/2013/2013-10-25-varnish-cache-invalidation.md" >}})
 
 
 

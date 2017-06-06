@@ -212,7 +212,7 @@ What do you think, is this approach helpful for your [Nginx] setup? Please give 
 
 
 
-**To read about Puppet modules used here, please click here. -->**  [More on Puppet Modules]({{< relref "post/2013-01-25-the-perfect-puppet-setup-for-vagrant.md" >}})
+**To read about Puppet modules used here, please click here. -->**  [More on Puppet Modules]({{< relref "post/2013/2013-01-25-the-perfect-puppet-setup-for-vagrant.md" >}})
 
 
 [Nginx]: http://wiki.nginx.org/Main

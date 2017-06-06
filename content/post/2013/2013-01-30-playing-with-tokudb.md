@@ -12,7 +12,7 @@ I've decided to take a look at [Tokudb] and see, how easy it is to use and admin
 
 The layout is based on my article
 
-[The Perfect Puppet Setup For Vagrant]({{< relref "post/2013-01-25-the-perfect-puppet-setup-for-vagrant.md" >}})-article.
+[The Perfect Puppet Setup For Vagrant]({{< relref "post/2013/2013-01-25-the-perfect-puppet-setup-for-vagrant.md" >}})-article.
 
 
 ``https://github.com/mindreframer/vagrant-tokudb-puppet/``

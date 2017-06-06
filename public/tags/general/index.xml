@@ -7,7 +7,52 @@
     <language>en-us</language>
     
     
-    <updated>Fri, 11 Jan 2013 00:00:00 UTC</updated>
+    <updated>Tue, 06 Jun 2017 00:00:00 UTC</updated>
+    
+    <item>
+      <title>Blog revival - 2017 edition</title>
+      <link>http://devopsbox.es/posts/2017/06-06-blog-revival---2017-edition.html.html</link>
+      <pubDate>Tue, 06 Jun 2017 00:00:00 UTC</pubDate>
+      
+      <guid>http://devopsbox.es/posts/2017/06-06-blog-revival---2017-edition.html.html</guid>
+      <description>
+
+&lt;p&gt;It seems like I was under water for 2 years&amp;hellip; I became a father of a very active boy and at the same time I have shifted my professional focus to many new and very differnt things&amp;hellip; It is still not quite clear to me what long-term effect that will have in my life, but my horizon widened drastically&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;Elixir, Clojure, Golang&amp;hellip; Those three languages dominated my attention recently. United by first class concurrency constructs, they are very different in their philosophies.&lt;/p&gt;
+
+&lt;h3 id=&#34;elixir&#34;&gt;Elixir&lt;/h3&gt;
+
+&lt;p&gt;Elixir cares about programmer productivity and gives you a LISP-y language in regular, Ruby-like clean syntax on top of Erlang / OTP. It is an amazing platform and I would love to explore that space some time later. Why not now? A simple realization that it would be quite hard to have my complete application in a single big repository (mono-repo), even with umbrella-projects become a deal-breaker to me.&lt;/p&gt;
+
+&lt;p&gt;I want my application to be a single big thing. Supervisor trees, Actors, Processes give you nice primitives to segrate your application in smaller units, and Erlang apps are developed in big, monolithic style. The compilation step in Elixir makes it quite painful, CI / deployments become slow and require special attention&amp;hellip; I dont know how a proper solution would look like. To be clear: this is a potential roadblock for applications with lots of code. 95% of startups can ignore this and still go really far.&lt;/p&gt;
+
+&lt;h3 id=&#34;clojure&#34;&gt;Clojure&lt;/h3&gt;
+
+&lt;p&gt;Clojure is awesome. Applied carefully, LISP parenthesis blend with whitespace and you end up with just the essence of your domain problem. Really powerful. My nitpicks are similar: slow compilation for deployment artefacts, slow startup times for big-ish apps, big jar / war files. Another possible problem: it requires highly skilled people to maintain the code afterwards. Lots of run-time magic can potentially complicate development.&lt;/p&gt;
+
+&lt;h3 id=&#34;go&#34;&gt;Go&lt;/h3&gt;
+
+&lt;p&gt;So&amp;hellip; Go. I have dabbled with Go in 2013 and mostly missed the point. It felt a bit cumbersome and not very flexible. The amount of learning material was quite low, number of real life projects using Go was also not that impressive and I have decided to keep it on hold.&lt;/p&gt;
+
+&lt;p&gt;Fast forward to 2016 - 2017. There are many high-profile open source projects in the DevOps space written in Go, lots of databases in Go, lots of everything in Go.&lt;/p&gt;
+
+&lt;p&gt;Quick compilation, small binaries, great performance, minimal impact GC, lots of tooling around static analysis, code coverage, runtime inspection. Go naturally lends itself to code generation by making some interesting design choices.&lt;/p&gt;
+
+&lt;p&gt;A folder with a bunch of go-files is a package. File-names do no matter, that means your package could be a single file or hundreds of files: it is still one single package.&lt;/p&gt;
+
+&lt;p&gt;Go has a very strong notion of packages. Package declaration comes first. Import statements follow. The format of a go file is pre-scribed, there is no flexibility here.&lt;/p&gt;
+
+&lt;p&gt;It feels restrictive, but it opens up opportunities for simplicity by going back to basics.
+You become productive in Go after a while and your code stays performant enough for most usecases. Mechanical sympathy means you get away with simpler solutions, because they are just fine.&lt;/p&gt;
+
+&lt;p&gt;Abstractions: well&amp;hellip; Go makes is hard to do lots of runtime magic tricks, so you will need to replace metaprogramming with static code generation and make those parts simple to have maintainable code longterm.&lt;/p&gt;
+
+&lt;p&gt;I am very intrigued by the social effects a Golang codebase brings, it seems to attract people with no-frills, down-to-earth attitude.&lt;/p&gt;
+
+&lt;p&gt;Overall I want to invest in Go more in my near term future.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Hey, 2013 has started!</title>

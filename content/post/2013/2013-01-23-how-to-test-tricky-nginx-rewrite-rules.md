@@ -53,7 +53,7 @@ So, a **desired solution** would be:
 
 
 
-[Move on to solution in Part II]({{< relref "post/2013-01-24-how-to-test-tricky-nginx-rewrite-rules-part-2.md" >}})
+[Move on to solution in Part II]({{< relref "post/2013/2013-01-24-how-to-test-tricky-nginx-rewrite-rules-part-2.md" >}})
 
 
 

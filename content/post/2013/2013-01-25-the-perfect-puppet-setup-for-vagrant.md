@@ -7,7 +7,7 @@ tags:
 
 
 To get the complete picture about the modules here, please take a look at the article
-[Testing Tricky Nginx Rewrite Rules]({{< relref "post/2013-01-23-how-to-test-tricky-nginx-rewrite-rules.md" >}})
+[Testing Tricky Nginx Rewrite Rules]({{< relref "post/2013/2013-01-23-how-to-test-tricky-nginx-rewrite-rules.md" >}})
 
 
 

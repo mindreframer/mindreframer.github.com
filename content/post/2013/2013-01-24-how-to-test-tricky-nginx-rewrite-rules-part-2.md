@@ -6,7 +6,7 @@ tags:
 ---
 
 
-[A possible solution to Part I]({{< relref "post/2013-01-23-how-to-test-tricky-nginx-rewrite-rules.md" >}})
+[A possible solution to Part I]({{< relref "post/2013/2013-01-23-how-to-test-tricky-nginx-rewrite-rules.md" >}})
 
 
 Take a look here:

@@ -13,4 +13,4 @@ Don't Shrug! Integration Testing for Infrastructure with Ruby Frameworks
 
 
 Very interesting presentation, in the same tone, as my
-[How To Test Tricky Nginx Rewrite Rules]({{< relref "post/2013-01-23-how-to-test-tricky-nginx-rewrite-rules.md" >}}), but much more general and with broader focus. But having so many tools combined is too much of cognitive burden. And probably very fragile.
+[How To Test Tricky Nginx Rewrite Rules]({{< relref "post/2013/2013-01-23-how-to-test-tricky-nginx-rewrite-rules.md" >}}), but much more general and with broader focus. But having so many tools combined is too much of cognitive burden. And probably very fragile.

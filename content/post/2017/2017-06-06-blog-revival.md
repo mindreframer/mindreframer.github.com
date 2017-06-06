@@ -1,7 +1,7 @@
 ---
-date: '2017-05-04'
+date: '2017-06-06'
 title: 'Blog revival - 2017 edition'
-draft: true
+draft: false
 tags:
 - general
 ---
@@ -33,5 +33,13 @@ A folder with a bunch of go-files is a package. File-names do no matter, that me
 
 Go has a very strong notion of packages. Package declaration comes first. Import statements follow. The format of a go file is pre-scribed, there is no flexibility here.
 
+It feels restrictive, but it opens up opportunities for simplicity by going back to basics.
+You become productive in Go after a while and your code stays performant enough for most usecases. Mechanical sympathy means you get away with simpler solutions, because they are just fine.
 
-https://github.com/gophersgang/go-codegen
+Abstractions: well... Go makes is hard to do lots of runtime magic tricks, so you will need to replace metaprogramming with static code generation and make those parts simple to have maintainable code longterm.
+
+
+I am very intrigued by the social effects a Golang codebase brings, it seems to attract people with no-frills, down-to-earth attitude.
+
+Overall I want to invest in Go more in my near term future.
+

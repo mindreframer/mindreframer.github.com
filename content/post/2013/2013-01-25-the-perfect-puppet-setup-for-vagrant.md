@@ -186,7 +186,7 @@ The layout for those modules is applicable to nearly every software, you might e
 </code></pre>
 
 To see a more complex real example, check my
-[Playing With Tokudb]({{< relref "post/2013-01-30-playing-with-tokudb.md" >}})-article.
+[Playing With Tokudb]({{< relref "post/2013/2013-01-30-playing-with-tokudb.md" >}})-article.
 
 
 [Nginx]: http://wiki.nginx.org/Main

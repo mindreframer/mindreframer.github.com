@@ -1,13 +1,43 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Resumes on Bits and pieces to remember </title>
-      <generator uri="https://gohugo.io">Hugo</generator>
+    <title>Resumes on Bits and pieces to remember</title>
     <link>http://devopsbox.es/resume.html</link>
+    <description>Recent content in Resumes on Bits and pieces to remember</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <managingEditor>roman.heinrich@gmail.com</managingEditor>
+    <webMaster>roman.heinrich@gmail.com</webMaster>
+    
+	<atom:link href="http://devopsbox.es/resume/index.xml" rel="self" type="application/rss+xml" />
     
     
-    <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
+    <item>
+      <title></title>
+      <link>http://devopsbox.es/resume/resume-de.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>roman.heinrich@gmail.com</author>
+      <guid>http://devopsbox.es/resume/resume-de.html</guid>
+      <description>Resume          Cufon.replace(&#39;h1,h2&#39;);      Roman Heinrich Golang / Elixir / React.js / Ruby / DevOps   roman.heinrich@gmail.com +49 152 33 74 73 77 devopsbox.es twitter.com/mindreframer github.com/mindreframer twitter.com/gophersgang github.com/gophersgang twitter.com/ruby2elixir github.com/ruby2elixir        Mission Software ißt die Welt - bon appétit! &#34;Infrastructure as Code&#34; - so flexibel, wie nie zuvor &#34;Skate where the puck is going&#34;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://devopsbox.es/resume/resume.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>roman.heinrich@gmail.com</author>
+      <guid>http://devopsbox.es/resume/resume.html</guid>
+      <description>Resume          Cufon.replace(&#39;h1,h2&#39;);      Roman Heinrich Golang / Elixir / React.js / Ruby / DevOps   roman.heinrich@gmail.com +49 152 33 74 73 77 devopsbox.es xing.to/mindreframer linkedin.com/in/mindreframer twitter.com/mindreframer github.com/mindreframer twitter.com/gophersgang github.com/gophersgang twitter.com/ruby2elixir github.com/ruby2elixir        GENERAL Quick learner / Always curious / Autodidact T-shaped professional / Polyglot / Fullstack / Devops experience In love with simple boring solutions In favor of quick iterations with many experiments Good teams grow organically - Building Teams Organically     LOOKING FOR A small, tightly knit team Long-term circle of trust-colleagues  Projects with clear focus Quick decisions, quick failures, many learnings Full team responsibility with decision-making power Real artists ship You build it - you run it - There&#39;s No Such Thing as a &#34;</description>
+    </item>
+    
+    <item>
+      <title>My Projects</title>
+      <link>http://devopsbox.es/resume/projects.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>roman.heinrich@gmail.com</author>
+      <guid>http://devopsbox.es/resume/projects.html</guid>
+      <description>My Projects Vorwort Auf den folgenden Seiten beschreibe ich sehr subjektiv alle meine bisherigen relevanten Projekterfahrungen. Ich nenne hierbei fast keine Namen, da ich niemandem Schaden zufügen möchte. Falls jemand sich unberechtigt behandelt fühlt und einige Punkte berichtigen möchte, möge er mich kontaktieren. Ich hoffe durch diese Erfahrungsberichte dem Leser einen etwas tieferen Einblick in meine Persönlichkeit zu ermöglichen. Es ist nicht das typische &#34;Look, I&#39;m soooo awesome!&#34;-Porfolio Auflistung, sondern beinhaltet auch Projekte, die schiefgelaufen sind.</description>
+    </item>
     
   </channel>
 </rss>

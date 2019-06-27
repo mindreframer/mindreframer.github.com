@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Erlang on Bits and pieces to remember </title>
-      <generator uri="https://gohugo.io">Hugo</generator>
+    <title>Erlang on Bits and pieces to remember</title>
     <link>http://devopsbox.es/tags/erlang.html</link>
+    <description>Recent content in Erlang on Bits and pieces to remember</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <managingEditor>roman.heinrich@gmail.com</managingEditor>
+    <webMaster>roman.heinrich@gmail.com</webMaster>
+    <lastBuildDate>Mon, 11 May 2015 00:00:00 +0000</lastBuildDate>
     
+	<atom:link href="http://devopsbox.es/tags/erlang/index.xml" rel="self" type="application/rss+xml" />
     
-    <updated>Mon, 11 May 2015 00:00:00 UTC</updated>
     
     <item>
       <title>Zotonic Resources</title>
       <link>http://devopsbox.es/posts/2015/05-11-zotonic-resources.html.html</link>
-      <pubDate>Mon, 11 May 2015 00:00:00 UTC</pubDate>
-      
+      <pubDate>Mon, 11 May 2015 00:00:00 +0000</pubDate>
+      <author>roman.heinrich@gmail.com</author>
       <guid>http://devopsbox.es/posts/2015/05-11-zotonic-resources.html.html</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.aosabook.org/en/posa/zotonic.html&#34;&gt;http://www.aosabook.org/en/posa/zotonic.html&lt;/a&gt; - Introduction to Zotonic&lt;/li&gt;

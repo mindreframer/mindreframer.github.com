@@ -1,96 +1,34 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Varnish on Bits and pieces to remember </title>
-      <generator uri="https://gohugo.io">Hugo</generator>
+    <title>Varnish on Bits and pieces to remember</title>
     <link>http://devopsbox.es/tags/varnish.html</link>
+    <description>Recent content in Varnish on Bits and pieces to remember</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <managingEditor>roman.heinrich@gmail.com</managingEditor>
+    <webMaster>roman.heinrich@gmail.com</webMaster>
+    <lastBuildDate>Thu, 31 Oct 2013 00:00:00 +0000</lastBuildDate>
     
+	<atom:link href="http://devopsbox.es/tags/varnish/index.xml" rel="self" type="application/rss+xml" />
     
-    <updated>Thu, 31 Oct 2013 00:00:00 UTC</updated>
     
     <item>
       <title>Varnish Webinar - Cache Invalidation Strategies</title>
       <link>http://devopsbox.es/posts/2013/10-31-varnish-webinar---cache-invalidation-strategies.html.html</link>
-      <pubDate>Thu, 31 Oct 2013 00:00:00 UTC</pubDate>
-      
+      <pubDate>Thu, 31 Oct 2013 00:00:00 +0000</pubDate>
+      <author>roman.heinrich@gmail.com</author>
       <guid>http://devopsbox.es/posts/2013/10-31-varnish-webinar---cache-invalidation-strategies.html.html</guid>
-      <description>&lt;iframe width=&#34;640&#34; height=&#34;390&#34; src=&#34;//www.youtube.com/embed/1Uzn31cQUQ8&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://cdn2.hubspot.net/hub/209523/file-366502730-pdf/Cache_Invalidation_Strategies_A_Varnish_Webinar.pdf&#34;&gt;Link to slides&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>Link to slides</description>
     </item>
     
     <item>
       <title>Varnish Cache Invalidation</title>
       <link>http://devopsbox.es/posts/2013/10-25-varnish-cache-invalidation.html.html</link>
-      <pubDate>Fri, 25 Oct 2013 00:00:00 UTC</pubDate>
-      
+      <pubDate>Fri, 25 Oct 2013 00:00:00 +0000</pubDate>
+      <author>roman.heinrich@gmail.com</author>
       <guid>http://devopsbox.es/posts/2013/10-25-varnish-cache-invalidation.html.html</guid>
-      <description>
-
-&lt;h2 id=&#34;solutions-from-varnish&#34;&gt;Solutions from Varnish:&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.varnish-software.com/static/book/Cache_invalidation.html&#34;&gt;Default approach&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.varnish-software.com/blog/advanced-cache-invalidation-strategies&#34;&gt;Hashtwo/Hashninja&lt;/a&gt;
-Hashtwo maintains an additional hash, in addition to the main hash that links objects and content in Varnish. You can put whatever you want into the hash and it will maintain a many-to-many relationship between keys and objects
-So, in the example above the content presentation layer could spit out the same list of articles in a header and hashtwo will maintain pointers from article numbers to cached object. The hash is pretty efficient and won&amp;rsquo;t require much overhead.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.varnish-software.com/blog/vac-203-high-performance-cache-invalidation-api-aka-super-fast-purger&#34;&gt;Super Fast Purger&lt;/a&gt;, &lt;a href=&#34;http://vimeo.com/74388108&#34;&gt;video&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;how-fastly-deals-with-it&#34;&gt;How Fastly deals with it:&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.fastly.com/blog/surrogate-keys-part-1&#34;&gt;http://www.fastly.com/blog/surrogate-keys-part-1&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.fastly.com/blog/surrogate-keys-part-2&#34;&gt;http://www.fastly.com/blog/surrogate-keys-part-2&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.varnish-cache.org/trac/wiki/VDD13Q2_notes&#34;&gt;https://www.varnish-cache.org/trac/wiki/VDD13Q2_notes&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;bans-vs-purges&#34;&gt;Bans vs Purges:&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.varnish-cache.org/docs/3.0/tutorial/purging.html&#34;&gt;https://www.varnish-cache.org/docs/3.0/tutorial/purging.html&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.varnish-software.com/blog/bans-and-purges-varnish-30&#34;&gt;https://www.varnish-software.com/blog/bans-and-purges-varnish-30&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://gist.github.com/aderowbotham/5517123&#34;&gt;https://gist.github.com/aderowbotham/5517123&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;home-grown-solutions&#34;&gt;Home-Grown Solutions:&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://drupaltv.org/video/tag-youre-it-keep-your-reverse-proxy-cache-date&#34;&gt;Tag, you&amp;rsquo;re it! Keep your reverse - Proxy Cache Up-To-Date, 2013.09&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://blog.kevburnsjr.com/tagged-cache-invalidation&#34;&gt;Tagged Cache Invalidation, 2012.09&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://groups.drupal.org/node/297773&#34;&gt;Use Tagged Cache Invalidation instead of purging specific URLs in Varnish, 2013&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/ocharles/varnish-cache-invalidation&#34;&gt;Varnish Cache Invalidation Via PostgreSQL and RabbitMQ, 2012&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.hagander.net/talks/Database%20driven%20cache%20invalidation.pdf&#34;&gt;Database Driven Cache Invalidation, 2011&lt;/a&gt;, &lt;a href=&#34;https://ep2013.europython.eu/conference/talks/data-driven-cache-invalidation&#34;&gt;video&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://s.urge.omniti.net/i/content/slides/ArturBergman.pdf&#34;&gt;Wikia Approach, pp. 62-67&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;database-triggers&#34;&gt;Database Triggers:&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Postgres:
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/CartoDB/cartodb/issues/197&#34;&gt;CartoDB - centralize-varnish-trigger&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.chrisstucchio.com/blog/2013/postgres_external_triggers.html&#34;&gt;Postgres NOTIFY for cache busting and more&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;some-varnish-links&#34;&gt;Some Varnish Links:&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.adayinthelifeof.nl/2012/07/06/using-varnish-to-offload-and-cache-your-oauth-requests/&#34;&gt;OAuth with Varnish&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.speedawarenessmonth.com/caching-everything-step-by-step/&#34;&gt;Caching Everything, 2013.08&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://blog.iweb-hosting.co.uk/blog/2012/11/20/moving-varnish-caching-logic-into-php-with-the-curl-vmod/&#34;&gt;Moving Varnish Caching Logic Into PHP With the cURL VMOD&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;caching-logged-in-users&#34;&gt;Caching Logged in Users&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.varnish-cache.org/trac/wiki/VCLExampleCachingLoggedInUsers&#34;&gt;Caching logged in users&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>Solutions from Varnish:  Default approach Hashtwo/Hashninja Hashtwo maintains an additional hash, in addition to the main hash that links objects and content in Varnish. You can put whatever you want into the hash and it will maintain a many-to-many relationship between keys and objects So, in the example above the content presentation layer could spit out the same list of articles in a header and hashtwo will maintain pointers from article numbers to cached object.</description>
     </item>
     
   </channel>

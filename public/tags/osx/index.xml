@@ -1,28 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Osx on Bits and pieces to remember </title>
-      <generator uri="https://gohugo.io">Hugo</generator>
+    <title>Osx on Bits and pieces to remember</title>
     <link>http://devopsbox.es/tags/osx.html</link>
+    <description>Recent content in Osx on Bits and pieces to remember</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <managingEditor>roman.heinrich@gmail.com</managingEditor>
+    <webMaster>roman.heinrich@gmail.com</webMaster>
+    <lastBuildDate>Fri, 15 Feb 2013 00:00:00 +0000</lastBuildDate>
     
+	<atom:link href="http://devopsbox.es/tags/osx/index.xml" rel="self" type="application/rss+xml" />
     
-    <updated>Fri, 15 Feb 2013 00:00:00 UTC</updated>
     
     <item>
       <title>Puppet and OSX Mismatch</title>
       <link>http://devopsbox.es/posts/2013/02-15-puppet-and-osx-mismatch.html.html</link>
-      <pubDate>Fri, 15 Feb 2013 00:00:00 UTC</pubDate>
-      
+      <pubDate>Fri, 15 Feb 2013 00:00:00 +0000</pubDate>
+      <author>roman.heinrich@gmail.com</author>
       <guid>http://devopsbox.es/posts/2013/02-15-puppet-and-osx-mismatch.html.html</guid>
-      <description>&lt;p&gt;Modules, that show some attempts to bring puppet and OSX together:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/bry4n/puppet-osx/tree/master/modules&#34;&gt;https://github.com/bry4n/puppet-osx/tree/master/modules&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/pneff/puppet-darwin&#34;&gt;https://github.com/pneff/puppet-darwin&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://projects.puppetlabs.com/projects/1/wiki/Package_Management_With_Dmg_Patterns&#34;&gt;http://projects.puppetlabs.com/projects/1/wiki/Package_Management_With_Dmg_Patterns&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>Modules, that show some attempts to bring puppet and OSX together:
+ https://github.com/bry4n/puppet-osx/tree/master/modules https://github.com/pneff/puppet-darwin http://projects.puppetlabs.com/projects/1/wiki/Package_Management_With_Dmg_Patterns  </description>
     </item>
     
   </channel>

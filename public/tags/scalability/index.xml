@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Scalability on Bits and pieces to remember </title>
-      <generator uri="https://gohugo.io">Hugo</generator>
+    <title>Scalability on Bits and pieces to remember</title>
     <link>http://devopsbox.es/tags/scalability.html</link>
+    <description>Recent content in Scalability on Bits and pieces to remember</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <managingEditor>roman.heinrich@gmail.com</managingEditor>
+    <webMaster>roman.heinrich@gmail.com</webMaster>
+    <lastBuildDate>Wed, 20 May 2015 00:00:00 +0000</lastBuildDate>
     
+	<atom:link href="http://devopsbox.es/tags/scalability/index.xml" rel="self" type="application/rss+xml" />
     
-    <updated>Wed, 20 May 2015 00:00:00 UTC</updated>
     
     <item>
       <title>MemSQL Community Edition 4.0 free unlimited capacity</title>
       <link>http://devopsbox.es/posts/2015/05-20-memsql-community-edition-unlimited.html.html</link>
-      <pubDate>Wed, 20 May 2015 00:00:00 UTC</pubDate>
-      
+      <pubDate>Wed, 20 May 2015 00:00:00 +0000</pubDate>
+      <author>roman.heinrich@gmail.com</author>
       <guid>http://devopsbox.es/posts/2015/05-20-memsql-community-edition-unlimited.html.html</guid>
       <description>&lt;h3 id=&#34;memsql-launches-community-edition-world-s-fastest-in-memory-database-now-available-to-all&#34;&gt;MemSQL Launches Community Edition: World’s Fastest In-Memory Database Now Available to All&lt;/h3&gt;
 
@@ -49,30 +53,7 @@
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=5_0rG5GhHNE&#34;&gt;https://www.youtube.com/watch?v=5_0rG5GhHNE&lt;/a&gt; - Bringing OLAP Fully Online: Analyze Changing Datasets in MemSQL and Spark with Pinterest Demo (08.05.2015)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;user-stories&#34;&gt;User stories&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://insidebigdata.com/2014/03/28/memsql-eliminates-etl-delivering-real-time-advantage/&#34;&gt;http://insidebigdata.com/2014/03/28/memsql-eliminates-etl-delivering-real-time-advantage/&lt;/a&gt; - MemSQL Delivers Advantage for Real-Time Ad Bidding&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.memsql.com/case-studies/&#34;&gt;http://www.memsql.com/case-studies/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;discussion-on-hn&#34;&gt;Discussion on HN&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://news.ycombinator.com/item?id=9577663&#34;&gt;https://news.ycombinator.com/item?id=9577663&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Some comments:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;I have been an enterprise user and had the luxury of using the 4 beta for the last month or so. I run a cluster of 18 machines with 192 cores and 540GB of RAM.
-Impressions:
-memSQL is remarkably stable. I actually have one machine running the old memSQL 1.0 beta that has not rebooted in months. 4.0 has similarly stable. The only problems happen when you run too many other processes on the aggregators (which is really just me being stupid).
-Speed is great and the wire compliance with mySQL makes it very easy to develop for. To be honest, the &amp;quot;keeping the data in memory&amp;quot; part isn&#39;t the best part, it is the query compiling. It is incredibly fast. Often a query that takes 30sec to 1min to execute will compile down to fractions of a second. It is very cool to watch and never gets old.
-We are looking to literally move all of our internal stuff to memSQL community edition while keeping our customer tools on enterprise.
-reply
-&lt;/code&gt;&lt;/pre&gt;</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

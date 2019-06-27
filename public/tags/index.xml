@@ -1,13 +1,278 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Tags on Bits and pieces to remember </title>
-      <generator uri="https://gohugo.io">Hugo</generator>
+    <title>Tags on Bits and pieces to remember</title>
     <link>http://devopsbox.es/tags.html</link>
+    <description>Recent content in Tags on Bits and pieces to remember</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <managingEditor>roman.heinrich@gmail.com</managingEditor>
+    <webMaster>roman.heinrich@gmail.com</webMaster>
+    <lastBuildDate>Thu, 09 Jan 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://devopsbox.es/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
-    <updated>Thu, 09 Jan 2014 00:00:00 UTC</updated>
+    <item>
+      <title>Architecture</title>
+      <link>http://devopsbox.es/tags/architecture.html</link>
+      <pubDate>Thu, 09 Jan 2014 00:00:00 +0000</pubDate>
+      <author>roman.heinrich@gmail.com</author>
+      <guid>http://devopsbox.es/tags/architecture.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Database</title>
+      <link>http://devopsbox.es/tags/database.html</link>
+      <pubDate>Tue, 12 Feb 2013 00:00:00 +0000</pubDate>
+      <author>roman.heinrich@gmail.com</author>
+      <guid>http://devopsbox.es/tags/database.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Databases</title>
+      <link>http://devopsbox.es/tags/databases.html</link>
+      <pubDate>Wed, 20 May 2015 00:00:00 +0000</pubDate>
+      <author>roman.heinrich@gmail.com</author>
+      <guid>http://devopsbox.es/tags/databases.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Devops</title>
+      <link>http://devopsbox.es/tags/devops.html</link>
+      <pubDate>Wed, 20 May 2015 00:00:00 +0000</pubDate>
+      <author>roman.heinrich@gmail.com</author>
+      <guid>http://devopsbox.es/tags/devops.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>http://devopsbox.es/tags/docker.html</link>
+      <pubDate>Fri, 02 Aug 2013 00:00:00 +0000</pubDate>
+      <author>roman.heinrich@gmail.com</author>
+      <guid>http://devopsbox.es/tags/docker.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Erlang</title>
+      <link>http://devopsbox.es/tags/erlang.html</link>
+      <pubDate>Mon, 11 May 2015 00:00:00 +0000</pubDate>
+      <author>roman.heinrich@gmail.com</author>
+      <guid>http://devopsbox.es/tags/erlang.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Frontend</title>
+      <link>http://devopsbox.es/tags/frontend.html</link>
+      <pubDate>Sun, 24 Aug 2014 00:00:00 +0000</pubDate>
+      <author>roman.heinrich@gmail.com</author>
+      <guid>http://devopsbox.es/tags/frontend.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>General</title>
+      <link>http://devopsbox.es/tags/general.html</link>
+      <pubDate>Tue, 06 Jun 2017 00:00:00 +0000</pubDate>
+      <author>roman.heinrich@gmail.com</author>
+      <guid>http://devopsbox.es/tags/general.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Golang</title>
+      <link>http://devopsbox.es/tags/golang.html</link>
+      <pubDate>Mon, 11 Nov 2013 00:00:00 +0000</pubDate>
+      <author>roman.heinrich@gmail.com</author>
+      <guid>http://devopsbox.es/tags/golang.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hacks</title>
+      <link>http://devopsbox.es/tags/hacks.html</link>
+      <pubDate>Mon, 14 Jan 2013 00:00:00 +0000</pubDate>
+      <author>roman.heinrich@gmail.com</author>
+      <guid>http://devopsbox.es/tags/hacks.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Links</title>
+      <link>http://devopsbox.es/tags/links.html</link>
+      <pubDate>Fri, 07 Aug 2015 00:00:00 +0000</pubDate>
+      <author>roman.heinrich@gmail.com</author>
+      <guid>http://devopsbox.es/tags/links.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nginx</title>
+      <link>http://devopsbox.es/tags/nginx.html</link>
+      <pubDate>Tue, 19 Feb 2013 00:00:00 +0000</pubDate>
+      <author>roman.heinrich@gmail.com</author>
+      <guid>http://devopsbox.es/tags/nginx.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Osx</title>
+      <link>http://devopsbox.es/tags/osx.html</link>
+      <pubDate>Fri, 15 Feb 2013 00:00:00 +0000</pubDate>
+      <author>roman.heinrich@gmail.com</author>
+      <guid>http://devopsbox.es/tags/osx.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Patterns</title>
+      <link>http://devopsbox.es/tags/patterns.html</link>
+      <pubDate>Sat, 08 Mar 2014 00:00:00 +0000</pubDate>
+      <author>roman.heinrich@gmail.com</author>
+      <guid>http://devopsbox.es/tags/patterns.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Peopleware</title>
+      <link>http://devopsbox.es/tags/peopleware.html</link>
+      <pubDate>Fri, 24 Apr 2015 00:00:00 +0000</pubDate>
+      <author>roman.heinrich@gmail.com</author>
+      <guid>http://devopsbox.es/tags/peopleware.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Performance</title>
+      <link>http://devopsbox.es/tags/performance.html</link>
+      <pubDate>Tue, 08 Oct 2013 00:00:00 +0000</pubDate>
+      <author>roman.heinrich@gmail.com</author>
+      <guid>http://devopsbox.es/tags/performance.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Programming</title>
+      <link>http://devopsbox.es/tags/programming.html</link>
+      <pubDate>Wed, 26 Jun 2013 00:00:00 +0000</pubDate>
+      <author>roman.heinrich@gmail.com</author>
+      <guid>http://devopsbox.es/tags/programming.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Psychology</title>
+      <link>http://devopsbox.es/tags/psychology.html</link>
+      <pubDate>Fri, 24 Apr 2015 00:00:00 +0000</pubDate>
+      <author>roman.heinrich@gmail.com</author>
+      <guid>http://devopsbox.es/tags/psychology.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Publishing</title>
+      <link>http://devopsbox.es/tags/publishing.html</link>
+      <pubDate>Sun, 10 Feb 2013 00:00:00 +0000</pubDate>
+      <author>roman.heinrich@gmail.com</author>
+      <guid>http://devopsbox.es/tags/publishing.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ruby</title>
+      <link>http://devopsbox.es/tags/ruby.html</link>
+      <pubDate>Wed, 26 Jun 2013 00:00:00 +0000</pubDate>
+      <author>roman.heinrich@gmail.com</author>
+      <guid>http://devopsbox.es/tags/ruby.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scalability</title>
+      <link>http://devopsbox.es/tags/scalability.html</link>
+      <pubDate>Wed, 20 May 2015 00:00:00 +0000</pubDate>
+      <author>roman.heinrich@gmail.com</author>
+      <guid>http://devopsbox.es/tags/scalability.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Security</title>
+      <link>http://devopsbox.es/tags/security.html</link>
+      <pubDate>Mon, 28 Oct 2013 00:00:00 +0000</pubDate>
+      <author>roman.heinrich@gmail.com</author>
+      <guid>http://devopsbox.es/tags/security.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Service Discovery</title>
+      <link>http://devopsbox.es/tags/service-discovery.html</link>
+      <pubDate>Mon, 03 Nov 2014 00:00:00 +0000</pubDate>
+      <author>roman.heinrich@gmail.com</author>
+      <guid>http://devopsbox.es/tags/service-discovery.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Startup</title>
+      <link>http://devopsbox.es/tags/startup.html</link>
+      <pubDate>Thu, 07 Feb 2013 00:00:00 +0000</pubDate>
+      <author>roman.heinrich@gmail.com</author>
+      <guid>http://devopsbox.es/tags/startup.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tips</title>
+      <link>http://devopsbox.es/tags/tips.html</link>
+      <pubDate>Fri, 28 Feb 2014 00:00:00 +0000</pubDate>
+      <author>roman.heinrich@gmail.com</author>
+      <guid>http://devopsbox.es/tags/tips.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tricks</title>
+      <link>http://devopsbox.es/tags/tricks.html</link>
+      <pubDate>Thu, 31 Oct 2013 00:00:00 +0000</pubDate>
+      <author>roman.heinrich@gmail.com</author>
+      <guid>http://devopsbox.es/tags/tricks.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unix</title>
+      <link>http://devopsbox.es/tags/unix.html</link>
+      <pubDate>Wed, 26 Jun 2013 00:00:00 +0000</pubDate>
+      <author>roman.heinrich@gmail.com</author>
+      <guid>http://devopsbox.es/tags/unix.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vagrant</title>
+      <link>http://devopsbox.es/tags/vagrant.html</link>
+      <pubDate>Sun, 17 Feb 2013 00:00:00 +0000</pubDate>
+      <author>roman.heinrich@gmail.com</author>
+      <guid>http://devopsbox.es/tags/vagrant.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Varnish</title>
+      <link>http://devopsbox.es/tags/varnish.html</link>
+      <pubDate>Thu, 31 Oct 2013 00:00:00 +0000</pubDate>
+      <author>roman.heinrich@gmail.com</author>
+      <guid>http://devopsbox.es/tags/varnish.html</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

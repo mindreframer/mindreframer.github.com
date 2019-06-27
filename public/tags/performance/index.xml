@@ -1,95 +1,45 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Performance on Bits and pieces to remember </title>
-      <generator uri="https://gohugo.io">Hugo</generator>
+    <title>Performance on Bits and pieces to remember</title>
     <link>http://devopsbox.es/tags/performance.html</link>
+    <description>Recent content in Performance on Bits and pieces to remember</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <managingEditor>roman.heinrich@gmail.com</managingEditor>
+    <webMaster>roman.heinrich@gmail.com</webMaster>
+    <lastBuildDate>Tue, 08 Oct 2013 00:00:00 +0000</lastBuildDate>
     
+	<atom:link href="http://devopsbox.es/tags/performance/index.xml" rel="self" type="application/rss+xml" />
     
-    <updated>Tue, 08 Oct 2013 00:00:00 UTC</updated>
     
     <item>
       <title>Adaptive Replacement Cache - Alternative to LRU</title>
       <link>http://devopsbox.es/posts/2013/10-08-adaptive-replacement-cache---alternative-to-lru.html.html</link>
-      <pubDate>Tue, 08 Oct 2013 00:00:00 UTC</pubDate>
-      
+      <pubDate>Tue, 08 Oct 2013 00:00:00 +0000</pubDate>
+      <author>roman.heinrich@gmail.com</author>
       <guid>http://devopsbox.es/posts/2013/10-08-adaptive-replacement-cache---alternative-to-lru.html.html</guid>
-      <description>
-
-&lt;h2 id=&#34;in-performance-arc-is-at-least-as-good-as-lru-and-better-in-most-real-world-workloads&#34;&gt;In performance, ARC is at least as good as LRU, and better in most real-world workloads.&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://dl.dropboxusercontent.com/u/91714474/Papers/ARC.pdf&#34;&gt;Outperforming LRU  with an Adaptive Replacement Cache Algorithm&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/moovweb/go-cache&#34;&gt;Golang Impementation&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description> In performance, ARC is at least as good as LRU, and better in most real-world workloads.  Outperforming LRU with an Adaptive Replacement Cache Algorithm Golang Impementation  </description>
     </item>
     
     <item>
       <title>Measuring Ruby</title>
       <link>http://devopsbox.es/posts/2013/09-28-measuring-ruby.html.html</link>
-      <pubDate>Sat, 28 Sep 2013 00:00:00 UTC</pubDate>
-      
+      <pubDate>Sat, 28 Sep 2013 00:00:00 +0000</pubDate>
+      <author>roman.heinrich@gmail.com</author>
       <guid>http://devopsbox.es/posts/2013/09-28-measuring-ruby.html.html</guid>
-      <description>
-
-&lt;iframe width=&#34;640&#34; height=&#34;360&#34; src=&#34;//www.youtube.com/embed/LWyEWUD-ztQ?feature=player_embedded&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://confreaks.com/videos/2668-gogaruco%25202013-measuring-ruby&#34;&gt;http://confreaks.com/videos/2668-gogaruco%25202013-measuring-ruby&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;profiling-ruby-app&#34;&gt;Profiling Ruby App:&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Use latest Ruby :)&lt;/li&gt;
-&lt;li&gt;Audit memory usage with &lt;code&gt;memory_profiler&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;run &lt;code&gt;rack_mini_profiler&lt;/code&gt; in dev and production&lt;/li&gt;
-&lt;li&gt;use &lt;code&gt;flamegraphs&lt;/code&gt; to find slowest code&lt;/li&gt;
-&lt;li&gt;use &lt;code&gt;rbtrace&lt;/code&gt; to understand, what your code is doing&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;links&#34;&gt;Links:&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/SamSaffron/memory_profiler&#34;&gt;https://github.com/SamSaffron/memory_profiler&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/MiniProfiler/rack-mini-profiler&#34;&gt;https://github.com/MiniProfiler/rack-mini-profiler&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/SamSaffron/flamegraph&#34;&gt;https://github.com/SamSaffron/flamegraph&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/tmm1/rbtrace&#34;&gt;https://github.com/tmm1/rbtrace&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://samsaffron.com/archive/2013/03/19/flame-graphs-in-ruby-miniprofiler&#34;&gt;http://samsaffron.com/archive/2013/03/19/flame-graphs-in-ruby-miniprofiler&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>  http://confreaks.com/videos/2668-gogaruco%25202013-measuring-ruby
+Profiling Ruby App:  Use latest Ruby :) Audit memory usage with memory_profiler run rack_mini_profiler in dev and production use flamegraphs to find slowest code use rbtrace to understand, what your code is doing  Links:  https://github.com/SamSaffron/memory_profiler https://github.com/MiniProfiler/rack-mini-profiler https://github.com/SamSaffron/flamegraph https://github.com/tmm1/rbtrace http://samsaffron.com/archive/2013/03/19/flame-graphs-in-ruby-miniprofiler  </description>
     </item>
     
     <item>
       <title>Testing perftoos.rb</title>
       <link>http://devopsbox.es/posts/2013/01-16-testing-perftoos.rb.html.html</link>
-      <pubDate>Wed, 16 Jan 2013 00:00:00 UTC</pubDate>
-      
+      <pubDate>Wed, 16 Jan 2013 00:00:00 +0000</pubDate>
+      <author>roman.heinrich@gmail.com</author>
       <guid>http://devopsbox.es/posts/2013/01-16-testing-perftoos.rb.html.html</guid>
-      <description>
-
-&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;
-$ gem install perftools.rb
-# now run the tests
-$ CPUPROFILE=profiled RUBYOPT=&#34;-r`gem which perftools | tail -1`&#34; the_command_to_run_tests
-# now create the pdf with results
-$ pprof.rb --pdf profiled &gt; profiled.pdf
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;possible-errors&#34;&gt;Possible errors&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;
-sh: dot: command not found
-sh: ps2pdf: command not found
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Fix on OSX by installing &lt;code&gt;graphviz&lt;/code&gt; and &lt;code&gt;ghostscript&lt;/code&gt;:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;
-brew install graphviz
-brew install ghostscript
-&lt;/code&gt;&lt;/pre&gt;
-</description>
+      <description> $ gem install perftools.rb # now run the tests $ CPUPROFILE=profiled RUBYOPT=&#34;-r`gem which perftools | tail -1`&#34; the_command_to_run_tests # now create the pdf with results $ pprof.rb --pdf profiled  profiled.pdf  Possible errors sh: dot: command not found sh: ps2pdf: command not found  Fix on OSX by installing graphviz and ghostscript:
+brew install graphviz brew install ghostscript  </description>
     </item>
     
   </channel>

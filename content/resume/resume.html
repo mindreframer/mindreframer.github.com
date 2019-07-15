@@ -4,6 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Resume</title>
 <link type="text/css" rel="stylesheet" href="/resume/css/red.css" />
+<link type="text/css" rel="stylesheet" href="/resume/css/bass.css" />
 <link type="text/css" rel="stylesheet" href="/resume/css/print.css" media="print"/>
 <!--[if IE 7]>
 <link href="/css/resume/ie7.css" rel="stylesheet" type="text/css" />
@@ -38,20 +39,19 @@
           <!-- Begin Personal Information -->
           <div class="self">
             <h1 class="name">Roman Heinrich <br />
-              <span>Golang / Elixir / React.js / Ruby / DevOps</span>
+              <span>
+                Golang / Kubernetes / Elixir / React.js / Ruby / DevOps
+              </span>
             </h1>
             <ul>
               <li class="mail">roman.heinrich@gmail.com</li>
               <li class="tel">+49 152 33 74 73 77</li>
               <li class="web"><a href="http://devopsbox.es">devopsbox.es</a></li>
-              <li class="web"><a href="http://xing.to/mindreframer">xing.to/mindreframer</a></li>
-              <li class="web"><a href="http://de.linkedin.com/in/mindreframer">linkedin.com/in/mindreframer</a></li>
-              <li class="web"><a href="http://twitter.com/mindreframer">twitter.com/mindreframer</a></li>
+              <li class="web"><a href="http://en.linkedin.com/in/mindreframer">linkedin.com/in/mindreframer</a></li>
               <li class="web"><a href="http://github.com/mindreframer?type=source">github.com/mindreframer</li>
+              <li class="web"><a href="http://twitter.com/mindreframer">twitter.com/mindreframer</a></li>
               <li class="web"><a href="http://twitter.com/gophersgang">twitter.com/gophersgang</a></li>
-              <li class="web"><a href="http://github.com/gophersgang?type=source">github.com/gophersgang</li></li>
               <li class="web"><a href="http://twitter.com/ruby2elixir">twitter.com/ruby2elixir</a></li>
-              <li class="web"><a href="http://github.com/ruby2elixir?type=source">github.com/ruby2elixir</li></li>
             </ul>
           </div>
           <!-- End Personal Information -->
@@ -65,21 +65,22 @@
         </div>
 
         <div class="entry">
-          <h2>GENERAL</h2>
-            <div class="content">
+          <h2 class="header-block">GENERAL</h2>
+            <div class="">
             <ul class="info">
+              <li>Empathic / Servant Leadership / Humans - not resources</li>
               <li>Quick learner / Always curious / Autodidact</li>
-              <li>T-shaped professional / Polyglot / Fullstack / Devops experience</li>
+              <li>T-shaped professional / Polyglot / Fullstack / Devops / SRE</li>
               <li>In love with simple boring solutions</li>
               <li>In favor of quick iterations with many experiments</li>
-              <li>Good teams grow organically -  <a href="https://cmoe.com/building-teams-organically/">Building Teams Organically</a> </li>
+              <li>Good teams grow organically -  <a href="https://cmoe.com/blog/building-teams-organically/">Building Teams Organically</a> </li>
             </ul>
             </div>
         </div>
 
         <div class="entry">
-          <h2>LOOKING FOR</h2>
-            <div class="content">
+          <h2 class="header-block">LOOKING FOR</h2>
+            <div class="">
             <ul class="info">
               <li>A small, tightly knit team</li>
               <li>Long-term <a href="http://www.awakin.org/read/view.php?tid=1076">circle of trust</a>-colleagues </li>
@@ -93,12 +94,47 @@
         </div>
 
         <div class="entry">
-          <h2>EXPERIENCE</h2>
+          <h2 class="header-block">EXPERIENCE</h2>
 
           <div class="content" style="page-break-before:always">
-            <h3>Mar 2016 - present</h3>
+            <h3 class="header-block">Aug 2017 - present</h3>
+            <p>Teamlead / Senior Developer / Hiring manager<br />
+              <em class="h5">Talon.one</em></p>
+            <ul class="info">
+              <li>Golang / Postgres / Kubernetes / SRE / DevOps</li>
+            </ul>
+            <h3 class="header-block"></h3>
+            <ul class="info">
+              <h3 class="mt3">Hightlights - People (Hiring / Onboarding / Mentoring)</h3>
+              <li>Hired and built up a small (4 people) but very capable team for our backend</li>
+              <li>Provided all needed resources to new members to become productive as quickly as possible</li>
+              <li>Empowered our team to take full ownership of our application</li>
+              <li>Facilitated knowledge sharing and encouragement for controlled experiments</li>
+              <li>Continuously helped improving visibility / stability of the platform</li>
+              <li>Encouraged / supported responsibility for production within the team</li>
+              <li>Continuously provided moral support and a safe environment for experimentation within our team</li>
+              <li></li>
+              <li></li>
+              <h3 class="mt3">Highlights - Tech (idea giver / supervisor / reviewer / collaborator)</h4>
+              <li>Realtime streaming data export within constant memory consumption from Postgres</li>
+              <li>Introduced very fast data importer by using parallel COPY statements from Go into Postgres</li>
+              <li>Introduced a partitioned tables for logs stored in Postgres to enabled quick old data deletion and faster queries</li>
+              <li>Infinitely flexible API query parser inspired by the MongoDB query language</li>
+              <li>Automation for SSL Certificate renewals</li>
+              <li>Multitenant Kubernetes Deployment automation via internal tools (Elixir)</li>
+              <li>Kubernetes Operators for Secrets / auto-updating deployments / Database configuration via CRD</li>
+              <li>Introduced Redash.io for customer data analysis</li>
+              <li>Internal central logging system based on TimescaleDB (for central visibility)</li>
+              <li>Split up our integration API tests into parallel chunks to stay consistenly below 2 minutes</li>
+              <li>Encouraged to invest heavily into a very stable CI solution</li>
+              <li></li>
+            </ul>
+          </div>
+
+          <div class="content">
+            <h3 class="header-block">Mar 2016 - July 2017</h3>
             <p>Senior Developer / Teamlead<br />
-              <em>Solarisbank AG</em></p>
+              <em class="h5">Solarisbank AG</em></p>
             <ul class="info">
               <li>Elixir / Clojure / Ruby / Golang / Docker</li>
               <li>Teamlead for the "Credit API" project</li>
@@ -115,9 +151,9 @@
           </div>
 
           <div class="content" >
-            <h3>Feb 2014 - Feb 2016</h3>
+            <h3 class="header-block">Feb 2014 - Feb 2016</h3>
             <p>Senior Developer / Teamlead<br />
-              <em>trommsdorff + drüner innovation + marketing consultants GmbH</em></p>
+              <em class="h5">trommsdorff + drüner innovation + marketing consultants GmbH</em></p>
             <ul class="info">
               <li>Coaching jr. developers (intense pairing sessions, code reviews)</li>
               <li>configurable dashboard frontends for 6 coproparate clients on schedule</li>
@@ -129,9 +165,9 @@
           </div>
 
           <div class="content">
-            <h3>Aug 2013 - Jan 2014</h3>
+            <h3 class="header-block">Aug 2013 - Jan 2014</h3>
             <p>Rails developer<br />
-              <em>Mediapeers GmbH</em></p>
+              <em class="h5">Mediapeers GmbH</em></p>
             <ul class="info">
               <li>Chef / Rails / Angular.js / AWS(S3/EC2) / MongoDB</li>
             </ul>
@@ -139,9 +175,9 @@
 
 
           <div class="content">
-            <h3>Okt 2008 - Apr 2013</h3>
+            <h3 class="header-block">Okt 2008 - Apr 2013</h3>
             <p>Rails developer, SRE / DevOps engineer, MySQL DBA<br />
-              <em>Dawanda GmbH</em></p>
+              <em class="h5">Dawanda GmbH</em></p>
             <ul class="info">
               <li>Puppet / Ruby / MySQL-Percona / AWS(S3/EC2) / Redis / Varnish / Solr / Monitoring / Ubuntu / OpenVZ / OpenStack / etc</li>
               <li>Fullstack optimization</li>
@@ -151,45 +187,45 @@
           </div>
 
           <div class="content">
-            <h3>Jul 2007 - Okt 2007</h3>
+            <h3 class="header-block">Jul 2007 - Okt 2007</h3>
             <p>Integration for a financial calculations library<br />
-              <em>Deutsche Bank/DVAG venture</em></p>
+              <em class="h5">Deutsche Bank/DVAG venture</em></p>
             <ul class="info">
               <li>Java, Groovy, JUnit, Java Reflection</li>
             </ul>
           </div>
 
           <div class="content">
-            <h3>Aug 2007 - Sep 2007</h3>
+            <h3 class="header-block">Aug 2007 - Sep 2007</h3>
             <p>Innovative DMS-Client Prototype for DMS-Messe in Cologne<br />
-              <em>University Paderborn/Ceyoniq Technology GmbH</em></p>
+              <em class="h5">University Paderborn/Ceyoniq Technology GmbH</em></p>
             <ul class="info">
               <li>Flex 2, ActionScript3, AIR, 3D, Usability</li>
             </ul>
           </div>
 
           <div class="content">
-            <h3>2006/04 - 2007/01</h3>
+            <h3 class="header-block">2006/04 - 2007/01</h3>
             <p>Housing Credit Consulting Tool<br />
-              <em>Deutsche Bank</em></p>
+              <em class="h5">Deutsche Bank</em></p>
             <ul class="info">
               <li>VBA 6.0, Excel 2000, PDF-Generation</li>
             </ul>
           </div>
 
           <div class="content">
-            <h3>2005/08 - 2005/09</h3>
+            <h3 class="header-block">2005/08 - 2005/09</h3>
             <p>Student Credit Consulting Tool<br />
-              <em>Deutsche Bank</em></p>
+              <em class="h5">Deutsche Bank</em></p>
             <ul class="info">
               <li>VBA 6.0, Excel 2000, PDF-Generation</li>
             </ul>
           </div>
 
           <div class="content">
-            <h3>2005/04 - 2005/05</h3>
+            <h3 class="header-block">2005/04 - 2005/05</h3>
             <p>TopCredit Consulting Tool<br />
-              <em>Deutsche Bank</em></p>
+              <em class="h5">Deutsche Bank</em></p>
             <ul class="info">
               <li>VBA 5, Excel 97, Actobat, PDF</li>
             </ul>
@@ -197,7 +233,7 @@
 
         </div>
         <div class="entry">
-          <h2>SKILLS</h2>
+          <h2 class="header-block">SKILLS</h2>
           <div class="content">
             <h3>Software Knowledge</h3>
             <ul class="skills">
@@ -227,7 +263,7 @@
             </ul>
           </div>
           <div class="content">
-            <h3>Languages</h3>
+            <h3 class="header-block">Languages</h3>
             <ul class="skills">
               <li>Golang</li>
               <li>Elixir</li>
@@ -243,14 +279,14 @@
         </div>
 
         <div class="entry">
-          <h2>EDUCATION</h2>
+          <h2 class="header-block">EDUCATION</h2>
           <div class="content">
-            <h3>2003 - 2008</h3>
+            <h3 class="header-block">2003 - 2008</h3>
             <p>University of Paderborn <br />
-              <em>Business Informatics (Wirtschaftsinformatik)</em></p>
+              <em class="h5">Business Informatics (Wirtschaftsinformatik)</em></p>
           </div>
           <div class="content">
-            <h3>continuing</h3>
+            <h3 class="header-block">continuing</h3>
             <p>many self-paced online/offline courses</p>
           </div>
         </div>

@@ -205,38 +205,11 @@ a:hover {
 .entry {
   width: 720px;
   display: block;
-  padding-top: 55px;
+  padding-top: 30px;
   clear: both;
   margin-left: 4px;
 }
 
-h1 {
-  width: 250px;
-  font-size: 42px;
-  color: #803a3a;
-  margin-bottom: 3px;
-  clear: both;
-}
-
-h1 span {
-  font-size: 21px;
-  display: block;
-  color: #803a3a;
-  margin-top: -5px;
-}
-
-h2 {
-  width: 180px;
-  height: 23px;
-  text-align: right;
-  float: left;
-  padding: 0;
-  margin: 0;
-  clear: both;
-  font-size: 22px;
-  color: #803a3a;
-  margin-bottom: -12px;
-}
 
 p {
   width: 500px;
@@ -259,44 +232,56 @@ p img {
   padding-top: 32px;
 }
 
-h3 {
-  width: 180px;
-  text-align: right;
-  float: left;
-  padding: 0;
+
+h1 {
+  width: 250px;
+  font-size: 42px;
+  color: #803a3a;
+  margin-bottom: 3px;
   clear: both;
+}
+
+h1 span {
+  font-size: 21px;
+  display: block;
+  color: #803a3a;
+  margin-top: -5px;
+}
+
+h2 {
+  width: 180px;
+  height: 23px;
+  font-size: 22px;
+  color: #803a3a;
+  margin-bottom: -12px;
+}
+
+h3 {
   font-size: 13px;
   color: #ab7979;
 }
 
 h4 {
-  width: 180px;
-  text-align: right;
-  float: left;
-  padding: 0;
-  clear: both;
   font-size: 11px;
   color: #ab7979;
 }
 
 h5 {
-  width: 180px;
-  text-align: right;
-  float: left;
-  padding: 0;
-  clear: both;
   font-size: 10px;
   color: #ab7979;
 }
 
 h6 {
+  font-size: 9px;
+  color: #ab7979;
+}
+
+.header-block{
   width: 180px;
   text-align: right;
   float: left;
   padding: 0;
   clear: both;
-  font-size: 9px;
-  color: #ab7979;
 }
 
 em {

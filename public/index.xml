@@ -149,104 +149,6 @@ You become productive in Go after a while and your code stays performant enough 
     </item>
     
     <item>
-      <title>MemSQL Community Edition 4.0 free unlimited capacity</title>
-      <link>http://devopsbox.es/posts/2015/05-20-memsql-community-edition-unlimited.html.html</link>
-      <pubDate>Wed, 20 May 2015 00:00:00 UTC</pubDate>
-      
-      <guid>http://devopsbox.es/posts/2015/05-20-memsql-community-edition-unlimited.html.html</guid>
-      <description>&lt;h3 id=&#34;memsql-launches-community-edition-world-s-fastest-in-memory-database-now-available-to-all&#34;&gt;MemSQL Launches Community Edition: World’s Fastest In-Memory Database Now Available to All&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.memsql.com/releases/memsql-4/&#34;&gt;http://www.memsql.com/releases/memsql-4/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;links&#34;&gt;Links:&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://blog.memsql.com/high-speed-counters/&#34;&gt;http://blog.memsql.com/high-speed-counters/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://docs.memsql.com/latest/admin/high_availability/&#34;&gt;http://docs.memsql.com/latest/admin/high_availability/&lt;/a&gt; - HA details&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://docs.memsql.com/latest/setup/setup_cloud/&#34;&gt;http://docs.memsql.com/latest/setup/setup_cloud/&lt;/a&gt; - Setup in Cloud&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/memsql&#34;&gt;https://github.com/memsql&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;people&#34;&gt;People:&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://twitter.com/NikitaShamgunov&#34;&gt;https://twitter.com/NikitaShamgunov&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;videos&#34;&gt;Videos:&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=FF6Sb4LLDso&#34;&gt;https://www.youtube.com/watch?v=FF6Sb4LLDso&lt;/a&gt; - MemSQL 4 Community Edition&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://vimeo.com/gomemsql&#34;&gt;https://vimeo.com/gomemsql&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://vimeo.com/89430711&#34;&gt;https://vimeo.com/89430711&lt;/a&gt; - Strata Santa Clara 2014 MemSQL CPXi Speaking Session&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://vimeo.com/105708657&#34;&gt;https://vimeo.com/105708657&lt;/a&gt; - Webinar On-Demand: NoSQL vs NewSQL&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=Lf0qgt_G2-s&#34;&gt;https://www.youtube.com/watch?v=Lf0qgt_G2-s&lt;/a&gt; - MemSQL - Real Time Big Data in a Distributed SQL System (21.10.2013)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=MWo5rY06RTw&#34;&gt;https://www.youtube.com/watch?v=MWo5rY06RTw&lt;/a&gt; - Moving Beyond Mongo Webinar HD (01.05.2015)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=QhlqDmJHLK0&#34;&gt;https://www.youtube.com/watch?v=QhlqDmJHLK0&lt;/a&gt; - Solving Big Data Challenges with In Memory Technology HD (28.04.2015)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=5_0rG5GhHNE&#34;&gt;https://www.youtube.com/watch?v=5_0rG5GhHNE&lt;/a&gt; - Bringing OLAP Fully Online: Analyze Changing Datasets in MemSQL and Spark with Pinterest Demo (08.05.2015)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;user-stories&#34;&gt;User stories&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://insidebigdata.com/2014/03/28/memsql-eliminates-etl-delivering-real-time-advantage/&#34;&gt;http://insidebigdata.com/2014/03/28/memsql-eliminates-etl-delivering-real-time-advantage/&lt;/a&gt; - MemSQL Delivers Advantage for Real-Time Ad Bidding&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.memsql.com/case-studies/&#34;&gt;http://www.memsql.com/case-studies/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;discussion-on-hn&#34;&gt;Discussion on HN&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://news.ycombinator.com/item?id=9577663&#34;&gt;https://news.ycombinator.com/item?id=9577663&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Some comments:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;I have been an enterprise user and had the luxury of using the 4 beta for the last month or so. I run a cluster of 18 machines with 192 cores and 540GB of RAM.
-Impressions:
-memSQL is remarkably stable. I actually have one machine running the old memSQL 1.0 beta that has not rebooted in months. 4.0 has similarly stable. The only problems happen when you run too many other processes on the aggregators (which is really just me being stupid).
-Speed is great and the wire compliance with mySQL makes it very easy to develop for. To be honest, the &amp;quot;keeping the data in memory&amp;quot; part isn&#39;t the best part, it is the query compiling. It is incredibly fast. Often a query that takes 30sec to 1min to execute will compile down to fractions of a second. It is very cool to watch and never gets old.
-We are looking to literally move all of our internal stuff to memSQL community edition while keeping our customer tools on enterprise.
-reply
-&lt;/code&gt;&lt;/pre&gt;</description>
-    </item>
-    
-    <item>
-      <title>Zotonic Resources</title>
-      <link>http://devopsbox.es/posts/2015/05-11-zotonic-resources.html.html</link>
-      <pubDate>Mon, 11 May 2015 00:00:00 UTC</pubDate>
-      
-      <guid>http://devopsbox.es/posts/2015/05-11-zotonic-resources.html.html</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.aosabook.org/en/posa/zotonic.html&#34;&gt;http://www.aosabook.org/en/posa/zotonic.html&lt;/a&gt; - Introduction to Zotonic&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://zotonic.com/features&#34;&gt;http://zotonic.com/features&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/zotonic/zotonic&#34;&gt;https://github.com/zotonic/zotonic&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://twitter.com/zotonic&#34;&gt;https://twitter.com/zotonic&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://zotonic.com/docs/latest/&#34;&gt;http://zotonic.com/docs/latest/&lt;/a&gt; - Docs&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=ckgyISbzUUA&#34;&gt;https://www.youtube.com/watch?v=ckgyISbzUUA&lt;/a&gt; - Making it Fast - How Zotonic Maximizes Erlang&amp;rsquo;s Power - Arjan Scherpenisse&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.slideshare.net/Arjan/zotonic-tutorial20131012&#34;&gt;http://www.slideshare.net/Arjan/zotonic-tutorial20131012&lt;/a&gt; - Zotonic tutorial EUC 2013&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.slideshare.net/Arjan/making-if-fast-zotonic&#34;&gt;http://www.slideshare.net/Arjan/making-if-fast-zotonic&lt;/a&gt; - Making it fast: Zotonic &amp;amp; Performance&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.slideshare.net/enriquepazperez/a-widget-based-web-platform&#34;&gt;http://www.slideshare.net/enriquepazperez/a-widget-based-web-platform&lt;/a&gt; - Interesting alternative&amp;hellip;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Erlang:
-- &lt;a href=&#34;http://www.slideshare.net/Arjan/erlang-software-for-a-concurrent-world?related=2&#34;&gt;http://www.slideshare.net/Arjan/erlang-software-for-a-concurrent-world?related=2&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
       <title>Linkdump 2015 - 9</title>
       <link>http://devopsbox.es/posts/2015/05-04-linkdump-2015-9.html.html</link>
       <pubDate>Mon, 04 May 2015 00:00:00 UTC</pubDate>
@@ -782,6 +684,54 @@ If you&amp;rsquo;re developing webapps, I guess you deploy sometime using tools 
 &lt;p&gt;We serves cookpad.com, which is a huge Rails app, and the largest recipe site in Japan. It&amp;rsquo;s backed 120+ app servers. We&amp;rsquo;ve used Capistrano + SSH + rsync, but it became a bottleneck, slower and slower, as well as server increases. Our developer have wanted to focus on development. Deployments should be done in short time.&lt;/p&gt;
 
 &lt;p&gt;In this talk I&amp;rsquo;ll introduce about our new deploy tool Mamiya, and will talk about how we deploy webapp in a minute.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Consul - great Service Discovery tool</title>
+      <link>http://devopsbox.es/posts/2014/11-03-consul---great-service-discovery-tool.html.html</link>
+      <pubDate>Mon, 03 Nov 2014 00:00:00 UTC</pubDate>
+      
+      <guid>http://devopsbox.es/posts/2014/11-03-consul---great-service-discovery-tool.html.html</guid>
+      <description>&lt;p&gt;Great introduction from Armon Dadgar (Hashicorp) to Consul to simplify some major pain points for SOA / Service Oriented deployments of arbitrary sizes.&lt;/p&gt;
+
+&lt;h2 id=&#34;consul-service-oriented-at-scale&#34;&gt;Consul: Service Oriented at Scale&lt;/h2&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;iframe width=&#34;640&#34; height=&#34;390&#34; src=&#34;//www.youtube.com/embed/eR0899h_1Ac&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&#34;dotscale-2014-mitchell-hashimoto-building-robust-systems-with-consul&#34;&gt;dotScale 2014 - Mitchell Hashimoto - Building Robust Systems With Consul&lt;/h2&gt;
+
+&lt;iframe width=&#34;640&#34; height=&#34;390&#34; src=&#34;//www.youtube.com/embed/tQ99V7QjEHc&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&#34;highly-available-service-discovery-with-consul&#34;&gt;Highly Available Service Discovery with Consul:&lt;/h2&gt;
+
+&lt;p&gt;Also another talk from Evan Ochs, DevOps Engineering Manager at Rackspace&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.brighttalk.com/webcast/11427/132817&#34;&gt;https://www.brighttalk.com/webcast/11427/132817&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;(you have to be registered to watch the video)&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>A demonstration of Kolla: Docker and Kubernetes based deployment of OpenStack services on Atomic</title>
+      <link>http://devopsbox.es/posts/2014/10-27-a-demonstration-of-kolla-docker-and-kubernetes-based-deployment-of-openstack-services-on-atomic.html.html</link>
+      <pubDate>Mon, 27 Oct 2014 00:00:00 UTC</pubDate>
+      
+      <guid>http://devopsbox.es/posts/2014/10-27-a-demonstration-of-kolla-docker-and-kubernetes-based-deployment-of-openstack-services-on-atomic.html.html</guid>
+      <description>&lt;p&gt;Very cool looking deployment approach for complex setups (Docker + Kubernetes + Atomic)&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://allthingsopen.com/2014/10/22/a-demonstration-of-kolla-docker-and-kubernetes-based-deployment-of-openstack-services-on-atomic/&#34;&gt;http://allthingsopen.com/2014/10/22/a-demonstration-of-kolla-docker-and-kubernetes-based-deployment-of-openstack-services-on-atomic/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://allthingsopendotcom.files.wordpress.com/2014/10/screen-shot-2014-10-23-at-2-20-49-pm.png&#34; alt=&#34;&#34; height=&#34;300&#34; width=&#34;660&#34;&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;citation-from-the-original-blog-post&#34;&gt;Citation from the original blog post:&lt;/h3&gt;
+
+&lt;p&gt;&amp;ldquo;After deploying OpenStack countless times I can say that when you see each schema automatically created in MariaDB and endpoints, services, etc automatically created all in under a minute it is an amazing feeling!&amp;rdquo;&amp;rdquo;&lt;/p&gt;</description>
     </item>
     
   </channel>

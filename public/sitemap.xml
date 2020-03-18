@@ -508,11 +508,7 @@
   </url>
   
   <url>
-    <loc>http://devopsbox.es/resume/resume-de.html</loc>
-  </url>
-  
-  <url>
-    <loc>http://devopsbox.es/resume/resume.html</loc>
+    <loc>http://devopsbox.es/resume/</loc>
   </url>
   
   <url>
@@ -593,10 +589,6 @@
   </url>
   
   <url>
-    <loc>http://devopsbox.es/resume/projects.html</loc>
-  </url>
-  
-  <url>
     <loc>http://devopsbox.es/tags/nginx.html</loc>
     <lastmod>2013-02-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -647,11 +639,6 @@
   <url>
     <loc>http://devopsbox.es/tags/publishing.html</loc>
     <lastmod>2013-02-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://devopsbox.es/resume.html</loc>
     <priority>0</priority>
   </url>
   

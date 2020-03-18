@@ -34,7 +34,7 @@
     <item>
       <title>Databases</title>
       <link>http://devopsbox.es/tags/databases.html</link>
-      <pubDate>Wed, 20 May 2015 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 20 Nov 2013 00:00:00 +0000</pubDate>
       <author>roman.heinrich@gmail.com</author>
       <guid>http://devopsbox.es/tags/databases.html</guid>
       <description></description>
@@ -43,7 +43,7 @@
     <item>
       <title>Devops</title>
       <link>http://devopsbox.es/tags/devops.html</link>
-      <pubDate>Wed, 20 May 2015 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 05 Nov 2014 00:00:00 +0000</pubDate>
       <author>roman.heinrich@gmail.com</author>
       <guid>http://devopsbox.es/tags/devops.html</guid>
       <description></description>
@@ -55,15 +55,6 @@
       <pubDate>Fri, 02 Aug 2013 00:00:00 +0000</pubDate>
       <author>roman.heinrich@gmail.com</author>
       <guid>http://devopsbox.es/tags/docker.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Erlang</title>
-      <link>http://devopsbox.es/tags/erlang.html</link>
-      <pubDate>Mon, 11 May 2015 00:00:00 +0000</pubDate>
-      <author>roman.heinrich@gmail.com</author>
-      <guid>http://devopsbox.es/tags/erlang.html</guid>
       <description></description>
     </item>
     
@@ -190,15 +181,6 @@
       <pubDate>Wed, 26 Jun 2013 00:00:00 +0000</pubDate>
       <author>roman.heinrich@gmail.com</author>
       <guid>http://devopsbox.es/tags/ruby.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Scalability</title>
-      <link>http://devopsbox.es/tags/scalability.html</link>
-      <pubDate>Wed, 20 May 2015 00:00:00 +0000</pubDate>
-      <author>roman.heinrich@gmail.com</author>
-      <guid>http://devopsbox.es/tags/scalability.html</guid>
       <description></description>
     </item>
     

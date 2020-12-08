@@ -11,10 +11,10 @@
     
     <item>
       <title>Blog revival - 2017 edition</title>
-      <link>http://devopsbox.es/posts/2017/06-06-blog-revival---2017-edition.html.html</link>
+      <link>http://devopsbox.es/posts/2017/06-06-blog-revival-2017-edition.html.html</link>
       <pubDate>Tue, 06 Jun 2017 00:00:00 UTC</pubDate>
       
-      <guid>http://devopsbox.es/posts/2017/06-06-blog-revival---2017-edition.html.html</guid>
+      <guid>http://devopsbox.es/posts/2017/06-06-blog-revival-2017-edition.html.html</guid>
       <description>
 
 &lt;p&gt;It seems like I was under water for 2 years&amp;hellip; I became a father of a very active boy and at the same time I have shifted my professional focus to many new and very differnt things&amp;hellip; It is still not quite clear to me what long-term effect that will have in my life, but my horizon widened drastically&amp;hellip;&lt;/p&gt;
@@ -71,8 +71,6 @@ You become productive in Go after a while and your code stays performant enough 
 &lt;li&gt;&lt;a href=&#34;http://hashnuke.com/2015/07/19/convenience-hacks-for-using-exrm-with-phoenix-apps.html&#34;&gt;http://hashnuke.com/2015/07/19/convenience-hacks-for-using-exrm-with-phoenix-apps.html&lt;/a&gt; - Convenience hacks for using exrm with Phoenix apps #elixir #devops #phoenixframework #deployment&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://cabol.github.io/programming-languages-and-multicore-crisis/&#34;&gt;http://cabol.github.io/programming-languages-and-multicore-crisis/&lt;/a&gt;  - Programming Languages and Multicore Crisis (2013/11/24) #erlang #future&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;p&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;react-js&#34;&gt;React.js&lt;/h2&gt;
 
@@ -180,8 +178,6 @@ the ROI of Helicopters&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://blog.bablic.com/why-startups-need-a-multilingual-website/&#34;&gt;http://blog.bablic.com/why-startups-need-a-multilingual-website/&lt;/a&gt; - Why #Startups Need #Multilingual Website #strategy&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;/p&gt;
-
 &lt;h3 id=&#34;elixir&#34;&gt;Elixir:&lt;/h3&gt;
 
 &lt;ul&gt;
@@ -225,8 +221,6 @@ the ROI of Helicopters&lt;/li&gt;
 &lt;ul&gt;
 &lt;li&gt;Plain #Threads are the GOTO of todays computing  &lt;a href=&#34;https://www.youtube.com/watch?v=4OCUEgSNIAY&#34;&gt;https://www.youtube.com/watch?v=4OCUEgSNIAY&lt;/a&gt; #cplusplus #futures - use a language with good support for concurrency!&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;p&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;frontend&#34;&gt;Frontend&lt;/h3&gt;
 
@@ -292,8 +286,6 @@ the ROI of Helicopters&lt;/li&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;
-
 &lt;iframe width=&#34;854&#34; height=&#34;510&#34; src=&#34;https://www.youtube.com/embed/FKTxC9pl-WM&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
     </item>
     
@@ -315,9 +307,7 @@ Build a webserver from the ground, great to understand web in general&lt;/p&gt;&
 &lt;li&gt;&lt;p&gt;Git styleguide -  &lt;a href=&#34;https://github.com/agis-/git-style-guide&#34;&gt;https://github.com/agis-/git-style-guide&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;5 Rules of Programming - &lt;a href=&#34;http://users.ece.utexas.edu/~adnan/pike.html&#34;&gt;http://users.ece.utexas.edu/~adnan/pike.html&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -343,8 +333,6 @@ Build a webserver from the ground, great to understand web in general&lt;/p&gt;&
 &lt;li&gt;&lt;a href=&#34;https://css-tricks.com/bem-101/&#34;&gt;https://css-tricks.com/bem-101/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.basscss.com/docs/flex-object/&#34;&gt;http://www.basscss.com/docs/flex-object/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;p&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;react-js&#34;&gt;React.js&lt;/h3&gt;
 
@@ -387,8 +375,6 @@ Build a webserver from the ground, great to understand web in general&lt;/p&gt;&
 &lt;li&gt;&lt;p&gt;The Remote Manifesto - &lt;a href=&#34;https://about.gitlab.com/2015/04/08/the-remote-manifesto/&#34;&gt;https://about.gitlab.com/2015/04/08/the-remote-manifesto/&lt;/a&gt;
 Great short guidelines for distributed teams from Gitlab&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;p&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;ruby-bits&#34;&gt;Ruby bits&lt;/h3&gt;
 
@@ -446,8 +432,6 @@ Great short guidelines for distributed teams from Gitlab&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/liquidm/aerospike-client-go&#34;&gt;Aerospike Client for Go from LiquidM&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;/p&gt;
-
 &lt;h2 id=&#34;design&#34;&gt;Design&lt;/h2&gt;
 
 &lt;ul&gt;
@@ -482,8 +466,6 @@ Great short guidelines for distributed teams from Gitlab&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;Fast, Scalable Networking in Go with Mangos | Brave New Geek
 &lt;a href=&#34;http://www.bravenewgeek.com/fast-scalable-networking-in-go-with-mangos/&#34;&gt;http://www.bravenewgeek.com/fast-scalable-networking-in-go-with-mangos/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;p&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;devops&#34;&gt;DevOps&lt;/h2&gt;
 
@@ -524,8 +506,6 @@ Great short guidelines for distributed teams from Gitlab&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.spacjer.com/blog/2014/09/12/clojurescript-javascript-interop/&#34;&gt;http://www.spacjer.com/blog/2014/09/12/clojurescript-javascript-interop/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://blog.michielborkent.nl/blog/2014/11/16/my-clojurescript-adventure-at-oredev/&#34;&gt;http://blog.michielborkent.nl/blog/2014/11/16/my-clojurescript-adventure-at-oredev/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;p&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://vimeo.com/97516219&#34;&gt;http://vimeo.com/97516219&lt;/a&gt; - Christian Johansen - Functional UI programming with React.JS and ClojureScript&lt;/li&gt;
@@ -580,8 +560,6 @@ Great short guidelines for distributed teams from Gitlab&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://databound.me/&#34;&gt;http://databound.me/&lt;/a&gt; - Databound provides Javascript a simple API to the Ruby on Rails CRUD.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;p&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;clojure&#34;&gt;Clojure:&lt;/h2&gt;
 
@@ -656,10 +634,10 @@ Great short guidelines for distributed teams from Gitlab&lt;/p&gt;&lt;/li&gt;
     
     <item>
       <title>Scalable Deployments - How we deploy Rails app to 100&#43; hosts in a minute (Cookpad - JP)</title>
-      <link>http://devopsbox.es/posts/2014/11-05-scalable-deployments---how-we-deploy-rails-app-to-100--hosts-in-a-minute-cookpad---jp.html.html</link>
+      <link>http://devopsbox.es/posts/2014/11-05-scalable-deployments-how-we-deploy-rails-app-to-100-hosts-in-a-minute-cookpad-jp.html.html</link>
       <pubDate>Wed, 05 Nov 2014 00:00:00 UTC</pubDate>
       
-      <guid>http://devopsbox.es/posts/2014/11-05-scalable-deployments---how-we-deploy-rails-app-to-100--hosts-in-a-minute-cookpad---jp.html.html</guid>
+      <guid>http://devopsbox.es/posts/2014/11-05-scalable-deployments-how-we-deploy-rails-app-to-100-hosts-in-a-minute-cookpad-jp.html.html</guid>
       <description>&lt;h2 id=&#34;mamiya-fast-deployments-with-serf-and-s3&#34;&gt;Mamiya: Fast deployments with Serf and S3&lt;/h2&gt;
 
 &lt;p&gt;Nice and simple usecase for &lt;a href=&#34;https://www.serfdom.io/&#34;&gt;Serf&lt;/a&gt;: massive fast deployments. I really like the simplicity of the approach. Serf could be replaced by &lt;a href=&#34;https://consul.io/&#34;&gt;Consul&lt;/a&gt;, it even has got remote execution framework, so deployment would be even simpler!&lt;/p&gt;
@@ -668,8 +646,6 @@ Great short guidelines for distributed teams from Gitlab&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/sorah/mamiya&#34;&gt;On Github&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://rubykaigi.org/2014/presentation/S-ShotaFukumori&#34;&gt;Japanese Presentation video&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;p&gt;&lt;/p&gt;
 
 &lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;b22712e0246e0132bddb12a238f45ab0&#34; data-ratio=&#34;1.77777777777778&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
 
@@ -687,15 +663,13 @@ If you&amp;rsquo;re developing webapps, I guess you deploy sometime using tools 
     
     <item>
       <title>Consul - great Service Discovery tool</title>
-      <link>http://devopsbox.es/posts/2014/11-03-consul---great-service-discovery-tool.html.html</link>
+      <link>http://devopsbox.es/posts/2014/11-03-consul-great-service-discovery-tool.html.html</link>
       <pubDate>Mon, 03 Nov 2014 00:00:00 UTC</pubDate>
       
-      <guid>http://devopsbox.es/posts/2014/11-03-consul---great-service-discovery-tool.html.html</guid>
+      <guid>http://devopsbox.es/posts/2014/11-03-consul-great-service-discovery-tool.html.html</guid>
       <description>&lt;p&gt;Great introduction from Armon Dadgar (Hashicorp) to Consul to simplify some major pain points for SOA / Service Oriented deployments of arbitrary sizes.&lt;/p&gt;
 
 &lt;h2 id=&#34;consul-service-oriented-at-scale&#34;&gt;Consul: Service Oriented at Scale&lt;/h2&gt;
-
-&lt;p&gt;&lt;/p&gt;
 
 &lt;iframe width=&#34;640&#34; height=&#34;390&#34; src=&#34;//www.youtube.com/embed/eR0899h_1Ac&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
 
@@ -723,8 +697,6 @@ If you&amp;rsquo;re developing webapps, I guess you deploy sometime using tools 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://allthingsopen.com/2014/10/22/a-demonstration-of-kolla-docker-and-kubernetes-based-deployment-of-openstack-services-on-atomic/&#34;&gt;http://allthingsopen.com/2014/10/22/a-demonstration-of-kolla-docker-and-kubernetes-based-deployment-of-openstack-services-on-atomic/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;p&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://allthingsopendotcom.files.wordpress.com/2014/10/screen-shot-2014-10-23-at-2-20-49-pm.png&#34; alt=&#34;&#34; height=&#34;300&#34; width=&#34;660&#34;&gt;&lt;/p&gt;
 

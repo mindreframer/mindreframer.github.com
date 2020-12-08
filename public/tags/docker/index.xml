@@ -71,10 +71,10 @@ The idea behind Docker&amp;hellip; ))</description>
     
     <item>
       <title>Docker.io - Build your own PAAS</title>
-      <link>http://devopsbox.es/posts/2013/03-21-docker.io---build-your-own-paas.html.html</link>
+      <link>http://devopsbox.es/posts/2013/03-21-docker.io-build-your-own-paas.html.html</link>
       <pubDate>Thu, 21 Mar 2013 00:00:00 +0000</pubDate>
       <author>roman.heinrich@gmail.com</author>
-      <guid>http://devopsbox.es/posts/2013/03-21-docker.io---build-your-own-paas.html.html</guid>
+      <guid>http://devopsbox.es/posts/2013/03-21-docker.io-build-your-own-paas.html.html</guid>
       <description>Docker.io https://github.com/dotcloud/docker  Articles:  http://www.johnmcostaiii.net/2013/installing-redis-on-docker/ http://www.memcachedasaservice.com/ http://www.slideshare.net/julienbarbier42/building-a-saas-using-docker https://github.com/jbarbier/SaaS_Memcached/  IRC log: https://botbot.me/freenode/docker/2013-03-18/?tz=Europe/Helsinki  ASCIICASTs: - http://ascii.io/~kencochrane (by kencochrane) (http://kencochrane.net/)  https://news.ycombinator.com/item?id=5408002 Interesting Quotes from disscusion: shykes:
 Docker is the direct result of dotCloud&#39;s experience running hundreds of thousands of containers in production over the last 2 years. We tried very hard to put it in a form factor which makes it useful beyond the traditional PaaS. We think Docker&#39;s API is a fundamental building block for running any process on the server.</description>
     </item>

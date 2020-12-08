@@ -15,10 +15,10 @@
     
     <item>
       <title>Vagrant And Discourse - Very Interesting Discussion</title>
-      <link>http://devopsbox.es/posts/2013/02-17-vagrant-and-discourse---very-interesting-discussion.html.html</link>
+      <link>http://devopsbox.es/posts/2013/02-17-vagrant-and-discourse-very-interesting-discussion.html.html</link>
       <pubDate>Sun, 17 Feb 2013 00:00:00 +0000</pubDate>
       <author>roman.heinrich@gmail.com</author>
-      <guid>http://devopsbox.es/posts/2013/02-17-vagrant-and-discourse---very-interesting-discussion.html.html</guid>
+      <guid>http://devopsbox.es/posts/2013/02-17-vagrant-and-discourse-very-interesting-discussion.html.html</guid>
       <description> http://meta.discourse.org/t/development-mode-super-slow/2179/46 http://www.binaryphile.com/spree/a-vagrant-box-for-spree-development/ http://www.binaryphile.com/vagrant/sharing-vagrant-project-files-over-dropbox/ http://rbgeek.wordpress.com/2012/08/19/how-to-install-and-configure-dropbox-on-ubuntu-server-12-04-lts/ VirtualBox shared folders on Linux(Ubuntu): http://ubuntuforums.org/archive/index.php/t-1266909.html  </description>
     </item>
     

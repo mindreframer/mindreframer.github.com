@@ -15,15 +15,13 @@
     
     <item>
       <title>Consul - great Service Discovery tool</title>
-      <link>http://devopsbox.es/posts/2014/11-03-consul---great-service-discovery-tool.html.html</link>
+      <link>http://devopsbox.es/posts/2014/11-03-consul-great-service-discovery-tool.html.html</link>
       <pubDate>Mon, 03 Nov 2014 00:00:00 +0000</pubDate>
       <author>roman.heinrich@gmail.com</author>
-      <guid>http://devopsbox.es/posts/2014/11-03-consul---great-service-discovery-tool.html.html</guid>
+      <guid>http://devopsbox.es/posts/2014/11-03-consul-great-service-discovery-tool.html.html</guid>
       <description>&lt;p&gt;Great introduction from Armon Dadgar (Hashicorp) to Consul to simplify some major pain points for SOA / Service Oriented deployments of arbitrary sizes.&lt;/p&gt;
 
-&lt;h2 id=&#34;consul-service-oriented-at-scale&#34;&gt;Consul: Service Oriented at Scale&lt;/h2&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;h2 id=&#34;consul-service-oriented-at-scale&#34;&gt;Consul: Service Oriented at Scale&lt;/h2&gt;</description>
     </item>
     
   </channel>

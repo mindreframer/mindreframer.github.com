@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://devopsbox.es/posts/2017/06-06-blog-revival---2017-edition.html.html</loc>
+    <loc>http://devopsbox.es/posts/2017/06-06-blog-revival-2017-edition.html.html</loc>
     <lastmod>2017-06-06T00:00:00+00:00</lastmod>
   </url>
   
@@ -68,12 +68,12 @@
   </url>
   
   <url>
-    <loc>http://devopsbox.es/posts/2014/11-05-scalable-deployments---how-we-deploy-rails-app-to-100--hosts-in-a-minute-cookpad---jp.html.html</loc>
+    <loc>http://devopsbox.es/posts/2014/11-05-scalable-deployments-how-we-deploy-rails-app-to-100-hosts-in-a-minute-cookpad-jp.html.html</loc>
     <lastmod>2014-11-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://devopsbox.es/posts/2014/11-03-consul---great-service-discovery-tool.html.html</loc>
+    <loc>http://devopsbox.es/posts/2014/11-03-consul-great-service-discovery-tool.html.html</loc>
     <lastmod>2014-11-03T00:00:00+00:00</lastmod>
   </url>
   
@@ -103,7 +103,7 @@
   </url>
   
   <url>
-    <loc>http://devopsbox.es/posts/2014/04-26-new-service-discovery-tool---consul.html.html</loc>
+    <loc>http://devopsbox.es/posts/2014/04-26-new-service-discovery-tool-consul.html.html</loc>
     <lastmod>2014-04-26T00:00:00+00:00</lastmod>
   </url>
   
@@ -123,7 +123,7 @@
   </url>
   
   <url>
-    <loc>http://devopsbox.es/posts/2014/03-08-all-the-little-things-rubyonales---sandi-metz.html.html</loc>
+    <loc>http://devopsbox.es/posts/2014/03-08-all-the-little-things-rubyonales-sandi-metz.html.html</loc>
     <lastmod>2014-03-08T00:00:00+00:00</lastmod>
   </url>
   
@@ -133,7 +133,7 @@
   </url>
   
   <url>
-    <loc>http://devopsbox.es/posts/2014/02-27-agent-forwarding---capistrano---utf-8-env-settings-problems.html.html</loc>
+    <loc>http://devopsbox.es/posts/2014/02-27-agent-forwarding-capistrano-utf-8-env-settings-problems.html.html</loc>
     <lastmod>2014-02-27T00:00:00+00:00</lastmod>
   </url>
   
@@ -153,7 +153,7 @@
   </url>
   
   <url>
-    <loc>http://devopsbox.es/posts/2014/01-09-microservices---repeating-the-idea.html.html</loc>
+    <loc>http://devopsbox.es/posts/2014/01-09-microservices-repeating-the-idea.html.html</loc>
     <lastmod>2014-01-09T00:00:00+00:00</lastmod>
   </url>
   
@@ -163,7 +163,7 @@
   </url>
   
   <url>
-    <loc>http://devopsbox.es/posts/2013/12-10-more-logstash-awesome---jordan-sissel---puppetconf-2013.html.html</loc>
+    <loc>http://devopsbox.es/posts/2013/12-10-more-logstash-awesome-jordan-sissel-puppetconf-2013.html.html</loc>
     <lastmod>2013-12-10T00:00:00+00:00</lastmod>
   </url>
   
@@ -188,12 +188,12 @@
   </url>
   
   <url>
-    <loc>http://devopsbox.es/posts/2013/10-31-varnish-webinar---cache-invalidation-strategies.html.html</loc>
+    <loc>http://devopsbox.es/posts/2013/10-31-varnish-webinar-cache-invalidation-strategies.html.html</loc>
     <lastmod>2013-10-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://devopsbox.es/posts/2013/10-28-auth-doesnt-have-to-be-a-nightmare--docker-to-the-rescue.html.html</loc>
+    <loc>http://devopsbox.es/posts/2013/10-28-auth-doesnt-have-to-be-a-nightmare-docker-to-the-rescue.html.html</loc>
     <lastmod>2013-10-28T00:00:00+00:00</lastmod>
   </url>
   
@@ -213,7 +213,7 @@
   </url>
   
   <url>
-    <loc>http://devopsbox.es/posts/2013/10-23-scalability-availability--stability-patterns.html.html</loc>
+    <loc>http://devopsbox.es/posts/2013/10-23-scalability-availability-stability-patterns.html.html</loc>
     <lastmod>2013-10-23T00:00:00+00:00</lastmod>
   </url>
   
@@ -228,7 +228,7 @@
   </url>
   
   <url>
-    <loc>http://devopsbox.es/posts/2013/10-08-adaptive-replacement-cache---alternative-to-lru.html.html</loc>
+    <loc>http://devopsbox.es/posts/2013/10-08-adaptive-replacement-cache-alternative-to-lru.html.html</loc>
     <lastmod>2013-10-08T00:00:00+00:00</lastmod>
   </url>
   
@@ -253,7 +253,7 @@
   </url>
   
   <url>
-    <loc>http://devopsbox.es/posts/2013/08-07-reliable-networks---impossible.html.html</loc>
+    <loc>http://devopsbox.es/posts/2013/08-07-reliable-networks-impossible.html.html</loc>
     <lastmod>2013-08-07T00:00:00+00:00</lastmod>
   </url>
   
@@ -313,7 +313,7 @@
   </url>
   
   <url>
-    <loc>http://devopsbox.es/posts/2013/06-19-the-future-of-networking-and-the-past-of-protocols---scott-shenker.html.html</loc>
+    <loc>http://devopsbox.es/posts/2013/06-19-the-future-of-networking-and-the-past-of-protocols-scott-shenker.html.html</loc>
     <lastmod>2013-06-19T00:00:00+00:00</lastmod>
   </url>
   
@@ -338,7 +338,7 @@
   </url>
   
   <url>
-    <loc>http://devopsbox.es/posts/2013/04-14-nsq---realtime-distributed-message-processing-at-scale.html.html</loc>
+    <loc>http://devopsbox.es/posts/2013/04-14-nsq-realtime-distributed-message-processing-at-scale.html.html</loc>
     <lastmod>2013-04-14T00:00:00+00:00</lastmod>
   </url>
   
@@ -348,7 +348,7 @@
   </url>
   
   <url>
-    <loc>http://devopsbox.es/posts/2013/03-21-docker.io---build-your-own-paas.html.html</loc>
+    <loc>http://devopsbox.es/posts/2013/03-21-docker.io-build-your-own-paas.html.html</loc>
     <lastmod>2013-03-21T00:00:00+00:00</lastmod>
   </url>
   
@@ -363,7 +363,7 @@
   </url>
   
   <url>
-    <loc>http://devopsbox.es/posts/2013/02-17-vagrant-and-discourse---very-interesting-discussion.html.html</loc>
+    <loc>http://devopsbox.es/posts/2013/02-17-vagrant-and-discourse-very-interesting-discussion.html.html</loc>
     <lastmod>2013-02-17T00:00:00+00:00</lastmod>
   </url>
   
@@ -383,12 +383,12 @@
   </url>
   
   <url>
-    <loc>http://devopsbox.es/posts/2013/02-12-databases-map---omg-really.html.html</loc>
+    <loc>http://devopsbox.es/posts/2013/02-12-databases-map-omg-really.html.html</loc>
     <lastmod>2013-02-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://devopsbox.es/posts/2013/02-12-monigusto---monitoring-mega-package---whoohoo.html.html</loc>
+    <loc>http://devopsbox.es/posts/2013/02-12-monigusto-monitoring-mega-package-whoohoo.html.html</loc>
     <lastmod>2013-02-12T00:00:00+00:00</lastmod>
   </url>
   
@@ -403,12 +403,12 @@
   </url>
   
   <url>
-    <loc>http://devopsbox.es/posts/2013/02-07-final-startup-grind---useful-infos-for-startup-founders.html.html</loc>
+    <loc>http://devopsbox.es/posts/2013/02-07-final-startup-grind-useful-infos-for-startup-founders.html.html</loc>
     <lastmod>2013-02-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://devopsbox.es/posts/2013/02-07-puppet-slides---what-not-to-do---automated-testing.html.html</loc>
+    <loc>http://devopsbox.es/posts/2013/02-07-puppet-slides-what-not-to-do-automated-testing.html.html</loc>
     <lastmod>2013-02-07T00:00:00+00:00</lastmod>
   </url>
   
@@ -428,7 +428,7 @@
   </url>
   
   <url>
-    <loc>http://devopsbox.es/posts/2013/01-27-failure-is-always-an-option---a-talk-by-mathias-meyer.html.html</loc>
+    <loc>http://devopsbox.es/posts/2013/01-27-failure-is-always-an-option-a-talk-by-mathias-meyer.html.html</loc>
     <lastmod>2013-01-27T00:00:00+00:00</lastmod>
   </url>
   
@@ -443,7 +443,7 @@
   </url>
   
   <url>
-    <loc>http://devopsbox.es/posts/2013/01-24-how-to-test-tricky-nginx-rewrite-rules---part-ii.html.html</loc>
+    <loc>http://devopsbox.es/posts/2013/01-24-how-to-test-tricky-nginx-rewrite-rules-part-ii.html.html</loc>
     <lastmod>2013-01-24T00:00:00+00:00</lastmod>
   </url>
   
@@ -453,7 +453,7 @@
   </url>
   
   <url>
-    <loc>http://devopsbox.es/posts/2013/01-23-how-to-test-tricky-nginx-rewrite-rules---part-i.html.html</loc>
+    <loc>http://devopsbox.es/posts/2013/01-23-how-to-test-tricky-nginx-rewrite-rules-part-i.html.html</loc>
     <lastmod>2013-01-23T00:00:00+00:00</lastmod>
   </url>
   
@@ -483,12 +483,12 @@
   </url>
   
   <url>
-    <loc>http://devopsbox.es/posts/2013/01-12-architecture---drawing-lines.html.html</loc>
+    <loc>http://devopsbox.es/posts/2013/01-12-architecture-drawing-lines.html.html</loc>
     <lastmod>2013-01-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://devopsbox.es/posts/2013/01-12-clean-architecture---link-dump.html.html</loc>
+    <loc>http://devopsbox.es/posts/2013/01-12-clean-architecture-link-dump.html.html</loc>
     <lastmod>2013-01-12T00:00:00+00:00</lastmod>
   </url>
   

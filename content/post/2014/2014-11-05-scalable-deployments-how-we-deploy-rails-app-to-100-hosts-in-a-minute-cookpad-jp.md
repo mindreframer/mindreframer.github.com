@@ -1,7 +1,6 @@
 ---
 date: '2014-11-05'
-title: Scalable Deployments - How we deploy Rails app to 100+ hosts in a minute (Cookpad
-  - JP)
+title: Scalable Deployments - How we deploy Rails app to 100+ hosts in a minute (Cookpad - JP)
 tags:
 - devops
 ---

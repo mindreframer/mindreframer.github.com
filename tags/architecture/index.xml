@@ -15,10 +15,10 @@
     
     <item>
       <title>Microservices - Repeating the idea</title>
-      <link>http://devopsbox.es/posts/2014/01-09-microservices---repeating-the-idea.html.html</link>
+      <link>http://devopsbox.es/posts/2014/01-09-microservices-repeating-the-idea.html.html</link>
       <pubDate>Thu, 09 Jan 2014 00:00:00 +0000</pubDate>
       <author>roman.heinrich@gmail.com</author>
-      <guid>http://devopsbox.es/posts/2014/01-09-microservices---repeating-the-idea.html.html</guid>
+      <guid>http://devopsbox.es/posts/2014/01-09-microservices-repeating-the-idea.html.html</guid>
       <description>Fred George - Implementing Micro-Service Architecture  Chad Fowler - Disposable Components  Microservices and Functional Programming   Microservices and functional programming  from Michael Neale 
 Innovating Faster with a Micro-Service Architecture using SBT, Continuous Delivery, and LXC   Innovating faster with SBT, Continuous Delivery, and LXC  from kscaldef 
 Node.js:  Seneca.js Monolithic Node.js Kracken.js @ Paypal  Python  Gilliam  Even moar links  Testing Microservices http://yobriefca.</description>
@@ -46,10 +46,10 @@ At the Forward Internet Group in London, we are implementing SOA in unusual ways
     
     <item>
       <title>Architecture - Drawing Lines?</title>
-      <link>http://devopsbox.es/posts/2013/01-12-architecture---drawing-lines.html.html</link>
+      <link>http://devopsbox.es/posts/2013/01-12-architecture-drawing-lines.html.html</link>
       <pubDate>Sat, 12 Jan 2013 00:00:00 +0000</pubDate>
       <author>roman.heinrich@gmail.com</author>
-      <guid>http://devopsbox.es/posts/2013/01-12-architecture---drawing-lines.html.html</guid>
+      <guid>http://devopsbox.es/posts/2013/01-12-architecture-drawing-lines.html.html</guid>
       <description>I&amp;rsquo;m not the first to chime in about Uncle Bob&amp;rsquo;s Lost Years presentations:
  Robert C. Martin - Clean Architecture Keynote: Architecture the Lost Years by Robert Martin - YouTube  His ideas (maybe not originally his) lure you in with loud promices about clean architecture&amp;hellip; This got me thinking&amp;hellip; Yeah, I&amp;rsquo;m easily seduced by cleanness. Sigh&amp;hellip;
 Here some ideas worth thinking about:  - Test are not for QA Team, good tests guide YOU and allow you to _rapidly_ and _radically_ refactor your code - If you&#39;re afraid to change something, you&#39;re dominated by your creation - Good architecture allows deferring decisions - Is your application build around a database?</description>
@@ -57,10 +57,10 @@ Here some ideas worth thinking about:  - Test are not for QA Team, good tests gu
     
     <item>
       <title>Clean Architecture - Link dump</title>
-      <link>http://devopsbox.es/posts/2013/01-12-clean-architecture---link-dump.html.html</link>
+      <link>http://devopsbox.es/posts/2013/01-12-clean-architecture-link-dump.html.html</link>
       <pubDate>Sat, 12 Jan 2013 00:00:00 +0000</pubDate>
       <author>roman.heinrich@gmail.com</author>
-      <guid>http://devopsbox.es/posts/2013/01-12-clean-architecture---link-dump.html.html</guid>
+      <guid>http://devopsbox.es/posts/2013/01-12-clean-architecture-link-dump.html.html</guid>
       <description> Obvious - A Ruby framework/layout Screaming Architecture Clean Architecture - More links from Uncle Bob Discussion - Objects On Rails  </description>
     </item>
     

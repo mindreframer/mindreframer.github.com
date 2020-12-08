@@ -15,10 +15,10 @@
     
     <item>
       <title>all the little things (rubyonales) - Sandi Metz</title>
-      <link>http://devopsbox.es/posts/2014/03-08-all-the-little-things-rubyonales---sandi-metz.html.html</link>
+      <link>http://devopsbox.es/posts/2014/03-08-all-the-little-things-rubyonales-sandi-metz.html.html</link>
       <pubDate>Sat, 08 Mar 2014 00:00:00 +0000</pubDate>
       <author>roman.heinrich@gmail.com</author>
-      <guid>http://devopsbox.es/posts/2014/03-08-all-the-little-things-rubyonales---sandi-metz.html.html</guid>
+      <guid>http://devopsbox.es/posts/2014/03-08-all-the-little-things-rubyonales-sandi-metz.html.html</guid>
       <description> Beatiful talk from Sandy Metz about refactoring from big methods to simple, small objects  Takeaways  Duplication is far cheaper than the wrong abstraction Reach for open/closed small methods are simple small objects are simple  </description>
     </item>
     

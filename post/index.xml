@@ -15,10 +15,10 @@
     
     <item>
       <title>Blog revival - 2017 edition</title>
-      <link>http://devopsbox.es/posts/2017/06-06-blog-revival---2017-edition.html.html</link>
+      <link>http://devopsbox.es/posts/2017/06-06-blog-revival-2017-edition.html.html</link>
       <pubDate>Tue, 06 Jun 2017 00:00:00 +0000</pubDate>
       <author>roman.heinrich@gmail.com</author>
-      <guid>http://devopsbox.es/posts/2017/06-06-blog-revival---2017-edition.html.html</guid>
+      <guid>http://devopsbox.es/posts/2017/06-06-blog-revival-2017-edition.html.html</guid>
       <description>It seems like I was under water for 2 years&amp;hellip; I became a father of a very active boy and at the same time I have shifted my professional focus to many new and very differnt things&amp;hellip; It is still not quite clear to me what long-term effect that will have in my life, but my horizon widened drastically&amp;hellip;
 Elixir, Clojure, Golang&amp;hellip; Those three languages dominated my attention recently. United by first class concurrency constructs, they are very different in their philosophies.</description>
     </item>
@@ -39,9 +39,7 @@ Elixir, Clojure, Golang&amp;hellip; Those three languages dominated my attention
 &lt;li&gt;&lt;a href=&#34;http://blog.jonharrington.org/elixir-and-czmq/&#34;&gt;http://blog.jonharrington.org/elixir-and-czmq/&lt;/a&gt;  - Elixir and ZeroMQ -&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://hashnuke.com/2015/07/19/convenience-hacks-for-using-exrm-with-phoenix-apps.html&#34;&gt;http://hashnuke.com/2015/07/19/convenience-hacks-for-using-exrm-with-phoenix-apps.html&lt;/a&gt; - Convenience hacks for using exrm with Phoenix apps #elixir #devops #phoenixframework #deployment&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://cabol.github.io/programming-languages-and-multicore-crisis/&#34;&gt;http://cabol.github.io/programming-languages-and-multicore-crisis/&lt;/a&gt;  - Programming Languages and Multicore Crisis (2013/11/24) #erlang #future&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -75,9 +73,7 @@ the ROI of Helicopters&lt;/li&gt;
 &lt;ul&gt;
 &lt;li&gt;Founder Institute Webinar Archive:  &lt;a href=&#34;http://fi.co/contents/10311&#34;&gt;http://fi.co/contents/10311&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://blog.bablic.com/why-startups-need-a-multilingual-website/&#34;&gt;http://blog.bablic.com/why-startups-need-a-multilingual-website/&lt;/a&gt; - Why #Startups Need #Multilingual Website #strategy&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -103,9 +99,7 @@ the ROI of Helicopters&lt;/li&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Plain #Threads are the GOTO of todays computing  &lt;a href=&#34;https://www.youtube.com/watch?v=4OCUEgSNIAY&#34;&gt;https://www.youtube.com/watch?v=4OCUEgSNIAY&lt;/a&gt; #cplusplus #futures - use a language with good support for concurrency!&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -142,9 +136,7 @@ the ROI of Helicopters&lt;/li&gt;
         
     &lt;/figcaption&gt;
 &lt;/figure&gt;
-&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -165,9 +157,7 @@ Build a webserver from the ground, great to understand web in general&lt;/p&gt;&
 &lt;li&gt;&lt;p&gt;Git styleguide -  &lt;a href=&#34;https://github.com/agis-/git-style-guide&#34;&gt;https://github.com/agis-/git-style-guide&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;5 Rules of Programming - &lt;a href=&#34;http://users.ece.utexas.edu/~adnan/pike.html&#34;&gt;http://users.ece.utexas.edu/~adnan/pike.html&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -192,9 +182,7 @@ Build a webserver from the ground, great to understand web in general&lt;/p&gt;&
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://css-tricks.com/bem-101/&#34;&gt;https://css-tricks.com/bem-101/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.basscss.com/docs/flex-object/&#34;&gt;http://www.basscss.com/docs/flex-object/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -216,9 +204,7 @@ Build a webserver from the ground, great to understand web in general&lt;/p&gt;&
 
 &lt;li&gt;&lt;p&gt;The Remote Manifesto - &lt;a href=&#34;https://about.gitlab.com/2015/04/08/the-remote-manifesto/&#34;&gt;https://about.gitlab.com/2015/04/08/the-remote-manifesto/&lt;/a&gt;
 Great short guidelines for distributed teams from Gitlab&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -247,9 +233,7 @@ Great short guidelines for distributed teams from Gitlab&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://medium.com/@benbjohnson/structuring-applications-in-go-3b04be4ff091&#34;&gt;Structuring Applications in Go - How I organize my applications in Go&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://sndrs.ca/2014/10/17/phoenix-cross-platform-theme-utilities-for-shopify-built-with-go/&#34;&gt;Phoenix: Cross-Platform Theme Utilities for Shopify built with Go&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/liquidm/aerospike-client-go&#34;&gt;Aerospike Client for Go from LiquidM&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -276,9 +260,7 @@ Great short guidelines for distributed teams from Gitlab&lt;/p&gt;&lt;/li&gt;
 &lt;ul&gt;
 &lt;li&gt;Fast, Scalable Networking in Go with Mangos | Brave New Geek
 &lt;a href=&#34;http://www.bravenewgeek.com/fast-scalable-networking-in-go-with-mangos/&#34;&gt;http://www.bravenewgeek.com/fast-scalable-networking-in-go-with-mangos/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -294,9 +276,7 @@ Great short guidelines for distributed teams from Gitlab&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://elbenshira.com/blog/trifecta-clojurescript-om-coreasync/&#34;&gt;http://elbenshira.com/blog/trifecta-clojurescript-om-coreasync/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.spacjer.com/blog/2014/09/12/clojurescript-javascript-interop/&#34;&gt;http://www.spacjer.com/blog/2014/09/12/clojurescript-javascript-interop/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://blog.michielborkent.nl/blog/2014/11/16/my-clojurescript-adventure-at-oredev/&#34;&gt;http://blog.michielborkent.nl/blog/2014/11/16/my-clojurescript-adventure-at-oredev/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -317,17 +297,15 @@ Great short guidelines for distributed teams from Gitlab&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://reactjsnews.com/isomorphic-javascript-with-react-node/&#34;&gt;https://reactjsnews.com/isomorphic-javascript-with-react-node/&lt;/a&gt; - Serverside React Rendering: Isomorphic JavaScript with ReactJS + Node&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://databound.me/&#34;&gt;http://databound.me/&lt;/a&gt; - Databound provides Javascript a simple API to the Ruby on Rails CRUD.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;/ul&gt;</description>
     </item>
     
     <item>
       <title>Scalable Deployments - How we deploy Rails app to 100&#43; hosts in a minute (Cookpad - JP)</title>
-      <link>http://devopsbox.es/posts/2014/11-05-scalable-deployments---how-we-deploy-rails-app-to-100--hosts-in-a-minute-cookpad---jp.html.html</link>
+      <link>http://devopsbox.es/posts/2014/11-05-scalable-deployments-how-we-deploy-rails-app-to-100-hosts-in-a-minute-cookpad-jp.html.html</link>
       <pubDate>Wed, 05 Nov 2014 00:00:00 +0000</pubDate>
       <author>roman.heinrich@gmail.com</author>
-      <guid>http://devopsbox.es/posts/2014/11-05-scalable-deployments---how-we-deploy-rails-app-to-100--hosts-in-a-minute-cookpad---jp.html.html</guid>
+      <guid>http://devopsbox.es/posts/2014/11-05-scalable-deployments-how-we-deploy-rails-app-to-100-hosts-in-a-minute-cookpad-jp.html.html</guid>
       <description>&lt;h2 id=&#34;mamiya-fast-deployments-with-serf-and-s3&#34;&gt;Mamiya: Fast deployments with Serf and S3&lt;/h2&gt;
 
 &lt;p&gt;Nice and simple usecase for &lt;a href=&#34;https://www.serfdom.io/&#34;&gt;Serf&lt;/a&gt;: massive fast deployments. I really like the simplicity of the approach. Serf could be replaced by &lt;a href=&#34;https://consul.io/&#34;&gt;Consul&lt;/a&gt;, it even has got remote execution framework, so deployment would be even simpler!&lt;/p&gt;
@@ -335,22 +313,18 @@ Great short guidelines for distributed teams from Gitlab&lt;/p&gt;&lt;/li&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/sorah/mamiya&#34;&gt;On Github&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://rubykaigi.org/2014/presentation/S-ShotaFukumori&#34;&gt;Japanese Presentation video&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;/ul&gt;</description>
     </item>
     
     <item>
       <title>Consul - great Service Discovery tool</title>
-      <link>http://devopsbox.es/posts/2014/11-03-consul---great-service-discovery-tool.html.html</link>
+      <link>http://devopsbox.es/posts/2014/11-03-consul-great-service-discovery-tool.html.html</link>
       <pubDate>Mon, 03 Nov 2014 00:00:00 +0000</pubDate>
       <author>roman.heinrich@gmail.com</author>
-      <guid>http://devopsbox.es/posts/2014/11-03-consul---great-service-discovery-tool.html.html</guid>
+      <guid>http://devopsbox.es/posts/2014/11-03-consul-great-service-discovery-tool.html.html</guid>
       <description>&lt;p&gt;Great introduction from Armon Dadgar (Hashicorp) to Consul to simplify some major pain points for SOA / Service Oriented deployments of arbitrary sizes.&lt;/p&gt;
 
-&lt;h2 id=&#34;consul-service-oriented-at-scale&#34;&gt;Consul: Service Oriented at Scale&lt;/h2&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;h2 id=&#34;consul-service-oriented-at-scale&#34;&gt;Consul: Service Oriented at Scale&lt;/h2&gt;</description>
     </item>
     
     <item>
@@ -363,9 +337,7 @@ Great short guidelines for distributed teams from Gitlab&lt;/p&gt;&lt;/li&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://allthingsopen.com/2014/10/22/a-demonstration-of-kolla-docker-and-kubernetes-based-deployment-of-openstack-services-on-atomic/&#34;&gt;http://allthingsopen.com/2014/10/22/a-demonstration-of-kolla-docker-and-kubernetes-based-deployment-of-openstack-services-on-atomic/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -402,9 +374,7 @@ $ make demo
 
 # run tests
 $ make tests
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
     
     <item>
@@ -430,9 +400,7 @@ $ make tests
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.develop-online.net/opinions/death-of-the-game-design-document/0195381&#34;&gt;Death of the game design document&lt;/a&gt; - the article talks about game development, but this is true for any kind of software project&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -472,9 +440,7 @@ $ make tests
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.vagrantup.com/blog/feature-preview-vagrant-1-6-docker-dev-environments.html&#34;&gt;Vagrant Feature Preview: Docker-Based Development Environments&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -493,17 +459,15 @@ $ make tests
 &lt;li&gt;&lt;a href=&#34;https://github.com/ctdk/goiardi&#34;&gt;Chef Server in Go&lt;/a&gt; - Wow&amp;hellip; Chef server in Golang, with tests, might come in handy&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.aerospike.com/blog/entrepreneurs-break-all-the-rules-aerospike-goes-open-source/&#34;&gt;Aerospike goes Open Source&lt;/a&gt; - aerospike is a rather&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.terraform.io/&#34;&gt;Terraform&lt;/a&gt; - Infrastructure as code, from HashiCorp. really interesting.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;/ul&gt;</description>
     </item>
     
     <item>
       <title>New Service Discovery Tool - Consul</title>
-      <link>http://devopsbox.es/posts/2014/04-26-new-service-discovery-tool---consul.html.html</link>
+      <link>http://devopsbox.es/posts/2014/04-26-new-service-discovery-tool-consul.html.html</link>
       <pubDate>Sat, 26 Apr 2014 00:00:00 +0000</pubDate>
       <author>roman.heinrich@gmail.com</author>
-      <guid>http://devopsbox.es/posts/2014/04-26-new-service-discovery-tool---consul.html.html</guid>
+      <guid>http://devopsbox.es/posts/2014/04-26-new-service-discovery-tool-consul.html.html</guid>
       <description> Consul - awesome new project from Armon Dadgar, it seems to superseed Serf in it&amp;rsquo;s abilities. Also done in Golang! Way to go!
 Check the VS page, so see how it stacks up against competitor products.
 Technologies used  Symas Lightning Memory-Mapped Database (LMDB) Golang  </description>
@@ -538,10 +502,10 @@ Technologies used  Symas Lightning Memory-Mapped Database (LMDB) Golang  </descr
     
     <item>
       <title>all the little things (rubyonales) - Sandi Metz</title>
-      <link>http://devopsbox.es/posts/2014/03-08-all-the-little-things-rubyonales---sandi-metz.html.html</link>
+      <link>http://devopsbox.es/posts/2014/03-08-all-the-little-things-rubyonales-sandi-metz.html.html</link>
       <pubDate>Sat, 08 Mar 2014 00:00:00 +0000</pubDate>
       <author>roman.heinrich@gmail.com</author>
-      <guid>http://devopsbox.es/posts/2014/03-08-all-the-little-things-rubyonales---sandi-metz.html.html</guid>
+      <guid>http://devopsbox.es/posts/2014/03-08-all-the-little-things-rubyonales-sandi-metz.html.html</guid>
       <description> Beatiful talk from Sandy Metz about refactoring from big methods to simple, small objects  Takeaways  Duplication is far cheaper than the wrong abstraction Reach for open/closed small methods are simple small objects are simple  </description>
     </item>
     
@@ -557,10 +521,10 @@ Technologies used  Symas Lightning Memory-Mapped Database (LMDB) Golang  </descr
     
     <item>
       <title>Agent forwarding &#43; Capistrano &#43; UTF-8 ENV settings problems</title>
-      <link>http://devopsbox.es/posts/2014/02-27-agent-forwarding---capistrano---utf-8-env-settings-problems.html.html</link>
+      <link>http://devopsbox.es/posts/2014/02-27-agent-forwarding-capistrano-utf-8-env-settings-problems.html.html</link>
       <pubDate>Thu, 27 Feb 2014 00:00:00 +0000</pubDate>
       <author>roman.heinrich@gmail.com</author>
-      <guid>http://devopsbox.es/posts/2014/02-27-agent-forwarding---capistrano---utf-8-env-settings-problems.html.html</guid>
+      <guid>http://devopsbox.es/posts/2014/02-27-agent-forwarding-capistrano-utf-8-env-settings-problems.html.html</guid>
       <description>Today I have spent a couple of hours trying to figure out, why my agent forwarding for Capistrano was not working. I have already
 ## added my ssh key with $ ssh-add ## adjusted ~/.ssh/config Host *.the-domain-to-deploy.com ForwardAgent yes # configured capistrano in config/deploy.rb set :ssh_options, { :forward_agent =&amp;gt; true }  Still no luck&amp;hellip;
 Host key verification failed. fatal: The remote end hung up unexpectedly  Even that post was not helping: http://dchua.</description>
@@ -598,10 +562,10 @@ Kafka  Apache Kafka, Twitter Storm &amp;amp; Elastic Search (ARC303) @ Loggly  F
     
     <item>
       <title>Microservices - Repeating the idea</title>
-      <link>http://devopsbox.es/posts/2014/01-09-microservices---repeating-the-idea.html.html</link>
+      <link>http://devopsbox.es/posts/2014/01-09-microservices-repeating-the-idea.html.html</link>
       <pubDate>Thu, 09 Jan 2014 00:00:00 +0000</pubDate>
       <author>roman.heinrich@gmail.com</author>
-      <guid>http://devopsbox.es/posts/2014/01-09-microservices---repeating-the-idea.html.html</guid>
+      <guid>http://devopsbox.es/posts/2014/01-09-microservices-repeating-the-idea.html.html</guid>
       <description>Fred George - Implementing Micro-Service Architecture  Chad Fowler - Disposable Components  Microservices and Functional Programming   Microservices and functional programming  from Michael Neale 
 Innovating Faster with a Micro-Service Architecture using SBT, Continuous Delivery, and LXC   Innovating faster with SBT, Continuous Delivery, and LXC  from kscaldef 
 Node.js:  Seneca.js Monolithic Node.js Kracken.js @ Paypal  Python  Gilliam  Even moar links  Testing Microservices http://yobriefca.</description>
@@ -618,10 +582,10 @@ Node.js:  Seneca.js Monolithic Node.js Kracken.js @ Paypal  Python  Gilliam  Ev
     
     <item>
       <title>More Logstash Awesome - Jordan Sissel - PuppetConf 2013</title>
-      <link>http://devopsbox.es/posts/2013/12-10-more-logstash-awesome---jordan-sissel---puppetconf-2013.html.html</link>
+      <link>http://devopsbox.es/posts/2013/12-10-more-logstash-awesome-jordan-sissel-puppetconf-2013.html.html</link>
       <pubDate>Tue, 10 Dec 2013 00:00:00 +0000</pubDate>
       <author>roman.heinrich@gmail.com</author>
-      <guid>http://devopsbox.es/posts/2013/12-10-more-logstash-awesome---jordan-sissel---puppetconf-2013.html.html</guid>
+      <guid>http://devopsbox.es/posts/2013/12-10-more-logstash-awesome-jordan-sissel-puppetconf-2013.html.html</guid>
       <description> </description>
     </item>
     
@@ -666,19 +630,19 @@ Node.js:  Seneca.js Monolithic Node.js Kracken.js @ Paypal  Python  Gilliam  Ev
     
     <item>
       <title>Varnish Webinar - Cache Invalidation Strategies</title>
-      <link>http://devopsbox.es/posts/2013/10-31-varnish-webinar---cache-invalidation-strategies.html.html</link>
+      <link>http://devopsbox.es/posts/2013/10-31-varnish-webinar-cache-invalidation-strategies.html.html</link>
       <pubDate>Thu, 31 Oct 2013 00:00:00 +0000</pubDate>
       <author>roman.heinrich@gmail.com</author>
-      <guid>http://devopsbox.es/posts/2013/10-31-varnish-webinar---cache-invalidation-strategies.html.html</guid>
+      <guid>http://devopsbox.es/posts/2013/10-31-varnish-webinar-cache-invalidation-strategies.html.html</guid>
       <description>Link to slides</description>
     </item>
     
     <item>
       <title>Auth doesn&#39;t have to be a nightmare — Docker to the rescue</title>
-      <link>http://devopsbox.es/posts/2013/10-28-auth-doesnt-have-to-be-a-nightmare--docker-to-the-rescue.html.html</link>
+      <link>http://devopsbox.es/posts/2013/10-28-auth-doesnt-have-to-be-a-nightmare-docker-to-the-rescue.html.html</link>
       <pubDate>Mon, 28 Oct 2013 00:00:00 +0000</pubDate>
       <author>roman.heinrich@gmail.com</author>
-      <guid>http://devopsbox.es/posts/2013/10-28-auth-doesnt-have-to-be-a-nightmare--docker-to-the-rescue.html.html</guid>
+      <guid>http://devopsbox.es/posts/2013/10-28-auth-doesnt-have-to-be-a-nightmare-docker-to-the-rescue.html.html</guid>
       <description>Auth doesn&amp;#39;t have to be a nightmare — Docker to the rescue!  from Jérôme Petazzoni</description>
     </item>
     
@@ -712,10 +676,10 @@ Node.js:  Seneca.js Monolithic Node.js Kracken.js @ Paypal  Python  Gilliam  Ev
     
     <item>
       <title>Scalability, Availability &amp; Stability Patterns</title>
-      <link>http://devopsbox.es/posts/2013/10-23-scalability-availability--stability-patterns.html.html</link>
+      <link>http://devopsbox.es/posts/2013/10-23-scalability-availability-stability-patterns.html.html</link>
       <pubDate>Wed, 23 Oct 2013 00:00:00 +0000</pubDate>
       <author>roman.heinrich@gmail.com</author>
-      <guid>http://devopsbox.es/posts/2013/10-23-scalability-availability--stability-patterns.html.html</guid>
+      <guid>http://devopsbox.es/posts/2013/10-23-scalability-availability-stability-patterns.html.html</guid>
       <description>Scalability, Availability &amp;amp; Stability Patterns  from Jonas Bonér</description>
     </item>
     
@@ -742,10 +706,10 @@ Well&amp;hellip; NOW you have Raft! Code + Examples of Real Life implementations
     
     <item>
       <title>Adaptive Replacement Cache - Alternative to LRU</title>
-      <link>http://devopsbox.es/posts/2013/10-08-adaptive-replacement-cache---alternative-to-lru.html.html</link>
+      <link>http://devopsbox.es/posts/2013/10-08-adaptive-replacement-cache-alternative-to-lru.html.html</link>
       <pubDate>Tue, 08 Oct 2013 00:00:00 +0000</pubDate>
       <author>roman.heinrich@gmail.com</author>
-      <guid>http://devopsbox.es/posts/2013/10-08-adaptive-replacement-cache---alternative-to-lru.html.html</guid>
+      <guid>http://devopsbox.es/posts/2013/10-08-adaptive-replacement-cache-alternative-to-lru.html.html</guid>
       <description> In performance, ARC is at least as good as LRU, and better in most real-world workloads.  Outperforming LRU with an Adaptive Replacement Cache Algorithm Golang Impementation  </description>
     </item>
     
@@ -796,10 +760,10 @@ Profiling Ruby App:  Use latest Ruby :) Audit memory usage with memory_profiler 
     
     <item>
       <title>Reliable Networks - impossible?</title>
-      <link>http://devopsbox.es/posts/2013/08-07-reliable-networks---impossible.html.html</link>
+      <link>http://devopsbox.es/posts/2013/08-07-reliable-networks-impossible.html.html</link>
       <pubDate>Wed, 07 Aug 2013 00:00:00 +0000</pubDate>
       <author>roman.heinrich@gmail.com</author>
-      <guid>http://devopsbox.es/posts/2013/08-07-reliable-networks---impossible.html.html</guid>
+      <guid>http://devopsbox.es/posts/2013/08-07-reliable-networks-impossible.html.html</guid>
       <description>2 huge articles from Kyle about network partions and how it affects software vendors and online companies:
  Jepsen: Testing the Partition Tolerance of PostgreSQL, Redis, MongoDB and Riak
  The network is reliable
@@ -915,10 +879,10 @@ Used approach:  Elastic Search Rack-Middlewares, that report stuff Integration w
     
     <item>
       <title>The Future of Networking, and the Past of Protocols - Scott Shenker</title>
-      <link>http://devopsbox.es/posts/2013/06-19-the-future-of-networking-and-the-past-of-protocols---scott-shenker.html.html</link>
+      <link>http://devopsbox.es/posts/2013/06-19-the-future-of-networking-and-the-past-of-protocols-scott-shenker.html.html</link>
       <pubDate>Wed, 19 Jun 2013 00:00:00 +0000</pubDate>
       <author>roman.heinrich@gmail.com</author>
-      <guid>http://devopsbox.es/posts/2013/06-19-the-future-of-networking-and-the-past-of-protocols---scott-shenker.html.html</guid>
+      <guid>http://devopsbox.es/posts/2013/06-19-the-future-of-networking-and-the-past-of-protocols-scott-shenker.html.html</guid>
       <description>Software defined networks - just as crazy, as virtualization was for servers. Can&amp;rsquo;t wait to see, how the field will evolve&amp;hellip;.
  </description>
     </item>
@@ -962,10 +926,10 @@ The idea behind Docker&amp;hellip; ))</description>
     
     <item>
       <title>NSQ - realtime distributed message processing at scale</title>
-      <link>http://devopsbox.es/posts/2013/04-14-nsq---realtime-distributed-message-processing-at-scale.html.html</link>
+      <link>http://devopsbox.es/posts/2013/04-14-nsq-realtime-distributed-message-processing-at-scale.html.html</link>
       <pubDate>Sun, 14 Apr 2013 00:00:00 +0000</pubDate>
       <author>roman.heinrich@gmail.com</author>
-      <guid>http://devopsbox.es/posts/2013/04-14-nsq---realtime-distributed-message-processing-at-scale.html.html</guid>
+      <guid>http://devopsbox.es/posts/2013/04-14-nsq-realtime-distributed-message-processing-at-scale.html.html</guid>
       <description> https://speakerdeck.com/danielhfrank/stream-processing-philosophy-concepts-and-technologies  https://speakerdeck.com/snakes/nsq-nyc-golang-meetup  </description>
     </item>
     
@@ -980,10 +944,10 @@ The idea behind Docker&amp;hellip; ))</description>
     
     <item>
       <title>Docker.io - Build your own PAAS</title>
-      <link>http://devopsbox.es/posts/2013/03-21-docker.io---build-your-own-paas.html.html</link>
+      <link>http://devopsbox.es/posts/2013/03-21-docker.io-build-your-own-paas.html.html</link>
       <pubDate>Thu, 21 Mar 2013 00:00:00 +0000</pubDate>
       <author>roman.heinrich@gmail.com</author>
-      <guid>http://devopsbox.es/posts/2013/03-21-docker.io---build-your-own-paas.html.html</guid>
+      <guid>http://devopsbox.es/posts/2013/03-21-docker.io-build-your-own-paas.html.html</guid>
       <description>Docker.io https://github.com/dotcloud/docker  Articles:  http://www.johnmcostaiii.net/2013/installing-redis-on-docker/ http://www.memcachedasaservice.com/ http://www.slideshare.net/julienbarbier42/building-a-saas-using-docker https://github.com/jbarbier/SaaS_Memcached/  IRC log: https://botbot.me/freenode/docker/2013-03-18/?tz=Europe/Helsinki  ASCIICASTs: - http://ascii.io/~kencochrane (by kencochrane) (http://kencochrane.net/)  https://news.ycombinator.com/item?id=5408002 Interesting Quotes from disscusion: shykes:
 Docker is the direct result of dotCloud&#39;s experience running hundreds of thousands of containers in production over the last 2 years. We tried very hard to put it in a form factor which makes it useful beyond the traditional PaaS. We think Docker&#39;s API is a fundamental building block for running any process on the server.</description>
     </item>
@@ -1021,10 +985,10 @@ OPENSTACK MULTI-NODE DEVSTACK NOVA NETWORK TUTORIAL:  http://networkstatic.net/o
     
     <item>
       <title>Vagrant And Discourse - Very Interesting Discussion</title>
-      <link>http://devopsbox.es/posts/2013/02-17-vagrant-and-discourse---very-interesting-discussion.html.html</link>
+      <link>http://devopsbox.es/posts/2013/02-17-vagrant-and-discourse-very-interesting-discussion.html.html</link>
       <pubDate>Sun, 17 Feb 2013 00:00:00 +0000</pubDate>
       <author>roman.heinrich@gmail.com</author>
-      <guid>http://devopsbox.es/posts/2013/02-17-vagrant-and-discourse---very-interesting-discussion.html.html</guid>
+      <guid>http://devopsbox.es/posts/2013/02-17-vagrant-and-discourse-very-interesting-discussion.html.html</guid>
       <description> http://meta.discourse.org/t/development-mode-super-slow/2179/46 http://www.binaryphile.com/spree/a-vagrant-box-for-spree-development/ http://www.binaryphile.com/vagrant/sharing-vagrant-project-files-over-dropbox/ http://rbgeek.wordpress.com/2012/08/19/how-to-install-and-configure-dropbox-on-ubuntu-server-12-04-lts/ VirtualBox shared folders on Linux(Ubuntu): http://ubuntuforums.org/archive/index.php/t-1266909.html  </description>
     </item>
     
@@ -1066,20 +1030,20 @@ OPENSTACK MULTI-NODE DEVSTACK NOVA NETWORK TUTORIAL:  http://networkstatic.net/o
     
     <item>
       <title>Databases Map - OMG! Really?</title>
-      <link>http://devopsbox.es/posts/2013/02-12-databases-map---omg-really.html.html</link>
+      <link>http://devopsbox.es/posts/2013/02-12-databases-map-omg-really.html.html</link>
       <pubDate>Tue, 12 Feb 2013 00:00:00 +0000</pubDate>
       <author>roman.heinrich@gmail.com</author>
-      <guid>http://devopsbox.es/posts/2013/02-12-databases-map---omg-really.html.html</guid>
+      <guid>http://devopsbox.es/posts/2013/02-12-databases-map-omg-really.html.html</guid>
       <description>This is like Buzzword-Bingo in Las Vegas&amp;hellip;
    source: http://blogs.the451group.com/information_management/2013/02/04/updated-database-lanscape-map-february-2013/</description>
     </item>
     
     <item>
       <title>Monigusto - Monitoring Mega-Package - Whoohoo!</title>
-      <link>http://devopsbox.es/posts/2013/02-12-monigusto---monitoring-mega-package---whoohoo.html.html</link>
+      <link>http://devopsbox.es/posts/2013/02-12-monigusto-monitoring-mega-package-whoohoo.html.html</link>
       <pubDate>Tue, 12 Feb 2013 00:00:00 +0000</pubDate>
       <author>roman.heinrich@gmail.com</author>
-      <guid>http://devopsbox.es/posts/2013/02-12-monigusto---monitoring-mega-package---whoohoo.html.html</guid>
+      <guid>http://devopsbox.es/posts/2013/02-12-monigusto-monitoring-mega-package-whoohoo.html.html</guid>
       <description>Monigusto
 The Monigusto project aims to provide the equivalent of vagrant up but for monitoring and logging:
 A single server box that contains the most common/current tools for monitoring like graphite, statsd, collectd, nagios, logstash, jmxtrans, tasseo , gdash , librato and sensu . Then it becomes easy for a developer to get used to the management and monitoring and without the hassle of setting it up from scratch or finding out how to make it work together</description>
@@ -1111,19 +1075,19 @@ Want to have all the recipes for
     
     <item>
       <title>Final Startup Grind - useful infos for startup founders</title>
-      <link>http://devopsbox.es/posts/2013/02-07-final-startup-grind---useful-infos-for-startup-founders.html.html</link>
+      <link>http://devopsbox.es/posts/2013/02-07-final-startup-grind-useful-infos-for-startup-founders.html.html</link>
       <pubDate>Thu, 07 Feb 2013 00:00:00 +0000</pubDate>
       <author>roman.heinrich@gmail.com</author>
-      <guid>http://devopsbox.es/posts/2013/02-07-final-startup-grind---useful-infos-for-startup-founders.html.html</guid>
+      <guid>http://devopsbox.es/posts/2013/02-07-final-startup-grind-useful-infos-for-startup-founders.html.html</guid>
       <description>Final startup grind   Final startup grind  from msuster</description>
     </item>
     
     <item>
       <title>Puppet Slides - What Not To Do &#43; Automated Testing </title>
-      <link>http://devopsbox.es/posts/2013/02-07-puppet-slides---what-not-to-do---automated-testing.html.html</link>
+      <link>http://devopsbox.es/posts/2013/02-07-puppet-slides-what-not-to-do-automated-testing.html.html</link>
       <pubDate>Thu, 07 Feb 2013 00:00:00 +0000</pubDate>
       <author>roman.heinrich@gmail.com</author>
-      <guid>http://devopsbox.es/posts/2013/02-07-puppet-slides---what-not-to-do---automated-testing.html.html</guid>
+      <guid>http://devopsbox.es/posts/2013/02-07-puppet-slides-what-not-to-do-automated-testing.html.html</guid>
       <description>Puppet - What not to do   Puppet: What not to do  from Puppet Labs 
 Automated Puppet Testing   Automated Puppet Testing - PuppetCamp Chicago &amp;#39;12 - Scott Nottingham  from Puppet Labs</description>
     </item>
@@ -1169,10 +1133,10 @@ class tokudb{ class{&#34;tokudb::params&#34;: } - class{&#34;</description>
     
     <item>
       <title>Failure Is Always An Option - A talk by Mathias Meyer</title>
-      <link>http://devopsbox.es/posts/2013/01-27-failure-is-always-an-option---a-talk-by-mathias-meyer.html.html</link>
+      <link>http://devopsbox.es/posts/2013/01-27-failure-is-always-an-option-a-talk-by-mathias-meyer.html.html</link>
       <pubDate>Sun, 27 Jan 2013 00:00:00 +0000</pubDate>
       <author>roman.heinrich@gmail.com</author>
-      <guid>http://devopsbox.es/posts/2013/01-27-failure-is-always-an-option---a-talk-by-mathias-meyer.html.html</guid>
+      <guid>http://devopsbox.es/posts/2013/01-27-failure-is-always-an-option-a-talk-by-mathias-meyer.html.html</guid>
       <description>Quite an interesting talk by Mathias Meyer about cultural challenges, while operating big backend infrastructures.
   Failure is always an option - Matthias Meyer aka @roidrage from devopsdays on Vimeo. A couple of notes, I found worth remembering (those are not quotations&amp;hellip;):
  #Hangops or @hangops - a Google Hangout group for DevOps peeps, great!
@@ -1202,10 +1166,10 @@ Vagrantfile: we specify puppet provisioner in Vagrantfile. We keep the configs i
     
     <item>
       <title>How to test tricky nginx rewrite rules - Part II</title>
-      <link>http://devopsbox.es/posts/2013/01-24-how-to-test-tricky-nginx-rewrite-rules---part-ii.html.html</link>
+      <link>http://devopsbox.es/posts/2013/01-24-how-to-test-tricky-nginx-rewrite-rules-part-ii.html.html</link>
       <pubDate>Thu, 24 Jan 2013 00:00:00 +0000</pubDate>
       <author>roman.heinrich@gmail.com</author>
-      <guid>http://devopsbox.es/posts/2013/01-24-how-to-test-tricky-nginx-rewrite-rules---part-ii.html.html</guid>
+      <guid>http://devopsbox.es/posts/2013/01-24-how-to-test-tricky-nginx-rewrite-rules-part-ii.html.html</guid>
       <description>A possible solution to Part I
 Take a look here:
  https://github.com/dawanda/nginx_rules_tests   With a couple commands you get the complete working environment (after you have installed Vagrant):
@@ -1223,10 +1187,10 @@ Take a look here:
     
     <item>
       <title>How to test tricky nginx rewrite rules - Part I</title>
-      <link>http://devopsbox.es/posts/2013/01-23-how-to-test-tricky-nginx-rewrite-rules---part-i.html.html</link>
+      <link>http://devopsbox.es/posts/2013/01-23-how-to-test-tricky-nginx-rewrite-rules-part-i.html.html</link>
       <pubDate>Wed, 23 Jan 2013 00:00:00 +0000</pubDate>
       <author>roman.heinrich@gmail.com</author>
-      <guid>http://devopsbox.es/posts/2013/01-23-how-to-test-tricky-nginx-rewrite-rules---part-i.html.html</guid>
+      <guid>http://devopsbox.es/posts/2013/01-23-how-to-test-tricky-nginx-rewrite-rules-part-i.html.html</guid>
       <description>So, you&amp;rsquo;re using Nginx to serve your web-application and feel great about using such a nice piece of russian software mastery and indeed, you&amp;rsquo;re in good company: many high profile sites rely on Nginx - Github, Heroku, Cloudflare to name a few.
 But the configuration language feels tricky and usually it&amp;rsquo;s a very painful process, until you get something usable and working. And the configuration file keeps on growing and growing&amp;hellip; You know, organic growth, they say&amp;hellip; Sometimes it&amp;rsquo;s rather explosive growth&amp;hellip; How do you make sure, that all those weird and old rules are still working and that they should be kept around?</description>
     </item>
@@ -1284,10 +1248,10 @@ brew install graphviz brew install ghostscript  </description>
     
     <item>
       <title>Architecture - Drawing Lines?</title>
-      <link>http://devopsbox.es/posts/2013/01-12-architecture---drawing-lines.html.html</link>
+      <link>http://devopsbox.es/posts/2013/01-12-architecture-drawing-lines.html.html</link>
       <pubDate>Sat, 12 Jan 2013 00:00:00 +0000</pubDate>
       <author>roman.heinrich@gmail.com</author>
-      <guid>http://devopsbox.es/posts/2013/01-12-architecture---drawing-lines.html.html</guid>
+      <guid>http://devopsbox.es/posts/2013/01-12-architecture-drawing-lines.html.html</guid>
       <description>I&amp;rsquo;m not the first to chime in about Uncle Bob&amp;rsquo;s Lost Years presentations:
  Robert C. Martin - Clean Architecture Keynote: Architecture the Lost Years by Robert Martin - YouTube  His ideas (maybe not originally his) lure you in with loud promices about clean architecture&amp;hellip; This got me thinking&amp;hellip; Yeah, I&amp;rsquo;m easily seduced by cleanness. Sigh&amp;hellip;
 Here some ideas worth thinking about:  - Test are not for QA Team, good tests guide YOU and allow you to _rapidly_ and _radically_ refactor your code - If you&#39;re afraid to change something, you&#39;re dominated by your creation - Good architecture allows deferring decisions - Is your application build around a database?</description>
@@ -1295,10 +1259,10 @@ Here some ideas worth thinking about:  - Test are not for QA Team, good tests gu
     
     <item>
       <title>Clean Architecture - Link dump</title>
-      <link>http://devopsbox.es/posts/2013/01-12-clean-architecture---link-dump.html.html</link>
+      <link>http://devopsbox.es/posts/2013/01-12-clean-architecture-link-dump.html.html</link>
       <pubDate>Sat, 12 Jan 2013 00:00:00 +0000</pubDate>
       <author>roman.heinrich@gmail.com</author>
-      <guid>http://devopsbox.es/posts/2013/01-12-clean-architecture---link-dump.html.html</guid>
+      <guid>http://devopsbox.es/posts/2013/01-12-clean-architecture-link-dump.html.html</guid>
       <description> Obvious - A Ruby framework/layout Screaming Architecture Clean Architecture - More links from Uncle Bob Discussion - Objects On Rails  </description>
     </item>
     
